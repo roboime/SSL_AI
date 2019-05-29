@@ -42,44 +42,44 @@
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 			</Item>
-			<Item Name="AI Ball.ctl" Type="VI" URL="../../../SSLView/Core/AI Ball.ctl"/>
-			<Item Name="AI Input.ctl" Type="VI" URL="../../../SSLView/Core/AI Input.ctl"/>
-			<Item Name="AI Judge.ctl" Type="VI" URL="../../../SSLView/Core/AI Judge.ctl"/>
-			<Item Name="AI Robot.ctl" Type="VI" URL="../../../SSLView/Core/AI Robot.ctl"/>
-			<Item Name="AttackerStates.ctl" Type="VI" URL="../../../SSLView/Intel/AttackerStates.ctl"/>
-			<Item Name="BallReplacement Packet Encoder.vi" Type="VI" URL="../../../SSLView/grSim/BallReplacement Packet Encoder.vi"/>
-			<Item Name="Bool Encoder.vi" Type="VI" URL="../../../SSLView/Bool Encoder.vi"/>
-			<Item Name="Command Enum.ctl" Type="VI" URL="../../../SSLView/Intel/Command Enum.ctl"/>
-			<Item Name="Double Encoder.vi" Type="VI" URL="../../../SSLView/Double Encoder.vi"/>
-			<Item Name="Events.ctl" Type="VI" URL="../../../SSLView/Util/Events/Events.ctl"/>
-			<Item Name="Field Size.ctl" Type="VI" URL="../../../SSLView/Core/Field Size.ctl"/>
-			<Item Name="Float Encoder.vi" Type="VI" URL="../../../SSLView/Float Encoder.vi"/>
-			<Item Name="Functions Enum.ctl" Type="VI" URL="../../../SSLView/Intel/Functions Enum.ctl"/>
-			<Item Name="grSim Command.vi" Type="VI" URL="../../../SSLView/grSim/grSim Command.vi"/>
-			<Item Name="grSim Packet Command UDP Test.vi" Type="VI" URL="../../../SSLView/grSim/grSim Packet Command UDP Test.vi"/>
-			<Item Name="grSim Packet Command.vi" Type="VI" URL="../../../SSLView/grSim/grSim Packet Command.vi"/>
-			<Item Name="grSim Robot Command.ctl" Type="VI" URL="../../../SSLView/grSim/grSim Robot Command.ctl"/>
-			<Item Name="grSim Robot Command.vi" Type="VI" URL="../../../SSLView/grSim/grSim Robot Command.vi"/>
-			<Item Name="grSim RobotReplacement.ctl" Type="VI" URL="../../../SSLView/grSim/grSim RobotReplacement.ctl"/>
-			<Item Name="grSim_BallReplacement.ctl" Type="VI" URL="../../../SSLView/grSim/grSim_BallReplacement.ctl"/>
-			<Item Name="grSim_Replacement.vi" Type="VI" URL="../../../SSLView/grSim/grSim_Replacement.vi"/>
-			<Item Name="grSim_RobotReplacement Packet Encoder.vi" Type="VI" URL="../../../SSLView/grSim/grSim_RobotReplacement Packet Encoder.vi"/>
-			<Item Name="GrSimKickForce.vi" Type="VI" URL="../../../SSLView/Intel/GrSimKickForce.vi"/>
-			<Item Name="Length Delimited Encoder.vi" Type="VI" URL="../../../SSLView/ProtoBuf/Length Delimited Encoder.vi"/>
-			<Item Name="MessageAI_State.vi" Type="VI" URL="../../../SSLView/ComSOS/MessageAI_State.vi"/>
-			<Item Name="MessageBall.vi" Type="VI" URL="../../../SSLView/ComSOS/MessageBall.vi"/>
-			<Item Name="MessageCinematics.vi" Type="VI" URL="../../../SSLView/ComSOS/MessageCinematics.vi"/>
-			<Item Name="MessageCommands.vi" Type="VI" URL="../../../SSLView/ComSOS/MessageCommands.vi"/>
-			<Item Name="MessageDestination.vi" Type="VI" URL="../../../SSLView/ComSOS/MessageDestination.vi"/>
-			<Item Name="MessageFlag.vi" Type="VI" URL="../../../SSLView/ComSOS/MessageFlag.vi"/>
-			<Item Name="MessageRobot.vi" Type="VI" URL="../../../SSLView/ComSOS/MessageRobot.vi"/>
-			<Item Name="PathDest.ctl" Type="VI" URL="../../../SSLView/Path Planning/RRT/PathDest.ctl"/>
-			<Item Name="PathDests.ctl" Type="VI" URL="../../../SSLView/Path Planning/RRT/PathDests.ctl"/>
-			<Item Name="Serial Transmitter.vi" Type="VI" URL="../../../SSLView/Util/Serial Transmitter.vi"/>
-			<Item Name="Varint Base128 Encoder.vi" Type="VI" URL="../../../SSLView/Varint Base128 Encoder.vi"/>
-			<Item Name="Varint Encoder uint32.vi" Type="VI" URL="../../../SSLView/Varint Encoder uint32.vi"/>
-			<Item Name="Varint Encoder uint64.vi" Type="VI" URL="../../../SSLView/Varint Encoder uint64.vi"/>
-			<Item Name="Varint Encoder.vi" Type="VI" URL="../../../SSLView/Varint Encoder.vi"/>
+			<Item Name="AI Ball.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Ball.ctl"/>
+			<Item Name="AI Input.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Input.ctl"/>
+			<Item Name="AI Judge.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Judge.ctl"/>
+			<Item Name="AI Robot.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Robot.ctl"/>
+			<Item Name="AttackerStates.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Intel/AttackerStates.ctl"/>
+			<Item Name="BallReplacement Packet Encoder.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/BallReplacement Packet Encoder.vi"/>
+			<Item Name="Bool Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Bool Encoder.vi"/>
+			<Item Name="Command Enum.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Intel/Command Enum.ctl"/>
+			<Item Name="Double Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Double Encoder.vi"/>
+			<Item Name="Events.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Util/Events/Events.ctl"/>
+			<Item Name="Field Size.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/Field Size.ctl"/>
+			<Item Name="Float Encoder.vi" Type="VI" URL="../Communication_class/Paths/Serial Transmitter Folder/Float Encoder.vi"/>
+			<Item Name="Functions Enum.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Intel/Functions Enum.ctl"/>
+			<Item Name="grSim Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Command.vi"/>
+			<Item Name="grSim Packet Command UDP Test.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command UDP Test.vi"/>
+			<Item Name="grSim Packet Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command.vi"/>
+			<Item Name="grSim Robot Command.ctl" Type="VI" URL="../Communication_class/Paths/Convert AI Robot to Robot Command Folder/grSim/grSim Robot Command.ctl"/>
+			<Item Name="grSim Robot Command.vi" Type="VI" URL="../Communication_class/Paths/Serial Transmitter Folder/grSim/grSim Robot Command.vi"/>
+			<Item Name="grSim RobotReplacement.ctl" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim RobotReplacement.ctl"/>
+			<Item Name="grSim_BallReplacement.ctl" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim_BallReplacement.ctl"/>
+			<Item Name="grSim_Replacement.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim_Replacement.vi"/>
+			<Item Name="grSim_RobotReplacement Packet Encoder.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim_RobotReplacement Packet Encoder.vi"/>
+			<Item Name="GrSimKickForce.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/Intel/GrSimKickForce.vi"/>
+			<Item Name="Length Delimited Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ProtoBuf/Length Delimited Encoder.vi"/>
+			<Item Name="MessageAI_State.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageAI_State.vi"/>
+			<Item Name="MessageBall.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageBall.vi"/>
+			<Item Name="MessageCinematics.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageCinematics.vi"/>
+			<Item Name="MessageCommands.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageCommands.vi"/>
+			<Item Name="MessageDestination.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageDestination.vi"/>
+			<Item Name="MessageFlag.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageFlag.vi"/>
+			<Item Name="MessageRobot.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageRobot.vi"/>
+			<Item Name="PathDest.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Path Planning/RRT/PathDest.ctl"/>
+			<Item Name="PathDests.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Path Planning/RRT/PathDests.ctl"/>
+			<Item Name="Serial Transmitter.vi" Type="VI" URL="../Communication_class/Paths/Serial Transmitter Folder/Util/Serial Transmitter.vi"/>
+			<Item Name="Varint Base128 Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Varint Base128 Encoder.vi"/>
+			<Item Name="Varint Encoder uint32.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Varint Encoder uint32.vi"/>
+			<Item Name="Varint Encoder uint64.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Varint Encoder uint64.vi"/>
+			<Item Name="Varint Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Varint Encoder.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
