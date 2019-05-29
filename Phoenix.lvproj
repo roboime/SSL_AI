@@ -50,7 +50,6 @@
 			<Item Name="BallReplacement Packet Encoder.vi" Type="VI" URL="../../../SSLView/grSim/BallReplacement Packet Encoder.vi"/>
 			<Item Name="Bool Encoder.vi" Type="VI" URL="../../../SSLView/Bool Encoder.vi"/>
 			<Item Name="Command Enum.ctl" Type="VI" URL="../../../SSLView/Intel/Command Enum.ctl"/>
-			<Item Name="Convert AI Robot to Robot Command.vi" Type="VI" URL="../../../SSLView/Core/Convert AI Robot to Robot Command.vi"/>
 			<Item Name="Double Encoder.vi" Type="VI" URL="../../../SSLView/Double Encoder.vi"/>
 			<Item Name="Events.ctl" Type="VI" URL="../../../SSLView/Util/Events/Events.ctl"/>
 			<Item Name="Field Size.ctl" Type="VI" URL="../../../SSLView/Core/Field Size.ctl"/>
