@@ -78,7 +78,7 @@
 			<Item Name="AI Ball.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Ball.ctl"/>
 			<Item Name="AI Input.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Input.ctl"/>
 			<Item Name="AI Judge.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Judge.ctl"/>
-			<Item Name="AI Parameters.ctl" Type="VI" URL="../../../git/SSLView/Intel/AI Parameters.ctl"/>
+			<Item Name="AI Parameters.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Parameters.ctl"/>
 			<Item Name="AI Robot.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Robot.ctl"/>
 			<Item Name="AttackerStates.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AttackerStates.ctl"/>
 			<Item Name="Ball Kalman Filter And Update.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Ball Kalman Filter And Update.vi"/>
@@ -90,7 +90,7 @@
 			<Item Name="Convert Detection Ball to AI Ball.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Convert Detection Ball to AI Ball.vi"/>
 			<Item Name="Convert Detection Robot to AI Robot.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Convert Detection Robot to AI Robot.vi"/>
 			<Item Name="Correlate Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Correlate Balls.vi"/>
-			<Item Name="DangerEnemy.vi" Type="VI" URL="../../../git/SSLView/Intel/DangerEnemy.vi"/>
+			<Item Name="DangerEnemy.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/DangerEnemy.vi"/>
 			<Item Name="Decode Balls.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Balls.vi"/>
 			<Item Name="Decode Points Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Points Referee.vi"/>
 			<Item Name="Decode Robots Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Robots Referee.vi"/>
@@ -101,18 +101,18 @@
 			<Item Name="Estimadores.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Estimadores.ctl"/>
 			<Item Name="estimate covariance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/estimate covariance.vi"/>
 			<Item Name="Events.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Events.ctl"/>
-			<Item Name="Field Draw Ball.vi" Type="VI" URL="../../../git/SSLView/Field Draw Ball.vi"/>
-			<Item Name="Field Draw Balls.vi" Type="VI" URL="../../../git/SSLView/Field Draw Balls.vi"/>
-			<Item Name="Field Draw Field(circular).vi" Type="VI" URL="../../../git/SSLView/Field Draw Field(circular).vi"/>
-			<Item Name="Field Draw Field(Quadrada).vi" Type="VI" URL="../../../git/SSLView/Field Draw Field(Quadrada).vi"/>
-			<Item Name="Field Draw Future Robot.vi" Type="VI" URL="../../../git/SSLView/Field Draw Future Robot.vi"/>
-			<Item Name="Field Draw Future Robots.vi" Type="VI" URL="../../../git/SSLView/Field Draw Future Robots.vi"/>
-			<Item Name="Field Draw Path.vi" Type="VI" URL="../../../git/SSLView/Field Draw Path.vi"/>
-			<Item Name="Field Draw Paths.vi" Type="VI" URL="../../../git/SSLView/Field Draw Paths.vi"/>
-			<Item Name="Field Draw Robot.vi" Type="VI" URL="../../../git/SSLView/Field Draw Robot.vi"/>
-			<Item Name="Field Draw Robots.vi" Type="VI" URL="../../../git/SSLView/Field Draw Robots.vi"/>
-			<Item Name="Field Draw Target.vi" Type="VI" URL="../../../git/SSLView/Field Draw Target.vi"/>
-			<Item Name="Field Draw Targets.vi" Type="VI" URL="../../../git/SSLView/Field Draw Targets.vi"/>
+			<Item Name="Field Draw Ball.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Ball.vi"/>
+			<Item Name="Field Draw Balls.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Balls.vi"/>
+			<Item Name="Field Draw Field(circular).vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Field(circular).vi"/>
+			<Item Name="Field Draw Field(Quadrada).vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Field(Quadrada).vi"/>
+			<Item Name="Field Draw Future Robot.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Future Robot.vi"/>
+			<Item Name="Field Draw Future Robots.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Future Robots.vi"/>
+			<Item Name="Field Draw Path.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Path.vi"/>
+			<Item Name="Field Draw Paths.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Paths.vi"/>
+			<Item Name="Field Draw Robot.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Robot.vi"/>
+			<Item Name="Field Draw Robots.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Robots.vi"/>
+			<Item Name="Field Draw Target.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Target.vi"/>
+			<Item Name="Field Draw Targets.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Targets.vi"/>
 			<Item Name="Field Size.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Field Size.ctl"/>
 			<Item Name="File Append.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/File Append.vi"/>
 			<Item Name="FirstOrderFilter.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Filters/FirstOrderFilter.vi"/>
@@ -173,7 +173,7 @@
 			<Item Name="SSL Detection Frame.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Detection Frame.vi"/>
 			<Item Name="SSL Detection Points Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Detection Points Referee.vi"/>
 			<Item Name="SSL Detection Robot Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Detection Robot Referee.vi"/>
-			<Item Name="SSL Detection Robot.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/SSL Detection Robot.ctl"/>
+			<Item Name="SSL Detection Robot.ctl" Type="VI" URL="../../../git/SSLView/SSL Detection Robot.ctl"/>
 			<Item Name="SSL Detection Robot.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Detection Robot.vi"/>
 			<Item Name="SSL Detection Robots Delete Invalids Kalman.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Robots Delete Invalids Kalman.vi"/>
 			<Item Name="SSL Detection Robots Delete Invalids.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Robots Delete Invalids.vi"/>
