@@ -22,6 +22,7 @@
 		<Item Name="Object.lvclass" Type="LVClass" URL="../Object_class/Object.lvclass"/>
 		<Item Name="OffensivePlay.lvclass" Type="LVClass" URL="../OffensivePlay_class/OffensivePlay.lvclass"/>
 		<Item Name="Phoenix.vi" Type="VI" URL="../Phoenix.vi"/>
+		<Item Name="PhoenixVisionCom.vi" Type="VI" URL="../PhoenixVisionCom.vi"/>
 		<Item Name="Play.lvclass" Type="LVClass" URL="../Play_class/Play.lvclass"/>
 		<Item Name="Playbook.lvclass" Type="LVClass" URL="../Playbook_class/Playbook.lvclass"/>
 		<Item Name="Referee.lvclass" Type="LVClass" URL="../Referee_class/Referee.lvclass"/>
