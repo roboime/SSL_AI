@@ -34,6 +34,8 @@
 		<Item Name="Tactic.lvclass" Type="LVClass" URL="../Tactic_class/Tactic.lvclass"/>
 		<Item Name="Tacticbook.lvclass" Type="LVClass" URL="../Tacticbook_class/Tacticbook.lvclass"/>
 		<Item Name="Team.lvclass" Type="LVClass" URL="../Team_class/Team.lvclass"/>
+		<Item Name="TestPlay.lvclass" Type="LVClass" URL="../TestPlay_class/TestPlay.lvclass"/>
+		<Item Name="TestRole.lvclass" Type="LVClass" URL="../TestRole_class/TestRole.lvclass"/>
 		<Item Name="TestSkill.lvclass" Type="LVClass" URL="../TestSkill_class/TestSkill.lvclass"/>
 		<Item Name="TestTactic.lvclass" Type="LVClass" URL="../TestTactic_class/TestTactic.lvclass"/>
 		<Item Name="Time.lvclass" Type="LVClass" URL="../Time_class/Time.lvclass"/>
@@ -227,8 +229,6 @@
 			<Item Name="States.ctl" Type="VI" URL="../TestTactic_class/States.ctl"/>
 			<Item Name="Switch Sides.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Switch Sides.vi"/>
 			<Item Name="Team and Side.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Team and Side.vi"/>
-			<Item Name="TestPlay.lvclass" Type="LVClass" URL="../TestPlay_class/TestPlay.lvclass"/>
-			<Item Name="TestRole.lvclass" Type="LVClass" URL="../TestRole_class/TestRole.lvclass"/>
 			<Item Name="Update Ball Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Ball Pose.vi"/>
 			<Item Name="Update Frame Array.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Frame Array.vi"/>
 			<Item Name="Update Frame Element.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Frame Element.vi"/>
