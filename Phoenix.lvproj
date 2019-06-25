@@ -100,10 +100,8 @@
 			</Item>
 			<Item Name="2DVectorNormalizer.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/2DVectorNormalizer.vi"/>
 			<Item Name="AI Ball.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Ball.ctl"/>
-			<Item Name="AI Input.ctl" Type="VI" URL="../Game_class/Navigation/sslview/Core/AI Input.ctl"/>
 			<Item Name="AI Input.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Input.ctl"/>
 			<Item Name="AI Judge.ctl" Type="VI" URL="../Game_class/Navigation/sslview/Core/AI Judge.ctl"/>
-			<Item Name="AI Judge.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Judge.ctl"/>
 			<Item Name="AI Robot.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Robot.ctl"/>
 			<Item Name="Angle Between 2D Vectors.vi" Type="VI" URL="../Game_class/Navigation/sslview/Angle Between 2D Vectors.vi"/>
 			<Item Name="AttackerStates.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AttackerStates.ctl"/>
@@ -118,7 +116,6 @@
 			<Item Name="ChooseTarget.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/ChooseTarget.vi"/>
 			<Item Name="ClassAttributes.ctl" Type="VI" URL="../Vision_class/protected/ClassAttributes.ctl"/>
 			<Item Name="Command Enum.ctl" Type="VI" URL="../Game_class/Navigation/sslview/Intel/Command Enum.ctl"/>
-			<Item Name="Command Enum.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Command Enum.ctl"/>
 			<Item Name="ComSerial.ctl" Type="VI" URL="../Controls/ComSerial.ctl"/>
 			<Item Name="ComSOS.ctl" Type="VI" URL="../Controls/ComSOS.ctl"/>
 			<Item Name="ComUDP.ctl" Type="VI" URL="../Controls/ComUDP.ctl"/>
@@ -145,7 +142,6 @@
 			<Item Name="Estimadores.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Estimadores.ctl"/>
 			<Item Name="estimate covariance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/estimate covariance.vi"/>
 			<Item Name="Events.ctl" Type="VI" URL="../Game_class/Navigation/sslview/Util/Events/Events.ctl"/>
-			<Item Name="Events.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Events.ctl"/>
 			<Item Name="Extend.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/Extend.vi"/>
 			<Item Name="FarFromTrajectory.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/FarFromTrajectory.vi"/>
 			<Item Name="Field Draw Ball.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Ball.vi"/>
