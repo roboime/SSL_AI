@@ -99,4 +99,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082405392</Property>
 	</Item>
+	<Item Name="updateAlly.vi" Type="VI" URL="../updateAlly.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%^!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!/$%&amp;M&lt;(EO&lt;(:D&lt;'&amp;T=Q!!#%&amp;M&lt;(EA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#*!=!!?!!!/$%&amp;M&lt;(EO&lt;(:D&lt;'&amp;T=Q!!#%^M:#""&lt;'RZ!!!O1(!!(A!!$AR"&lt;'RZ,GRW9WRB=X-!!"2/:8=A17RM?3"G=G^N)&amp;:J=WFP&lt;A!!9A$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A$!!"Y!!!.#!!!!!!!!!!!!!!.#A!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#A!!!"!!!!Y!!!!,$!!!!!!!!!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+	</Item>
 </LVClass>
