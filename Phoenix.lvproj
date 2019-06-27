@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="18008000">
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -10,66 +11,80 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Offensive Plays" Type="Folder">
+			<Item Name="EnemyPossessionAtEnemyFieldPlay.lvclass" Type="LVClass" URL="../EnemyPossessionAtEnemyFieldPlay_class/EnemyPossessionAtEnemyFieldPlay.lvclass"/>
+			<Item Name="EnemyPossessionAtOurFieldPlay.lvclass" Type="LVClass" URL="../EnemyPossessionAtOurFieldPlay_class/EnemyPossessionAtOurFieldPlay.lvclass"/>
+			<Item Name="NormalGamePlay.lvclass" Type="LVClass" URL="../NormalGamePlay_class/NormalGamePlay.lvclass"/>
+			<Item Name="DirectEnemyPlay.lvclass" Type="LVClass" URL="../DirectEnemyPlay_class/DirectEnemyPlay.lvclass"/>
+			<Item Name="IndirectEnemyPlay.lvclass" Type="LVClass" URL="../IndirectEnemyPlay_class/IndirectEnemyPlay.lvclass"/>
+			<Item Name="PrepareKickoffAllyPlay.lvclass" Type="LVClass" URL="../PrepareKickoffAllyPlay_class/PrepareKickoffAllyPlay.lvclass"/>
+			<Item Name="PreparePenaltyAllyPlay.lvclass" Type="LVClass" URL="../PreparePenaltyAllyPlay_class/PreparePenaltyAllyPlay.lvclass"/>
+			<Item Name="PrepareKickoffEnemyPlay.lvclass" Type="LVClass" URL="../PrepareKickoffEnemyPlay_class/PrepareKickoffEnemyPlay.lvclass"/>
+			<Item Name="KickPenaltyAllyPlay.lvclass" Type="LVClass" URL="../KickPenaltyAllyPlay_class/KickPenaltyAllyPlay.lvclass"/>
+			<Item Name="OffensivePlay.lvclass" Type="LVClass" URL="../OffensivePlay_class/OffensivePlay.lvclass"/>
+		</Item>
+		<Item Name="Deffensive Plays" Type="Folder">
+			<Item Name="DefensivePlay.lvclass" Type="LVClass" URL="../DefensivePlay_class/DefensivePlay.lvclass"/>
+		</Item>
+		<Item Name="Keeper Plays" Type="Folder">
+			<Item Name="KeeperPlay.lvclass" Type="LVClass" URL="../KeeperPlay_class/KeeperPlay.lvclass"/>
+		</Item>
+		<Item Name="Other Plays" Type="Folder">
+			<Item Name="DefaultPlay.lvclass" Type="LVClass" URL="../DefaultPlay_class/DefaultPlay.lvclass"/>
+			<Item Name="TestPlay.lvclass" Type="LVClass" URL="../TestPlay_class/TestPlay.lvclass"/>
+			<Item Name="TimeoutPlay.lvclass" Type="LVClass" URL="../TimeoutPlay_class/TimeoutPlay.lvclass"/>
+			<Item Name="HaltPlay.lvclass" Type="LVClass" URL="../HaltPlay_class/HaltPlay.lvclass"/>
+		</Item>
+		<Item Name="Skills" Type="Folder">
+			<Item Name="DefBallEnemySkill.lvclass" Type="LVClass" URL="../DefBallEnemySkill_class/DefBallEnemySkill.lvclass"/>
+			<Item Name="DefBallOrientSkill.lvclass" Type="LVClass" URL="../DefBallOrientSkill_class/DefBallOrientSkill.lvclass"/>
+			<Item Name="DefBallTrajSkill.lvclass" Type="LVClass" URL="../DefBallTrajSkill_class/DefBallTrajSkill.lvclass"/>
+			<Item Name="FollowAttackerSkill.lvclass" Type="LVClass" URL="../FollowAttackerSkill_class/FollowAttackerSkill.lvclass"/>
+			<Item Name="HaltSkill.lvclass" Type="LVClass" URL="../HaltSkill_class/HaltSkill.lvclass"/>
+			<Item Name="MarkerSkill.lvclass" Type="LVClass" URL="../MarkerSkill_class/MarkerSkill.lvclass"/>
+			<Item Name="TestSkill.lvclass" Type="LVClass" URL="../TestSkill_class/TestSkill.lvclass"/>
+		</Item>
+		<Item Name="Tactics" Type="Folder">
+			<Item Name="MarkerTactic.lvclass" Type="LVClass" URL="../MarkerTactic_class/MarkerTactic.lvclass"/>
+			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
+			<Item Name="FollowAttackerTactic.lvclass" Type="LVClass" URL="../FollowAttackerTactic_class/FollowAttackerTactic.lvclass"/>
+			<Item Name="HaltTactic.lvclass" Type="LVClass" URL="../HaltTactic_class/HaltTactic.lvclass"/>
+			<Item Name="TestTactic.lvclass" Type="LVClass" URL="../TestTactic_class/TestTactic.lvclass"/>
+		</Item>
+		<Item Name="Roles" Type="Folder">
+			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
+			<Item Name="AttackerAimGoalRole.lvclass" Type="LVClass" URL="../AttackerAimGoalRole_class/AttackerAimGoalRole.lvclass"/>
+			<Item Name="AttackerBlockRole.lvclass" Type="LVClass" URL="../AttackerBlockRole_class/AttackerBlockRole.lvclass"/>
+			<Item Name="FollowAttackerRole.lvclass" Type="LVClass" URL="../FollowAttackerRole_class/FollowAttackerRole.lvclass"/>
+			<Item Name="HaltRole.lvclass" Type="LVClass" URL="../HaltRole_class/HaltRole.lvclass"/>
+			<Item Name="KeeperRole.lvclass" Type="LVClass" URL="../KeeperRole_class/KeeperRole.lvclass"/>
+			<Item Name="MarkerRole.lvclass" Type="LVClass" URL="../MarkerRole_class/MarkerRole.lvclass"/>
+			<Item Name="KickPenaltyRole.lvclass" Type="LVClass" URL="../KickPenaltyRole_class/KickPenaltyRole.lvclass"/>
+			<Item Name="ShootRole.lvclass" Type="LVClass" URL="../ShootRole_class/ShootRole.lvclass"/>
+			<Item Name="TestRole.lvclass" Type="LVClass" URL="../TestRole_class/TestRole.lvclass"/>
+		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
-		<Item Name="AttackerAimGoalRole.lvclass" Type="LVClass" URL="../AttackerAimGoalRole_class/AttackerAimGoalRole.lvclass"/>
-		<Item Name="AttackerBlockRole.lvclass" Type="LVClass" URL="../AttackerBlockRole_class/AttackerBlockRole.lvclass"/>
 		<Item Name="Ball.lvclass" Type="LVClass" URL="../Ball_class/Ball.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication_class/Communication.lvclass"/>
-		<Item Name="DefaultPlay.lvclass" Type="LVClass" URL="../DefaultPlay_class/DefaultPlay.lvclass"/>
-		<Item Name="DefBallEnemySkill.lvclass" Type="LVClass" URL="../DefBallEnemySkill_class/DefBallEnemySkill.lvclass"/>
-		<Item Name="DefBallOrientSkill.lvclass" Type="LVClass" URL="../DefBallOrientSkill_class/DefBallOrientSkill.lvclass"/>
-		<Item Name="DefBallTrajSkill.lvclass" Type="LVClass" URL="../DefBallTrajSkill_class/DefBallTrajSkill.lvclass"/>
-		<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
-		<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
-		<Item Name="DefensivePlay.lvclass" Type="LVClass" URL="../DefensivePlay_class/DefensivePlay.lvclass"/>
-		<Item Name="DirectEnemyPlay.lvclass" Type="LVClass" URL="../DirectEnemyPlay_class/DirectEnemyPlay.lvclass"/>
 		<Item Name="Enemy.lvclass" Type="LVClass" URL="../Enemy_class/Enemy.lvclass"/>
-		<Item Name="EnemyPossessionAtEnemyFieldPlay.lvclass" Type="LVClass" URL="../EnemyPossessionAtEnemyFieldPlay_class/EnemyPossessionAtEnemyFieldPlay.lvclass"/>
-		<Item Name="EnemyPossessionAtOurFieldPlay.lvclass" Type="LVClass" URL="../EnemyPossessionAtOurFieldPlay_class/EnemyPossessionAtOurFieldPlay.lvclass"/>
 		<Item Name="Events.lvclass" Type="LVClass" URL="../Events_class/Events.lvclass"/>
 		<Item Name="Field.lvclass" Type="LVClass" URL="../Field_class/Field.lvclass"/>
-		<Item Name="FollowAttackerRole.lvclass" Type="LVClass" URL="../FollowAttackerRole_class/FollowAttackerRole.lvclass"/>
-		<Item Name="FollowAttackerSkill.lvclass" Type="LVClass" URL="../FollowAttackerSkill_class/FollowAttackerSkill.lvclass"/>
-		<Item Name="FollowAttackerTactic.lvclass" Type="LVClass" URL="../FollowAttackerTactic_class/FollowAttackerTactic.lvclass"/>
 		<Item Name="Game.lvclass" Type="LVClass" URL="../Game_class/Game.lvclass"/>
-		<Item Name="HaltPlay.lvclass" Type="LVClass" URL="../HaltPlay_class/HaltPlay.lvclass"/>
-		<Item Name="HaltRole.lvclass" Type="LVClass" URL="../HaltRole_class/HaltRole.lvclass"/>
-		<Item Name="HaltSkill.lvclass" Type="LVClass" URL="../HaltSkill_class/HaltSkill.lvclass"/>
-		<Item Name="HaltTactic.lvclass" Type="LVClass" URL="../HaltTactic_class/HaltTactic.lvclass"/>
-		<Item Name="IndirectEnemyPlay.lvclass" Type="LVClass" URL="../IndirectEnemyPlay_class/IndirectEnemyPlay.lvclass"/>
-		<Item Name="KeeperPlay.lvclass" Type="LVClass" URL="../KeeperPlay_class/KeeperPlay.lvclass"/>
-		<Item Name="KeeperRole.lvclass" Type="LVClass" URL="../KeeperRole_class/KeeperRole.lvclass"/>
-		<Item Name="KickPenaltyAllyPlay.lvclass" Type="LVClass" URL="../KickPenaltyAllyPlay_class/KickPenaltyAllyPlay.lvclass"/>
-		<Item Name="KickPenaltyRole.lvclass" Type="LVClass" URL="../KickPenaltyRole_class/KickPenaltyRole.lvclass"/>
-		<Item Name="MarkerRole.lvclass" Type="LVClass" URL="../MarkerRole_class/MarkerRole.lvclass"/>
-		<Item Name="MarkerSkill.lvclass" Type="LVClass" URL="../MarkerSkill_class/MarkerSkill.lvclass"/>
-		<Item Name="MarkerTactic.lvclass" Type="LVClass" URL="../MarkerTactic_class/MarkerTactic.lvclass"/>
-		<Item Name="NormalGamePlay.lvclass" Type="LVClass" URL="../NormalGamePlay_class/NormalGamePlay.lvclass"/>
 		<Item Name="Object.lvclass" Type="LVClass" URL="../Object_class/Object.lvclass"/>
-		<Item Name="OffensivePlay.lvclass" Type="LVClass" URL="../OffensivePlay_class/OffensivePlay.lvclass"/>
 		<Item Name="Phoenix.vi" Type="VI" URL="../Phoenix.vi"/>
 		<Item Name="Play.lvclass" Type="LVClass" URL="../Play_class/Play.lvclass"/>
 		<Item Name="Playbook.lvclass" Type="LVClass" URL="../Playbook_class/Playbook.lvclass"/>
-		<Item Name="PrepareKickoffAllyPlay.lvclass" Type="LVClass" URL="../PrepareKickoffAllyPlay_class/PrepareKickoffAllyPlay.lvclass"/>
-		<Item Name="PrepareKickoffEnemyPlay.lvclass" Type="LVClass" URL="../PrepareKickoffEnemyPlay_class/PrepareKickoffEnemyPlay.lvclass"/>
-		<Item Name="PreparePenaltyAllyPlay.lvclass" Type="LVClass" URL="../PreparePenaltyAllyPlay_class/PreparePenaltyAllyPlay.lvclass"/>
 		<Item Name="Referee.lvclass" Type="LVClass" URL="../Referee_class/Referee.lvclass"/>
 		<Item Name="Robot.lvclass" Type="LVClass" URL="../Robot_class/Robot.lvclass"/>
 		<Item Name="Role.lvclass" Type="LVClass" URL="../Role_class/Role.lvclass"/>
 		<Item Name="Rolebook.lvclass" Type="LVClass" URL="../Rolebook_class/Rolebook.lvclass"/>
-		<Item Name="ShootRole.lvclass" Type="LVClass" URL="../ShootRole_class/ShootRole.lvclass"/>
 		<Item Name="Skill.lvclass" Type="LVClass" URL="../Skill_class/Skill.lvclass"/>
 		<Item Name="Skillbook.lvclass" Type="LVClass" URL="../Skillbook_class/Skillbook.lvclass"/>
 		<Item Name="Tactic.lvclass" Type="LVClass" URL="../Tactic_class/Tactic.lvclass"/>
 		<Item Name="Tacticbook.lvclass" Type="LVClass" URL="../Tacticbook_class/Tacticbook.lvclass"/>
 		<Item Name="Team.lvclass" Type="LVClass" URL="../Team_class/Team.lvclass"/>
-		<Item Name="TestPlay.lvclass" Type="LVClass" URL="../TestPlay_class/TestPlay.lvclass"/>
-		<Item Name="TestRole.lvclass" Type="LVClass" URL="../TestRole_class/TestRole.lvclass"/>
-		<Item Name="TestSkill.lvclass" Type="LVClass" URL="../TestSkill_class/TestSkill.lvclass"/>
-		<Item Name="TestTactic.lvclass" Type="LVClass" URL="../TestTactic_class/TestTactic.lvclass"/>
 		<Item Name="Time.lvclass" Type="LVClass" URL="../Time_class/Time.lvclass"/>
-		<Item Name="TimeoutPlay.lvclass" Type="LVClass" URL="../TimeoutPlay_class/TimeoutPlay.lvclass"/>
 		<Item Name="Utilities.lvclass" Type="LVClass" URL="../Utilities_class/Utilities.lvclass"/>
 		<Item Name="Vision.lvclass" Type="LVClass" URL="../Vision_class/Vision.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
