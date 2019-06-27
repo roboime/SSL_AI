@@ -25,6 +25,7 @@
 		<Item Name="Events.lvclass" Type="LVClass" URL="../Events_class/Events.lvclass"/>
 		<Item Name="Field.lvclass" Type="LVClass" URL="../Field_class/Field.lvclass"/>
 		<Item Name="FollowAttackerSkill.lvclass" Type="LVClass" URL="../FollowAttackerSkill_class/FollowAttackerSkill.lvclass"/>
+		<Item Name="FollowAttackerTactic.lvclass" Type="LVClass" URL="../FollowAttackerTactic_class/FollowAttackerTactic.lvclass"/>
 		<Item Name="Game.lvclass" Type="LVClass" URL="../Game_class/Game.lvclass"/>
 		<Item Name="HaltPlay.lvclass" Type="LVClass" URL="../HaltPlay_class/HaltPlay.lvclass"/>
 		<Item Name="HaltRole.lvclass" Type="LVClass" URL="../HaltRole_class/HaltRole.lvclass"/>
@@ -33,6 +34,7 @@
 		<Item Name="KeeperPlay.lvclass" Type="LVClass" URL="../KeeperPlay_class/KeeperPlay.lvclass"/>
 		<Item Name="KeeperRole.lvclass" Type="LVClass" URL="../KeeperRole_class/KeeperRole.lvclass"/>
 		<Item Name="MarkerSkill.lvclass" Type="LVClass" URL="../MarkerSkill_class/MarkerSkill.lvclass"/>
+		<Item Name="MarkerTactic.lvclass" Type="LVClass" URL="../MarkerTactic_class/MarkerTactic.lvclass"/>
 		<Item Name="NormalGamePlay.lvclass" Type="LVClass" URL="../NormalGamePlay_class/NormalGamePlay.lvclass"/>
 		<Item Name="Object.lvclass" Type="LVClass" URL="../Object_class/Object.lvclass"/>
 		<Item Name="OffensivePlay.lvclass" Type="LVClass" URL="../OffensivePlay_class/OffensivePlay.lvclass"/>
