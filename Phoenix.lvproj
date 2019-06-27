@@ -11,6 +11,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
+		<Item Name="AttackerAimGoalRole.lvclass" Type="LVClass" URL="../AttackerAimGoalRole_class/AttackerAimGoalRole.lvclass"/>
+		<Item Name="AttackerBlockRole.lvclass" Type="LVClass" URL="../AttackerBlockRole_class/AttackerBlockRole.lvclass"/>
 		<Item Name="Ball.lvclass" Type="LVClass" URL="../Ball_class/Ball.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication_class/Communication.lvclass"/>
@@ -21,9 +23,13 @@
 		<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
 		<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
 		<Item Name="DefensivePlay.lvclass" Type="LVClass" URL="../DefensivePlay_class/DefensivePlay.lvclass"/>
+		<Item Name="DirectEnemyPlay.lvclass" Type="LVClass" URL="../DirectEnemyPlay_class/DirectEnemyPlay.lvclass"/>
 		<Item Name="Enemy.lvclass" Type="LVClass" URL="../Enemy_class/Enemy.lvclass"/>
+		<Item Name="EnemyPossessionAtEnemyFieldPlay.lvclass" Type="LVClass" URL="../EnemyPossessionAtEnemyFieldPlay_class/EnemyPossessionAtEnemyFieldPlay.lvclass"/>
+		<Item Name="EnemyPossessionAtOurFieldPlay.lvclass" Type="LVClass" URL="../EnemyPossessionAtOurFieldPlay_class/EnemyPossessionAtOurFieldPlay.lvclass"/>
 		<Item Name="Events.lvclass" Type="LVClass" URL="../Events_class/Events.lvclass"/>
 		<Item Name="Field.lvclass" Type="LVClass" URL="../Field_class/Field.lvclass"/>
+		<Item Name="FollowAttackerRole.lvclass" Type="LVClass" URL="../FollowAttackerRole_class/FollowAttackerRole.lvclass"/>
 		<Item Name="FollowAttackerSkill.lvclass" Type="LVClass" URL="../FollowAttackerSkill_class/FollowAttackerSkill.lvclass"/>
 		<Item Name="FollowAttackerTactic.lvclass" Type="LVClass" URL="../FollowAttackerTactic_class/FollowAttackerTactic.lvclass"/>
 		<Item Name="Game.lvclass" Type="LVClass" URL="../Game_class/Game.lvclass"/>
@@ -31,8 +37,12 @@
 		<Item Name="HaltRole.lvclass" Type="LVClass" URL="../HaltRole_class/HaltRole.lvclass"/>
 		<Item Name="HaltSkill.lvclass" Type="LVClass" URL="../HaltSkill_class/HaltSkill.lvclass"/>
 		<Item Name="HaltTactic.lvclass" Type="LVClass" URL="../HaltTactic_class/HaltTactic.lvclass"/>
+		<Item Name="IndirectEnemyPlay.lvclass" Type="LVClass" URL="../IndirectEnemyPlay_class/IndirectEnemyPlay.lvclass"/>
 		<Item Name="KeeperPlay.lvclass" Type="LVClass" URL="../KeeperPlay_class/KeeperPlay.lvclass"/>
 		<Item Name="KeeperRole.lvclass" Type="LVClass" URL="../KeeperRole_class/KeeperRole.lvclass"/>
+		<Item Name="KickPenaltyAllyPlay.lvclass" Type="LVClass" URL="../KickPenaltyAllyPlay_class/KickPenaltyAllyPlay.lvclass"/>
+		<Item Name="KickPenaltyRole.lvclass" Type="LVClass" URL="../KickPenaltyRole_class/KickPenaltyRole.lvclass"/>
+		<Item Name="MarkerRole.lvclass" Type="LVClass" URL="../MarkerRole_class/MarkerRole.lvclass"/>
 		<Item Name="MarkerSkill.lvclass" Type="LVClass" URL="../MarkerSkill_class/MarkerSkill.lvclass"/>
 		<Item Name="MarkerTactic.lvclass" Type="LVClass" URL="../MarkerTactic_class/MarkerTactic.lvclass"/>
 		<Item Name="NormalGamePlay.lvclass" Type="LVClass" URL="../NormalGamePlay_class/NormalGamePlay.lvclass"/>
@@ -41,6 +51,9 @@
 		<Item Name="Phoenix.vi" Type="VI" URL="../Phoenix.vi"/>
 		<Item Name="Play.lvclass" Type="LVClass" URL="../Play_class/Play.lvclass"/>
 		<Item Name="Playbook.lvclass" Type="LVClass" URL="../Playbook_class/Playbook.lvclass"/>
+		<Item Name="PrepareKickoffAllyPlay.lvclass" Type="LVClass" URL="../PrepareKickoffAllyPlay_class/PrepareKickoffAllyPlay.lvclass"/>
+		<Item Name="PrepareKickoffEnemyPlay.lvclass" Type="LVClass" URL="../PrepareKickoffEnemyPlay_class/PrepareKickoffEnemyPlay.lvclass"/>
+		<Item Name="PreparePenaltyAllyPlay.lvclass" Type="LVClass" URL="../PreparePenaltyAllyPlay_class/PreparePenaltyAllyPlay.lvclass"/>
 		<Item Name="Referee.lvclass" Type="LVClass" URL="../Referee_class/Referee.lvclass"/>
 		<Item Name="Robot.lvclass" Type="LVClass" URL="../Robot_class/Robot.lvclass"/>
 		<Item Name="Role.lvclass" Type="LVClass" URL="../Role_class/Role.lvclass"/>
@@ -62,9 +75,14 @@
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
+				<Item Name="3GOOPClassInfoTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPClassInfoTypeDef.ctl"/>
 				<Item Name="3GOOPClassStatistics.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPClassStatistics.ctl"/>
 				<Item Name="3GOOPKernelSlave.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPKernelSlave.vi"/>
+				<Item Name="3GOOPObjectInfoType.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPObjectInfoType.ctl"/>
+				<Item Name="3GOOPSetError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSetError.vi"/>
+				<Item Name="3GOOPSharedInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSharedInfo.ctl"/>
 				<Item Name="3GOOPStates.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPStates.ctl"/>
+				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
@@ -104,7 +122,6 @@
 			</Item>
 			<Item Name="2DVectorNormalizer.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/2DVectorNormalizer.vi"/>
 			<Item Name="AI Ball.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Ball.ctl"/>
-			<Item Name="AI Ball.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Ball.ctl"/>
 			<Item Name="AI Input.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Input.ctl"/>
 			<Item Name="AI Judge.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Judge.ctl"/>
 			<Item Name="AI Robot.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Robot.ctl"/>
@@ -162,7 +179,6 @@
 			<Item Name="Field Draw Target.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Target.vi"/>
 			<Item Name="Field Draw Targets.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Targets.vi"/>
 			<Item Name="Field Size.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/Field Size.ctl"/>
-			<Item Name="Field Size.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Field Size.ctl"/>
 			<Item Name="File Append.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/File Append.vi"/>
 			<Item Name="FindColllisionPoints.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/FindColllisionPoints.vi"/>
 			<Item Name="FindStartEndPointsRRTImproved.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/FindStartEndPointsRRTImproved.vi"/>
