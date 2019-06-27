@@ -129,7 +129,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1082130944</Property>
 	</Item>
-	<Item Name="Modulo.vi" Type="VI" URL="../Modulo.vi">
+	<Item Name="Module.vi" Type="VI" URL="../Module.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!V!#A!'47^E&gt;7RP!!!K1(!!(A!!%R&amp;6&gt;'FM;82J:8-O&lt;(:D&lt;'&amp;T=Q!.682J&lt;'FU;76T)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!V!#A!(4H6N:8*J9Q!71%!!!@````]!#!ES2#"W:7.U&lt;X)!+E"Q!"Y!!"-2682J&lt;'FU;76T,GRW9WRB=X-!$&amp;6U;7RJ&gt;'FF=S"J&lt;A!!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!*!!I#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!##A!!!*!!!!!!!1!,!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
