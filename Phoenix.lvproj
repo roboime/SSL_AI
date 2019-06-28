@@ -27,7 +27,8 @@
 			<Item Name="StopOffensivePlay.lvclass" Type="LVClass" URL="../StopOffensivePlay_class/StopOffensivePlay.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
-			<Item Name="DefensivePlay.lvclass" Type="LVClass" URL="../DefensivePlay_class/DefensivePlay.lvclass"/>
+			<Item Name="NormalDefensivePlay.lvclass" Type="LVClass" URL="../NormalDefensivePlay_class/NormalDefensivePlay.lvclass"/>
+			<Item Name="NormalDefensiveWithDuelistPlay.lvclass" Type="LVClass" URL="../NormalDefensiveWithDuelistPlay_class/NormalDefensiveWithDuelistPlay.lvclass"/>
 		</Item>
 		<Item Name="Keeper Plays" Type="Folder">
 			<Item Name="KeeperPlay.lvclass" Type="LVClass" URL="../KeeperPlay_class/KeeperPlay.lvclass"/>
@@ -77,6 +78,7 @@
 			<Item Name="KickPenaltyRole.lvclass" Type="LVClass" URL="../KickPenaltyRole_class/KickPenaltyRole.lvclass"/>
 			<Item Name="ShootRole.lvclass" Type="LVClass" URL="../ShootRole_class/ShootRole.lvclass"/>
 			<Item Name="TestRole.lvclass" Type="LVClass" URL="../TestRole_class/TestRole.lvclass"/>
+			<Item Name="DuelistRole.lvclass" Type="LVClass" URL="../DuelistRole_class/DuelistRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="Ball.lvclass" Type="LVClass" URL="../Ball_class/Ball.lvclass"/>
