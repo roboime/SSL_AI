@@ -75,6 +75,8 @@
 			<Item Name="KickPenaltyRole.lvclass" Type="LVClass" URL="../KickPenaltyRole_class/KickPenaltyRole.lvclass"/>
 			<Item Name="ShootRole.lvclass" Type="LVClass" URL="../ShootRole_class/ShootRole.lvclass"/>
 			<Item Name="TestRole.lvclass" Type="LVClass" URL="../TestRole_class/TestRole.lvclass"/>
+			<Item Name="BallOutOfFieldRole.lvclass" Type="LVClass" URL="../BallOutOfFieldRole_class/BallOutOfFieldRole.lvclass"/>
+			<Item Name="AttackerStopRole.lvclass" Type="LVClass" URL="../AttackerStopRole_class/AttackerStopRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="Ball.lvclass" Type="LVClass" URL="../Ball_class/Ball.lvclass"/>
@@ -256,7 +258,6 @@
 			<Item Name="NeedRecalcPath.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/NeedRecalcPath.vi"/>
 			<Item Name="NewNearestNeighbor.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/kD-tree/NewNearestNeighbor.vi"/>
 			<Item Name="Node.ctl" Type="VI" URL="../Game_class/PathPlanning/Path Planning/kD-tree/Node.ctl"/>
-			<Item Name="ObjectAttributes.ctl" Type="VI" URL="../Vision_class/protected/ObjectAttributes.ctl"/>
 			<Item Name="ObstacleBallRadius.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/ObstacleBallRadius.vi"/>
 			<Item Name="ObstacleEnemyRadius.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/ObstacleEnemyRadius.vi"/>
 			<Item Name="ObstacleOurRadius.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/ObstacleOurRadius.vi"/>
@@ -353,18 +354,18 @@
 			<Item Name="insert_stack.vi" Type="VI" URL="../../sslview/Util/insert_stack.vi"/>
 			<Item Name="pop_stack.vi" Type="VI" URL="../../sslview/Util/pop_stack.vi"/>
 			<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
-			<Item Name="AI Ball.ctl" Type="VI" URL="../../sslview/Core/AI Ball.ctl"/>
-			<Item Name="Field Size.ctl" Type="VI" URL="../../sslview/Core/Field Size.ctl"/>
-			<Item Name="Functions Enum.ctl" Type="VI" URL="../../sslview/Intel/Functions Enum.ctl"/>
-			<Item Name="AttackerStates.ctl" Type="VI" URL="../../sslview/Intel/AttackerStates.ctl"/>
-			<Item Name="PathDest.ctl" Type="VI" URL="../../sslview/Path Planning/RRT/PathDest.ctl"/>
-			<Item Name="PathDests.ctl" Type="VI" URL="../../sslview/Path Planning/RRT/PathDests.ctl"/>
-			<Item Name="AI Robot.ctl" Type="VI" URL="../../sslview/Core/AI Robot.ctl"/>
-			<Item Name="Command Enum.ctl" Type="VI" URL="../../sslview/Intel/Command Enum.ctl"/>
-			<Item Name="AI Judge.ctl" Type="VI" URL="../../sslview/Core/AI Judge.ctl"/>
-			<Item Name="AI Input.ctl" Type="VI" URL="../../sslview/Core/AI Input.ctl"/>
-			<Item Name="Events.ctl" Type="VI" URL="../../sslview/Util/Events/Events.ctl"/>
-			<Item Name="Modulo.vi" Type="VI" URL="../../sslview/Util/Modulo.vi"/>
+			<Item Name="AI Ball.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Ball.ctl"/>
+			<Item Name="AI Robot.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Robot.ctl"/>
+			<Item Name="Functions Enum.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Functions Enum.ctl"/>
+			<Item Name="AttackerStates.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AttackerStates.ctl"/>
+			<Item Name="PathDests.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/PathDests.ctl"/>
+			<Item Name="PathDest.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/PathDest.ctl"/>
+			<Item Name="Field Size.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/Field Size.ctl"/>
+			<Item Name="AI Input.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Input.ctl"/>
+			<Item Name="AI Judge.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Judge.ctl"/>
+			<Item Name="Command Enum.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Intel/Command Enum.ctl"/>
+			<Item Name="Events.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Util/Events/Events.ctl"/>
+			<Item Name="Modulo.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/Modulo.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
