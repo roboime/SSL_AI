@@ -36,6 +36,7 @@
 			<Item Name="HaltPlay.lvclass" Type="LVClass" URL="../HaltPlay_class/HaltPlay.lvclass"/>
 		</Item>
 		<Item Name="Skills" Type="Folder">
+			<Item Name="AttackerBallOutOfField.lvclass" Type="LVClass" URL="../AttackerBallOutOfField_class/AttackerBallOutOfField.lvclass"/>
 			<Item Name="DefBallEnemySkill.lvclass" Type="LVClass" URL="../DefBallEnemySkill_class/DefBallEnemySkill.lvclass"/>
 			<Item Name="DefBallOrientSkill.lvclass" Type="LVClass" URL="../DefBallOrientSkill_class/DefBallOrientSkill.lvclass"/>
 			<Item Name="DefBallTrajSkill.lvclass" Type="LVClass" URL="../DefBallTrajSkill_class/DefBallTrajSkill.lvclass"/>
@@ -45,6 +46,8 @@
 			<Item Name="TestSkill.lvclass" Type="LVClass" URL="../TestSkill_class/TestSkill.lvclass"/>
 			<Item Name="KickToSkill.lvclass" Type="LVClass" URL="../KickToSkill_class/KickToSkill.lvclass"/>
 			<Item Name="WaitPassSkill.lvclass" Type="LVClass" URL="../WaitPassSkill_class/WaitPassSkill.lvclass"/>
+			<Item Name="AttackerBlockSkill.lvclass" Type="LVClass" URL="../AttackerBlockSkill_class/AttackerBlockSkill.lvclass"/>
+			<Item Name="AttackerAimGoal.lvclass" Type="LVClass" URL="../AttackerAimGoal_class/AttackerAimGoal.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="MarkerTactic.lvclass" Type="LVClass" URL="../MarkerTactic_class/MarkerTactic.lvclass"/>
@@ -131,6 +134,11 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="3GOOPClassInfoTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPClassInfoTypeDef.ctl"/>
+				<Item Name="3GOOPSharedInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSharedInfo.ctl"/>
+				<Item Name="3GOOPObjectInfoType.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPObjectInfoType.ctl"/>
+				<Item Name="3GOOPSetError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSetError.vi"/>
+				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
 			</Item>
 			<Item Name="2DVectorNormalizer.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/2DVectorNormalizer.vi"/>
 			<Item Name="AI Ball.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Ball.ctl"/>
