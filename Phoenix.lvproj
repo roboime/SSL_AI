@@ -36,7 +36,6 @@
 			<Item Name="HaltPlay.lvclass" Type="LVClass" URL="../HaltPlay_class/HaltPlay.lvclass"/>
 		</Item>
 		<Item Name="Skills" Type="Folder">
-			<Item Name="AttackerBallOutOfField.lvclass" Type="LVClass" URL="../AttackerBallOutOfField_class/AttackerBallOutOfField.lvclass"/>
 			<Item Name="DefBallEnemySkill.lvclass" Type="LVClass" URL="../DefBallEnemySkill_class/DefBallEnemySkill.lvclass"/>
 			<Item Name="DefBallOrientSkill.lvclass" Type="LVClass" URL="../DefBallOrientSkill_class/DefBallOrientSkill.lvclass"/>
 			<Item Name="DefBallTrajSkill.lvclass" Type="LVClass" URL="../DefBallTrajSkill_class/DefBallTrajSkill.lvclass"/>
@@ -47,7 +46,8 @@
 			<Item Name="KickToSkill.lvclass" Type="LVClass" URL="../KickToSkill_class/KickToSkill.lvclass"/>
 			<Item Name="WaitPassSkill.lvclass" Type="LVClass" URL="../WaitPassSkill_class/WaitPassSkill.lvclass"/>
 			<Item Name="AttackerBlockSkill.lvclass" Type="LVClass" URL="../AttackerBlockSkill_class/AttackerBlockSkill.lvclass"/>
-			<Item Name="AttackerAimGoal.lvclass" Type="LVClass" URL="../AttackerAimGoal_class/AttackerAimGoal.lvclass"/>
+			<Item Name="AttackerBallOutOfFieldSkill.lvclass" Type="LVClass" URL="../AttackerBallOutOfFieldSkill_class/AttackerBallOutOfFieldSkill.lvclass"/>
+			<Item Name="AttackerAimGoalSkill.lvclass" Type="LVClass" URL="../AttackerAimGoalSkill_class/AttackerAimGoalSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="MarkerTactic.lvclass" Type="LVClass" URL="../MarkerTactic_class/MarkerTactic.lvclass"/>
