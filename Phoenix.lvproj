@@ -22,6 +22,9 @@
 			<Item Name="PrepareKickoffEnemyPlay.lvclass" Type="LVClass" URL="../PrepareKickoffEnemyPlay_class/PrepareKickoffEnemyPlay.lvclass"/>
 			<Item Name="KickPenaltyAllyPlay.lvclass" Type="LVClass" URL="../KickPenaltyAllyPlay_class/KickPenaltyAllyPlay.lvclass"/>
 			<Item Name="OffensivePlay.lvclass" Type="LVClass" URL="../OffensivePlay_class/OffensivePlay.lvclass"/>
+			<Item Name="PreparePenaltyEnemyPlay.lvclass" Type="LVClass" URL="../PreparePenaltyEnemyPlay_class/PreparePenaltyEnemyPlay.lvclass"/>
+			<Item Name="BallOutOfFieldPlay.lvclass" Type="LVClass" URL="../BallOutOfFieldPlay_class/BallOutOfFieldPlay.lvclass"/>
+			<Item Name="StopOffensivePlay.lvclass" Type="LVClass" URL="../StopOffensivePlay_class/StopOffensivePlay.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
 			<Item Name="DefensivePlay.lvclass" Type="LVClass" URL="../DefensivePlay_class/DefensivePlay.lvclass"/>
@@ -351,9 +354,9 @@
 			<Item Name="insert_stack.vi" Type="VI" URL="../../sslview/Util/insert_stack.vi"/>
 			<Item Name="top_stack.vi" Type="VI" URL="../../sslview/Util/top_stack.vi"/>
 			<Item Name="pop_stack.vi" Type="VI" URL="../../sslview/Util/pop_stack.vi"/>
-			<Item Name="AI Parameters.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Parameters.ctl"/>
 			<Item Name="Modulo.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/Modulo.vi"/>
 			<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
+			<Item Name="AI Parameters.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Parameters.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
