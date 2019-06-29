@@ -27,7 +27,8 @@
 			<Item Name="StopOffensivePlay.lvclass" Type="LVClass" URL="../StopOffensivePlay_class/StopOffensivePlay.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
-			<Item Name="DefensivePlay.lvclass" Type="LVClass" URL="../DefensivePlay_class/DefensivePlay.lvclass"/>
+			<Item Name="NormalDefensivePlay.lvclass" Type="LVClass" URL="../NormalDefensivePlay_class/NormalDefensivePlay.lvclass"/>
+			<Item Name="NormalDefensiveWithDuelistPlay.lvclass" Type="LVClass" URL="../NormalDefensiveWithDuelistPlay_class/NormalDefensiveWithDuelistPlay.lvclass"/>
 		</Item>
 		<Item Name="Keeper Plays" Type="Folder">
 			<Item Name="KeeperPlay.lvclass" Type="LVClass" URL="../KeeperPlay_class/KeeperPlay.lvclass"/>
@@ -51,6 +52,8 @@
 			<Item Name="AttackerBlockSkill.lvclass" Type="LVClass" URL="../AttackerBlockSkill_class/AttackerBlockSkill.lvclass"/>
 			<Item Name="AttackerBallOutOfFieldSkill.lvclass" Type="LVClass" URL="../AttackerBallOutOfFieldSkill_class/AttackerBallOutOfFieldSkill.lvclass"/>
 			<Item Name="AttackerAimGoalSkill.lvclass" Type="LVClass" URL="../AttackerAimGoalSkill_class/AttackerAimGoalSkill.lvclass"/>
+			<Item Name="DefendAreaSkill.lvclass" Type="LVClass" URL="../DefendAreaSkill_class/DefendAreaSkill.lvclass"/>
+			<Item Name="DuelistSkill.lvclass" Type="LVClass" URL="../DuelistSkill_class/DuelistSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
@@ -63,6 +66,7 @@
 			<Item Name="AttackerAimGoalTactic.lvclass" Type="LVClass" URL="../AttackerAimGoalTactic_class/AttackerAimGoalTactic.lvclass"/>
 			<Item Name="AttackerBallOutOfFieldTactic.lvclass" Type="LVClass" URL="../AttackerBallOutOfFieldTactic_class/AttackerBallOutOfFieldTactic.lvclass"/>
 			<Item Name="AttackerStopTactic.lvclass" Type="LVClass" URL="../AttackerStopTactic_class/AttackerStopTactic.lvclass"/>
+			<Item Name="DefendAreaTactic.lvclass" Type="LVClass" URL="../DefendAreaTactic_class/DefendAreaTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
@@ -77,6 +81,7 @@
 			<Item Name="TestRole.lvclass" Type="LVClass" URL="../TestRole_class/TestRole.lvclass"/>
 			<Item Name="BallOutOfFieldRole.lvclass" Type="LVClass" URL="../BallOutOfFieldRole_class/BallOutOfFieldRole.lvclass"/>
 			<Item Name="AttackerStopRole.lvclass" Type="LVClass" URL="../AttackerStopRole_class/AttackerStopRole.lvclass"/>
+			<Item Name="DuelistRole.lvclass" Type="LVClass" URL="../DuelistRole_class/DuelistRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="Ball.lvclass" Type="LVClass" URL="../Ball_class/Ball.lvclass"/>
@@ -102,6 +107,7 @@
 		<Item Name="Time.lvclass" Type="LVClass" URL="../Time_class/Time.lvclass"/>
 		<Item Name="Utilities.lvclass" Type="LVClass" URL="../Utilities_class/Utilities.lvclass"/>
 		<Item Name="Vision.lvclass" Type="LVClass" URL="../Vision_class/Vision.lvclass"/>
+		<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
@@ -350,10 +356,6 @@
 			<Item Name="Vision_GetClassAttributes.vi" Type="VI" URL="../Vision_class/utils/Vision_GetClassAttributes.vi"/>
 			<Item Name="Vision_GOOPKernel.vi" Type="VI" URL="../Vision_class/utils/Vision_GOOPKernel.vi"/>
 			<Item Name="WriteCSV.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/WriteCSV.vi"/>
-			<Item Name="segment.ctl" Type="VI" URL="../../sslview/Util/segment.ctl"/>
-			<Item Name="insert_stack.vi" Type="VI" URL="../../sslview/Util/insert_stack.vi"/>
-			<Item Name="pop_stack.vi" Type="VI" URL="../../sslview/Util/pop_stack.vi"/>
-			<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
 			<Item Name="AI Ball.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Ball.ctl"/>
 			<Item Name="AI Robot.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Robot.ctl"/>
 			<Item Name="Functions Enum.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Functions Enum.ctl"/>
@@ -366,6 +368,18 @@
 			<Item Name="Command Enum.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Intel/Command Enum.ctl"/>
 			<Item Name="Events.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Util/Events/Events.ctl"/>
 			<Item Name="Modulo.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/Modulo.vi"/>
+			<Item Name="AI Parameters.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Parameters.ctl"/>
+			<Item Name="AI Input.ctl" Type="VI" URL="../../sslview/Core/AI Input.ctl"/>
+			<Item Name="AI Robot.ctl" Type="VI" URL="../../sslview/Core/AI Robot.ctl"/>
+			<Item Name="Functions Enum.ctl" Type="VI" URL="../../sslview/Intel/Functions Enum.ctl"/>
+			<Item Name="AttackerStates.ctl" Type="VI" URL="../../sslview/Intel/AttackerStates.ctl"/>
+			<Item Name="PathDests.ctl" Type="VI" URL="../../sslview/Path Planning/RRT/PathDests.ctl"/>
+			<Item Name="PathDest.ctl" Type="VI" URL="../../sslview/Path Planning/RRT/PathDest.ctl"/>
+			<Item Name="AI Ball.ctl" Type="VI" URL="../../sslview/Core/AI Ball.ctl"/>
+			<Item Name="Field Size.ctl" Type="VI" URL="../../sslview/Core/Field Size.ctl"/>
+			<Item Name="AI Judge.ctl" Type="VI" URL="../../sslview/Core/AI Judge.ctl"/>
+			<Item Name="Command Enum.ctl" Type="VI" URL="../../sslview/Intel/Command Enum.ctl"/>
+			<Item Name="Events.ctl" Type="VI" URL="../../sslview/Util/Events/Events.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
