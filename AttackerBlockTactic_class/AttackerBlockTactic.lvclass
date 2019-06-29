@@ -41,7 +41,7 @@
 	<Item Name="protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
-	<Item Name="BlockTactic.vi" Type="VI" URL="../BlockTactic.vi">
+	<Item Name="AttackerBlockTactic.vi" Type="VI" URL="../AttackerBlockTactic.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!':!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!0$6*P9G^U,GRW9WRB=X-!#6*P9G^U)'^V&gt;!!_1(!!(A!!(2N"&gt;(2B9WNF=E*M&lt;W.L6'&amp;D&gt;'FD,GRW9WRB=X-!&amp;U&amp;U&gt;'&amp;D;W6S1GRP9WN597.U;7-A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)%"Q!"Y!!!Y-2W&amp;N:3ZM&gt;G.M98.T!!!(2W&amp;N:3"J&lt;A!?1(!!(A!!$QV3&lt;W*P&gt;#ZM&gt;G.M98.T!!63&lt;W*P&gt;!!_1(!!(A!!(2N"&gt;(2B9WNF=E*M&lt;W.L6'&amp;D&gt;'FD,GRW9WRB=X-!&amp;E&amp;U&gt;'&amp;D;W6S1GRP9WN597.U;7-A;7Y!!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!A!#1!+!Q!!?!!!$1A!!!!!!!!.#A!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!#!!!!!I!!!#3!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">268435456</Property>
