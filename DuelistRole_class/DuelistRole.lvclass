@@ -64,9 +64,9 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082405392</Property>
 	</Item>
 	<Item Name="DuelistRole.vi" Type="VI" URL="../DuelistRole.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'L!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!0$6*P9G^U,GRW9WRB=X-!#6*P9G^U)'^V&gt;!!O1(!!(A!!&amp;2.%&gt;76M;8.U5G^M:3ZM&gt;G.M98.T!!^%&gt;76M;8.U5G^M:3"P&gt;81!#5!$!!*J:!!!'%"!!!(`````!!=+2'6G:7ZT&lt;X*F=Q!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!C1(!!(A!!$QV3&lt;W*P&gt;#ZM&gt;G.M98.T!!B3&lt;W*P&gt;&amp;*F:A!!)%"Q!"Y!!!Y-2W&amp;N:3ZM&gt;G.M98.T!!!(2W&amp;N:3"J&lt;A!O1(!!(A!!&amp;2.%&gt;76M;8.U5G^M:3ZM&gt;G.M98.T!!Z%&gt;76M;8.U5G^M:3"J&lt;A!!91$Q!!Q!!Q!%!!5!"A!%!!1!#!!%!!E!#A!,!!Q$!!"Y!!!.#!!!!!!!!!U*!!!.#Q!!!!!!!!!!!!))!!!!!!!!!!A!!!!+!!!!#!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!$1!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'+!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!0$6*P9G^U,GRW9WRB=X-!#6*P9G^U)'^V&gt;!!O1(!!(A!!&amp;2.%&gt;76M;8.U5G^M:3ZM&gt;G.M98.T!!^%&gt;76M;8.U5G^M:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!C1(!!(A!!$QV3&lt;W*P&gt;#ZM&gt;G.M98.T!!B3&lt;W*P&gt;&amp;*F:A!!)%"Q!"Y!!!Y-2W&amp;N:3ZM&gt;G.M98.T!!!(2W&amp;N:3"J&lt;A!O1(!!(A!!&amp;2.%&gt;76M;8.U5G^M:3ZM&gt;G.M98.T!!Z%&gt;76M;8.U5G^M:3"J&lt;A!!91$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!#!!*!!I$!!"Y!!!.#!!!!!!!!!U*!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!+!!!!#!!!!")!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1342177280</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">268435456</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
