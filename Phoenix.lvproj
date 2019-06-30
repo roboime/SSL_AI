@@ -38,6 +38,8 @@
 			<Item Name="TestPlay.lvclass" Type="LVClass" URL="../TestPlay_class/TestPlay.lvclass"/>
 			<Item Name="TimeoutPlay.lvclass" Type="LVClass" URL="../TimeoutPlay_class/TimeoutPlay.lvclass"/>
 			<Item Name="HaltPlay.lvclass" Type="LVClass" URL="../HaltPlay_class/HaltPlay.lvclass"/>
+			<Item Name="ZigZagPlay.lvclass" Type="LVClass" URL="../ZigZagPlay_class/ZigZagPlay.lvclass"/>
+			<Item Name="GoToPlay.lvclass" Type="LVClass" URL="../GoToPlay_class/GoToPlay.lvclass"/>
 		</Item>
 		<Item Name="Skills" Type="Folder">
 			<Item Name="DefBallEnemySkill.lvclass" Type="LVClass" URL="../DefBallEnemySkill_class/DefBallEnemySkill.lvclass"/>
@@ -56,6 +58,8 @@
 			<Item Name="AttackerAimGoalSkill.lvclass" Type="LVClass" URL="../AttackerAimGoalSkill_class/AttackerAimGoalSkill.lvclass"/>
 			<Item Name="DefendAreaSkill.lvclass" Type="LVClass" URL="../DefendAreaSkill_class/DefendAreaSkill.lvclass"/>
 			<Item Name="DuelistSkill.lvclass" Type="LVClass" URL="../DuelistSkill_class/DuelistSkill.lvclass"/>
+			<Item Name="ZigZagSkill.lvclass" Type="LVClass" URL="../ZigZagSkill_class/ZigZagSkill.lvclass"/>
+			<Item Name="GoToSkill.lvclass" Type="LVClass" URL="../GoToSkill_class/GoToSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
@@ -70,6 +74,8 @@
 			<Item Name="AttackerStopTactic.lvclass" Type="LVClass" URL="../AttackerStopTactic_class/AttackerStopTactic.lvclass"/>
 			<Item Name="TimeoutTactic.lvclass" Type="LVClass" URL="../TimeoutTactic_class/TimeoutTactic.lvclass"/>
 			<Item Name="DefendAreaTactic.lvclass" Type="LVClass" URL="../DefendAreaTactic_class/DefendAreaTactic.lvclass"/>
+			<Item Name="ZigZagTactic.lvclass" Type="LVClass" URL="../ZigZagTactic_class/ZigZagTactic.lvclass"/>
+			<Item Name="GoToTactic.lvclass" Type="LVClass" URL="../GoToTactic_class/GoToTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
@@ -85,6 +91,9 @@
 			<Item Name="BallOutOfFieldRole.lvclass" Type="LVClass" URL="../BallOutOfFieldRole_class/BallOutOfFieldRole.lvclass"/>
 			<Item Name="AttackerStopRole.lvclass" Type="LVClass" URL="../AttackerStopRole_class/AttackerStopRole.lvclass"/>
 			<Item Name="DuelistRole.lvclass" Type="LVClass" URL="../DuelistRole_class/DuelistRole.lvclass"/>
+			<Item Name="ZigZagRole.lvclass" Type="LVClass" URL="../ZigZagRole_class/ZigZagRole.lvclass"/>
+			<Item Name="GoToRole.lvclass" Type="LVClass" URL="../GoToRole_class/GoToRole.lvclass"/>
+			<Item Name="TimeoutRole.lvclass" Type="LVClass" URL="../TimeoutRole_class/TimeoutRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="Ball.lvclass" Type="LVClass" URL="../Ball_class/Ball.lvclass"/>
@@ -178,7 +187,6 @@
 			<Item Name="Convert Detection Robot to AI Robot.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Convert Detection Robot to AI Robot.vi"/>
 			<Item Name="CorrectInvalidProfile.vi" Type="VI" URL="../Game_class/Navigation/sslview/Control/CorrectInvalidProfile.vi"/>
 			<Item Name="Correlate Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Correlate Balls.vi"/>
-			<Item Name="DangerEnemy.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/DangerEnemy.vi"/>
 			<Item Name="Decode Balls.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Balls.vi"/>
 			<Item Name="Decode Points Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Points Referee.vi"/>
 			<Item Name="Decode Robots Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Robots Referee.vi"/>
