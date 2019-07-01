@@ -60,6 +60,8 @@
 			<Item Name="DuelistSkill.lvclass" Type="LVClass" URL="../DuelistSkill_class/DuelistSkill.lvclass"/>
 			<Item Name="ZigZagSkill.lvclass" Type="LVClass" URL="../ZigZagSkill_class/ZigZagSkill.lvclass"/>
 			<Item Name="GoToSkill.lvclass" Type="LVClass" URL="../GoToSkill_class/GoToSkill.lvclass"/>
+			<Item Name="PenaltyDefenseSkill.lvclass" Type="LVClass" URL="../PenaltyDefenseSkill_class/PenaltyDefenseSkill.lvclass"/>
+			<Item Name="PenaltyAttackerSkill.lvclass" Type="LVClass" URL="../PenaltyAttackerSkill_class/PenaltyAttackerSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
@@ -76,6 +78,8 @@
 			<Item Name="DefendAreaTactic.lvclass" Type="LVClass" URL="../DefendAreaTactic_class/DefendAreaTactic.lvclass"/>
 			<Item Name="ZigZagTactic.lvclass" Type="LVClass" URL="../ZigZagTactic_class/ZigZagTactic.lvclass"/>
 			<Item Name="GoToTactic.lvclass" Type="LVClass" URL="../GoToTactic_class/GoToTactic.lvclass"/>
+			<Item Name="PenaltyDefenseTactic.lvclass" Type="LVClass" URL="../PenaltyDefenseTactic_class/PenaltyDefenseTactic.lvclass"/>
+			<Item Name="PenaltyAttackerTactic.lvclass" Type="LVClass" URL="../PenaltyAttackerTactic_class/PenaltyAttackerTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
