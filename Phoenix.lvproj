@@ -83,10 +83,10 @@
 			<Item Name="GoToTactic.lvclass" Type="LVClass" URL="../GoToTactic_class/GoToTactic.lvclass"/>
 			<Item Name="PenaltyDefenseTactic.lvclass" Type="LVClass" URL="../PenaltyDefenseTactic_class/PenaltyDefenseTactic.lvclass"/>
 			<Item Name="PenaltyAttackerTactic.lvclass" Type="LVClass" URL="../PenaltyAttackerTactic_class/PenaltyAttackerTactic.lvclass"/>
-			<Item Name="ReceiverPassTactic.lvclass" Type="LVClass" URL="../ReceiverPassTactic_class/ReceiverPassTactic.lvclass"/>
 			<Item Name="PositionToReceivePassTactic.lvclass" Type="LVClass" URL="../PositionToReceivePassTactic_class/PositionToReceivePassTactic.lvclass"/>
 			<Item Name="WaitPass.lvclass" Type="LVClass" URL="../WaitPass_class/WaitPass.lvclass"/>
 			<Item Name="KickToPassReceiverTactic.lvclass" Type="LVClass" URL="../KickToPassReceiverTactic_class/KickToPassReceiverTactic.lvclass"/>
+			<Item Name="PassReceiverTactic.lvclass" Type="LVClass" URL="../PassReceiverTactic_class/PassReceiverTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
