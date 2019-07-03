@@ -25,6 +25,8 @@
 			<Item Name="PreparePenaltyEnemyPlay.lvclass" Type="LVClass" URL="../PreparePenaltyEnemyPlay_class/PreparePenaltyEnemyPlay.lvclass"/>
 			<Item Name="BallOutOfFieldPlay.lvclass" Type="LVClass" URL="../BallOutOfFieldPlay_class/BallOutOfFieldPlay.lvclass"/>
 			<Item Name="StopOffensivePlay.lvclass" Type="LVClass" URL="../StopOffensivePlay_class/StopOffensivePlay.lvclass"/>
+			<Item Name="PassPlay.lvclass" Type="LVClass" URL="../PassPlay_class/PassPlay.lvclass"/>
+			<Item Name="DirectKickPlay.lvclass" Type="LVClass" URL="../DirectKickPlay_class/DirectKickPlay.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
 			<Item Name="NormalDefensivePlay.lvclass" Type="LVClass" URL="../NormalDefensivePlay_class/NormalDefensivePlay.lvclass"/>
@@ -62,6 +64,7 @@
 			<Item Name="GoToSkill.lvclass" Type="LVClass" URL="../GoToSkill_class/GoToSkill.lvclass"/>
 			<Item Name="PenaltyDefenseSkill.lvclass" Type="LVClass" URL="../PenaltyDefenseSkill_class/PenaltyDefenseSkill.lvclass"/>
 			<Item Name="PenaltyAttackerSkill.lvclass" Type="LVClass" URL="../PenaltyAttackerSkill_class/PenaltyAttackerSkill.lvclass"/>
+			<Item Name="PositionToReceivePassSkill.lvclass" Type="LVClass" URL="../PositionToReceivePassSkill_class/PositionToReceivePassSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
@@ -80,6 +83,10 @@
 			<Item Name="GoToTactic.lvclass" Type="LVClass" URL="../GoToTactic_class/GoToTactic.lvclass"/>
 			<Item Name="PenaltyDefenseTactic.lvclass" Type="LVClass" URL="../PenaltyDefenseTactic_class/PenaltyDefenseTactic.lvclass"/>
 			<Item Name="PenaltyAttackerTactic.lvclass" Type="LVClass" URL="../PenaltyAttackerTactic_class/PenaltyAttackerTactic.lvclass"/>
+			<Item Name="PositionToReceivePassTactic.lvclass" Type="LVClass" URL="../PositionToReceivePassTactic_class/PositionToReceivePassTactic.lvclass"/>
+			<Item Name="KickToPassReceiverTactic.lvclass" Type="LVClass" URL="../KickToPassReceiverTactic_class/KickToPassReceiverTactic.lvclass"/>
+			<Item Name="PassReceiverTactic.lvclass" Type="LVClass" URL="../PassReceiverTactic_class/PassReceiverTactic.lvclass"/>
+			<Item Name="WaitPassTactic.lvclass" Type="LVClass" URL="../WaitPassTactic_class/WaitPassTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
@@ -98,6 +105,8 @@
 			<Item Name="ZigZagRole.lvclass" Type="LVClass" URL="../ZigZagRole_class/ZigZagRole.lvclass"/>
 			<Item Name="GoToRole.lvclass" Type="LVClass" URL="../GoToRole_class/GoToRole.lvclass"/>
 			<Item Name="TimeoutRole.lvclass" Type="LVClass" URL="../TimeoutRole_class/TimeoutRole.lvclass"/>
+			<Item Name="PassKickerRole.lvclass" Type="LVClass" URL="../PassKickerRole_class/PassKickerRole.lvclass"/>
+			<Item Name="PassReceiverRole.lvclass" Type="LVClass" URL="../PassReceiverRole_class/PassReceiverRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="Ball.lvclass" Type="LVClass" URL="../Ball_class/Ball.lvclass"/>
@@ -386,6 +395,7 @@
 			<Item Name="AI Parameters.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Parameters.ctl"/>
 			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
 			<Item Name="FuturePose.vi" Type="VI" URL="../Vision_class/Old vision/FuturePose.vi"/>
+			<Item Name="pos.ctl" Type="VI" URL="../Utilities_class/pos.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
