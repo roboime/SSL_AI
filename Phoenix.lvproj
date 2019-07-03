@@ -65,6 +65,7 @@
 			<Item Name="PenaltyDefenseSkill.lvclass" Type="LVClass" URL="../PenaltyDefenseSkill_class/PenaltyDefenseSkill.lvclass"/>
 			<Item Name="PenaltyAttackerSkill.lvclass" Type="LVClass" URL="../PenaltyAttackerSkill_class/PenaltyAttackerSkill.lvclass"/>
 			<Item Name="PositionToReceivePassSkill.lvclass" Type="LVClass" URL="../PositionToReceivePassSkill_class/PositionToReceivePassSkill.lvclass"/>
+			<Item Name="MarkerStopSkill.lvclass" Type="LVClass" URL="../MarkerStopSkill_class/MarkerStopSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
@@ -87,6 +88,7 @@
 			<Item Name="KickToPassReceiverTactic.lvclass" Type="LVClass" URL="../KickToPassReceiverTactic_class/KickToPassReceiverTactic.lvclass"/>
 			<Item Name="PassReceiverTactic.lvclass" Type="LVClass" URL="../PassReceiverTactic_class/PassReceiverTactic.lvclass"/>
 			<Item Name="WaitPassTactic.lvclass" Type="LVClass" URL="../WaitPassTactic_class/WaitPassTactic.lvclass"/>
+			<Item Name="MarkerStopTactic.lvclass" Type="LVClass" URL="../MarkerStopTactic_class/MarkerStopTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
@@ -107,6 +109,7 @@
 			<Item Name="TimeoutRole.lvclass" Type="LVClass" URL="../TimeoutRole_class/TimeoutRole.lvclass"/>
 			<Item Name="PassKickerRole.lvclass" Type="LVClass" URL="../PassKickerRole_class/PassKickerRole.lvclass"/>
 			<Item Name="PassReceiverRole.lvclass" Type="LVClass" URL="../PassReceiverRole_class/PassReceiverRole.lvclass"/>
+			<Item Name="MarkerStopRole.lvclass" Type="LVClass" URL="../MarkerStopRole_class/MarkerStopRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="Ball.lvclass" Type="LVClass" URL="../Ball_class/Ball.lvclass"/>
@@ -396,6 +399,7 @@
 			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
 			<Item Name="FuturePose.vi" Type="VI" URL="../Vision_class/Old vision/FuturePose.vi"/>
 			<Item Name="pos.ctl" Type="VI" URL="../Utilities_class/pos.ctl"/>
+			<Item Name="tactics.ctl" Type="VI" URL="../Robot_class/tactics.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
