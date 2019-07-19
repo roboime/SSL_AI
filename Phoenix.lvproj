@@ -373,7 +373,6 @@
 			<Item Name="FuturePose.vi" Type="VI" URL="../Vision_class/Old vision/FuturePose.vi"/>
 			<Item Name="pos.ctl" Type="VI" URL="../Utilities_class/pos.ctl"/>
 			<Item Name="tactics.ctl" Type="VI" URL="../Robot_class/tactics.ctl"/>
-			<Item Name="KickPenaltyRole.lvclass" Type="LVClass" URL="../KickPenaltyRole_class/KickPenaltyRole.lvclass"/>
 			<Item Name="distance.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/distance.vi"/>
 			<Item Name="Navigation.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/Navigation.vi"/>
 			<Item Name="DistPointLine.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/DistPointLine.vi"/>
