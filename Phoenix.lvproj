@@ -363,24 +363,17 @@
 			<Item Name="Vision_GetClassAttributes.vi" Type="VI" URL="../Vision_class/utils/Vision_GetClassAttributes.vi"/>
 			<Item Name="Vision_GOOPKernel.vi" Type="VI" URL="../Vision_class/utils/Vision_GOOPKernel.vi"/>
 			<Item Name="WriteCSV.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/WriteCSV.vi"/>
-			<Item Name="AI Ball.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Ball.ctl"/>
 			<Item Name="AI Robot.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Robot.ctl"/>
 			<Item Name="Functions Enum.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Functions Enum.ctl"/>
 			<Item Name="AttackerStates.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AttackerStates.ctl"/>
 			<Item Name="PathDests.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/PathDests.ctl"/>
 			<Item Name="PathDest.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/PathDest.ctl"/>
-			<Item Name="Field Size.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/Field Size.ctl"/>
-			<Item Name="AI Input.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Input.ctl"/>
-			<Item Name="AI Judge.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Judge.ctl"/>
-			<Item Name="Command Enum.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Intel/Command Enum.ctl"/>
-			<Item Name="Events.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Util/Events/Events.ctl"/>
 			<Item Name="AI Parameters.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Parameters.ctl"/>
 			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
 			<Item Name="FuturePose.vi" Type="VI" URL="../Vision_class/Old vision/FuturePose.vi"/>
 			<Item Name="pos.ctl" Type="VI" URL="../Utilities_class/pos.ctl"/>
 			<Item Name="tactics.ctl" Type="VI" URL="../Robot_class/tactics.ctl"/>
 			<Item Name="KickPenaltyRole.lvclass" Type="LVClass" URL="../KickPenaltyRole_class/KickPenaltyRole.lvclass"/>
-			<Item Name="Modulo.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/Modulo.vi"/>
 			<Item Name="distance.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/distance.vi"/>
 			<Item Name="Navigation.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/Navigation.vi"/>
 			<Item Name="DistPointLine.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/DistPointLine.vi"/>
@@ -399,6 +392,14 @@
 			<Item Name="VelocityGraph.ctl" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Controle/VelocityGraph.ctl"/>
 			<Item Name="PID Single.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/PID Single.vi"/>
 			<Item Name="LateralControl.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/LateralControl.vi"/>
+			<Item Name="AI Input.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Core/AI Input.ctl"/>
+			<Item Name="AI Ball.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Core/AI Ball.ctl"/>
+			<Item Name="Field Size.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Core/Field Size.ctl"/>
+			<Item Name="AI Judge.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Core/AI Judge.ctl"/>
+			<Item Name="Events.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Events/Events.ctl"/>
+			<Item Name="Modulo.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Modulo.vi"/>
+			<Item Name="SSL Detection Ball w ID.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Ball w ID.ctl"/>
+			<Item Name="Command Enum.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Intel/Command Enum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
