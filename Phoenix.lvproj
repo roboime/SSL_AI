@@ -166,7 +166,6 @@
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
@@ -181,9 +180,8 @@
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
-			<Item Name="2DVectorNormalizer.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/2DVectorNormalizer.vi"/>
-			<Item Name="Angle Between 2D Vectors.vi" Type="VI" URL="../Game_class/Navigation/sslview/Angle Between 2D Vectors.vi"/>
 			<Item Name="BackTracking.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/BackTracking.vi"/>
 			<Item Name="Ball Kalman Filter And Update.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Ball Kalman Filter And Update.vi"/>
 			<Item Name="BallReplacement Packet Encoder.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/BallReplacement Packet Encoder.vi"/>
@@ -199,7 +197,6 @@
 			<Item Name="ComUDP.ctl" Type="VI" URL="../Controls/ComUDP.ctl"/>
 			<Item Name="Convert Detection Ball to AI Ball.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Convert Detection Ball to AI Ball.vi"/>
 			<Item Name="Convert Detection Robot to AI Robot.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Convert Detection Robot to AI Robot.vi"/>
-			<Item Name="CorrectInvalidProfile.vi" Type="VI" URL="../Game_class/Navigation/sslview/Control/CorrectInvalidProfile.vi"/>
 			<Item Name="Correlate Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Correlate Balls.vi"/>
 			<Item Name="Decode Balls.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Balls.vi"/>
 			<Item Name="Decode Points Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Points Referee.vi"/>
@@ -211,8 +208,6 @@
 			<Item Name="DetectCollisionSmoother.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/DetectCollisionSmoother.vi"/>
 			<Item Name="DetectExtendCollision.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/DetectExtendCollision.vi"/>
 			<Item Name="DetectTrajectoryCollision.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/DetectTrajectoryCollision.vi"/>
-			<Item Name="distance.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/distance.vi"/>
-			<Item Name="DistPointLine.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/DistPointLine.vi"/>
 			<Item Name="Double Decoder.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Double Decoder.vi"/>
 			<Item Name="Double Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Double Encoder.vi"/>
 			<Item Name="DrawTargets.ctl" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/DrawTargets.ctl"/>
@@ -244,7 +239,6 @@
 			<Item Name="Get Robot Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Get Robot Pose.vi"/>
 			<Item Name="getCamerasPositionByID.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/getCamerasPositionByID.vi"/>
 			<Item Name="GetOurRobotCmd.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/GetOurRobotCmd.vi"/>
-			<Item Name="GetTimeInSeconds.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/GetTimeInSeconds.vi"/>
 			<Item Name="grSim Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Command.vi"/>
 			<Item Name="grSim Packet Command UDP Test.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command UDP Test.vi"/>
 			<Item Name="grSim Packet Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command.vi"/>
@@ -267,11 +261,9 @@
 			<Item Name="KalmanCalculationAux.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Filters/KalmanCalculationAux.vi"/>
 			<Item Name="KD-Tree.ctl" Type="VI" URL="../Game_class/PathPlanning/Path Planning/kD-tree/KD-Tree.ctl"/>
 			<Item Name="KeeperPlay.ctl" Type="VI" URL="../Team_class/KeeperPlay.ctl"/>
-			<Item Name="LateralControl.vi" Type="VI" URL="../Game_class/Navigation/sslview/Control/LateralControl.vi"/>
 			<Item Name="Length Delimited Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ProtoBuf/Length Delimited Encoder.vi"/>
 			<Item Name="Length-delimited Decoder.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Length-delimited Decoder.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="magnetic-field.vi" Type="VI" URL="../Game_class/Navigation/sslview/Potential Field/magnetic-field.vi"/>
 			<Item Name="measurement residual.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/measurement residual.vi"/>
 			<Item Name="mediaBalls_v2.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/mediaBalls_v2.vi"/>
 			<Item Name="mediaIntesecaoCameras_v2.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/mediaIntesecaoCameras_v2.vi"/>
@@ -284,7 +276,6 @@
 			<Item Name="MessageFlag.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageFlag.vi"/>
 			<Item Name="MessageRobot.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageRobot.vi"/>
 			<Item Name="MultRRTPlan.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/MultRRTPlan.vi"/>
-			<Item Name="Navigation.vi" Type="VI" URL="../Game_class/Navigation/sslview/Control/Navigation.vi"/>
 			<Item Name="Nearest.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/Nearest.vi"/>
 			<Item Name="NeedRecalcPath.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/NeedRecalcPath.vi"/>
 			<Item Name="NewNearestNeighbor.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/kD-tree/NewNearestNeighbor.vi"/>
@@ -294,10 +285,7 @@
 			<Item Name="ObstacleOurRadius.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/ObstacleOurRadius.vi"/>
 			<Item Name="OffensivePlay.ctl" Type="VI" URL="../Team_class/OffensivePlay.ctl"/>
 			<Item Name="pathPlanner.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/pathPlanner.vi"/>
-			<Item Name="PathVelocityProfile.vi" Type="VI" URL="../Game_class/Navigation/sslview/Control/PathVelocityProfile.vi"/>
-			<Item Name="PID Single.vi" Type="VI" URL="../Game_class/Navigation/sslview/Control/PID Single.vi"/>
 			<Item Name="posterior estimate covariance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/posterior estimate covariance.vi"/>
-			<Item Name="potential-field.vi" Type="VI" URL="../Game_class/Navigation/sslview/Potential Field/potential-field.vi"/>
 			<Item Name="predict state.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/predict state.vi"/>
 			<Item Name="Proto Key And Type.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Proto Key And Type.vi"/>
 			<Item Name="PrunePath.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/PrunePath.vi"/>
@@ -305,7 +293,6 @@
 			<Item Name="Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Referee.vi"/>
 			<Item Name="Replace Or Add Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Replace Or Add Balls.vi"/>
 			<Item Name="Replace Or Add Robots.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Replace Or Add Robots.vi"/>
-			<Item Name="repulsive-force.vi" Type="VI" URL="../Game_class/Navigation/sslview/Potential Field/repulsive-force.vi"/>
 			<Item Name="RetaBola.vi" Type="VI" URL="../DefBallTrajSkill_class/RetaBola.vi"/>
 			<Item Name="RetaInimigoBola.vi" Type="VI" URL="../DefBallEnemySkill_class/RetaInimigoBola.vi"/>
 			<Item Name="RetaInimigoBolaUsandoOrientacao.vi" Type="VI" URL="../DefBallOrientSkill_class/RetaInimigoBolaUsandoOrientacao.vi"/>
@@ -372,11 +359,6 @@
 			<Item Name="Varint Encoder uint32.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Varint Encoder uint32.vi"/>
 			<Item Name="Varint Encoder uint64.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Varint Encoder uint64.vi"/>
 			<Item Name="Varint Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Varint Encoder.vi"/>
-			<Item Name="VelocityCommand.vi" Type="VI" URL="../Game_class/Navigation/sslview/Control/VelocityCommand.vi"/>
-			<Item Name="VelocityControl.vi" Type="VI" URL="../Game_class/Navigation/sslview/Control/VelocityControl.vi"/>
-			<Item Name="VelocityGraph.ctl" Type="VI" URL="../Game_class/Navigation/sslview/Controle/VelocityGraph.ctl"/>
-			<Item Name="VelocityProfile.vi" Type="VI" URL="../Game_class/Navigation/sslview/Control/VelocityProfile.vi"/>
-			<Item Name="VelocityProfileState.ctl" Type="VI" URL="../Game_class/Navigation/sslview/Controle/VelocityProfileState.ctl"/>
 			<Item Name="vision_control.ctl" Type="VI" URL="../Controls/vision_control.ctl"/>
 			<Item Name="Vision_GetClassAttributes.vi" Type="VI" URL="../Vision_class/utils/Vision_GetClassAttributes.vi"/>
 			<Item Name="Vision_GOOPKernel.vi" Type="VI" URL="../Vision_class/utils/Vision_GOOPKernel.vi"/>
@@ -392,13 +374,31 @@
 			<Item Name="AI Judge.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Judge.ctl"/>
 			<Item Name="Command Enum.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Intel/Command Enum.ctl"/>
 			<Item Name="Events.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Util/Events/Events.ctl"/>
-			<Item Name="Modulo.vi" Type="VI" URL="../Game_class/Navigation/sslview/Util/Modulo.vi"/>
 			<Item Name="AI Parameters.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Parameters.ctl"/>
 			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
 			<Item Name="FuturePose.vi" Type="VI" URL="../Vision_class/Old vision/FuturePose.vi"/>
 			<Item Name="pos.ctl" Type="VI" URL="../Utilities_class/pos.ctl"/>
 			<Item Name="tactics.ctl" Type="VI" URL="../Robot_class/tactics.ctl"/>
 			<Item Name="KickPenaltyRole.lvclass" Type="LVClass" URL="../KickPenaltyRole_class/KickPenaltyRole.lvclass"/>
+			<Item Name="Modulo.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/Modulo.vi"/>
+			<Item Name="distance.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/distance.vi"/>
+			<Item Name="Navigation.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/Navigation.vi"/>
+			<Item Name="DistPointLine.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/DistPointLine.vi"/>
+			<Item Name="potential-field.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Potential Field/potential-field.vi"/>
+			<Item Name="repulsive-force.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Potential Field/repulsive-force.vi"/>
+			<Item Name="2DVectorNormalizer.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/2DVectorNormalizer.vi"/>
+			<Item Name="magnetic-field.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Potential Field/magnetic-field.vi"/>
+			<Item Name="Angle Between 2D Vectors.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Angle Between 2D Vectors.vi"/>
+			<Item Name="PathVelocityProfile.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/PathVelocityProfile.vi"/>
+			<Item Name="VelocityProfileState.ctl" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Controle/VelocityProfileState.ctl"/>
+			<Item Name="CorrectInvalidProfile.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/CorrectInvalidProfile.vi"/>
+			<Item Name="VelocityProfile.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/VelocityProfile.vi"/>
+			<Item Name="GetTimeInSeconds.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/GetTimeInSeconds.vi"/>
+			<Item Name="VelocityCommand.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/VelocityCommand.vi"/>
+			<Item Name="VelocityControl.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/VelocityControl.vi"/>
+			<Item Name="VelocityGraph.ctl" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Controle/VelocityGraph.ctl"/>
+			<Item Name="PID Single.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/PID Single.vi"/>
+			<Item Name="LateralControl.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/LateralControl.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
