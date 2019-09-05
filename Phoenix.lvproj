@@ -400,8 +400,6 @@
 			<Item Name="Modulo.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Modulo.vi"/>
 			<Item Name="SSL Detection Ball w ID.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Ball w ID.ctl"/>
 			<Item Name="Command Enum.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Intel/Command Enum.ctl"/>
-			<Item Name="grSim Robot Command.ctl" Type="VI" URL="../grSim/grSim Robot Command.ctl"/>
-			<Item Name="grSim Robot Command.vi" Type="VI" URL="../grSim/grSim Robot Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
