@@ -135,6 +135,7 @@
 		<Item Name="Vision.lvclass" Type="LVClass" URL="../Vision_class/Vision.lvclass"/>
 		<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
 		<Item Name="EloMec Tester.vi" Type="VI" URL="../EloMec Tester.vi"/>
+		<Item Name="MarkerTacticStates.ctl" Type="VI" URL="../MarkerTactic_class/MarkerTacticStates.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
