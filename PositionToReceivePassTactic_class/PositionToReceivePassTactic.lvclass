@@ -69,13 +69,13 @@
 		</Item>
 	</Item>
 	<Item Name="PositionToReceivePassTactic.vi" Type="VI" URL="../PositionToReceivePassTactic.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(4!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#*!=!!?!!!0$6*P9G^U,GRW9WRB=X-!#6*P9G^U)'^V&gt;!"/1(!!(A!!*3.1&lt;X.J&gt;'FP&lt;F2P5G6D:7FW:6"B=X.597.U;7-O&lt;(:D&lt;'&amp;T=Q!@5'^T;82J&lt;WZ5&lt;V*F9W6J&gt;G6198.T6'&amp;D&gt;'FD)'^V&gt;!!+1#%&amp;5G6T:81!%%!B#G:J=H.U)'.B&lt;'Q!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!(E"Q!"Y!!!].5G^C&lt;X1O&lt;(:D&lt;'&amp;T=Q!&amp;5G^C&lt;X1!)%"Q!"Y!!!Y-2W&amp;N:3ZM&gt;G.M98.T!!!(2W&amp;N:3"J&lt;A"/1(!!(A!!*3.1&lt;X.J&gt;'FP&lt;F2P5G6D:7FW:6"B=X.597.U;7-O&lt;(:D&lt;'&amp;T=Q!?5'^T;82J&lt;WZ5&lt;V*F9W6J&gt;G6198.T6'&amp;D&gt;'FD)'FO!!"5!0!!$!!$!!1!"1!'!!1!"!!(!!A!#1!+!!M!$!-!!(A!!!U)!!!!!!!!$1E!!)U,!!!!!!!!!!!!!!I!!!!)!!!!#!!!!!I!!!!)!!!!EA!!!!!"!!U!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)=!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!$%!B"V.V9X.T:8-!)E"Q!"Y!!!].5G^C&lt;X1O&lt;(:D&lt;'&amp;T=Q!*5G^C&lt;X1A&lt;X6U!%Z!=!!?!!!F)V"P=WFU;7^O6'^3:7.F;8:F5'&amp;T=V2B9X2J9SZM&gt;G.M98.T!"^1&lt;X.J&gt;'FP&lt;F2P5G6D:7FW:6"B=X.597.U;7-A&lt;X6U!!1!!!!P1"9!!AIS&lt;G24&gt;(*J;W6S"V.U=GFL:8)!!"*4&gt;(*J;W6S,T*O:&amp;.U=GFL:8)!!!J!)163:8.F&gt;!!11#%+:GFS=X1A9W&amp;M&lt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!?1(!!(A!!$QV3&lt;W*P&gt;#ZM&gt;G.M98.T!!63&lt;W*P&gt;!!A1(!!(A!!$AR(97VF,GRW9WRB=X-!!!&gt;(97VF)'FO!%Z!=!!?!!!F)V"P=WFU;7^O6'^3:7.F;8:F5'&amp;T=V2B9X2J9SZM&gt;G.M98.T!"Z1&lt;X.J&gt;'FP&lt;F2P5G6D:7FW:6"B=X.597.U;7-A;7Y!!')!]!!-!!-!"!!&amp;!!9!"Q!)!!E!#A!,!!Q!$1!/!Q!!?!!!$1A!!!E!!!!.#1!!$1M!!!!!!!!)!!!!#A!!!!I!!!!)!!!!#A!!!!A!!!!3!!!/!!!+!!Q!!!!!!!!!!!!!!1!0!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">268435456</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">285212672</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 	</Item>
 	<Item Name="PositionToReceivePassTactic_Init.vi" Type="VI" URL="../PositionToReceivePassTactic_Init.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;U!!!!#1!Y1(!!(A!!*3.1&lt;X.J&gt;'FP&lt;F2P5G6D:7FW:6"B=X.597.U;7-O&lt;(:D&lt;'&amp;T=Q!*&lt;W*K:7.U)'FO!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$J!=!!?!!!F)V"P=WFU;7^O6'^3:7.F;8:F5'&amp;T=V2B9X2J9SZM&gt;G.M98.T!!JP9GJF9X1A&lt;X6U!!!71&amp;!!!Q!#!!-!"!FF=H*P=C"P&gt;81!G1$Q!"1!!!!"!!%!!1!"!!5!!1!"!!%!!1!"!!%!!1!"!!9!!1!"!!%!!1!(!A!"%!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!.!!!!!!!!!!!!!!!!!!!!!!!!!!U&amp;!"5!!!!!!!!!!!!!!!!!!!%!!!!!!!!!!1!)!!!!!!</Property>
