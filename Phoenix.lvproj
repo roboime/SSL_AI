@@ -169,7 +169,6 @@
 				<Item Name="NI_AAL_Angle.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Angle.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
@@ -191,15 +190,12 @@
 				<Item Name="3GOOPObjectInfoType.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPObjectInfoType.ctl"/>
 				<Item Name="3GOOPSetError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSetError.vi"/>
 				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 			</Item>
 			<Item Name="BackTracking.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/BackTracking.vi"/>
-			<Item Name="Ball Kalman Filter And Update.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Ball Kalman Filter And Update.vi"/>
 			<Item Name="BallReplacement Packet Encoder.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/BallReplacement Packet Encoder.vi"/>
-			<Item Name="Before After View.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Before After View.vi"/>
 			<Item Name="Bool Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Bool Encoder.vi"/>
-			<Item Name="calculo de f_k.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/calculo de f_k.vi"/>
 			<Item Name="CanUseSimplePath.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/CanUseSimplePath.vi"/>
-			<Item Name="Check and Create Kalman Data.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Check and Create Kalman Data.vi"/>
 			<Item Name="ChooseTarget.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/ChooseTarget.vi"/>
 			<Item Name="ClassAttributes.ctl" Type="VI" URL="../Vision_class/protected/ClassAttributes.ctl"/>
 			<Item Name="ComSerial.ctl" Type="VI" URL="../Controls/ComSerial.ctl"/>
@@ -207,7 +203,6 @@
 			<Item Name="ComUDP.ctl" Type="VI" URL="../Controls/ComUDP.ctl"/>
 			<Item Name="Convert Detection Ball to AI Ball.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Convert Detection Ball to AI Ball.vi"/>
 			<Item Name="Convert Detection Robot to AI Robot.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Convert Detection Robot to AI Robot.vi"/>
-			<Item Name="Correlate Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Correlate Balls.vi"/>
 			<Item Name="Decode Balls.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Balls.vi"/>
 			<Item Name="Decode Points Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Points Referee.vi"/>
 			<Item Name="Decode Robots Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Decode Robots Referee.vi"/>
@@ -222,7 +217,6 @@
 			<Item Name="Double Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Double Encoder.vi"/>
 			<Item Name="DrawTargets.ctl" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/DrawTargets.ctl"/>
 			<Item Name="Estimadores.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/Estimadores.ctl"/>
-			<Item Name="estimate covariance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/estimate covariance.vi"/>
 			<Item Name="Extend.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/Extend.vi"/>
 			<Item Name="FarFromTrajectory.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/FarFromTrajectory.vi"/>
 			<Item Name="Field Draw Ball.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Ball.vi"/>
@@ -242,11 +236,6 @@
 			<Item Name="Float Decoder.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Float Decoder.vi"/>
 			<Item Name="Float Encoder.vi" Type="VI" URL="../Communication_class/Paths/Serial Transmitter Folder/Float Encoder.vi"/>
 			<Item Name="FPS Counter.vi" Type="VI" URL="../FPS Counter.vi"/>
-			<Item Name="Get Ball Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Get Ball Pose.vi"/>
-			<Item Name="Get Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Get Pose.vi"/>
-			<Item Name="Get Robot Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Get Robot Pose.vi"/>
-			<Item Name="getCamerasPositionByID.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/getCamerasPositionByID.vi"/>
-			<Item Name="GetOurRobotCmd.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/GetOurRobotCmd.vi"/>
 			<Item Name="grSim Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Command.vi"/>
 			<Item Name="grSim Packet Command UDP Test.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command UDP Test.vi"/>
 			<Item Name="grSim Packet Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command.vi"/>
@@ -257,25 +246,13 @@
 			<Item Name="grSim_Replacement.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim_Replacement.vi"/>
 			<Item Name="grSim_RobotReplacement Packet Encoder.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim_RobotReplacement Packet Encoder.vi"/>
 			<Item Name="GrSimKickForce.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/Intel/GrSimKickForce.vi"/>
-			<Item Name="innovation covariance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/innovation covariance.vi"/>
 			<Item Name="InsertFirstNode.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/kD-tree/InsertFirstNode.vi"/>
 			<Item Name="InsertNode.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/kD-tree/InsertNode.vi"/>
-			<Item Name="Kalman Calculation for balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Filters/Kalman Calculation for balls.vi"/>
-			<Item Name="Kalman Calculation.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Filters/Kalman Calculation.vi"/>
-			<Item Name="Kalman CalculationVelCmd.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Filters/Kalman CalculationVelCmd.vi"/>
-			<Item Name="Kalman F.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Kalman F.vi"/>
-			<Item Name="kalman gain.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/kalman gain.vi"/>
-			<Item Name="Kalman H.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Kalman H.vi"/>
-			<Item Name="KalmanCalculationAux.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Filters/KalmanCalculationAux.vi"/>
 			<Item Name="KD-Tree.ctl" Type="VI" URL="../Game_class/PathPlanning/Path Planning/kD-tree/KD-Tree.ctl"/>
 			<Item Name="KeeperPlay.ctl" Type="VI" URL="../Team_class/KeeperPlay.ctl"/>
 			<Item Name="Length Delimited Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ProtoBuf/Length Delimited Encoder.vi"/>
 			<Item Name="Length-delimited Decoder.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Length-delimited Decoder.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="measurement residual.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/measurement residual.vi"/>
-			<Item Name="mediaBalls_v2.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/mediaBalls_v2.vi"/>
-			<Item Name="mediaIntesecaoCameras_v2.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/mediaIntesecaoCameras_v2.vi"/>
-			<Item Name="mediaRobos_v2.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/mediaRobos_v2.vi"/>
 			<Item Name="MessageAI_State.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageAI_State.vi"/>
 			<Item Name="MessageBall.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageBall.vi"/>
 			<Item Name="MessageCinematics.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/ComSOS/MessageCinematics.vi"/>
@@ -293,53 +270,28 @@
 			<Item Name="ObstacleOurRadius.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/ObstacleOurRadius.vi"/>
 			<Item Name="OffensivePlay.ctl" Type="VI" URL="../Team_class/OffensivePlay.ctl"/>
 			<Item Name="pathPlanner.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/pathPlanner.vi"/>
-			<Item Name="posterior estimate covariance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/posterior estimate covariance.vi"/>
-			<Item Name="predict state.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/predict state.vi"/>
 			<Item Name="Proto Key And Type.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Proto Key And Type.vi"/>
 			<Item Name="PrunePath.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/PrunePath.vi"/>
 			<Item Name="RandomState.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RandomState.vi"/>
 			<Item Name="Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Referee.vi"/>
-			<Item Name="Replace Or Add Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Replace Or Add Balls.vi"/>
-			<Item Name="Replace Or Add Robots.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Replace Or Add Robots.vi"/>
 			<Item Name="RetaBola.vi" Type="VI" URL="../DefBallTrajSkill_class/RetaBola.vi"/>
 			<Item Name="RetaInimigoBola.vi" Type="VI" URL="../DefBallEnemySkill_class/RetaInimigoBola.vi"/>
 			<Item Name="RetaInimigoBolaUsandoOrientacao.vi" Type="VI" URL="../DefBallOrientSkill_class/RetaInimigoBolaUsandoOrientacao.vi"/>
-			<Item Name="Robot Kalman Filter And Update.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Robot Kalman Filter And Update.vi"/>
 			<Item Name="roles.ctl" Type="VI" URL="../Robot_class/roles.ctl"/>
 			<Item Name="RRTAlgorithm.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm.vi"/>
 			<Item Name="RRTPlan.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTPlan.vi"/>
-			<Item Name="Search Or Add Frame.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Search Or Add Frame.vi"/>
 			<Item Name="SegmentAndCircleIntersection.vi" Type="VI" URL="../Game_class/PathPlanning/Util/SegmentAndCircleIntersection.vi"/>
-			<Item Name="Select Ball By Confidence.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Select Ball By Confidence.vi"/>
-			<Item Name="Select Robots By Confidence.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Select Robots By Confidence.vi"/>
 			<Item Name="Serial Transmitter.vi" Type="VI" URL="../Communication_class/Paths/Serial Transmitter Folder/Util/Serial Transmitter.vi"/>
 			<Item Name="SmootherPath.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/SmootherPath.vi"/>
 			<Item Name="SmoothPath.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/SmoothPath.vi"/>
-			<Item Name="Sort Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Sort Balls.vi"/>
-			<Item Name="Sort Frame Array.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Sort Frame Array.vi"/>
-			<Item Name="Sort Robots.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Sort Robots.vi"/>
-			<Item Name="SSL Detection Ball Coordinate.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Ball Coordinate.vi"/>
-			<Item Name="SSL Detection Ball Distance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Ball Distance.vi"/>
 			<Item Name="SSL Detection Ball.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/SSL Detection Ball.ctl"/>
 			<Item Name="SSL Detection Ball.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Detection Ball.vi"/>
-			<Item Name="SSL Detection Balls Delete Invalids with State and Cov.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/SSL Detection Balls Delete Invalids with State and Cov.vi"/>
-			<Item Name="SSL Detection Balls Delete Invalids.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Balls Delete Invalids.vi"/>
-			<Item Name="SSL Detection Balls Invalidate.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Balls Invalidate.vi"/>
-			<Item Name="SSL Detection Frame Balls Estimator.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Frame Balls Estimator.vi"/>
-			<Item Name="SSL Detection Frame Balls Kalman Estimator.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL/SSL Detection Frame Balls Kalman Estimator.vi"/>
-			<Item Name="SSL Detection Frame Robots Estimator.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Frame Robots Estimator.vi"/>
-			<Item Name="SSL Detection Frame Robots Kalman Estimator VelCmd.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL/SSL Detection Frame Robots Kalman Estimator VelCmd.vi"/>
-			<Item Name="SSL Detection Frame Simple Estimator Cameras VelCmd.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/SSL Detection Frame Simple Estimator Cameras VelCmd.vi"/>
-			<Item Name="SSL Detection Frame Simple Estimator Kalman VelCmd.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/SSL Detection Frame Simple Estimator Kalman VelCmd.vi"/>
-			<Item Name="SSL Detection Frame Simple Estimator.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Frame Simple Estimator.vi"/>
 			<Item Name="SSL Detection Frame.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/SSL Detection Frame.ctl"/>
 			<Item Name="SSL Detection Frame.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Detection Frame.vi"/>
 			<Item Name="SSL Detection Points Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Detection Points Referee.vi"/>
 			<Item Name="SSL Detection Robot Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Detection Robot Referee.vi"/>
 			<Item Name="SSL Detection Robot.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/SSL Detection Robot.ctl"/>
 			<Item Name="SSL Detection Robot.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Detection Robot.vi"/>
-			<Item Name="SSL Detection Robots Delete Invalids Kalman.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Robots Delete Invalids Kalman.vi"/>
-			<Item Name="SSL Detection Robots Delete Invalids.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Robots Delete Invalids.vi"/>
 			<Item Name="SSL Field State.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/SSL Field State.ctl"/>
 			<Item Name="SSL Geometry Camera Calibration.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/SSL Geometry Camera Calibration.ctl"/>
 			<Item Name="SSL Geometry Data.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Geometry Data.vi"/>
@@ -353,11 +305,6 @@
 			<Item Name="States.ctl" Type="VI" URL="../TestTactic_class/States.ctl"/>
 			<Item Name="Switch Sides.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Switch Sides.vi"/>
 			<Item Name="Team and Side.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Team and Side.vi"/>
-			<Item Name="Update Ball Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Ball Pose.vi"/>
-			<Item Name="Update Frame Array.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Frame Array.vi"/>
-			<Item Name="Update Frame Element.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Frame Element.vi"/>
-			<Item Name="Update Robot Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Robot Pose.vi"/>
-			<Item Name="Update Sample History.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Sample History.vi"/>
 			<Item Name="Varint Base128 Decoder.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Base128 Decoder.vi"/>
 			<Item Name="Varint Base128 Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Varint Base128 Encoder.vi"/>
 			<Item Name="Varint Decoder sint32.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder sint32.vi"/>
@@ -405,14 +352,70 @@
 			<Item Name="AI Judge.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Core/AI Judge.ctl"/>
 			<Item Name="Events.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Events/Events.ctl"/>
 			<Item Name="Modulo.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Modulo.vi"/>
-			<Item Name="SSL Detection Ball w ID.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Ball w ID.ctl"/>
 			<Item Name="Command Enum.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Intel/Command Enum.ctl"/>
 			<Item Name="MarkerTacticStates.ctl" Type="VI" URL="../MarkerTactic_class/MarkerTacticStates.ctl"/>
 			<Item Name="offensive_plays.ctl" Type="VI" URL="../Playbook_class/offensive_plays.ctl"/>
 			<Item Name="deffensive_plays.ctl" Type="VI" URL="../Playbook_class/deffensive_plays.ctl"/>
 			<Item Name="keeper_plays.ctl" Type="VI" URL="../Playbook_class/keeper_plays.ctl"/>
-			<Item Name="CheckPossibleBalls.vi" Type="VI" URL="../Ball_class/CheckPossibleBalls.vi"/>
 			<Item Name="GoTo.vi" Type="VI" URL="../Game_class/Navigation/GoTo.vi"/>
+			<Item Name="CalcBallVel.vi" Type="VI" URL="../Vision_class/CalcBallVel.vi"/>
+			<Item Name="NewBallLifetime.vi" Type="VI" URL="../Vision_class/NewBallLifetime.vi"/>
+			<Item Name="CalcRobotsVel.vi" Type="VI" URL="../Vision_class/CalcRobotsVel.vi"/>
+			<Item Name="SSL Detection Robots Delete Invalids.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Robots Delete Invalids.vi"/>
+			<Item Name="NewLifetimeForRobot.vi" Type="VI" URL="../Vision_class/NewLifetimeForRobot.vi"/>
+			<Item Name="getCamerasPositionByID.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/getCamerasPositionByID.vi"/>
+			<Item Name="mediaBalls_v2.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/mediaBalls_v2.vi"/>
+			<Item Name="mediaRobos_v2.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/mediaRobos_v2.vi"/>
+			<Item Name="Select Robots By Confidence.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Select Robots By Confidence.vi"/>
+			<Item Name="Select Ball By Confidence.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Select Ball By Confidence.vi"/>
+			<Item Name="mediaIntesecaoCameras_v2.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Media Intersecao Cameras/mediaIntesecaoCameras_v2.vi"/>
+			<Item Name="Kalman H.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Kalman H.vi"/>
+			<Item Name="Kalman F.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Kalman F.vi"/>
+			<Item Name="Kalman Calculation for balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Filters/Kalman Calculation for balls.vi"/>
+			<Item Name="Update Sample History.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Sample History.vi"/>
+			<Item Name="Check and Create Kalman Data.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Check and Create Kalman Data.vi"/>
+			<Item Name="SSL Detection Ball w ID.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Ball w ID.ctl"/>
+			<Item Name="Get Ball Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Get Ball Pose.vi"/>
+			<Item Name="Sort Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Sort Balls.vi"/>
+			<Item Name="SSL Detection Frame Balls Kalman Estimator.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL/SSL Detection Frame Balls Kalman Estimator.vi"/>
+			<Item Name="Before After View.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Before After View.vi"/>
+			<Item Name="KalmanCalculationAux.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Filters/KalmanCalculationAux.vi"/>
+			<Item Name="Kalman CalculationVelCmd.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Filters/Kalman CalculationVelCmd.vi"/>
+			<Item Name="Get Robot Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Get Robot Pose.vi"/>
+			<Item Name="SSL Detection Frame Robots Kalman Estimator VelCmd.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL/SSL Detection Frame Robots Kalman Estimator VelCmd.vi"/>
+			<Item Name="SSL Detection Frame Simple Estimator Kalman VelCmd.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/SSL Detection Frame Simple Estimator Kalman VelCmd.vi"/>
+			<Item Name="SSL Detection Balls Delete Invalids.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Balls Delete Invalids.vi"/>
+			<Item Name="SSL Detection Ball Coordinate.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Ball Coordinate.vi"/>
+			<Item Name="SSL Detection Ball Distance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Ball Distance.vi"/>
+			<Item Name="SSL Detection Balls Invalidate.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Balls Invalidate.vi"/>
+			<Item Name="SSL Detection Frame Balls Estimator.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Frame Balls Estimator.vi"/>
+			<Item Name="SSL Detection Frame Robots Estimator.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Frame Robots Estimator.vi"/>
+			<Item Name="SSL Detection Frame Simple Estimator.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Frame Simple Estimator.vi"/>
+			<Item Name="CheckPossibleBalls.vi" Type="VI" URL="../Ball_class/CheckPossibleBalls.vi"/>
+			<Item Name="Sort Frame Array.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Sort Frame Array.vi"/>
+			<Item Name="Correlate Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Correlate Balls.vi"/>
+			<Item Name="Replace Or Add Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Replace Or Add Balls.vi"/>
+			<Item Name="Sort Robots.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Sort Robots.vi"/>
+			<Item Name="Replace Or Add Robots.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Replace Or Add Robots.vi"/>
+			<Item Name="Update Frame Element.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Frame Element.vi"/>
+			<Item Name="Search Or Add Frame.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Search Or Add Frame.vi"/>
+			<Item Name="Update Frame Array.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Frame Array.vi"/>
+			<Item Name="SSL Detection Frame Simple Estimator Cameras VelCmd.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/SSL Detection Frame Simple Estimator Cameras VelCmd.vi"/>
+			<Item Name="measurement residual.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/measurement residual.vi"/>
+			<Item Name="calculo de f_k.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/calculo de f_k.vi"/>
+			<Item Name="predict state.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/predict state.vi"/>
+			<Item Name="estimate covariance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/estimate covariance.vi"/>
+			<Item Name="innovation covariance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/innovation covariance.vi"/>
+			<Item Name="kalman gain.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/kalman gain.vi"/>
+			<Item Name="posterior estimate covariance.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/posterior estimate covariance.vi"/>
+			<Item Name="Robot Kalman Filter And Update.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Robot Kalman Filter And Update.vi"/>
+			<Item Name="Get Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Get Pose.vi"/>
+			<Item Name="Kalman Calculation.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Filters/Kalman Calculation.vi"/>
+			<Item Name="Update Robot Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Robot Pose.vi"/>
+			<Item Name="SSL Detection Robots Delete Invalids Kalman.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Robots Delete Invalids Kalman.vi"/>
+			<Item Name="SSL Detection Balls Delete Invalids with State and Cov.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/SSL Detection Balls Delete Invalids with State and Cov.vi"/>
+			<Item Name="Ball Kalman Filter And Update.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Ball Kalman Filter And Update.vi"/>
+			<Item Name="Update Ball Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Ball Pose.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
