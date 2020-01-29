@@ -69,6 +69,8 @@
 			<Item Name="PenaltyAttackerSkill.lvclass" Type="LVClass" URL="../PenaltyAttackerSkill_class/PenaltyAttackerSkill.lvclass"/>
 			<Item Name="PositionToReceivePassSkill.lvclass" Type="LVClass" URL="../PositionToReceivePassSkill_class/PositionToReceivePassSkill.lvclass"/>
 			<Item Name="PassObserverSkill.lvclass" Type="LVClass" URL="../PassObserverSkill_class/PassObserverSkill.lvclass"/>
+			<Item Name="AttackPsSkill.lvclass" Type="LVClass" URL="../AttackPsSkill_class/AttackPsSkill.lvclass"/>
+			<Item Name="DefensePsSkill.lvclass" Type="LVClass" URL="../DefensePsSkill_class/DefensePsSkill.lvclass"/>
 			<Item Name="2ndStrikerPositionSkill.lvclass" Type="LVClass" URL="../2ndStrikerPositionSkill_class/2ndStrikerPositionSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
@@ -92,6 +94,7 @@
 			<Item Name="KickToPassReceiverTactic.lvclass" Type="LVClass" URL="../KickToPassReceiverTactic_class/KickToPassReceiverTactic.lvclass"/>
 			<Item Name="PassObserverTactic.lvclass" Type="LVClass" URL="../PassObserverTactic_class/PassObserverTactic.lvclass"/>
 			<Item Name="PassReceiverTactic.lvclass" Type="LVClass" URL="../PassReceiverTactic_class/PassReceiverTactic.lvclass"/>
+			<Item Name="DefaultPsTactic.lvclass" Type="LVClass" URL="../DefaultPsTactic_class/DefaultPsTactic.lvclass"/>
 			<Item Name="WaitPassTactic.lvclass" Type="LVClass" URL="../WaitPassTactic_class/WaitPassTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
@@ -115,6 +118,7 @@
 			<Item Name="PassReceiverRole.lvclass" Type="LVClass" URL="../PassReceiverRole_class/PassReceiverRole.lvclass"/>
 			<Item Name="PenaltyDefenseRole.lvclass" Type="LVClass" URL="../PenaltyDefenseRole_class/PenaltyDefenseRole.lvclass"/>
 			<Item Name="PreparePassReceiverRole.lvclass" Type="LVClass" URL="../PreparePassReceiverRole_class/PreparePassReceiverRole.lvclass"/>
+			<Item Name="DefaultPsRole.lvclass" Type="LVClass" URL="../DefaultPsRole_class/DefaultPsRole.lvclass"/>
 			<Item Name="PassObserverRole.lvclass" Type="LVClass" URL="../PassObserverRole_class/PassObserverRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
