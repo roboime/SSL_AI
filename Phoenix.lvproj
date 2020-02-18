@@ -374,7 +374,6 @@
 			<Item Name="Kalman Calculation for balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Filters/Kalman Calculation for balls.vi"/>
 			<Item Name="Update Sample History.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Sample History.vi"/>
 			<Item Name="Check and Create Kalman Data.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Check and Create Kalman Data.vi"/>
-			<Item Name="SSL Detection Ball w ID.ctl" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL Detection Ball w ID.ctl"/>
 			<Item Name="Get Ball Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Get Ball Pose.vi"/>
 			<Item Name="Sort Balls.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Sort Balls.vi"/>
 			<Item Name="SSL Detection Frame Balls Kalman Estimator.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/SSL/SSL Detection Frame Balls Kalman Estimator.vi"/>
