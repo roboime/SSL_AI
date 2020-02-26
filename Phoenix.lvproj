@@ -416,13 +416,6 @@
 			<Item Name="Ball Kalman Filter And Update.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Ball Kalman Filter And Update.vi"/>
 			<Item Name="Update Ball Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Ball Pose.vi"/>
 			<Item Name="FirstOrderFilter.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Filters/FirstOrderFilter.vi"/>
-			<Item Name="Field Size.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/Field Size.ctl"/>
-			<Item Name="AI Robot.ctl" Type="VI" URL="../Communication_class/Paths/Convert AI Robot to Robot Command Folder/Core/AI Robot.ctl"/>
-			<Item Name="Functions Enum.ctl" Type="VI" URL="../Communication_class/Paths/Convert AI Robot to Robot Command Folder/Intel/Functions Enum.ctl"/>
-			<Item Name="AttackerStates.ctl" Type="VI" URL="../Communication_class/Paths/Convert AI Robot to Robot Command Folder/Intel/AttackerStates.ctl"/>
-			<Item Name="PathDests.ctl" Type="VI" URL="../Communication_class/Paths/Convert AI Robot to Robot Command Folder/Path Planning/RRT/PathDests.ctl"/>
-			<Item Name="PathDest.ctl" Type="VI" URL="../Communication_class/Paths/Convert AI Robot to Robot Command Folder/Path Planning/RRT/PathDest.ctl"/>
-			<Item Name="AI Ball.ctl" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Core/AI Ball.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
