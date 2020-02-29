@@ -29,6 +29,7 @@
 			<Item Name="DirectKickPlay.lvclass" Type="LVClass" URL="../DirectKickPlay_class/DirectKickPlay.lvclass"/>
 			<Item Name="PreparePassPlay.lvclass" Type="LVClass" URL="../PreparePassPlay_class/PreparePassPlay.lvclass"/>
 			<Item Name="PassTo2ndStriker.lvclass" Type="LVClass" URL="../PassTo2ndStriker_class/PassTo2ndStriker.lvclass"/>
+			<Item Name="SimplePass.lvclass" Type="LVClass" URL="../SimplePass_class/SimplePass.lvclass"/>
 			<Item Name="PassToStriker.lvclass" Type="LVClass" URL="../PassToStriker_class/PassToStriker.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
@@ -70,6 +71,8 @@
 			<Item Name="PositionToReceivePassSkill.lvclass" Type="LVClass" URL="../PositionToReceivePassSkill_class/PositionToReceivePassSkill.lvclass"/>
 			<Item Name="PassObserverSkill.lvclass" Type="LVClass" URL="../PassObserverSkill_class/PassObserverSkill.lvclass"/>
 			<Item Name="2ndStrikerPositionSkill.lvclass" Type="LVClass" URL="../2ndStrikerPositionSkill_class/2ndStrikerPositionSkill.lvclass"/>
+			<Item Name="PositionToRollSkill.lvclass" Type="LVClass" URL="../PositionToRollSkill_class/PositionToRollSkill.lvclass"/>
+			<Item Name="PositionToReceiveRollSkill.lvclass" Type="LVClass" URL="../PositionToReceiveRollSkill_class/PositionToReceiveRollSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
@@ -93,6 +96,8 @@
 			<Item Name="PassObserverTactic.lvclass" Type="LVClass" URL="../PassObserverTactic_class/PassObserverTactic.lvclass"/>
 			<Item Name="PassReceiverTactic.lvclass" Type="LVClass" URL="../PassReceiverTactic_class/PassReceiverTactic.lvclass"/>
 			<Item Name="WaitPassTactic.lvclass" Type="LVClass" URL="../WaitPassTactic_class/WaitPassTactic.lvclass"/>
+			<Item Name="PositionToRollTatic.lvclass" Type="LVClass" URL="../PositionToRollTatic_class/PositionToRollTatic.lvclass"/>
+			<Item Name="WaitRollTatic.lvclass" Type="LVClass" URL="../WaitRollTatic_class/WaitRollTatic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
@@ -116,6 +121,8 @@
 			<Item Name="PenaltyDefenseRole.lvclass" Type="LVClass" URL="../PenaltyDefenseRole_class/PenaltyDefenseRole.lvclass"/>
 			<Item Name="PreparePassReceiverRole.lvclass" Type="LVClass" URL="../PreparePassReceiverRole_class/PreparePassReceiverRole.lvclass"/>
 			<Item Name="PassObserverRole.lvclass" Type="LVClass" URL="../PassObserverRole_class/PassObserverRole.lvclass"/>
+			<Item Name="SimplePassReceiverRole.lvclass" Type="LVClass" URL="../SimplePassReceiverRole_class/SimplePassReceiverRole.lvclass"/>
+			<Item Name="SimplePassRollRole.lvclass" Type="LVClass" URL="../SimplePassRollRole_class/SimplePassRollRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
