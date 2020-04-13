@@ -73,6 +73,9 @@
 			<Item Name="2ndStrikerPositionSkill.lvclass" Type="LVClass" URL="../2ndStrikerPositionSkill_class/2ndStrikerPositionSkill.lvclass"/>
 			<Item Name="PositionToRollSkill.lvclass" Type="LVClass" URL="../PositionToRollSkill_class/PositionToRollSkill.lvclass"/>
 			<Item Name="PositionToReceiveRollSkill.lvclass" Type="LVClass" URL="../PositionToReceiveRollSkill_class/PositionToReceiveRollSkill.lvclass"/>
+			<Item Name="WaitBallTrajSkill.lvclass" Type="LVClass" URL="../WaitBallTrajSkill_class/WaitBallTrajSkill.lvclass"/>
+			<Item Name="WaitBallKickerSkill.lvclass" Type="LVClass" URL="../WaitBallKickerSkill_class/WaitBallKickerSkill.lvclass"/>
+			<Item Name="WaitBallOrientSkill.lvclass" Type="LVClass" URL="../WaitBallOrientSkill_class/WaitBallOrientSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
@@ -418,9 +421,6 @@
 			<Item Name="SSL Detection Balls Delete Invalids with State and Cov.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/SSL Detection Balls Delete Invalids with State and Cov.vi"/>
 			<Item Name="Ball Kalman Filter And Update.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Ball Kalman Filter And Update.vi"/>
 			<Item Name="Update Ball Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Ball Pose.vi"/>
-			<Item Name="WaitBallTrajSkill.lvclass" Type="LVClass" URL="../WaitBallTrajSkill_class/WaitBallTrajSkill.lvclass"/>
-			<Item Name="WaitBallKickerSkill.lvclass" Type="LVClass" URL="../WaitBallKickerSkill_class/WaitBallKickerSkill.lvclass"/>
-			<Item Name="WaitBallOrientSkill.lvclass" Type="LVClass" URL="../WaitBallOrientSkill_class/WaitBallOrientSkill.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
