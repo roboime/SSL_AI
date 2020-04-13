@@ -45,6 +45,15 @@
 	<Item Name="protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
+	<Item Name="adaptPosEstBall.vi" Type="VI" URL="../adaptPosEstBall.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'`!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!^!#A!*='^T8W6T&gt;&amp;^Z!"R!1!!"`````Q!&amp;$V"P=V^F=X1A972B=(2F:!!O1(!!(A!!&amp;2.,;7.L6'^4;WFM&lt;#ZM&gt;G.M98.T!!^,;7.L6'^4;WFM&lt;#"P&gt;81!,E"Q!"Y!!"-2682J&lt;'FU;76T,GRW9WRB=X-!%66U;7RJ&gt;'FF=SZM&gt;G.M98.T!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)%"Q!"Y!!!].5G^C&lt;X1O&lt;(:D&lt;'&amp;T=Q!'5G^C&lt;X1A!!!A1(!!(A!!$AR#97RM,GRW9WRB=X-!!!&gt;#97RM5G6G!#Z!=!!?!!!6%UNJ9WN5&lt;V.L;7RM,GRW9WRB=X-!$ENJ9WN5&lt;V.L;7RM)'FO!!"B!0!!$!!$!!1!"A!(!!1!"!!)!!1!#1!+!!M!$!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!A!!!!!!!!!#!!!!!A!!!!)!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!.!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">268435456</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 	<Item Name="IsReadyToKick.vi" Type="VI" URL="../IsReadyToKick.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">'!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(X!!!!%Q!O1(!!(A!!&amp;2.,;7.L6'^4;WFM&lt;#ZM&gt;G.M98.T!!Z,;7.L6'^4;WFM&lt;#"J&lt;A!!$5!+!!&gt;,;7.L28"T!!^!#A!*3WFD;V*B&lt;G&gt;F!!1!!!!O1(!!(A!!&amp;2.,;7.L6'^4;WFM&lt;#ZM&gt;G.M98.T!!^,;7.L6'^4;WFM&lt;#"P&gt;81!(E"Q!"Y!!!Y-2W&amp;N:3ZM&gt;G.M98.T!!!%2W&amp;N:1!!$E!B#%.B&lt;ENJ9WM`!!!.1!I!"U*F=X1A?3!!&amp;%"!!!(`````!!='6'&amp;S:W6U!!!?1(!!(A!!$QV3&lt;W*P&gt;#ZM&gt;G.M98.T!!63&lt;W*P&gt;!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!+!!M!$".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!".!#A!.47FO2'FT&gt;&amp;2P3WFD;Q!41!I!$%NJ9WNJ&lt;G&gt;"&lt;G&gt;M:1!!'5!+!"*%;8.U6'^,;7.L;7ZH17ZH&lt;'5!!":!5!!$!!I!#Q!-#76S=G^S)'^V&gt;!"M!0!!%!!!!!%!!A!$!!1!"1!'!!A!!Q!*!!-!$1!/!!]!%!!2!Q!"#!!!E!!!!!I!!!!+!!!!!!!!!)U!!!!)!!!!#1!!!QI!!!!!!!!!#!!!!!!!!!!)!!!!#A!!!!I!!!!+!!!!$1M!!!!"!")!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
