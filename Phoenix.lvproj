@@ -418,6 +418,7 @@
 			<Item Name="WaitRollTatic.lvclass" Type="LVClass" URL="../WaitRollTatic_class/WaitRollTatic.lvclass"/>
 			<Item Name="PositionToReceiveRollSkill.lvclass" Type="LVClass" URL="../PositionToReceiveRollSkill_class/PositionToReceiveRollSkill.lvclass"/>
 			<Item Name="SimplePass.lvclass" Type="LVClass" URL="../SimplePass_class/SimplePass.lvclass"/>
+			<Item Name="UpdateDerivateFrameArray.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/UpdateDerivateFrameArray.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
