@@ -96,6 +96,7 @@
 			<Item Name="WaitPassTactic.lvclass" Type="LVClass" URL="../WaitPassTactic_class/WaitPassTactic.lvclass"/>
 			<Item Name="RollerTactic.lvclass" Type="LVClass" URL="../RollerTactic_class/RollerTactic.lvclass"/>
 			<Item Name="PrepareRollToPassReceiverGoToTactic.lvclass" Type="LVClass" URL="../PrepareRollToPassReceiverGoToTactic_class/PrepareRollToPassReceiverGoToTactic.lvclass"/>
+			<Item Name="PrepareRollToPassRollerGoToTactic.lvclass" Type="LVClass" URL="../PrepareRollToPassRollerGoToTactic_class/PrepareRollToPassRollerGoToTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
