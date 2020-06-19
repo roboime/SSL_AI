@@ -425,6 +425,10 @@
 			<Item Name="PositionToReceiveRollSkill.lvclass" Type="LVClass" URL="../PositionToReceiveRollSkill_class/PositionToReceiveRollSkill.lvclass"/>
 			<Item Name="SimplePass.lvclass" Type="LVClass" URL="../SimplePass_class/SimplePass.lvclass"/>
 			<Item Name="UpdateDerivateFrameArray.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/UpdateDerivateFrameArray.vi"/>
+			<Item Name="PreparePassReceiverEnum.ctl" Type="VI" URL="../PreparePassReceiverRole_class/PreparePassReceiverEnum.ctl"/>
+			<Item Name="PrepareDoublePassPlay.lvclass" Type="LVClass" URL="../PrepareDoublePassPlay_class/PrepareDoublePassPlay.lvclass"/>
+			<Item Name="NewLifetimeForRobot.vi" Type="VI" URL="../Vision_class/NewLifetimeForRobot.vi"/>
+			<Item Name="NewBallLifetime.vi" Type="VI" URL="../Vision_class/NewBallLifetime.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
