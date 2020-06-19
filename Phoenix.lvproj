@@ -51,8 +51,6 @@
 			<Item Name="DefBallEnemySkill.lvclass" Type="LVClass" URL="../DefBallEnemySkill_class/DefBallEnemySkill.lvclass"/>
 			<Item Name="DefBallOrientSkill.lvclass" Type="LVClass" URL="../DefBallOrientSkill_class/DefBallOrientSkill.lvclass"/>
 			<Item Name="DefBallTrajSkill.lvclass" Type="LVClass" URL="../DefBallTrajSkill_class/DefBallTrajSkill.lvclass"/>
-			<Item Name="FollowAttackerSkill.lvclass" Type="LVClass" URL="../FollowAttackerSkill_class/FollowAttackerSkill.lvclass"/>
-			<Item Name="HaltSkill.lvclass" Type="LVClass" URL="../HaltSkill_class/HaltSkill.lvclass"/>
 			<Item Name="MarkerSkill.lvclass" Type="LVClass" URL="../MarkerSkill_class/MarkerSkill.lvclass"/>
 			<Item Name="TestSkill.lvclass" Type="LVClass" URL="../TestSkill_class/TestSkill.lvclass"/>
 			<Item Name="WaitPassSkill.lvclass" Type="LVClass" URL="../WaitPassSkill_class/WaitPassSkill.lvclass"/>
@@ -70,7 +68,7 @@
 			<Item Name="PenaltyAttackerSkill.lvclass" Type="LVClass" URL="../PenaltyAttackerSkill_class/PenaltyAttackerSkill.lvclass"/>
 			<Item Name="PositionToReceivePassSkill.lvclass" Type="LVClass" URL="../PositionToReceivePassSkill_class/PositionToReceivePassSkill.lvclass"/>
 			<Item Name="PassObserverSkill.lvclass" Type="LVClass" URL="../PassObserverSkill_class/PassObserverSkill.lvclass"/>
-			<Item Name="2ndStrikerPositionSkill.lvclass" Type="LVClass" URL="../2ndStrikerPositionSkill_class/2ndStrikerPositionSkill.lvclass"/>
+			<Item Name="FollowAttackerSkill.lvclass" Type="LVClass" URL="../FollowAttackerSkill_class/FollowAttackerSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
@@ -429,6 +427,7 @@
 			<Item Name="PrepareDoublePassPlay.lvclass" Type="LVClass" URL="../PrepareDoublePassPlay_class/PrepareDoublePassPlay.lvclass"/>
 			<Item Name="NewLifetimeForRobot.vi" Type="VI" URL="../Vision_class/NewLifetimeForRobot.vi"/>
 			<Item Name="NewBallLifetime.vi" Type="VI" URL="../Vision_class/NewBallLifetime.vi"/>
+			<Item Name="HaltSkill.lvclass" Type="LVClass" URL="../HaltSkill_class/HaltSkill.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
