@@ -78,6 +78,7 @@
 			<Item Name="WaitBallKickerSkill.lvclass" Type="LVClass" URL="../WaitBallKickerSkill_class/WaitBallKickerSkill.lvclass"/>
 			<Item Name="WaitBallOrientSkill.lvclass" Type="LVClass" URL="../WaitBallOrientSkill_class/WaitBallOrientSkill.lvclass"/>
 			<Item Name="WaitBallTrajSkill.lvclass" Type="LVClass" URL="../WaitBallTrajSkill_class/WaitBallTrajSkill.lvclass"/>
+			<Item Name="TableReceiverGoToSkill.lvclass" Type="LVClass" URL="../TableReceiverGoToSkill_class/TableReceiverGoToSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
