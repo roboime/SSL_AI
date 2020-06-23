@@ -33,6 +33,7 @@
 			<Item Name="PrepareRollToPassPlay.lvclass" Type="LVClass" URL="../PrepareRollToPassPlay_class/PrepareRollToPassPlay.lvclass"/>
 			<Item Name="PrepareDoublePassPlay.lvclass" Type="LVClass" URL="../PrepareDoublePassPlay_class/PrepareDoublePassPlay.lvclass"/>
 			<Item Name="SimplePass.lvclass" Type="LVClass" URL="../SimplePass_class/SimplePass.lvclass"/>
+			<Item Name="TableWithStrikerPlay.lvclass" Type="LVClass" URL="../TableWithStrikerPlay_class/TableWithStrikerPlay.lvclass"/>
 			<Item Name="TableWith2ndStrikerPlay.lvclass" Type="LVClass" URL="../TableWith2ndStrikerPlay_class/TableWith2ndStrikerPlay.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
