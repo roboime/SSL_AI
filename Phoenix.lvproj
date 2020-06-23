@@ -31,7 +31,6 @@
 			<Item Name="PassTo2ndStriker.lvclass" Type="LVClass" URL="../PassTo2ndStriker_class/PassTo2ndStriker.lvclass"/>
 			<Item Name="PassToStriker.lvclass" Type="LVClass" URL="../PassToStriker_class/PassToStriker.lvclass"/>
 			<Item Name="PrepareRollToPassPlay.lvclass" Type="LVClass" URL="../PrepareRollToPassPlay_class/PrepareRollToPassPlay.lvclass"/>
-			<Item Name="SimplePass.lvclass" Type="LVClass" URL="../SimplePass_class/SimplePass.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
 			<Item Name="NormalDefensivePlay.lvclass" Type="LVClass" URL="../NormalDefensivePlay_class/NormalDefensivePlay.lvclass"/>
@@ -72,8 +71,6 @@
 			<Item Name="PositionToReceivePassSkill.lvclass" Type="LVClass" URL="../PositionToReceivePassSkill_class/PositionToReceivePassSkill.lvclass"/>
 			<Item Name="PassObserverSkill.lvclass" Type="LVClass" URL="../PassObserverSkill_class/PassObserverSkill.lvclass"/>
 			<Item Name="2ndStrikerPositionSkill.lvclass" Type="LVClass" URL="../2ndStrikerPositionSkill_class/2ndStrikerPositionSkill.lvclass"/>
-			<Item Name="PositionToRollSkill.lvclass" Type="LVClass" URL="../PositionToRollSkill_class/PositionToRollSkill.lvclass"/>
-			<Item Name="PositionToReceiveRollSkill.lvclass" Type="LVClass" URL="../PositionToReceiveRollSkill_class/PositionToReceiveRollSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
@@ -96,13 +93,10 @@
 			<Item Name="KickToPassReceiverTactic.lvclass" Type="LVClass" URL="../KickToPassReceiverTactic_class/KickToPassReceiverTactic.lvclass"/>
 			<Item Name="PassObserverTactic.lvclass" Type="LVClass" URL="../PassObserverTactic_class/PassObserverTactic.lvclass"/>
 			<Item Name="PassReceiverTactic.lvclass" Type="LVClass" URL="../PassReceiverTactic_class/PassReceiverTactic.lvclass"/>
-			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
 			<Item Name="WaitPassTactic.lvclass" Type="LVClass" URL="../WaitPassTactic_class/WaitPassTactic.lvclass"/>
 			<Item Name="RollerTactic.lvclass" Type="LVClass" URL="../RollerTactic_class/RollerTactic.lvclass"/>
 			<Item Name="PrepareRollToPassReceiverGoToTactic.lvclass" Type="LVClass" URL="../PrepareRollToPassReceiverGoToTactic_class/PrepareRollToPassReceiverGoToTactic.lvclass"/>
-			<Item Name="PositionToRollTatic.lvclass" Type="LVClass" URL="../PositionToRollTatic_class/PositionToRollTatic.lvclass"/>
 			<Item Name="PrepareRollToPassRollerGoToTactic.lvclass" Type="LVClass" URL="../PrepareRollToPassRollerGoToTactic_class/PrepareRollToPassRollerGoToTactic.lvclass"/>
-			<Item Name="WaitRollTatic.lvclass" Type="LVClass" URL="../WaitRollTatic_class/WaitRollTatic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
@@ -128,8 +122,6 @@
 			<Item Name="PassObserverRole.lvclass" Type="LVClass" URL="../PassObserverRole_class/PassObserverRole.lvclass"/>
 			<Item Name="PrepareRollToPassReceiverRole.lvclass" Type="LVClass" URL="../PrepareRollToPassReceiverRole_class/PrepareRollToPassReceiverRole.lvclass"/>
 			<Item Name="PrepareRollToPassRollerRole.lvclass" Type="LVClass" URL="../PrepareRollToPassRollerRole_class/PrepareRollToPassRollerRole.lvclass"/>
-			<Item Name="SimplePassRollRole.lvclass" Type="LVClass" URL="../SimplePassRollRole_class/SimplePassRollRole.lvclass"/>
-			<Item Name="SimplePassReceiverRole.lvclass" Type="LVClass" URL="../SimplePassReceiverRole_class/SimplePassReceiverRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
@@ -158,7 +150,7 @@
 		<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
 		<Item Name="Field Draw Target.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Target.vi"/>
 		<Item Name="Field Draw Robot.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Robot.vi"/>
-		<Item Name="PassReceiver.ctl" Type="VI" URL="../Play_class/PassReceiver.ctl"/>
+		<Item Name="PassReceiver.ctl" Type="VI" URL="../Parameters_class/PassReceiver.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
@@ -338,6 +330,7 @@
 			<Item Name="PathDests.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/PathDests.ctl"/>
 			<Item Name="PathDest.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/PathDest.ctl"/>
 			<Item Name="AI Parameters.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/AI Parameters.ctl"/>
+			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
 			<Item Name="FuturePose.vi" Type="VI" URL="../Vision_class/Old vision/FuturePose.vi"/>
 			<Item Name="pos.ctl" Type="VI" URL="../Utilities_class/pos.ctl"/>
 			<Item Name="tactics.ctl" Type="VI" URL="../Robot_class/tactics.ctl"/>
@@ -425,7 +418,16 @@
 			<Item Name="SSL Detection Balls Delete Invalids with State and Cov.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/SSL Detection Balls Delete Invalids with State and Cov.vi"/>
 			<Item Name="Ball Kalman Filter And Update.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Ball Kalman Filter And Update.vi"/>
 			<Item Name="Update Ball Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Ball Pose.vi"/>
+			<Item Name="SimplePassRollRole.lvclass" Type="LVClass" URL="../SimplePassRollRole_class/SimplePassRollRole.lvclass"/>
+			<Item Name="PositionToRollTatic.lvclass" Type="LVClass" URL="../PositionToRollTatic_class/PositionToRollTatic.lvclass"/>
+			<Item Name="PositionToRollSkill.lvclass" Type="LVClass" URL="../PositionToRollSkill_class/PositionToRollSkill.lvclass"/>
+			<Item Name="SimplePassReceiverRole.lvclass" Type="LVClass" URL="../SimplePassReceiverRole_class/SimplePassReceiverRole.lvclass"/>
+			<Item Name="WaitRollTatic.lvclass" Type="LVClass" URL="../WaitRollTatic_class/WaitRollTatic.lvclass"/>
+			<Item Name="PositionToReceiveRollSkill.lvclass" Type="LVClass" URL="../PositionToReceiveRollSkill_class/PositionToReceiveRollSkill.lvclass"/>
+			<Item Name="SimplePass.lvclass" Type="LVClass" URL="../SimplePass_class/SimplePass.lvclass"/>
 			<Item Name="UpdateDerivateFrameArray.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/UpdateDerivateFrameArray.vi"/>
+			<Item Name="NewLifetimeForRobot.vi" Type="VI" URL="../Vision_class/NewLifetimeForRobot.vi"/>
+			<Item Name="NewBallLifetime.vi" Type="VI" URL="../Vision_class/NewBallLifetime.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
