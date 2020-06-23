@@ -435,9 +435,8 @@
 			<Item Name="Update Ball Pose.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Update Ball Pose.vi"/>
 			<Item Name="UpdateDerivateFrameArray.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/UpdateDerivateFrameArray.vi"/>
 			<Item Name="PreparePassReceiverEnum.ctl" Type="VI" URL="../PreparePassReceiverRole_class/PreparePassReceiverEnum.ctl"/>
-			<Item Name="NewLifetimeForRobot.vi" Type="VI" URL="../Vision_class/NewLifetimeForRobot.vi"/>
-			<Item Name="NewBallLifetime.vi" Type="VI" URL="../Vision_class/NewBallLifetime.vi"/>
 			<Item Name="ChoosePassReceiver.ctl" Type="VI" URL="../Parameters_class/ChoosePassReceiver.ctl"/>
+			<Item Name="PassReceiver.ctl" Type="VI" URL="../Play_class/PassReceiver.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
