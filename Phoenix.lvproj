@@ -70,7 +70,6 @@
 			<Item Name="PenaltyAttackerSkill.lvclass" Type="LVClass" URL="../PenaltyAttackerSkill_class/PenaltyAttackerSkill.lvclass"/>
 			<Item Name="PositionToReceivePassSkill.lvclass" Type="LVClass" URL="../PositionToReceivePassSkill_class/PositionToReceivePassSkill.lvclass"/>
 			<Item Name="PassObserverSkill.lvclass" Type="LVClass" URL="../PassObserverSkill_class/PassObserverSkill.lvclass"/>
-			<Item Name="2ndStrikerPositionSkill.lvclass" Type="LVClass" URL="../2ndStrikerPositionSkill_class/2ndStrikerPositionSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
