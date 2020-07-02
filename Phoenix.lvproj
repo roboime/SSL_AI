@@ -169,6 +169,7 @@
 		<Item Name="Field Draw Robot.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Robot.vi"/>
 		<Item Name="VSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSNavigation.vi"/>
 		<Item Name="VSSSpeedTransformation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSSpeedTransformation.vi"/>
+		<Item Name="Project.ctl" Type="VI" URL="../Parameters_class/Project.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
