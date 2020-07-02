@@ -167,6 +167,8 @@
 		<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
 		<Item Name="Field Draw Target.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Target.vi"/>
 		<Item Name="Field Draw Robot.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Robot.vi"/>
+		<Item Name="VSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSNavigation.vi"/>
+		<Item Name="VSSSpeedTransformation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSSpeedTransformation.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
@@ -259,7 +261,6 @@
 			<Item Name="FPS Counter.vi" Type="VI" URL="../FPS Counter.vi"/>
 			<Item Name="grSim Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Command.vi"/>
 			<Item Name="grSim Packet Command UDP Test.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command UDP Test.vi"/>
-			<Item Name="grSim Packet Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command.vi"/>
 			<Item Name="grSim Robot Command.ctl" Type="VI" URL="../Communication_class/Paths/Convert AI Robot to Robot Command Folder/grSim/grSim Robot Command.ctl"/>
 			<Item Name="grSim Robot Command.vi" Type="VI" URL="../Communication_class/Paths/Serial Transmitter Folder/grSim/grSim Robot Command.vi"/>
 			<Item Name="grSim RobotReplacement.ctl" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim RobotReplacement.ctl"/>
@@ -437,6 +438,13 @@
 			<Item Name="VSSDetectionFIRASimFrame.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/VSSDetectionFIRASimFrame.vi"/>
 			<Item Name="VSSDecodeFIRASimBall.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/VSSDecodeFIRASimBall.vi"/>
 			<Item Name="VSSDecodeFIRASimRobots.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/VSSDecodeFIRASimRobots.vi"/>
+			<Item Name="VSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSS_GoTo.vi"/>
+			<Item Name="PathFollower.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/PathFollower.vi"/>
+			<Item Name="VSSAttackerStates.ctl" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSAttackerStates.ctl"/>
+			<Item Name="grSim_Replacement.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim_Replacement.vi"/>
+			<Item Name="BallReplacement Packet Encoder.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/BallReplacement Packet Encoder.vi"/>
+			<Item Name="grSim_RobotReplacement Packet Encoder.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim_RobotReplacement Packet Encoder.vi"/>
+			<Item Name="grSim Packet Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
