@@ -170,8 +170,9 @@
 		<Item Name="VSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSNavigation.vi"/>
 		<Item Name="VSSSpeedTransformation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSSpeedTransformation.vi"/>
 		<Item Name="Project.ctl" Type="VI" URL="../Parameters_class/Project.ctl"/>
-		<Item Name="GoToAngleVSS.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/GoToAngleVSS.vi"/>
+		<Item Name="VSSGoToAngle.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSGoToAngle.vi"/>
 		<Item Name="NewVSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSSNavigation.vi"/>
+		<Item Name="NewVSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSS_GoTo.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
