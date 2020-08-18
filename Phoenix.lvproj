@@ -140,6 +140,9 @@
 			<Item Name="SimplePassReceiverRole.lvclass" Type="LVClass" URL="../SimplePassReceiverRole_class/SimplePassReceiverRole.lvclass"/>
 			<Item Name="SimplePassRollRole.lvclass" Type="LVClass" URL="../SimplePassRollRole_class/SimplePassRollRole.lvclass"/>
 		</Item>
+		<Item Name="Vss Plays" Type="Folder">
+			<Item Name="PreparePenaltyAllyPlayVSS.lvclass" Type="LVClass" URL="../PreparePenaltyAllyPlayVSS_class/PreparePenaltyAllyPlayVSS.lvclass"/>
+		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication_class/Communication.lvclass"/>
@@ -220,6 +223,7 @@
 				<Item Name="3GOOPSetError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSetError.vi"/>
 				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 			</Item>
 			<Item Name="BackTracking.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/BackTracking.vi"/>
 			<Item Name="Bool Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Bool Encoder.vi"/>
