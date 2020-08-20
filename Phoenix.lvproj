@@ -143,6 +143,14 @@
 		<Item Name="Vss Plays" Type="Folder">
 			<Item Name="PreparePenaltyAllyPlayVSS.lvclass" Type="LVClass" URL="../PreparePenaltyAllyPlayVSS_class/PreparePenaltyAllyPlayVSS.lvclass"/>
 		</Item>
+		<Item Name="VSSkills" Type="Folder">
+			<Item Name="KickSkillVSS.lvclass" Type="LVClass" URL="../KickSkillVSS_class/KickSkillVSS.lvclass"/>
+			<Item Name="PenaltyPosSkillVSS.lvclass" Type="LVClass" URL="../PenaltyPosSkillVSS_class/PenaltyPosSkillVSS.lvclass"/>
+			<Item Name="BallDispPosSkillVSS.lvclass" Type="LVClass" URL="../BallDispPosSkillVSS_class/BallDispPosSkillVSS.lvclass"/>
+			<Item Name="GoToBallSkillVSS.lvclass" Type="LVClass" URL="../GoToBallSkillVSS_class/GoToBallSkillVSS.lvclass"/>
+			<Item Name="BallToGoalSkillVSS.lvclass" Type="LVClass" URL="../BallToGoalSkillVSS_class/BallToGoalSkillVSS.lvclass"/>
+			<Item Name="DefBallPosSkillVSS.lvclass" Type="LVClass" URL="../DefBallPosSkillVSS_class/DefBallPosSkillVSS.lvclass"/>
+		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication_class/Communication.lvclass"/>
@@ -223,7 +231,6 @@
 				<Item Name="3GOOPSetError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSetError.vi"/>
 				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
-				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 			</Item>
 			<Item Name="BackTracking.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/BackTracking.vi"/>
 			<Item Name="Bool Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Bool Encoder.vi"/>
