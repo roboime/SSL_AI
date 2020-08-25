@@ -142,6 +142,11 @@
 		</Item>
 		<Item Name="Vss Plays" Type="Folder">
 			<Item Name="PreparePenaltyAllyPlayVSS.lvclass" Type="LVClass" URL="../PreparePenaltyAllyPlayVSS_class/PreparePenaltyAllyPlayVSS.lvclass"/>
+			<Item Name="BallChallengePlayVSS.lvclass" Type="LVClass" URL="../BallChallengePlayVSS_class/BallChallengePlayVSS.lvclass"/>
+			<Item Name="PenaltyEnemyPlayVSS.lvclass" Type="LVClass" URL="../PenaltyEnemyPlayVSS_class/PenaltyEnemyPlayVSS.lvclass"/>
+			<Item Name="NormalGamePlayVSS.lvclass" Type="LVClass" URL="../NormalGamePlayVSS_class/NormalGamePlayVSS.lvclass"/>
+			<Item Name="DeadBallPlayVSS.lvclass" Type="LVClass" URL="../DeadBallPlayVSS_class/DeadBallPlayVSS.lvclass"/>
+			<Item Name="KickPenaltyAllyPlayVSS.lvclass" Type="LVClass" URL="../KickPenaltyAllyPlayVSS_class/KickPenaltyAllyPlayVSS.lvclass"/>
 		</Item>
 		<Item Name="VSSkills" Type="Folder">
 			<Item Name="KickSkillVSS.lvclass" Type="LVClass" URL="../KickSkillVSS_class/KickSkillVSS.lvclass"/>
@@ -156,8 +161,8 @@
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication_class/Communication.lvclass"/>
 		<Item Name="Ball.lvclass" Type="LVClass" URL="../Ball_class/Ball.lvclass"/>
 		<Item Name="Enemy.lvclass" Type="LVClass" URL="../Enemy_class/Enemy.lvclass"/>
-		<Item Name="Events.lvclass" Type="LVClass" URL="../Events_class/Events.lvclass"/>
 		<Item Name="Field.lvclass" Type="LVClass" URL="../Field_class/Field.lvclass"/>
+		<Item Name="Events.lvclass" Type="LVClass" URL="../Events_class/Events.lvclass"/>
 		<Item Name="Game.lvclass" Type="LVClass" URL="../Game_class/Game.lvclass"/>
 		<Item Name="Object.lvclass" Type="LVClass" URL="../Object_class/Object.lvclass"/>
 		<Item Name="Phoenix.vi" Type="VI" URL="../Phoenix.vi"/>
@@ -231,6 +236,7 @@
 				<Item Name="3GOOPSetError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSetError.vi"/>
 				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="Assert Block Data Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Block Data Type.vim"/>
 			</Item>
 			<Item Name="BackTracking.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/BackTracking.vi"/>
 			<Item Name="Bool Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Bool Encoder.vi"/>
