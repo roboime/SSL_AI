@@ -163,6 +163,13 @@
 			<Item Name="PenaltyAttackTacticVSS.lvclass" Type="LVClass" URL="../PenaltyAttackTacticVSS_class/PenaltyAttackTacticVSS.lvclass"/>
 			<Item Name="AttackTacticVSS.lvclass" Type="LVClass" URL="../AttackTacticVSS_class/AttackTacticVSS.lvclass"/>
 		</Item>
+		<Item Name="Vss Roles" Type="Folder">
+			<Item Name="KeeperRoleVSS.lvclass" Type="LVClass" URL="../KeeperRoleVSS_class/KeeperRoleVSS.lvclass"/>
+			<Item Name="DefenderAreaRoleVSS.lvclass" Type="LVClass" URL="../DefenderAreaRoleVSS_class/DefenderAreaRoleVSS.lvclass"/>
+			<Item Name="AttackerAimGoalRoleVSS.lvclass" Type="LVClass" URL="../AttackerAimGoalRoleVSS_class/AttackerAimGoalRoleVSS.lvclass"/>
+			<Item Name="NormalAttackerRoleVSS.lvclass" Type="LVClass" URL="../NormalAttackerRoleVSS_class/NormalAttackerRoleVSS.lvclass"/>
+			<Item Name="BallChallengerAttackerRoleVSS.lvclass" Type="LVClass" URL="../BallChallengerAttackerRoleVSS_class/BallChallengerAttackerRoleVSS.lvclass"/>
+		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication_class/Communication.lvclass"/>
