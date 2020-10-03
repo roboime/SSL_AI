@@ -36,6 +36,7 @@
 			<Item Name="TableWithStrikerPlay.lvclass" Type="LVClass" URL="../TableWithStrikerPlay_class/TableWithStrikerPlay.lvclass"/>
 			<Item Name="TableWith2ndStrikerPlay.lvclass" Type="LVClass" URL="../TableWith2ndStrikerPlay_class/TableWith2ndStrikerPlay.lvclass"/>
 			<Item Name="PrepareTriplePassPlay.lvclass" Type="LVClass" URL="../PrepareTriplePassPlay_class/PrepareTriplePassPlay.lvclass"/>
+			<Item Name="ABCPassPlay.lvclass" Type="LVClass" URL="../ABCPassPlay_class/ABCPassPlay.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
 			<Item Name="NormalDefensivePlay.lvclass" Type="LVClass" URL="../NormalDefensivePlay_class/NormalDefensivePlay.lvclass"/>
@@ -140,6 +141,9 @@
 			<Item Name="TablerRole.lvclass" Type="LVClass" URL="../TablerRole_class/TablerRole.lvclass"/>
 			<Item Name="SimplePassReceiverRole.lvclass" Type="LVClass" URL="../SimplePassReceiverRole_class/SimplePassReceiverRole.lvclass"/>
 			<Item Name="SimplePassRollRole.lvclass" Type="LVClass" URL="../SimplePassRollRole_class/SimplePassRollRole.lvclass"/>
+			<Item Name="ABCSecondKicker.lvclass" Type="LVClass" URL="../ABCSecondKicker_class/ABCSecondKicker.lvclass"/>
+			<Item Name="ABCThirdKicker.lvclass" Type="LVClass" URL="../ABCThirdKicker_class/ABCThirdKicker.lvclass"/>
+			<Item Name="ABCFirstKickerRole.lvclass" Type="LVClass" URL="../ABCFirstKickerRole_class/ABCFirstKickerRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
