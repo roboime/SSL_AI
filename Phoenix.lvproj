@@ -147,6 +147,18 @@
 			<Item Name="NormalGamePlayVSS.lvclass" Type="LVClass" URL="../NormalGamePlayVSS_class/NormalGamePlayVSS.lvclass"/>
 			<Item Name="DeadBallPlayVSS.lvclass" Type="LVClass" URL="../DeadBallPlayVSS_class/DeadBallPlayVSS.lvclass"/>
 			<Item Name="KickPenaltyAllyPlayVSS.lvclass" Type="LVClass" URL="../KickPenaltyAllyPlayVSS_class/KickPenaltyAllyPlayVSS.lvclass"/>
+			<Item Name="PreparePenaltyEnemyPlayVSS.lvclass" Type="LVClass" URL="../PreparePenaltyEnemyPlayVSS_class/PreparePenaltyEnemyPlayVSS.lvclass"/>
+			<Item Name="PrepareKickoffAllyPlayVSS.lvclass" Type="LVClass" URL="../PrepareKickoffAllyPlayVSS_class/PrepareKickoffAllyPlayVSS.lvclass"/>
+			<Item Name="PrepareKickoffEnemyPlayVSS.lvclass" Type="LVClass" URL="../PrepareKickoffEnemyPlayVSS_class/PrepareKickoffEnemyPlayVSS.lvclass"/>
+			<Item Name="StopPlayVSS.lvclass" Type="LVClass" URL="../StopPlayVSS_class/StopPlayVSS.lvclass"/>
+			<Item Name="PrepareGoalKickAllyPlayVSS.lvclass" Type="LVClass" URL="../PrepareGoalKickAllyPlayVSS_class/PrepareGoalKickAllyPlayVSS.lvclass"/>
+			<Item Name="PrepareGoalKickEnemyPlayVSS.lvclass" Type="LVClass" URL="../PrepareGoalKickEnemyPlayVSS_class/PrepareGoalKickEnemyPlayVSS.lvclass"/>
+			<Item Name="KickoffEnemyPlayVSS.lvclass" Type="LVClass" URL="../KickoffEnemyPlayVSS_class/KickoffEnemyPlayVSS.lvclass"/>
+			<Item Name="KickoffAllyPlayVSS.lvclass" Type="LVClass" URL="../KickoffAllyPlayVSS_class/KickoffAllyPlayVSS.lvclass"/>
+			<Item Name="GoalKickAllyPlayVSS.lvclass" Type="LVClass" URL="../GoalKickAllyPlayVSS_class/GoalKickAllyPlayVSS.lvclass"/>
+			<Item Name="GoalKickEnemyPlayVSS.lvclass" Type="LVClass" URL="../GoalKickEnemyPlayVSS_class/GoalKickEnemyPlayVSS.lvclass"/>
+			<Item Name="PrepareFreeBallPlayVSS.lvclass" Type="LVClass" URL="../PrepareFreeBallPlayVSS_class/PrepareFreeBallPlayVSS.lvclass"/>
+			<Item Name="FreeBallPlayVSS.lvclass" Type="LVClass" URL="../FreeBallPlayVSS_class/FreeBallPlayVSS.lvclass"/>
 		</Item>
 		<Item Name="Vss Skills" Type="Folder">
 			<Item Name="KickSkillVSS.lvclass" Type="LVClass" URL="../KickSkillVSS_class/KickSkillVSS.lvclass"/>
