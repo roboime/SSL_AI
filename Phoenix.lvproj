@@ -174,6 +174,7 @@
 			<Item Name="DefendAreaTacticVSS.lvclass" Type="LVClass" URL="../DefendAreaTacticVSS_class/DefendAreaTacticVSS.lvclass"/>
 			<Item Name="DispBallTacticVSS.lvclass" Type="LVClass" URL="../DispBallTacticVSS_class/DispBallTacticVSS.lvclass"/>
 			<Item Name="PenaltyAttackTacticVSS.lvclass" Type="LVClass" URL="../PenaltyAttackTacticVSS_class/PenaltyAttackTacticVSS.lvclass"/>
+			<Item Name="GoAndKickTacticVSS.lvclass" Type="LVClass" URL="../GoAndKickTacticVSS_class/GoAndKickTacticVSS.lvclass"/>
 			<Item Name="AttackTacticVSS.lvclass" Type="LVClass" URL="../AttackTacticVSS_class/AttackTacticVSS.lvclass"/>
 		</Item>
 		<Item Name="Vss Roles" Type="Folder">
@@ -182,6 +183,7 @@
 			<Item Name="AttackerAimGoalRoleVSS.lvclass" Type="LVClass" URL="../AttackerAimGoalRoleVSS_class/AttackerAimGoalRoleVSS.lvclass"/>
 			<Item Name="NormalAttackerRoleVSS.lvclass" Type="LVClass" URL="../NormalAttackerRoleVSS_class/NormalAttackerRoleVSS.lvclass"/>
 			<Item Name="BallChallengerAttackerRoleVSS.lvclass" Type="LVClass" URL="../BallChallengerAttackerRoleVSS_class/BallChallengerAttackerRoleVSS.lvclass"/>
+			<Item Name="GoAndKickRoleVSS.lvclass" Type="LVClass" URL="../GoAndKickRoleVSS_class/GoAndKickRoleVSS.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
@@ -497,6 +499,7 @@
 			<Item Name="NewLifetimeForRobot.vi" Type="VI" URL="../Vision_class/NewLifetimeForRobot.vi"/>
 			<Item Name="NewBallLifetime.vi" Type="VI" URL="../Vision_class/NewBallLifetime.vi"/>
 			<Item Name="RefereeVSS.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/RefereeVSS.vi"/>
+			<Item Name="KeeperDefPosSkillVSS.vi" Type="VI" URL="../KeeperDefPosSkillVSS_class/KeeperDefPosSkillVSS.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
