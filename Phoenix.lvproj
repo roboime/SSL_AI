@@ -499,7 +499,6 @@
 			<Item Name="NewLifetimeForRobot.vi" Type="VI" URL="../Vision_class/NewLifetimeForRobot.vi"/>
 			<Item Name="NewBallLifetime.vi" Type="VI" URL="../Vision_class/NewBallLifetime.vi"/>
 			<Item Name="RefereeVSS.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/RefereeVSS.vi"/>
-			<Item Name="KeeperDefPosSkillVSS.vi" Type="VI" URL="../KeeperDefPosSkillVSS_class/KeeperDefPosSkillVSS.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
