@@ -183,6 +183,7 @@
 			<Item Name="AttackerAimGoalRoleVSS.lvclass" Type="LVClass" URL="../AttackerAimGoalRoleVSS_class/AttackerAimGoalRoleVSS.lvclass"/>
 			<Item Name="NormalAttackerRoleVSS.lvclass" Type="LVClass" URL="../NormalAttackerRoleVSS_class/NormalAttackerRoleVSS.lvclass"/>
 			<Item Name="BallChallengerAttackerRoleVSS.lvclass" Type="LVClass" URL="../BallChallengerAttackerRoleVSS_class/BallChallengerAttackerRoleVSS.lvclass"/>
+			<Item Name="GoalKickKeeperRoleVSS.lvclass" Type="LVClass" URL="../GoalKickKeeperRoleVSS_class/GoalKickKeeperRoleVSS.lvclass"/>
 			<Item Name="GoAndKickRoleVSS.lvclass" Type="LVClass" URL="../GoAndKickRoleVSS_class/GoAndKickRoleVSS.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
