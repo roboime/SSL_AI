@@ -167,6 +167,7 @@
 			<Item Name="GoToBallSkillVSS.lvclass" Type="LVClass" URL="../GoToBallSkillVSS_class/GoToBallSkillVSS.lvclass"/>
 			<Item Name="BallToGoalSkillVSS.lvclass" Type="LVClass" URL="../BallToGoalSkillVSS_class/BallToGoalSkillVSS.lvclass"/>
 			<Item Name="DefBallPosSkillVSS.lvclass" Type="LVClass" URL="../DefBallPosSkillVSS_class/DefBallPosSkillVSS.lvclass"/>
+			<Item Name="GoToBallKeeperSkillVSS.lvclass" Type="LVClass" URL="../GoToBallKeeperSkillVSS_class/GoToBallKeeperSkillVSS.lvclass"/>
 			<Item Name="KeeperDefPosSkillVSS.lvclass" Type="LVClass" URL="../KeeperDefPosSkillVSS_class/KeeperDefPosSkillVSS.lvclass"/>
 		</Item>
 		<Item Name="Vss Tactics" Type="Folder">
@@ -174,6 +175,7 @@
 			<Item Name="DefendAreaTacticVSS.lvclass" Type="LVClass" URL="../DefendAreaTacticVSS_class/DefendAreaTacticVSS.lvclass"/>
 			<Item Name="DispBallTacticVSS.lvclass" Type="LVClass" URL="../DispBallTacticVSS_class/DispBallTacticVSS.lvclass"/>
 			<Item Name="PenaltyAttackTacticVSS.lvclass" Type="LVClass" URL="../PenaltyAttackTacticVSS_class/PenaltyAttackTacticVSS.lvclass"/>
+			<Item Name="GoalKickKeeperTacticVSS.lvclass" Type="LVClass" URL="../GoalKickKeeperTacticVSS_class/GoalKickKeeperTacticVSS.lvclass"/>
 			<Item Name="GoAndKickTacticVSS.lvclass" Type="LVClass" URL="../GoAndKickTacticVSS_class/GoAndKickTacticVSS.lvclass"/>
 			<Item Name="AttackTacticVSS.lvclass" Type="LVClass" URL="../AttackTacticVSS_class/AttackTacticVSS.lvclass"/>
 		</Item>
