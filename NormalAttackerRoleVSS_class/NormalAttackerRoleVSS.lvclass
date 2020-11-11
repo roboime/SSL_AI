@@ -47,6 +47,15 @@
 	<Item Name="protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 	</Item>
+	<Item Name="NormalAttackerRoleCheckTacticChangeVSS.vi" Type="VI" URL="../NormalAttackerRoleCheckTacticChangeVSS.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(,!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$N!&amp;A!$$U&amp;U&gt;'&amp;D;V2B9X2J9V:45R:$&lt;X6O&gt;'6S182U97.L6'&amp;D&gt;'FD6F.4"%6Y;81!"F2B9X2J9Q!!1E"Q!"Y!!"]&gt;4G^S&lt;7&amp;M182U97.L:8*3&lt;WRF6F.4,GRW9WRB=X-!'5ZP=GVB&lt;%&amp;U&gt;'&amp;D;W6S5G^M:6:45S"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!A1(!!(A!!$AR(97VF,GRW9WRB=X-!!!&gt;(97VF)'FO!#*!=!!?!!!0$6*P9G^U,GRW9WRB=X-!#&amp;*P9G^U)%FO!!"#1(!!(A!!(RV/&lt;X*N97R"&gt;(2B9WNF=F*P&lt;'675V-O&lt;(:D&lt;'&amp;T=Q!94G^S&lt;7&amp;M182U97.L:8*3&lt;WRF6F.4)'FO!!"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!)!!E!#A-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!A!!!!)!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!,!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">134217728</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
 	<Item Name="NormalAttackerRoleVSS.vi" Type="VI" URL="../NormalAttackerRoleVSS.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!((!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!91&amp;!!!Q!!!!%!!AJF=H*P=C"P&gt;81A!!!C1(!!(A!!$AR(97VF,GRW9WRB=X-!!!B(97VF)'^V&gt;!!!)E"Q!"Y!!!].5G^C&lt;X1O&lt;(:D&lt;'&amp;T=Q!*5G^C&lt;X1A&lt;X6U!%*!=!!?!!!@(5ZP=GVB&lt;%&amp;U&gt;'&amp;D;W6S5G^M:6:45SZM&gt;G.M98.T!"F/&lt;X*N97R"&gt;(2B9WNF=F*P&lt;'675V-A&lt;X6U!!1!!!!11#%,2GFS=X1A9W&amp;M&lt;$]!)E"1!!-!!!!"!!)5:8*S&lt;X)A;7YA+'ZP)'6S=G^S+3!!!#"!=!!?!!!/$%&gt;B&lt;75O&lt;(:D&lt;'&amp;T=Q!!"U&gt;B&lt;75A;7Y!1E"Q!"Y!!"]&gt;4G^S&lt;7&amp;M182U97.L:8*3&lt;WRF6F.4,GRW9WRB=X-!'%ZP=GVB&lt;%&amp;U&gt;'&amp;D;W6S5G^M:6:45S"J&lt;A!!9A$Q!!Q!!Q!%!!5!"A!(!!=!"Q!)!!E!#A!(!!M$!!"Y!!!.#!!!$1E!!!E!!!!.#Q!!!!!!!!!!!!!!!!!!#!!!!!A!!!!)!!!!!!!!!")!!!Y!#A!!$!!!!!!!!!!!!!!"!!Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
