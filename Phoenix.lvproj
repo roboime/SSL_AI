@@ -39,6 +39,8 @@
 			<Item Name="ABCPassPlay.lvclass" Type="LVClass" URL="../ABCPassPlay_class/ABCPassPlay.lvclass"/>
 			<Item Name="ACBPassPlay.lvclass" Type="LVClass" URL="../ACBPassPlay_class/ACBPassPlay.lvclass"/>
 			<Item Name="PreparePassInGame1.lvclass" Type="LVClass" URL="../PreparePassInGame1_class/PreparePassInGame1.lvclass"/>
+			<Item Name="PrepareKeeperPassPlay.lvclass" Type="LVClass" URL="../PrepareKeeperPassPlay_class/PrepareKeeperPassPlay.lvclass"/>
+			<Item Name="KeeperPassToStrikerPlay.lvclass" Type="LVClass" URL="../KeeperPassToStrikerPlay_class/KeeperPassToStrikerPlay.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
 			<Item Name="NormalDefensivePlay.lvclass" Type="LVClass" URL="../NormalDefensivePlay_class/NormalDefensivePlay.lvclass"/>
@@ -146,6 +148,7 @@
 			<Item Name="ABCSecondKicker.lvclass" Type="LVClass" URL="../ABCSecondKicker_class/ABCSecondKicker.lvclass"/>
 			<Item Name="ABCThirdKicker.lvclass" Type="LVClass" URL="../ABCThirdKicker_class/ABCThirdKicker.lvclass"/>
 			<Item Name="ABCFirstKickerRole.lvclass" Type="LVClass" URL="../ABCFirstKickerRole_class/ABCFirstKickerRole.lvclass"/>
+			<Item Name="WaitPassRole.lvclass" Type="LVClass" URL="../WaitPassRole_class/WaitPassRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
@@ -460,6 +463,7 @@
 			<Item Name="grSim Packet Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command.vi"/>
 			<Item Name="chooseState.vi" Type="VI" URL="../KickToSkill_class/chooseState.vi"/>
 			<Item Name="RRTAlgorithm2.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm2.vi"/>
+			<Item Name="DefendGoalTacticStates.ctl" Type="VI" URL="../DefendGoalTactic_class/DefendGoalTacticStates.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
