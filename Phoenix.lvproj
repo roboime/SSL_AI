@@ -168,6 +168,7 @@
 			<Item Name="BallToGoalSkillVSS.lvclass" Type="LVClass" URL="../BallToGoalSkillVSS_class/BallToGoalSkillVSS.lvclass"/>
 			<Item Name="DefBallPosSkillVSS.lvclass" Type="LVClass" URL="../DefBallPosSkillVSS_class/DefBallPosSkillVSS.lvclass"/>
 			<Item Name="GoToBallKeeperSkillVSS.lvclass" Type="LVClass" URL="../GoToBallKeeperSkillVSS_class/GoToBallKeeperSkillVSS.lvclass"/>
+			<Item Name="RotateWallSkillVSS.lvclass" Type="LVClass" URL="../RotateWallSkillVSS_class/RotateWallSkillVSS.lvclass"/>
 			<Item Name="KeeperDefPosSkillVSS.lvclass" Type="LVClass" URL="../KeeperDefPosSkillVSS_class/KeeperDefPosSkillVSS.lvclass"/>
 		</Item>
 		<Item Name="Vss Tactics" Type="Folder">
