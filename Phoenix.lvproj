@@ -41,6 +41,7 @@
 			<Item Name="PreparePassInGame1.lvclass" Type="LVClass" URL="../PreparePassInGame1_class/PreparePassInGame1.lvclass"/>
 			<Item Name="PrepareKeeperPassPlay.lvclass" Type="LVClass" URL="../PrepareKeeperPassPlay_class/PrepareKeeperPassPlay.lvclass"/>
 			<Item Name="KeeperPassToStrikerPlay.lvclass" Type="LVClass" URL="../KeeperPassToStrikerPlay_class/KeeperPassToStrikerPlay.lvclass"/>
+			<Item Name="PrepareFourthPassPlay.lvclass" Type="LVClass" URL="../PrepareFourthPassPlay_class/PrepareFourthPassPlay.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
 			<Item Name="NormalDefensivePlay.lvclass" Type="LVClass" URL="../NormalDefensivePlay_class/NormalDefensivePlay.lvclass"/>
