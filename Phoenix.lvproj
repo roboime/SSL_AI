@@ -188,6 +188,7 @@
 		<Item Name="RobotModel.ctl" Type="VI" URL="../Controls/RobotModel.ctl"/>
 		<Item Name="RobotModelReplacementTest.ctl" Type="VI" URL="../Controls/RobotModelReplacementTest.ctl"/>
 		<Item Name="RobotModelTestState.ctl" Type="VI" URL="../Controls/RobotModelTestState.ctl"/>
+		<Item Name="RobotModelTestCrashCases.ctl" Type="VI" URL="../Controls/RobotModelTestCrashCases.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
