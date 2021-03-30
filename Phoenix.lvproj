@@ -465,7 +465,6 @@
 			<Item Name="chooseState.vi" Type="VI" URL="../KickToSkill_class/chooseState.vi"/>
 			<Item Name="RRTAlgorithm2.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm2.vi"/>
 			<Item Name="DefendGoalTacticStates.ctl" Type="VI" URL="../DefendGoalTactic_class/DefendGoalTacticStates.ctl"/>
-			<Item Name="robotOrientedToPoint.vi" Type="VI" URL="../Utilities_class/robotOrientedToPoint.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
