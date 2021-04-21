@@ -41,6 +41,7 @@
 			<Item Name="PreparePassInGame1.lvclass" Type="LVClass" URL="../PreparePassInGame1_class/PreparePassInGame1.lvclass"/>
 			<Item Name="PrepareKeeperPassPlay.lvclass" Type="LVClass" URL="../PrepareKeeperPassPlay_class/PrepareKeeperPassPlay.lvclass"/>
 			<Item Name="KeeperPassToStrikerPlay.lvclass" Type="LVClass" URL="../KeeperPassToStrikerPlay_class/KeeperPassToStrikerPlay.lvclass"/>
+			<Item Name="5RobotsPassGamePlay.lvclass" Type="LVClass" URL="../5RobotsPassGamePlay_class/5RobotsPassGamePlay.lvclass"/>
 			<Item Name="5RobotsNormalGamePlay.lvclass" Type="LVClass" URL="../5RobotsNormalGamePlay_class/5RobotsNormalGamePlay.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
@@ -115,6 +116,7 @@
 			<Item Name="PositionToRollTatic.lvclass" Type="LVClass" URL="../PositionToRollTatic_class/PositionToRollTatic.lvclass"/>
 			<Item Name="WaitRollTatic.lvclass" Type="LVClass" URL="../WaitRollTatic_class/WaitRollTatic.lvclass"/>
 			<Item Name="TableReceiverTactic.lvclass" Type="LVClass" URL="../TableReceiverTactic_class/TableReceiverTactic.lvclass"/>
+			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
 			<Item Name="ReceivePassInFuturePointTactic.lvclass" Type="LVClass" URL="../ReceivePassInFuturePointTactic_class/ReceivePassInFuturePointTactic.lvclass"/>
 			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
 		</Item>
@@ -149,6 +151,7 @@
 			<Item Name="ABCSecondKicker.lvclass" Type="LVClass" URL="../ABCSecondKicker_class/ABCSecondKicker.lvclass"/>
 			<Item Name="ABCThirdKicker.lvclass" Type="LVClass" URL="../ABCThirdKicker_class/ABCThirdKicker.lvclass"/>
 			<Item Name="ABCFirstKickerRole.lvclass" Type="LVClass" URL="../ABCFirstKickerRole_class/ABCFirstKickerRole.lvclass"/>
+			<Item Name="PassBestRobotRole.lvclass" Type="LVClass" URL="../PassBestRobotRole_class/PassBestRobotRole.lvclass"/>
 			<Item Name="WaitPassRole.lvclass" Type="LVClass" URL="../WaitPassRole_class/WaitPassRole.lvclass"/>
 			<Item Name="SecondMarkerRole.lvclass" Type="LVClass" URL="../SecondMarkerRole_class/SecondMarkerRole.lvclass"/>
 		</Item>
