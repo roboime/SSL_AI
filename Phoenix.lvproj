@@ -192,6 +192,7 @@
 		<Item Name="SampleOnGenerateVSent.ctl" Type="VI" URL="../Controls/SampleOnGenerateVSent.ctl"/>
 		<Item Name="RobotModelAllInformation.ctl" Type="VI" URL="../Controls/RobotModelAllInformation.ctl"/>
 		<Item Name="velocityBreakState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/velocityBreakState.ctl"/>
+		<Item Name="testMode.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/testMode.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
