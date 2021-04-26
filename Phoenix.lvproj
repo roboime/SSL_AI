@@ -85,6 +85,7 @@
 			<Item Name="PositionToReceiveRollSkill.lvclass" Type="LVClass" URL="../PositionToReceiveRollSkill_class/PositionToReceiveRollSkill.lvclass"/>
 			<Item Name="HaltSkill.lvclass" Type="LVClass" URL="../HaltSkill_class/HaltSkill.lvclass"/>
 			<Item Name="WaitBallKickerSkill.lvclass" Type="LVClass" URL="../WaitBallKickerSkill_class/WaitBallKickerSkill.lvclass"/>
+			<Item Name="5RobotsSkill.lvclass" Type="LVClass" URL="../5RobotsSkill_class/5RobotsSkill.lvclass"/>
 			<Item Name="WaitBallOrientSkill.lvclass" Type="LVClass" URL="../WaitBallOrientSkill_class/WaitBallOrientSkill.lvclass"/>
 			<Item Name="WaitBallTrajSkill.lvclass" Type="LVClass" URL="../WaitBallTrajSkill_class/WaitBallTrajSkill.lvclass"/>
 			<Item Name="TableReceiverGoToSkill.lvclass" Type="LVClass" URL="../TableReceiverGoToSkill_class/TableReceiverGoToSkill.lvclass"/>
@@ -118,6 +119,7 @@
 			<Item Name="TableReceiverTactic.lvclass" Type="LVClass" URL="../TableReceiverTactic_class/TableReceiverTactic.lvclass"/>
 			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
 			<Item Name="ReceivePassInFuturePointTactic.lvclass" Type="LVClass" URL="../ReceivePassInFuturePointTactic_class/ReceivePassInFuturePointTactic.lvclass"/>
+			<Item Name="5RobotsTactic.lvclass" Type="LVClass" URL="../5RobotsTactic_class/5RobotsTactic.lvclass"/>
 			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
@@ -153,6 +155,7 @@
 			<Item Name="ABCFirstKickerRole.lvclass" Type="LVClass" URL="../ABCFirstKickerRole_class/ABCFirstKickerRole.lvclass"/>
 			<Item Name="PassBestRobotRole.lvclass" Type="LVClass" URL="../PassBestRobotRole_class/PassBestRobotRole.lvclass"/>
 			<Item Name="WaitPassRole.lvclass" Type="LVClass" URL="../WaitPassRole_class/WaitPassRole.lvclass"/>
+			<Item Name="5RobotsRole.lvclass" Type="LVClass" URL="../5RobotsRole_class/5RobotsRole.lvclass"/>
 			<Item Name="SecondMarkerRole.lvclass" Type="LVClass" URL="../SecondMarkerRole_class/SecondMarkerRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
