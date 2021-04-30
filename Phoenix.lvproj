@@ -193,6 +193,7 @@
 		<Item Name="RobotModelAllInformation.ctl" Type="VI" URL="../Controls/RobotModelAllInformation.ctl"/>
 		<Item Name="velocityBreakState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/velocityBreakState.ctl"/>
 		<Item Name="testMode.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/testMode.ctl"/>
+		<Item Name="estimatives.ctl" Type="VI" URL="../Controls/estimatives.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
@@ -473,6 +474,7 @@
 			<Item Name="chooseState.vi" Type="VI" URL="../KickToSkill_class/chooseState.vi"/>
 			<Item Name="RRTAlgorithm2.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm2.vi"/>
 			<Item Name="DefendGoalTacticStates.ctl" Type="VI" URL="../DefendGoalTactic_class/DefendGoalTacticStates.ctl"/>
+			<Item Name="trajectoryState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/trajectoryState.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
