@@ -155,6 +155,7 @@
 			<Item Name="ABCFirstKickerRole.lvclass" Type="LVClass" URL="../ABCFirstKickerRole_class/ABCFirstKickerRole.lvclass"/>
 			<Item Name="PassBestRobotRole.lvclass" Type="LVClass" URL="../PassBestRobotRole_class/PassBestRobotRole.lvclass"/>
 			<Item Name="WaitPassRole.lvclass" Type="LVClass" URL="../WaitPassRole_class/WaitPassRole.lvclass"/>
+			<Item Name="PassBestReceiverRole.lvclass" Type="LVClass" URL="../PassBestReceiverRole_class/PassBestReceiverRole.lvclass"/>
 			<Item Name="5RobotsRole.lvclass" Type="LVClass" URL="../5RobotsRole_class/5RobotsRole.lvclass"/>
 			<Item Name="SecondMarkerRole.lvclass" Type="LVClass" URL="../SecondMarkerRole_class/SecondMarkerRole.lvclass"/>
 		</Item>
@@ -472,6 +473,7 @@
 			<Item Name="chooseState.vi" Type="VI" URL="../KickToSkill_class/chooseState.vi"/>
 			<Item Name="RRTAlgorithm2.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm2.vi"/>
 			<Item Name="DefendGoalTacticStates.ctl" Type="VI" URL="../DefendGoalTactic_class/DefendGoalTacticStates.ctl"/>
+			<Item Name="Control 1.ctl" Type="VI" URL="../KickToBestRobotTactic_class/Control 1.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
