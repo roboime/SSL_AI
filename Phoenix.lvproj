@@ -43,6 +43,7 @@
 			<Item Name="KeeperPassToStrikerPlay.lvclass" Type="LVClass" URL="../KeeperPassToStrikerPlay_class/KeeperPassToStrikerPlay.lvclass"/>
 			<Item Name="5RobotsPassGamePlay.lvclass" Type="LVClass" URL="../5RobotsPassGamePlay_class/5RobotsPassGamePlay.lvclass"/>
 			<Item Name="5RobotsNormalGamePlay.lvclass" Type="LVClass" URL="../5RobotsNormalGamePlay_class/5RobotsNormalGamePlay.lvclass"/>
+			<Item Name="5RobotsKeeperGame.lvclass" Type="LVClass" URL="../5RobotsKeeperGame_class/5RobotsKeeperGame.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
 			<Item Name="NormalDefensivePlay.lvclass" Type="LVClass" URL="../NormalDefensivePlay_class/NormalDefensivePlay.lvclass"/>
