@@ -191,7 +191,7 @@
 		<Item Name="RobotModelTestCrashCase.ctl" Type="VI" URL="../Controls/RobotModelTestCrashCase.ctl"/>
 		<Item Name="SampleOnGenerateVSent.ctl" Type="VI" URL="../Controls/SampleOnGenerateVSent.ctl"/>
 		<Item Name="RobotModelAllInformation.ctl" Type="VI" URL="../Controls/RobotModelAllInformation.ctl"/>
-		<Item Name="velocityBreakState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/velocityBreakState.ctl"/>
+		<Item Name="velocityPlanningState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/velocityPlanningState.ctl"/>
 		<Item Name="testMode.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/testMode.ctl"/>
 		<Item Name="estimatives.ctl" Type="VI" URL="../Controls/estimatives.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
