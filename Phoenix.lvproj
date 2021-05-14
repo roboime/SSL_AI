@@ -194,6 +194,10 @@
 		<Item Name="velocityPlanningState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/velocityPlanningState.ctl"/>
 		<Item Name="testMode.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/testMode.ctl"/>
 		<Item Name="estimatives.ctl" Type="VI" URL="../Controls/estimatives.ctl"/>
+		<Item Name="dest.ctl" Type="VI" URL="../Game_class/Navigation/Controls/dest.ctl"/>
+		<Item Name="PhoenixParameters.ctl" Type="VI" URL="../Controls/PhoenixParameters.ctl"/>
+		<Item Name="typeOfUse.ctl" Type="VI" URL="../Game_class/Navigation/Controls/typeOfUse.ctl"/>
+		<Item Name="bangBangControlParameters.ctl" Type="VI" URL="../Game_class/Navigation/Controls/bangBangControlParameters.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
