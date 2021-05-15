@@ -41,6 +41,9 @@
 			<Item Name="PreparePassInGame1.lvclass" Type="LVClass" URL="../PreparePassInGame1_class/PreparePassInGame1.lvclass"/>
 			<Item Name="PrepareKeeperPassPlay.lvclass" Type="LVClass" URL="../PrepareKeeperPassPlay_class/PrepareKeeperPassPlay.lvclass"/>
 			<Item Name="KeeperPassToStrikerPlay.lvclass" Type="LVClass" URL="../KeeperPassToStrikerPlay_class/KeeperPassToStrikerPlay.lvclass"/>
+			<Item Name="5RobotsPassGamePlay.lvclass" Type="LVClass" URL="../5RobotsPassGamePlay_class/5RobotsPassGamePlay.lvclass"/>
+			<Item Name="5RobotsNormalGamePlay.lvclass" Type="LVClass" URL="../5RobotsNormalGamePlay_class/5RobotsNormalGamePlay.lvclass"/>
+			<Item Name="5RobotsKeeperGame.lvclass" Type="LVClass" URL="../5RobotsKeeperGame_class/5RobotsKeeperGame.lvclass"/>
 		</Item>
 		<Item Name="Deffensive Plays" Type="Folder">
 			<Item Name="NormalDefensivePlay.lvclass" Type="LVClass" URL="../NormalDefensivePlay_class/NormalDefensivePlay.lvclass"/>
@@ -86,6 +89,7 @@
 			<Item Name="WaitBallOrientSkill.lvclass" Type="LVClass" URL="../WaitBallOrientSkill_class/WaitBallOrientSkill.lvclass"/>
 			<Item Name="WaitBallTrajSkill.lvclass" Type="LVClass" URL="../WaitBallTrajSkill_class/WaitBallTrajSkill.lvclass"/>
 			<Item Name="TableReceiverGoToSkill.lvclass" Type="LVClass" URL="../TableReceiverGoToSkill_class/TableReceiverGoToSkill.lvclass"/>
+			<Item Name="5RobotsSkill.lvclass" Type="LVClass" URL="../5RobotsSkill_class/5RobotsSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
@@ -116,6 +120,8 @@
 			<Item Name="TableReceiverTactic.lvclass" Type="LVClass" URL="../TableReceiverTactic_class/TableReceiverTactic.lvclass"/>
 			<Item Name="ReceivePassInFuturePointTactic.lvclass" Type="LVClass" URL="../ReceivePassInFuturePointTactic_class/ReceivePassInFuturePointTactic.lvclass"/>
 			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
+			<Item Name="5RobotsTactic.lvclass" Type="LVClass" URL="../5RobotsTactic_class/5RobotsTactic.lvclass"/>
+			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
@@ -150,6 +156,9 @@
 			<Item Name="ABCFirstKickerRole.lvclass" Type="LVClass" URL="../ABCFirstKickerRole_class/ABCFirstKickerRole.lvclass"/>
 			<Item Name="WaitPassRole.lvclass" Type="LVClass" URL="../WaitPassRole_class/WaitPassRole.lvclass"/>
 			<Item Name="SecondMarkerRole.lvclass" Type="LVClass" URL="../SecondMarkerRole_class/SecondMarkerRole.lvclass"/>
+			<Item Name="5RobotsRole.lvclass" Type="LVClass" URL="../5RobotsRole_class/5RobotsRole.lvclass"/>
+			<Item Name="PassBestRobotRole.lvclass" Type="LVClass" URL="../PassBestRobotRole_class/PassBestRobotRole.lvclass"/>
+			<Item Name="PassBestReceiverRole.lvclass" Type="LVClass" URL="../PassBestReceiverRole_class/PassBestReceiverRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
@@ -170,10 +179,10 @@
 		<Item Name="Skill.lvclass" Type="LVClass" URL="../Skill_class/Skill.lvclass"/>
 		<Item Name="Skillbook.lvclass" Type="LVClass" URL="../Skillbook_class/Skillbook.lvclass"/>
 		<Item Name="Tactic.lvclass" Type="LVClass" URL="../Tactic_class/Tactic.lvclass"/>
-		<Item Name="Tacticbook.lvclass" Type="LVClass" URL="../Tacticbook_class/Tacticbook.lvclass"/>
 		<Item Name="Team.lvclass" Type="LVClass" URL="../Team_class/Team.lvclass"/>
 		<Item Name="Time.lvclass" Type="LVClass" URL="../Time_class/Time.lvclass"/>
 		<Item Name="Utilities.lvclass" Type="LVClass" URL="../Utilities_class/Utilities.lvclass"/>
+		<Item Name="Tacticbook.lvclass" Type="LVClass" URL="../Tacticbook_class/Tacticbook.lvclass"/>
 		<Item Name="Vision.lvclass" Type="LVClass" URL="../Vision_class/Vision.lvclass"/>
 		<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
 		<Item Name="Field Draw Target.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Target.vi"/>
@@ -479,16 +488,6 @@
 			<Item Name="RRTAlgorithm2.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm2.vi"/>
 			<Item Name="DefendGoalTacticStates.ctl" Type="VI" URL="../DefendGoalTactic_class/DefendGoalTacticStates.ctl"/>
 			<Item Name="trajectoryState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/trajectoryState.ctl"/>
-			<Item Name="5RobotsNormalGamePlay.lvclass" Type="LVClass" URL="../5RobotsNormalGamePlay_class/5RobotsNormalGamePlay.lvclass"/>
-			<Item Name="5RobotsRole.lvclass" Type="LVClass" URL="../5RobotsRole_class/5RobotsRole.lvclass"/>
-			<Item Name="5RobotsTactic.lvclass" Type="LVClass" URL="../5RobotsTactic_class/5RobotsTactic.lvclass"/>
-			<Item Name="5RobotsSkill.lvclass" Type="LVClass" URL="../5RobotsSkill_class/5RobotsSkill.lvclass"/>
-			<Item Name="5RobotsPassGamePlay.lvclass" Type="LVClass" URL="../5RobotsPassGamePlay_class/5RobotsPassGamePlay.lvclass"/>
-			<Item Name="PassBestRobotRole.lvclass" Type="LVClass" URL="../PassBestRobotRole_class/PassBestRobotRole.lvclass"/>
-			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
-			<Item Name="Control 1.ctl" Type="VI" URL="../KickToBestRobotTactic_class/Control 1.ctl"/>
-			<Item Name="PassBestReceiverRole.lvclass" Type="LVClass" URL="../PassBestReceiverRole_class/PassBestReceiverRole.lvclass"/>
-			<Item Name="5RobotsKeeperGame.lvclass" Type="LVClass" URL="../5RobotsKeeperGame_class/5RobotsKeeperGame.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
