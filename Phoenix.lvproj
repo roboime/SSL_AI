@@ -490,6 +490,7 @@
 			<Item Name="RRTAlgorithm2.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm2.vi"/>
 			<Item Name="DefendGoalTacticStates.ctl" Type="VI" URL="../DefendGoalTactic_class/DefendGoalTacticStates.ctl"/>
 			<Item Name="trajectoryState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/trajectoryState.ctl"/>
+			<Item Name="Enviroment.ctl" Type="VI" URL="../Controls/Enviroment.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
