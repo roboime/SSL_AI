@@ -209,6 +209,7 @@
 		<Item Name="bangBangControlParameters.ctl" Type="VI" URL="../Game_class/Navigation/Controls/bangBangControlParameters.ctl"/>
 		<Item Name="PassFinishBallVelConditionDegub.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishBallVelConditionDegub.ctl"/>
 		<Item Name="PassFinishReceiverDistanceToBallConditionDebug.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishReceiverDistanceToBallConditionDebug.ctl"/>
+		<Item Name="robotKickToStates.ctl" Type="VI" URL="../Robot_class/robotKickToStates.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
