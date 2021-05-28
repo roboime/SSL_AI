@@ -1,4 +1,4 @@
-local_ip=""
+local_ip="172.22.25.178"
 vision_port=10020
 referee_port="10003"
 com_address="127.0.0.1"
