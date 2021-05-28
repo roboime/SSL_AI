@@ -1,0 +1,841 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Control Design and Simulation" familyname="Control Design and Simulation">
+</nifamily>
+</nicomment>
+<nierror code="-41813">
+Control Design and Simulation: (Hex 0xFFFF5CAB) The set of interior points within the stable set of PID gains is empty. The PID problem might include linear inequalities that cannot be solved, or the numerical search might lack sufficient resolution.
+</nierror>
+<nierror code="-41812">
+Control Design and Simulation: (Hex 0xFFFF5CAC) The interior points of the stable set of PID gains are infeasible.
+</nierror>
+<nierror code="-41811">
+Control Design and Simulation: (Hex 0xFFFF5CAD) The stable set of PID gains is empty because the K3 interval is infeasible.
+</nierror>
+<nierror code="-41804">
+Control Design and Simulation: (Hex 0xFFFF5CB4) The input model must be proper.
+</nierror>
+<nierror code="-41803">
+Control Design and Simulation: (Hex 0xFFFF5CB5) The input state-space models must be SISO.
+</nierror>
+<nierror code="-41802">
+Control Design and Simulation: (Hex 0xFFFF5CB6) The inputs of this VI must be discrete models without time delays.  Incorporate delays within the model instead.
+</nierror>
+<nierror code="-41801">
+Control Design and Simulation: (Hex 0xFFFF5CB7) The inputs of this VI must be discrete models without time delays.  Convert the input models to discrete form.
+</nierror>
+<nierror code="-41706">
+Control Design and Simulation: (Hex 0xFFFF5D16) The number of inputs and outputs of the first model do not match the number of inputs and outputs of the second model.
+</nierror>
+<nierror code="-41705">
+Control Design and Simulation: (Hex 0xFFFF5D17) The parallel interconnection with a transfer function model must have the same transport delay.
+</nierror>
+<nierror code="-41704">
+Control Design and Simulation: (Hex 0xFFFF5D18) The number of inputs (columns) of the first model is not equal to the number of outputs (rows) of the second model.
+</nierror>
+<nierror code="-41703">
+Control Design and Simulation: (Hex 0xFFFF5D19) The denominator of the transfer function cannot equal zero.
+</nierror>
+<nierror code="-41702">
+Control Design and Simulation: (Hex 0xFFFF5D1A) At least one delay is less than zero.
+</nierror>
+<nierror code="-41701">
+Control Design and Simulation: (Hex 0xFFFF5D1B) The denominator must have one element.
+</nierror>
+<nierror code="-41700">
+Control Design and Simulation: (Hex 0xFFFF5D1C) The numerator must have one element.
+</nierror>
+<nierror code="-41699">
+Control Design and Simulation: (Hex 0xFFFF5D1D) Matrix R was not provided.
+</nierror>
+<nierror code="-41698">
+Control Design and Simulation: (Hex 0xFFFF5D1E) The dimension of w is not consistent with the dimensions of the stochastic state-space model.
+</nierror>
+<nierror code="-41697">
+Control Design and Simulation: (Hex 0xFFFF5D1F) The dimension of v is not consistent with the dimensions of the stochastic state-space model.
+</nierror>
+<nierror code="-41696">
+Control Design and Simulation: (Hex 0xFFFF5D20) Cross-covariance matrix does not have proper dimensions.
+</nierror>
+<nierror code="-41695">
+Control Design and Simulation: (Hex 0xFFFF5D21) The cross-covariance matrix is not valid. The compound auto-covariance and cross-covariance matrices must be positive semi-definite.
+</nierror>
+<nierror code="-41694">
+Control Design and Simulation: (Hex 0xFFFF5D22) The number of rows of E{v} is not of proper dimensions. The dimension of E{v} should equal the number of outputs.
+</nierror>
+<nierror code="-41693">
+Control Design and Simulation: (Hex 0xFFFF5D23) The number of rows of E{w} is not of proper dimensions. The dimension of E{w} should equal the number of columns of G.
+</nierror>
+<nierror code="-41692">
+Control Design and Simulation: (Hex 0xFFFF5D24) The dimensions of the covariance matrix are improper.
+</nierror>
+<nierror code="-41691">
+Control Design and Simulation: (Hex 0xFFFF5D25) The covariance matrix is not positive semi-definite.
+</nierror>
+<nierror code="-41690">
+Control Design and Simulation: (Hex 0xFFFF5D26) N is not valid. The matrix [Q N; N' R] must be positive semi-definite.
+</nierror>
+<nierror code="-41689">
+Control Design and Simulation: (Hex 0xFFFF5D27) The pair (Ahat, B) cannot be stabilized.
+</nierror>
+<nierror code="-41688">
+Control Design and Simulation: (Hex 0xFFFF5D28) The dimensions of the R matrix are not equal to the number of inputs/number of columns of the B matrix.
+</nierror>
+<nierror code="-41687">
+Control Design and Simulation: (Hex 0xFFFF5D29) The R matrix is not  positive definite.
+</nierror>
+<nierror code="-41686">
+Control Design and Simulation: (Hex 0xFFFF5D2A) The R matrix is not symmetric.
+</nierror>
+<nierror code="-41685">
+Control Design and Simulation: (Hex 0xFFFF5D2B) The Q matrix is not symmetric.
+</nierror>
+<nierror code="-41684">
+Control Design and Simulation: (Hex 0xFFFF5D2C) The covariance matrix is not symmetric.
+</nierror>
+<nierror code="-41683">
+Control Design and Simulation: (Hex 0xFFFF5D2D) Controller is not in a stand-alone configuration.
+</nierror>
+<nierror code="-41682">
+Control Design and Simulation: (Hex 0xFFFF5D2E) Matrix Q is not positive semi-definite.
+</nierror>
+<nierror code="-41681">
+Control Design and Simulation: (Hex 0xFFFF5D2F) The number of rows of the gain do not equal the number of outputs of the system model.
+</nierror>
+<nierror code="-41680">
+Control Design and Simulation: (Hex 0xFFFF5D30) The number of columns of the gain do not equal the number of inputs of the system.
+</nierror>
+<nierror code="-41679">
+Control Design and Simulation: (Hex 0xFFFF5D31) The system model does not have an input.
+</nierror>
+<nierror code="-41678">
+Control Design and Simulation: (Hex 0xFFFF5D32) The index specified in the input, output, or state vector is greater than the maximum system dimension.
+</nierror>
+<nierror code="-41677">
+Control Design and Simulation: (Hex 0xFFFF5D33) The required system matrix D was not provided.
+</nierror>
+<nierror code="-41676">
+Control Design and Simulation: (Hex 0xFFFF5D34) The required system matrix C was not provided.
+</nierror>
+<nierror code="-41675">
+Control Design and Simulation: (Hex 0xFFFF5D35) The required system matrix B was not provided.
+</nierror>
+<nierror code="-41674">
+Control Design and Simulation: (Hex 0xFFFF5D36) The required system matrix A was not provided.
+</nierror>
+<nierror code="-41673">
+Control Design and Simulation: (Hex 0xFFFF5D37) The number of columns for matrices R and Q must be identical in the Lyapunov equation.
+</nierror>
+<nierror code="-41672">
+Control Design and Simulation: (Hex 0xFFFF5D38) The number of rows for matrices P and Q must be identical in the Lyapunov equation.
+</nierror>
+<nierror code="-41671">
+Control Design and Simulation: (Hex 0xFFFF5D39) Matrix R is not square in the Lyapunov equation.
+</nierror>
+<nierror code="-41670">
+Control Design and Simulation: (Hex 0xFFFF5D3A) Matrix P is not square in the Lyapunov equation.
+</nierror>
+<nierror code="-41669">
+Control Design and Simulation: (Hex 0xFFFF5D3B) Ackermann is valid for single-output system models only. For Observer Gain, C must have one row.
+</nierror>
+<nierror code="-41668">
+Control Design and Simulation: (Hex 0xFFFF5D3C) The system model is not single-output.
+</nierror>
+<nierror code="-41667">
+Control Design and Simulation: (Hex 0xFFFF5D3D) The system model is not single-input.
+</nierror>
+<nierror code="-41666">
+Control Design and Simulation: (Hex 0xFFFF5D3E) The number of rows in D is not equal to the number of outputs.
+</nierror>
+<nierror code="-41665">
+Control Design and Simulation: (Hex 0xFFFF5D3F) The number of columns in D is not equal to the number of inputs
+</nierror>
+<nierror code="-41664">
+Control Design and Simulation: (Hex 0xFFFF5D40) The number of columns in the regulator gain K does not equal the number of states.
+</nierror>
+<nierror code="-41663">
+Control Design and Simulation: (Hex 0xFFFF5D41) The number of rows in the regulator gain K does not equal the number of inputs.
+</nierror>
+<nierror code="-41662">
+Control Design and Simulation: (Hex 0xFFFF5D42) The number of rows in N is not equal to the dimension of the noise vector w (Nw).
+</nierror>
+<nierror code="-41661">
+Control Design and Simulation: (Hex 0xFFFF5D43) The number of columns in N is not equal to the number of  outputs.
+</nierror>
+<nierror code="-41660">
+Control Design and Simulation: (Hex 0xFFFF5D44) The dimensions of R are not equal to number of outputs in the system model.
+</nierror>
+<nierror code="-41659">
+Control Design and Simulation: (Hex 0xFFFF5D45) The number of rows in N is not equal to the number of outputs.
+</nierror>
+<nierror code="-41658">
+Control Design and Simulation: (Hex 0xFFFF5D46) A is ill-conditioned. You cannot calculate its inverse.
+</nierror>
+<nierror code="-41657">
+Control Design and Simulation: (Hex 0xFFFF5D47) The system model is marginally stable.
+</nierror>
+<nierror code="-41656">
+Control Design and Simulation: (Hex 0xFFFF5D48) The system model is not stable.
+</nierror>
+<nierror code="-41655">
+Control Design and Simulation: (Hex 0xFFFF5D49) The pair [A B] or [A C] is not controllable or observable.
+</nierror>
+<nierror code="-41654">
+Control Design and Simulation: (Hex 0xFFFF5D4A) The number of rows in H is not equal to the number of outputs.
+</nierror>
+<nierror code="-41653">
+Control Design and Simulation: (Hex 0xFFFF5D4B) The number of rows in G does not equal the number of states in the system model.
+</nierror>
+<nierror code="-41652">
+Control Design and Simulation: (Hex 0xFFFF5D4C) The number of columns in G and H must be equal.
+</nierror>
+<nierror code="-41651">
+Control Design and Simulation: (Hex 0xFFFF5D4D) The dimensions of Q are not equal to the dimension of the process noise.
+</nierror>
+<nierror code="-41650">
+Control Design and Simulation: (Hex 0xFFFF5D4E) The dimensions of Q do not equal the number of outputs.
+</nierror>
+<nierror code="-41649">
+Control Design and Simulation: (Hex 0xFFFF5D4F) The compound noise covariance matrix, [G O; H I]*[Q N; N' R]*[G O; H I], is not positive semi-definite.
+</nierror>
+<nierror code="-41648">
+Control Design and Simulation: (Hex 0xFFFF5D50) The noise covariance matrix is not positive definite.
+</nierror>
+<nierror code="-41647">
+Control Design and Simulation: (Hex 0xFFFF5D51) The number of columns of the Kalman gain, L, is not equal to the number of outputs in the system model.
+</nierror>
+<nierror code="-41646">
+Control Design and Simulation: (Hex 0xFFFF5D52) The number of rows of the Kalman gain, L, is not equal to the number of states in the system model.
+</nierror>
+<nierror code="-41645">
+Control Design and Simulation: (Hex 0xFFFF5D53) The sampling time number is not the same.
+</nierror>
+<nierror code="-41644">
+Control Design and Simulation: (Hex 0xFFFF5D54) The Hamiltonian matrix is not square.
+</nierror>
+<nierror code="-41643">
+Control Design and Simulation: (Hex 0xFFFF5D55) The system model is not observable so you cannot calculate the matrix transformation T.
+</nierror>
+<nierror code="-41642">
+Control Design and Simulation: (Hex 0xFFFF5D56) The number of columns in N is not equal to the number of inputs/number of columns of B.
+</nierror>
+<nierror code="-41641">
+Control Design and Simulation: (Hex 0xFFFF5D57) The number of rows in N is not equal to the number of states/dimensions of A.
+</nierror>
+<nierror code="-41640">
+Control Design and Simulation: (Hex 0xFFFF5D58) Matrix R is not square.
+</nierror>
+<nierror code="-41639">
+Control Design and Simulation: (Hex 0xFFFF5D59) The control weighting matrix R must be positive definite and have dimensions equal to the number of inputs.
+</nierror>
+<nierror code="-41638">
+Control Design and Simulation: (Hex 0xFFFF5D5A) Matrix Q is not square.
+</nierror>
+<nierror code="-41637">
+Control Design and Simulation: (Hex 0xFFFF5D5B) The dimensions of Q are not equal to the dimensions of A, which also are the number of states.
+</nierror>
+<nierror code="-41636">
+Control Design and Simulation: (Hex 0xFFFF5D5C) The number of columns in C is not equal to the number of states.
+</nierror>
+<nierror code="-41635">
+Control Design and Simulation: (Hex 0xFFFF5D5D) Matrix A is not square.
+</nierror>
+<nierror code="-41634">
+Control Design and Simulation: (Hex 0xFFFF5D5E) The system model is not controllable so you cannot calculate the matrix transformation T.
+</nierror>
+<nierror code="-41633">
+Control Design and Simulation: (Hex 0xFFFF5D5F) The number of closed-loop poles does not equal the number of columns in matrix A.
+</nierror>
+<nierror code="-41632">
+Control Design and Simulation: (Hex 0xFFFF5D60) Ackermann is valid for single-input system models only. For controller gain, B must have one column.
+</nierror>
+<nierror code="-41631">
+Control Design and Simulation: (Hex 0xFFFF5D61) The number of rows in B is not equal to the dimensions of A, which also are the number of states.
+</nierror>
+<nierror code="-41630">
+Control Design and Simulation: (Hex 0xFFFF5D62) One or more complex numbers does not have its complex conjugate.
+</nierror>
+<nierror code="-41629">
+Control Design and Simulation: (Hex 0xFFFF5D63) Matrix Q was not provided.
+</nierror>
+<nierror code="-41628">
+Control Design and Simulation: (Hex 0xFFFF5D64) The pair (Ahat, B1) cannot be stabilized.
+</nierror>
+<nierror code="-41627">
+Control Design and Simulation: (Hex 0xFFFF5D65) The pair (C1, Ahat) is not detectable.
+</nierror>
+<nierror code="-41626">
+Control Design and Simulation: (Hex 0xFFFF5D66) Nbar is not valid because the matrix [Qbar - Nbar.inv(Rbar).Nbar'] is not positive semi-definite.
+</nierror>
+<nierror code="-41625">
+Control Design and Simulation: (Hex 0xFFFF5D67) Rbar is not positive definite.
+</nierror>
+<nierror code="-41624">
+Control Design and Simulation: (Hex 0xFFFF5D68) The R matrix is not positive semi-definite.
+</nierror>
+<nierror code="-41623">
+Control Design and Simulation: (Hex 0xFFFF5D69) The transformation matrix is not invertible.
+</nierror>
+<nierror code="-41578">
+Control Design and Simulation: (Hex 0xFFFF5D96) The number of final constraints does not match the number of constrained variables.
+</nierror>
+<nierror code="-41577">
+Control Design and Simulation: (Hex 0xFFFF5D97) The number of initial constraints does not match the number of constrained variables.
+</nierror>
+<nierror code="-41576">
+Control Design and Simulation: (Hex 0xFFFF5D98) The size of a weight factor vector does not match the size of the corresponding weight matrix.
+</nierror>
+<nierror code="-41575">
+Control Design and Simulation: (Hex 0xFFFF5D99) At least one of the weight matrices in the cost function is not square.
+</nierror>
+<nierror code="-41574">
+Control Design and Simulation: (Hex 0xFFFF5D9A) The size of the input change weight matrix in the cost function does not match the number of inputs in the controller model.
+</nierror>
+<nierror code="-41573">
+Control Design and Simulation: (Hex 0xFFFF5D9B) The size of the input weight matrix in the cost function does not match the number of inputs in the controller model.
+</nierror>
+<nierror code="-41572">
+Control Design and Simulation: (Hex 0xFFFF5D9C) The size of the output weight matrix in the cost function does not match the number of outputs in the controller model.
+</nierror>
+<nierror code="-41571">
+Control Design and Simulation: (Hex 0xFFFF5D9D) The initial conditions used to initialize the model predictive controller do not match the dimensions of the model system matrices in the controller.
+</nierror>
+<nierror code="-41570">
+Control Design and Simulation: (Hex 0xFFFF5D9E) The input frequency vector must be greater than zero.
+</nierror>
+<nierror code="-41569">
+Control Design and Simulation: (Hex 0xFFFF5D9F) The closed-loop transfer function cannot be calculated.
+</nierror>
+<nierror code="-41568">
+Control Design and Simulation: (Hex 0xFFFF5DA0) The number of elements in the initial condition vector does not match the number of outputs in the system model.
+</nierror>
+<nierror code="-41567">
+Control Design and Simulation: (Hex 0xFFFF5DA1) The size of the time vector is too large.
+</nierror>
+<nierror code="-41566">
+Control Design and Simulation: (Hex 0xFFFF5DA2) The initial frequency is greater than the final frequency. The initial frequency must be less than the final frequency.
+</nierror>
+<nierror code="-41565">
+Control Design and Simulation: (Hex 0xFFFF5DA3) The initial gain must be less than the final gain.
+</nierror>
+<nierror code="-41564">
+Control Design and Simulation: (Hex 0xFFFF5DA4) dB drop has to be negative.
+</nierror>
+<nierror code="-41563">
+Control Design and Simulation: (Hex 0xFFFF5DA5) The size of the frequencies vector and response vector is not equal.
+</nierror>
+<nierror code="-41562">
+Control Design and Simulation: (Hex 0xFFFF5DA6) The interpolation frequency does not lie within the range of the frequencies.
+</nierror>
+<nierror code="-41561">
+Control Design and Simulation: (Hex 0xFFFF5DA7) The Gaussian White Noise matrix must be a positive semi-definite matrix and must have the same number of rows as the number of inputs to the system.
+</nierror>
+<nierror code="-41560">
+Control Design and Simulation: (Hex 0xFFFF5DA8) The system model has infinite covariance due to direct feedthrough.
+</nierror>
+<nierror code="-41559">
+Control Design and Simulation: (Hex 0xFFFF5DA9) The state covariance matrix has negative eigenvalues.
+</nierror>
+<nierror code="-41558">
+Control Design and Simulation: (Hex 0xFFFF5DAA) The number of applied inputs does not match the number of inputs in the system model.
+</nierror>
+<nierror code="-41557">
+Control Design and Simulation: (Hex 0xFFFF5DAB) The number of initial states does not match the number of states of the system model.
+</nierror>
+<nierror code="-41556">
+Control Design and Simulation: (Hex 0xFFFF5DAC) All waveforms must have the same dt and t0.
+</nierror>
+<nierror code="-41555">
+Control Design and Simulation: (Hex 0xFFFF5DAD) The time step (dt) and sampling time of the discrete system model must be equal.
+</nierror>
+<nierror code="-41554">
+Control Design and Simulation: (Hex 0xFFFF5DAE) The time step (dt) must be less than the final time (tf).
+</nierror>
+<nierror code="-41553">
+Control Design and Simulation: (Hex 0xFFFF5DAF) The time step (dt) must be greater than zero.
+</nierror>
+<nierror code="-41552">
+Control Design and Simulation: (Hex 0xFFFF5DB0) The initial time (t0) must be greater than or equal to zero.
+</nierror>
+<nierror code="-41551">
+Control Design and Simulation: (Hex 0xFFFF5DB1) The final time (tf) must be greater than the initial time (t0).
+</nierror>
+<nierror code="-41550">
+Control Design and Simulation: (Hex 0xFFFF5DB2) Input system model must be a single-input single-output (SISO) model.
+</nierror>
+<nierror code="-41529">
+Control Design and Simulation: (Hex 0xFFFF5DC7) Sampling time cannot be undefined (-1).
+</nierror>
+<nierror code="-41528">
+Control Design and Simulation: (Hex 0xFFFF5DC8) The matrix exponential calculation overflowed.
+</nierror>
+<nierror code="-41527">
+Control Design and Simulation: (Hex 0xFFFF5DC9) The model has discrete poles at zero.
+</nierror>
+<nierror code="-41526">
+Control Design and Simulation: (Hex 0xFFFF5DCA) The model has a pole at 1 with multiplicity greater than 6.
+</nierror>
+<nierror code="-41525">
+Control Design and Simulation: (Hex 0xFFFF5DCB) The model has a negative real pole with multiplicity greater than 2.
+</nierror>
+<nierror code="-41524">
+Control Design and Simulation: (Hex 0xFFFF5DCC) The sampling time must be greater than zero.
+</nierror>
+<nierror code="-41523">
+Control Design and Simulation: (Hex 0xFFFF5DCD) There is a repeated connection between interconnected models.
+</nierror>
+<nierror code="-41522">
+Control Design and Simulation: (Hex 0xFFFF5DCE) The system model must be proper to perform this function.
+</nierror>
+<nierror code="-41521">
+Control Design and Simulation: (Hex 0xFFFF5DCF) The system model has a delay.
+</nierror>
+<nierror code="-41520">
+Control Design and Simulation: (Hex 0xFFFF5DD0) The system model has a transport delay.
+</nierror>
+<nierror code="-41519">
+Control Design and Simulation: (Hex 0xFFFF5DD1) The system model has an output delay.
+</nierror>
+<nierror code="-41518">
+Control Design and Simulation: (Hex 0xFFFF5DD2) The system model has an input delay.
+</nierror>
+<nierror code="-41517">
+Control Design and Simulation: (Hex 0xFFFF5DD3) The system model must be a second order system model.
+</nierror>
+<nierror code="-41516">
+Control Design and Simulation: (Hex 0xFFFF5DD4) The system model is not square.
+</nierror>
+<nierror code="-41515">
+Control Design and Simulation: (Hex 0xFFFF5DD5) All variable names must begin with alphabetical letters.
+</nierror>
+<nierror code="-41514">
+Control Design and Simulation: (Hex 0xFFFF5DD6) The sampling time for this transformation produces an ill-conditioned system model.
+</nierror>
+<nierror code="-41513">
+Control Design and Simulation: (Hex 0xFFFF5DD7) The frequency must be greater than zero.
+</nierror>
+<nierror code="-41512">
+Control Design and Simulation: (Hex 0xFFFF5DD8) The order of the polynomial must be greater than zero.
+</nierror>
+<nierror code="-41511">
+Control Design and Simulation: (Hex 0xFFFF5DD9) The system model must be continuous.
+</nierror>
+<nierror code="-41510">
+Control Design and Simulation: (Hex 0xFFFF5DDA) The system model must be discrete.
+</nierror>
+<nierror code="-41509">
+Control Design and Simulation: (Hex 0xFFFF5DDB) The dimension of output delay vector does not equal the number of outputs of the system model.
+</nierror>
+<nierror code="-41508">
+Control Design and Simulation: (Hex 0xFFFF5DDC) The dimension of the input delay does not equal the number of inputs of the system model.
+</nierror>
+<nierror code="-41507">
+Control Design and Simulation: (Hex 0xFFFF5DDD) The dimensions of the input/output delay matrices must equal the number of inputs and outputs of the system model.
+</nierror>
+<nierror code="-41506">
+Control Design and Simulation: (Hex 0xFFFF5DDE) The delay in the discrete system model must be an integer.
+</nierror>
+<nierror code="-41505">
+Control Design and Simulation: (Hex 0xFFFF5DDF) The number of inputs or outputs exceeds the total inputs or outputs of system model.
+</nierror>
+<nierror code="-41504">
+Control Design and Simulation: (Hex 0xFFFF5DE0) The number of outputs of the existing system model does not equal the number of outputs of the supplied system model. Dimensions of matrices C and D of each system model must be compatible.
+</nierror>
+<nierror code="-41503">
+Control Design and Simulation: (Hex 0xFFFF5DE1) The number of inputs of the existing system model does not equal the number of inputs of the new system model. Dimensions of matrices B and D of each system model must be compatible.
+</nierror>
+<nierror code="-41502">
+Control Design and Simulation: (Hex 0xFFFF5DE2) The number of states of the existing system model does not equal the number of states of the supplied system model. Dimensions of the matrix A of each model must be compatible.
+</nierror>
+<nierror code="-41501">
+Control Design and Simulation: (Hex 0xFFFF5DE3) The system model is discrete.
+</nierror>
+<nierror code="-41500">
+Control Design and Simulation: (Hex 0xFFFF5DE4) Sampling time cannot be negative.
+</nierror>
+<nierror code="-2391">
+Control Design and Simulation: (Hex 0xFFFFF6A9) Failed to write the model parameter.
+</nierror>
+<nierror code="-2390">
+Control Design and Simulation: (Hex 0xFFFFF6AA) Failed to read the model parameter.
+</nierror>
+<nierror code="-2389">
+Control Design and Simulation: (Hex 0xFFFFF6AB) Cannot read from or write to the specified model parameter because its source is a wired terminal. To read or write the parameter, change its source to <B>Configuration Dialog Box</B> or remove the wire to the terminal.
+</nierror>
+<nierror code="-2388">
+Control Design and Simulation: (Hex 0xFFFFF6AC) No parameter exists at the path you specified. Make sure you specify a valid path to a parameter.
+</nierror>
+<nierror code="-2387">
+Control Design and Simulation: (Hex 0xFFFFF6AD) You configured a model parameter located in the model hierarchy of a VI that is either not running or not reserved for execution. If you modify the model hierarchy where the model parameter resides, LabVIEW discards the configuration. To maintain the configuration, ensure the VI that contains the model hierarchy is either running or reserved for execution when you access the model parameter.
+</nierror>
+<nierror code="-2386">
+Control Design and Simulation: (Hex 0xFFFFF6AE) The Access Model Hierarchy function is not supported on the current target.
+</nierror>
+<nierror code="-2385">
+Control Design and Simulation: (Hex 0xFFFFF6AF) The dimension of the constraint input vector does not match the dimension of the implicit output vector.
+</nierror>
+<nierror code="-2384">
+Control Design and Simulation: (Hex 0xFFFFF6B0) The dimensions of the initial states vector and the initial derivatives vector do not match.
+</nierror>
+<nierror code="-2383">
+Control Design and Simulation: (Hex 0xFFFFF6B1) The shared library for the custom ODE solver is missing a callback function.
+</nierror>
+<nierror code="-2382">
+Control Design and Simulation: (Hex 0xFFFFF6B2) The LabVIEW Control Design and Simulation Module cannot load the shared library for the custom ODE solver.
+</nierror>
+<nierror code="-2381">
+Control Design and Simulation: (Hex 0xFFFFF6B3) The polynomial order of both the numerator and the denominator of the linear time-invariant (LTI) model must be greater than zero.
+</nierror>
+<nierror code="-2380">
+Control Design and Simulation: (Hex 0xFFFFF6B4) The dimension of the multiple-input multiple-output (MIMO) linear time-invariant (LTI) model must be greater than zero.
+</nierror>
+<nierror code="-2379">
+Control Design and Simulation: (Hex 0xFFFFF6B5) The final time of the simulation cannot be equal to NaN.
+</nierror>
+<nierror code="-2378">
+Control Design and Simulation: (Hex 0xFFFFF6B6) The delay must be greater than or equal to zero.
+</nierror>
+<nierror code="-2377">
+Control Design and Simulation: (Hex 0xFFFFF6B7) The LabVIEW Control Design and Simulation Module ignores delay properties you specify in a state-space, transfer function, or zero-pole-gain model data type.
+</nierror>
+<nierror code="-2376">
+Control Design and Simulation: (Hex 0xFFFFF6B8) The transport delay is configured in a nondeterministic manner. If determinism is required, consider choosing a finite value for either the final time of the simulation or for the maximum delay of the transport delay block.
+</nierror>
+<nierror code="-2375">
+Control Design and Simulation: (Hex 0xFFFFF6B9) The Auto Period checkbox on the Timing Parameters page of the Configure Simulation Parameters dialog box contains a checkmark. However, the step size is not a multiple of the period of the source clock.
+</nierror>
+<nierror code="-2374">
+Control Design and Simulation: (Hex 0xFFFFF6BA) The negative slew rate must be less than or equal to the positive slew rate.
+</nierror>
+<nierror code="-2373">
+Control Design and Simulation: (Hex 0xFFFFF6BB) The version of LabVIEW you installed for this embedded device supports only the 1 kHz timing source of the Simulation Loop.
+</nierror>
+<nierror code="-2372">
+Control Design and Simulation: (Hex 0xFFFFF6BC) The index table for a lookup table (LUT) must be non-decreasing.
+</nierror>
+<nierror code="-2371">
+Control Design and Simulation: (Hex 0xFFFFF6BD) The discrete sample period of each discrete function must be an integer multiple of the overall discrete step size of the simulation.
+</nierror>
+<nierror code="-2370">
+Control Design and Simulation: (Hex 0xFFFFF6BE) A single-input single-output (SISO) state-space model requires a B matrix with only one column, a C matrix with only one row, and a D matrix with only one element.
+</nierror>
+<nierror code="-2369">
+Control Design and Simulation: (Hex 0xFFFFF6BF) The model you specified requires direct feedthrough.  Open the configuration dialog box of this function and set the Feedthrough parameter to Direct.
+</nierror>
+<nierror code="-2367">
+Control Design and Simulation: (Hex 0xFFFFF6C1) The shared library corresponding to the external model returned an error.
+</nierror>
+<nierror code="-2366">
+Control Design and Simulation: (Hex 0xFFFFF6C2) The External Model function returned an error.
+</nierror>
+<nierror code="-2365">
+Control Design and Simulation: (Hex 0xFFFFF6C3) The order of the linear time-invariant (LTI) model must remain the same from the previous iteration.
+</nierror>
+<nierror code="-2364">
+Control Design and Simulation: (Hex 0xFFFFF6C4) The dimension of the multiple-input multiple-output (MIMO) linear time-invariant (LTI) model must remain the same from the previous iteration.
+</nierror>
+<nierror code="-2363">
+Control Design and Simulation: (Hex 0xFFFFF6C5) A state-space model with indirect feedthrough requires an empty or zero D matrix.
+</nierror>
+<nierror code="-2362">
+Control Design and Simulation: (Hex 0xFFFFF6C6) The number of channels must match the number of inequality constraints.
+</nierror>
+<nierror code="-2361">
+Control Design and Simulation: (Hex 0xFFFFF6C7) Insufficient number of user-defined reference points.
+</nierror>
+<nierror code="-2360">
+Control Design and Simulation: (Hex 0xFFFFF6C8) To use the Discrete States Only ODE solver, the simulation diagram must not contain any continuous functions.
+</nierror>
+<nierror code="-2359">
+Control Design and Simulation: (Hex 0xFFFFF6C9) The discrete step size must be an integer multiple of the continuous step size.
+</nierror>
+<nierror code="-2358">
+Control Design and Simulation: (Hex 0xFFFFF6CA) A discrete function cannot accept a continuous model.
+</nierror>
+<nierror code="-2357">
+Control Design and Simulation: (Hex 0xFFFFF6CB) A continuous function cannot accept a discrete model.
+</nierror>
+<nierror code="-2356">
+Control Design and Simulation: (Hex 0xFFFFF6CC) The sample period (sec) must be either -1 or positive.  If the sample period (sec) is positive, the sample skew (sec) must be greater than or equal to 0 and less than the sample period (sec).
+</nierror>
+<nierror code="-2355">
+Control Design and Simulation: (Hex 0xFFFFF6CD) The value of the Decimation parameter for the Collector function must be greater than or equal to 1.
+</nierror>
+<nierror code="-2354">
+Control Design and Simulation: (Hex 0xFFFFF6CE) The number of elements in the input array does not equal the number of columns in the gain matrix.
+</nierror>
+<nierror code="-2353">
+Control Design and Simulation: (Hex 0xFFFFF6CF) You cannot change the maximum delay while the simulation is running.
+</nierror>
+<nierror code="-2352">
+Control Design and Simulation: (Hex 0xFFFFF6D0) The delay must be less than or equal to the specified maximum delay.
+</nierror>
+<nierror code="-2351">
+Control Design and Simulation: (Hex 0xFFFFF6D1) The specified parameter is a vector.  Enter a vector value.
+</nierror>
+<nierror code="-2350">
+Control Design and Simulation: (Hex 0xFFFFF6D2) The specified parameter is a scalar.  Enter a scalar value.
+</nierror>
+<nierror code="-2349">
+Control Design and Simulation: (Hex 0xFFFFF6D3) The parameter name is not in the specified parameter list.
+</nierror>
+<nierror code="-2348">
+Control Design and Simulation: (Hex 0xFFFFF6D4) The given State Derivatives parameter is incompatible with the specified subsystem. Verify that the parameter names (and, in the case of vectors, the parameter sizes) match those of the subsystem.
+</nierror>
+<nierror code="-2347">
+Control Design and Simulation: (Hex 0xFFFFF6D5) The given Outputs parameter is incompatible with the specified subsystem. Verify that the parameter names (and, in the case of vectors, the parameter sizes) match those of the subsystem.
+</nierror>
+<nierror code="-2346">
+Control Design and Simulation: (Hex 0xFFFFF6D6) The given Inputs parameter is incompatible with the specified subsystem. Verify that the parameter names (and, in the case of vectors, the parameter sizes) match those of the subsystem.
+</nierror>
+<nierror code="-2345">
+Control Design and Simulation: (Hex 0xFFFFF6D7) The given States parameter is incompatible with the specified subsystem. Verify that the parameter names (and, in the case of vectors, the parameter sizes) match those of the subsystem.
+</nierror>
+<nierror code="-2344">
+Control Design and Simulation: (Hex 0xFFFFF6D8) The output parameters given are incompatible with the specified subsystem.  Verify that the parameter names (and, in the case of vectors, the parameter sizes) match those of the subsystem.
+</nierror>
+<nierror code="-2343">
+Control Design and Simulation: (Hex 0xFFFFF6D9) The input parameters given are incompatible with the specified subsystem.  Verify that the parameter names (and, in the case of vectors, the parameter sizes) match those of the subsystem.
+</nierror>
+<nierror code="-2342">
+Control Design and Simulation: (Hex 0xFFFFF6DA) The state parameters given are incompatible with the specified subsystem.  Verify that the parameter names (and, in the case of vectors, the parameter sizes) match those of the subsystem.
+</nierror>
+<nierror code="-2341">
+Control Design and Simulation: (Hex 0xFFFFF6DB) The initial time of the simulation cannot be greater than or equal to the final time.
+</nierror>
+<nierror code="-2340">
+Control Design and Simulation: (Hex 0xFFFFF6DC) The linearizer detected an internal error.
+</nierror>
+<nierror code="-2339">
+Control Design and Simulation: (Hex 0xFFFFF6DD) Selected solver cannot handle implicit functions.
+</nierror>
+<nierror code="-2338">
+Control Design and Simulation: (Hex 0xFFFFF6DE) The ODE solver detected an internal error.
+</nierror>
+<nierror code="-2337">
+Control Design and Simulation: (Hex 0xFFFFF6DF) You can linearize only simulation subsystems.
+</nierror>
+<nierror code="-2336">
+Control Design and Simulation: (Hex 0xFFFFF6E0) The simulation diagram returned NaN to the ODE solver.
+</nierror>
+<nierror code="-2335">
+Control Design and Simulation: (Hex 0xFFFFF6E1) The simulation diagram returned Inf to the ODE solver.
+</nierror>
+<nierror code="-2334">
+Control Design and Simulation: (Hex 0xFFFFF6E2) An overflow occurred in the ODE solver.
+</nierror>
+<nierror code="-2333">
+Control Design and Simulation: (Hex 0xFFFFF6E3) The step size must be between the minimum and maximum step size.
+</nierror>
+<nierror code="-2332">
+Control Design and Simulation: (Hex 0xFFFFF6E4) The minimum step size must be less than or equal to the maximum step size.
+</nierror>
+<nierror code="-2331">
+Control Design and Simulation: (Hex 0xFFFFF6E5) The absolute tolerance and relative tolerance cannot both be zero.
+</nierror>
+<nierror code="-2330">
+Control Design and Simulation: (Hex 0xFFFFF6E6) The discrete step size must be an integer multiple of the step size.
+</nierror>
+<nierror code="-2329">
+Control Design and Simulation: (Hex 0xFFFFF6E7) The simulation step size cannot be zero.
+</nierror>
+<nierror code="-2328">
+Control Design and Simulation: (Hex 0xFFFFF6E8) You can use the Linearize Subsystem dialog box only on simulation subsystems.
+</nierror>
+<nierror code="-2327">
+Control Design and Simulation: (Hex 0xFFFFF6E9) You can use the Linearize Subsystem dialog box only if you have created a VI under My Computer in the Project Explorer.
+</nierror>
+<nierror code="-2326">
+Control Design and Simulation: (Hex 0xFFFFF6EA) An internal error has occurred within the LabVIEW Control Design and Simulation Module. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-2325">
+Control Design and Simulation: (Hex 0xFFFFF6EB) The ODE solver did not converge at the minimum step size.
+</nierror>
+<nierror code="-2324">
+Control Design and Simulation: (Hex 0xFFFFF6EC) The ODE solver cannot meet the error tolerance using the minimum step size.
+</nierror>
+<nierror code="-2323">
+Control Design and Simulation: (Hex 0xFFFFF6ED) The simulation step size must be greater than zero.
+</nierror>
+<nierror code="-2322">
+Control Design and Simulation: (Hex 0xFFFFF6EE) The discrete delay must be greater than zero and less than or equal to the maximum delay. If the maximum delay is -1, then the delay at the start of the simulation is used as the maximum delay during the simulation.
+</nierror>
+<nierror code="-2321">
+Control Design and Simulation: (Hex 0xFFFFF6EF) The sample rate divisor is negative or zero. You must specify a sample rate divisor greater than zero.
+</nierror>
+<nierror code="-2320">
+Control Design and Simulation: (Hex 0xFFFFF6F0) This intermediate solver evaluation should not have been executed.
+</nierror>
+<nierror code="-2319">
+Control Design and Simulation: (Hex 0xFFFFF6F1) The dimensions of the arrays for the lookup table are inconsistent.
+</nierror>
+<nierror code="-2318">
+Control Design and Simulation: (Hex 0xFFFFF6F2) The dimensions of the parameter vectors of this function do not match.
+</nierror>
+<nierror code="-2317">
+Control Design and Simulation: (Hex 0xFFFFF6F3) You selected a feedthrough behavior that is inconsistent with the specified discrete integration method.
+</nierror>
+<nierror code="-2316">
+Control Design and Simulation: (Hex 0xFFFFF6F4) The order of the numerator must be less than or equal to the order of the denominator.
+</nierror>
+<nierror code="-2315">
+Control Design and Simulation: (Hex 0xFFFFF6F5) You must match complex entries in the Zero-Pole-Gain function with complex conjugates.
+</nierror>
+<nierror code="-2314">
+Control Design and Simulation: (Hex 0xFFFFF6F6) For a transfer function with indirect feedthrough behavior, the order of the numerator must be strictly less than the order of the denominator.
+</nierror>
+<nierror code="-2313">
+Control Design and Simulation: (Hex 0xFFFFF6F7) The size of the initial condition vector is incorrect.
+</nierror>
+<nierror code="-2312">
+Control Design and Simulation: (Hex 0xFFFFF6F8) The size of the input vector is incorrect for the MIMO system.
+</nierror>
+<nierror code="-2311">
+Control Design and Simulation: (Hex 0xFFFFF6F9) The order of the model must not change from the previous iteration of the Simulation Loop.
+</nierror>
+<nierror code="-2310">
+Control Design and Simulation: (Hex 0xFFFFF6FA) The dimensions of matrices A, B, C, and D are not consistent with each other.
+</nierror>
+<nierror code="-2309">
+Control Design and Simulation: (Hex 0xFFFFF6FB) The period for this function must be greater than zero.
+</nierror>
+<nierror code="-2308">
+Control Design and Simulation: (Hex 0xFFFFF6FC) The duty cycle must be between 0% and 100%.
+</nierror>
+<nierror code="-2307">
+Control Design and Simulation: (Hex 0xFFFFF6FD) Evaluating a single-step solver on a minor substep.
+</nierror>
+<nierror code="-2306">
+Control Design and Simulation: (Hex 0xFFFFF6FE) The frequency for this function must be greater than zero.
+</nierror>
+<nierror code="-2305">
+Control Design and Simulation: (Hex 0xFFFFF6FF) The target time for the Chirp Signal function must be greater than the simulation initial time.
+</nierror>
+<nierror code="-2304">
+Control Design and Simulation: (Hex 0xFFFFF700) The upper limit for the Saturation function must be greater than or equal to the lower limit.
+</nierror>
+<nierror code="-2303">
+Control Design and Simulation: (Hex 0xFFFFF701) The switch on point for the Relay function must be greater than or equal to the switch off point.
+</nierror>
+<nierror code="-2302">
+Control Design and Simulation: (Hex 0xFFFFF702) The quantization interval for the Quantizer function must be greater than zero.
+</nierror>
+<nierror code="-2301">
+Control Design and Simulation: (Hex 0xFFFFF703) The Simulation Model Converter failed to properly translate an expression.
+</nierror>
+<nierror code="-2300">
+Control Design and Simulation: (Hex 0xFFFFF704) Invalid SimX node reference.
+</nierror>
+<nierror code="2345">
+Control Design and Simulation: (Hex 0x929) The Trim function could not meet a specific constraint applied to the variable.
+</nierror>
+<nierror code="41500">
+Control Design and Simulation: (Hex 0xA21C) This VI does not support system models with delays. The delay information was ignored.
+</nierror>
+<nierror code="41501">
+Control Design and Simulation: (Hex 0xA21D) The system model has a transport delay.
+</nierror>
+<nierror code="41502">
+Control Design and Simulation: (Hex 0xA21E) The system model has an input delay.
+</nierror>
+<nierror code="41503">
+Control Design and Simulation: (Hex 0xA21F) The system model has an output  delay.
+</nierror>
+<nierror code="41504">
+Control Design and Simulation: (Hex 0xA220) The delay information was ignored.
+</nierror>
+<nierror code="41505">
+Control Design and Simulation: (Hex 0xA221) The system model is not proper.
+</nierror>
+<nierror code="41506">
+Control Design and Simulation: (Hex 0xA222) Fractional delays in the discretization process were ignored.
+</nierror>
+<nierror code="41507">
+Control Design and Simulation: (Hex 0xA223) The second connector is ignored as the second system model is undefined.
+</nierror>
+<nierror code="41508">
+Control Design and Simulation: (Hex 0xA224) The components of the transport delay matrix could not all be distributed. The residual transport delay matrix contains nonzero elements.
+</nierror>
+<nierror code="41509">
+Control Design and Simulation: (Hex 0xA225) The converted model has a low conditioning index, which could indicate an inaccurate conversion by this method. Consider using another conversion method.
+</nierror>
+<nierror code="41510">
+Control Design and Simulation: (Hex 0xA226) The conversion of the stable continuous model resulted in an unstable discrete-equivalent model. The matching frequency must be less than pi/T for the stable continuous model to convert to a stable discrete-equivalent.
+</nierror>
+<nierror code="41511">
+Control Design and Simulation: (Hex 0xA227) The conversion of the stable discrete model resulted in an unstable continuous-equivalent model. The matching frequency must be less than pi/T for the stable discrete model to convert to a stable continuous-equivalent.
+</nierror>
+<nierror code="41550">
+Control Design and Simulation: (Hex 0xA24E) The phase margin is infinite.
+</nierror>
+<nierror code="41551">
+Control Design and Simulation: (Hex 0xA24F) The gain margin is infinite.
+</nierror>
+<nierror code="41552">
+Control Design and Simulation: (Hex 0xA250) Magnitude does not drop below given dB value.
+</nierror>
+<nierror code="41553">
+Control Design and Simulation: (Hex 0xA251) The actual final time (tf) is different from the supplied value.
+</nierror>
+<nierror code="41554">
+Control Design and Simulation: (Hex 0xA252) The 2-norm is infinite because the system model is not stable.
+</nierror>
+<nierror code="41555">
+Control Design and Simulation: (Hex 0xA253) The infinity norm is infinite because the system model is marginally stable.
+</nierror>
+<nierror code="41556">
+Control Design and Simulation: (Hex 0xA254) This VI did not plot the closed-loop roots for large gain values.
+</nierror>
+<nierror code="41557">
+Control Design and Simulation: (Hex 0xA255) The final frequency was reduced to equal the Nyquist frequeny of the discrete system model.
+</nierror>
+<nierror code="41558">
+Control Design and Simulation: (Hex 0xA256) The given time step (dt) and vector size limitations caused a reduction in the final time from its ideal value.
+</nierror>
+<nierror code="41559">
+Control Design and Simulation: (Hex 0xA257) The time step (dt) is not ideal.
+</nierror>
+<nierror code="41560">
+Control Design and Simulation: (Hex 0xA258) Initial conditions were ignored.
+</nierror>
+<nierror code="41561">
+Control Design and Simulation: (Hex 0xA259) Initial conditions were ignored.
+</nierror>
+<nierror code="41562">
+Control Design and Simulation: (Hex 0xA25A) The system model has infinite covariance due to direct feedthrough.
+</nierror>
+<nierror code="41627">
+Control Design and Simulation: (Hex 0xA29B) The pair (C1, Ahat) is not detectable.
+</nierror>
+<nierror code="41628">
+Control Design and Simulation: (Hex 0xA29C) The pair (Ahat, B1) cannot be stabilized.
+</nierror>
+<nierror code="41630">
+Control Design and Simulation: (Hex 0xA29E) The matrices Q and/or R are close to zero norm.
+</nierror>
+<nierror code="41631">
+Control Design and Simulation: (Hex 0xA29F) The system model has no specified states.
+</nierror>
+<nierror code="41632">
+Control Design and Simulation: (Hex 0xA2A0) The system model has no specified inputs.
+</nierror>
+<nierror code="41633">
+Control Design and Simulation: (Hex 0xA2A1) The system model has no specified outputs.
+</nierror>
+<nierror code="41634">
+Control Design and Simulation: (Hex 0xA2A2) Measured outputs and known/manipulated inputs ignored.
+</nierror>
+<nierror code="41635">
+Control Design and Simulation: (Hex 0xA2A3) The user-defined threshold has been surpassed. The Control Design and Simulation Module could not place the poles in the requested location.
+</nierror>
+<nierror code="41689">
+Control Design and Simulation: (Hex 0xA2D9) The pair (Ahat, B) cannot be stabilized.
+</nierror>
+<nierror code="41729">
+Control Design and Simulation: (Hex 0xA301) This VI changed the denominator to one because the numerator is zero.
+</nierror>
+<nierror code="41799">
+Control Design and Simulation: (Hex 0xA347) Invalid inputs or outputs were ignored in producing the plots.
+</nierror>
+</nidocument>

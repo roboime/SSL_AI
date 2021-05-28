@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="VI Analyzer" familyname="VI Analyzer">
+</nifamily>
+</nicomment>
+<nierror code="14200">
+VI Analyzer: The path you specified either is not a valid path, or does not exist in the VI Analyzer item list.
+</nierror>
+<nierror code="14201">
+VI Analyzer: You attempted to modify an item path that does not exist in the VI Analyzer item list.
+</nierror>
+<nierror code="14202">
+VI Analyzer: You attempted to remove an item that does not exist in the VI Analyzer item list.
+</nierror>
+<nierror code="14203">
+VI Analyzer: There was an error reading the specified configuration file. It may be corrupt. You might need to re-create your configuration file.
+</nierror>
+<nierror code="14204">
+VI Analyzer: An error occurred while saving the configuration file. Make sure you specified a valid path, that you have permission to write to the specified location, and that you set "Overwrite" to TRUE if you are specifying an existing file.
+</nierror>
+<nierror code="14205">
+VI Analyzer: An error occurred while saving your results. Make sure you specified a valid path, that you have permission to write to the specified location, and that you set "Overwrite" to TRUE if you are specifying an existing file.
+</nierror>
+<nierror code="14206">
+VI Analyzer: The path you specified is an invalid configuration file path.
+</nierror>
+<nierror code="14207">
+VI Analyzer: The item path you specified is invalid. You must enter a path to an existing VI, LLB, or folder.
+</nierror>
+<nierror code="14208">
+VI Analyzer: The VI Analyzer task reference you wired is invalid.
+</nierror>
+<nierror code="14209">
+VI Analyzer: The test you specified is an invalid VI Analyzer test name.
+</nierror>
+<nierror code="14210">
+VI Analyzer: You cannot store more than 20 passwords through the VI Analyzer programmatic interface.
+</nierror>
+<nierror code="14211">
+VI Analyzer: You did not specify a configuration file path.
+</nierror>
+<nierror code="14212">
+VI Analyzer: You did not specify the correct configuration file password.
+</nierror>
+<nierror code="14213">
+VI Analyzer: You provided an invalid configuration VI control value. Ensure that both the control name and the data type are compatible with the test configuration you are editing.
+</nierror>
+<nierror code="14214">
+VI Analyzer: Unable to display the VI Analyzer Results Window. Make sure the Results Window and the VI Analyzer are not already in use.
+</nierror>
+<nierror code="14215">
+VI Analyzer: The specified VI is no longer a supported feature in the VI Analyzer Toolkit. You cannot use the VI to perform VI Analyzer operations.
+</nierror>
+<nierror code="14216">
+VI Analyzer: This VI could not be analyzed because another VI of the same name, but a different path, is already in memory.
+</nierror>
+<nierror code="14217">
+VI Analyzer: The specified CFG file contains project-based analysis information.  The VI Analyzer VIs only support loading CFG files containing file-based analysis information.  In order to use a CFG file with project-based analysis information, you must load it in the VI Analyzer dialog box.
+</nierror>
+</nidocument>

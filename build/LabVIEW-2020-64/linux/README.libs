@@ -1,0 +1,30 @@
+This directory contains copies of the following libraries:
+
+libstdc++.so.5.0.3
+
+These libraries are normally provided by your Linux distribution.
+However, some vendors have stopped including these libraries as
+part of the default installation in recent Linux distributions,
+replacing them with newer versions (such as libstdc++.so.6)
+which are not backward-compatible.
+
+These libaries are generally still available on the Linux distrubution
+installation media, with package names such as "compat-libstdc++-33",
+but must be installed manually.
+
+Failure to install these libraries causes third party applications 
+which depend on these libraries to break.  For this reason, alternate
+copies have been included here.
+
+If any of these libraries are not installed on your system in the default
+library search path, the libraries will be loaded from this directory.
+However, if installed, system libraries will override the libraries in
+this directory.
+
+The libraries included here are from the oldest distribution supported
+by LabVIEW (RHEL3), and have not been modified.
+
+If desired, you may use a search tool such as http://rpm.pbone.net to find a
+compatibility RPM for your particular distribution, or to obtain the
+source used to build these libraries.
+

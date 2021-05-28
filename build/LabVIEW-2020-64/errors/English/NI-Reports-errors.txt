@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="NI-Reports" familyname="NI-Reports">
+</nifamily>
+</nicomment>
+<nierror code="-41044">
+NI-Reports: (Hex 0xFFFF5FAC) The specified template is not a valid Word document.
+</nierror>
+<nierror code="-41043">
+NI-Reports: (Hex 0xFFFF5FAD) Maximum column count of 63 exceeded.
+</nierror>
+<nierror code="-41042">
+NI-Reports: (Hex 0xFFFF5FAE) An invalid error code was reported by a Word Reporting function.
+</nierror>
+<nierror code="-41041">
+NI-Reports: (Hex 0xFFFF5FAF) The specified bookmark is present in an invalid location.
+</nierror>
+<nierror code="-41040">
+NI-Reports: (Hex 0xFFFF5FB0) The specified bookmark does not exist in the Word document.
+</nierror>
+<nierror code="-41039">
+NI-Reports: (Hex 0xFFFF5FB1) Cannot insert data at specified location. Table has non-uniform merging.
+</nierror>
+<nierror code="-41038">
+NI-Reports: (Hex 0xFFFF5FB2) You do not have permission to open/create this file. Check file permissions settings, and make sure another process isn't already using the file.
+</nierror>
+<nierror code="-41037">
+NI-Reports: (Hex 0xFFFF5FB3) An internal error has occurred in Word Reporting.
+</nierror>
+<nierror code="-41036">
+NI-Reports: (Hex 0xFFFF5FB4) This file has the wrong file extension. You can only use .dotx and .docx file extensions.
+</nierror>
+<nierror code="-41035">
+NI-Reports: (Hex 0xFFFF5FB5) This file has the wrong file extension. You can only use .docx file extensions.
+</nierror>
+<nierror code="-41034">
+NI-Reports: (Hex 0xFFFF5FB6) Cell range has non-uniform merging.
+</nierror>
+<nierror code="-41033">
+NI-Reports: (Hex 0xFFFF5FB7) The specified sheet was not found.
+</nierror>
+<nierror code="-41032">
+NI-Reports: (Hex 0xFFFF5FB8) Invalid cell location/DefinedName.
+</nierror>
+<nierror code="-41031">
+NI-Reports: (Hex 0xFFFF5FB9) The file extension of the report file is different from the template file.
+</nierror>
+<nierror code="-41030">
+NI-Reports: (Hex 0xFFFF5FBA) This file has the wrong file extension. You may only use the file extensions .xlsx and .xlsm.
+</nierror>
+<nierror code="-41029">
+NI-Reports: (Hex 0xFFFF5FBB) The specified template is not a valid Excel file.
+</nierror>
+<nierror code="-41028">
+NI-Reports: (Hex 0xFFFF5FBC) An invalid 2D-array is used to write to Excel Reporting. The maximum permissible size is 16,384 columns and 1,048,576 rows.
+</nierror>
+<nierror code="-41027">
+NI-Reports: (Hex 0xFFFF5FBD) An invalid column name was used in Excel Reporting.
+</nierror>
+<nierror code="-41026">
+NI-Reports: (Hex 0xFFFF5FBE) An invalid sheet name was used in Excel Reporting.
+</nierror>
+<nierror code="-41025">
+NI-Reports: (Hex 0xFFFF5FBF) An invalid range was used in Excel Reporting. The values of row and column for bottom right must be larger than the values for upper left.
+</nierror>
+<nierror code="-41024">
+NI-Reports: (Hex 0xFFFF5FC0) An invalid report reference was used in Reporting.
+</nierror>
+<nierror code="-41023">
+NI-Reports: (Hex 0xFFFF5FC1) An invalid/empty path was used in Reporting.
+</nierror>
+<nierror code="-41022">
+NI-Reports: (Hex 0xFFFF5FC2) An empty sheet name was used in Excel Reporting.
+</nierror>
+<nierror code="-41021">
+NI-Reports: (Hex 0xFFFF5FC3) An internal error has occured in Excel Reporting.
+</nierror>
+<nierror code="-41020">
+NI-Reports: (Hex 0xFFFF5FC4) An invalid error code was reported by an Excel Reporting function.
+</nierror>
+<nierror code="-41007">
+NI-Reports: (Hex 0xFFFF5FD1) You must have the LabVIEW Report Generation Toolkit for Microsoft Office installed to create this type of report.  The toolkit must also have an activated license or be in evaluation mode.
+</nierror>
+<nierror code="-41006">
+NI-Reports: (Hex 0xFFFF5FD2) This type of report is not supported on this platform.
+</nierror>
+<nierror code="-41005">
+NI-Reports: (Hex 0xFFFF5FD3) Invalid margins.
+</nierror>
+<nierror code="-41004">
+NI-Reports: (Hex 0xFFFF5FD4) Print error
+</nierror>
+<nierror code="-41003">
+NI-Reports: (Hex 0xFFFF5FD5) File open error.
+</nierror>
+<nierror code="-41002">
+NI-Reports: (Hex 0xFFFF5FD6) Invalid printer name
+</nierror>
+<nierror code="-41001">
+NI-Reports: (Hex 0xFFFF5FD7) Out of memory.
+</nierror>
+<nierror code="-41000">
+NI-Reports: (Hex 0xFFFF5FD8) An unknown error has occurred.
+</nierror>
+<nierror code="41000">
+NI-Reports: (Hex 0xA028) You attempted to use a function that has no effect with the current report type.
+</nierror>
+</nidocument>
