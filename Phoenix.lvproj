@@ -210,6 +210,7 @@
 		<Item Name="PassFinishBallVelConditionDegub.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishBallVelConditionDegub.ctl"/>
 		<Item Name="PassFinishReceiverDistanceToBallConditionDebug.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishReceiverDistanceToBallConditionDebug.ctl"/>
 		<Item Name="RunPhoenix.vi" Type="VI" URL="../RunPhoenix.vi"/>
+		<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
@@ -479,7 +480,8 @@
 			<Item Name="RRTAlgorithm2.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm2.vi"/>
 			<Item Name="DefendGoalTacticStates.ctl" Type="VI" URL="../DefendGoalTactic_class/DefendGoalTacticStates.ctl"/>
 			<Item Name="trajectoryState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/trajectoryState.ctl"/>
-			<Item Name="lvanlys.so" Type="Document" URL="/&lt;resource&gt;/lvanlys.so"/>
+			<Item Name="Enviroment.ctl" Type="VI" URL="../Controls/Enviroment.ctl"/>
+			<Item Name="robotKickToStates.ctl" Type="VI" URL="../Robot_class/robotKickToStates.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Phoenix" Type="EXE">
@@ -500,29 +502,29 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{80292F56-C0B0-11EB-9E66-080027CA8BCC}</Property>
 				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">Phoenix</Property>
-				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[0].destName" Type="Str">Phoenix.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../build/Phoenix.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{BADB9C5E-C0AD-11EB-8669-080027CA8BCC}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RunPhoenix.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Phoenix</Property>
 				<Property Name="TgtF_internalName" Type="Str">Phoenix</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2021 </Property>
 				<Property Name="TgtF_productName" Type="Str">Phoenix</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{80292DD9-C0B0-11EB-9E66-080027CA8BCC}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Phoenix</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Phoenix.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
