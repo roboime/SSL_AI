@@ -314,4 +314,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
+	<Item Name="simulatorCommandPacketErForce.vi" Type="VI" URL="../Paths/ErForceSimulator/simulatorCommandPacketErForce.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!',!!!!$Q!%!!!!$5!&amp;!!&gt;/&gt;7VF=GFD!"*!1!!"`````Q!""5&amp;S=G&amp;Z!!&gt;!#A!"?!!(1!I!!8E!#5!+!!.E;8)!%%!B#HFF&lt;'RP&gt;X2F97U!!!F!"Q!#;71!!$]!]1!!!!!!!!!"'G&gt;S5WFN)&amp;*P9G^U5G6Q&lt;'&amp;D:7VF&lt;H1O9X2M!"R!5!!&amp;!!-!"!!&amp;!!9!"Q&gt;D&lt;(6T&gt;'6S!"2!1!!"`````Q!)"H*P9G^U=Q!!#5!+!!*W?!!!#5!+!!*W?1!!/A$R!!!!!!!!!!%::X*4;7V@1G&amp;M&lt;&amp;*F='RB9W6N:7ZU,G.U&lt;!!91&amp;!!"!!$!!1!#A!,"'*B&lt;'Q!!$U!]1!!!!!!!!!"&amp;'&gt;S5WFN5G6Q&lt;'&amp;D:7VF&lt;H1O9X2M!#"!5!!#!!E!$"&amp;H=F.*43"S:8"M97.F&lt;76O&gt;!"5!0!!$!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!$1)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!"!!Y!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
 </LVClass>
