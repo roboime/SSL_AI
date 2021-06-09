@@ -183,6 +183,7 @@
 		<Item Name="Time.lvclass" Type="LVClass" URL="../Time_class/Time.lvclass"/>
 		<Item Name="Utilities.lvclass" Type="LVClass" URL="../Utilities_class/Utilities.lvclass"/>
 		<Item Name="Tacticbook.lvclass" Type="LVClass" URL="../Tacticbook_class/Tacticbook.lvclass"/>
+		<Item Name="RobotFeedback.lvclass" Type="LVClass" URL="../RobotFeedback/RobotFeedback.lvclass"/>
 		<Item Name="Vision.lvclass" Type="LVClass" URL="../Vision_class/Vision.lvclass"/>
 		<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
 		<Item Name="Field Draw Target.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Target.vi"/>
