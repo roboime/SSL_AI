@@ -215,6 +215,7 @@
 		<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
 		<Item Name="grSimReplacement.ctl" Type="VI" URL="../Controls/grSimReplacement.ctl"/>
 		<Item Name="robotModelArray.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/robotModelArray.ctl"/>
+		<Item Name="directEnemyRoles.ctl" Type="VI" URL="../DirectEnemyPlay_class/directEnemyRoles.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
@@ -490,7 +491,6 @@
 			<Item Name="trajectoryState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/trajectoryState.ctl"/>
 			<Item Name="Enviroment.ctl" Type="VI" URL="../Controls/Enviroment.ctl"/>
 			<Item Name="robotKickToStates.ctl" Type="VI" URL="../Robot_class/robotKickToStates.ctl"/>
-			<Item Name="bangBangPlanning.vi" Type="VI" URL="../Game_class/bangBangPlanning.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
