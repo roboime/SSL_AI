@@ -490,6 +490,7 @@
 			<Item Name="trajectoryState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/trajectoryState.ctl"/>
 			<Item Name="Enviroment.ctl" Type="VI" URL="../Controls/Enviroment.ctl"/>
 			<Item Name="robotKickToStates.ctl" Type="VI" URL="../Robot_class/robotKickToStates.ctl"/>
+			<Item Name="KickForceEnum.ctl" Type="VI" URL="../Game_class/KickForceTest/Controls/KickForceEnum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
