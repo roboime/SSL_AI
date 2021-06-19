@@ -160,6 +160,7 @@
 			<Item Name="5RobotsRole.lvclass" Type="LVClass" URL="../5RobotsRole_class/5RobotsRole.lvclass"/>
 			<Item Name="PassBestRobotRole.lvclass" Type="LVClass" URL="../PassBestRobotRole_class/PassBestRobotRole.lvclass"/>
 			<Item Name="PassBestReceiverRole.lvclass" Type="LVClass" URL="../PassBestReceiverRole_class/PassBestReceiverRole.lvclass"/>
+			<Item Name="PreparePasserRole.lvclass" Type="LVClass" URL="../PreparePasserRole_class/PreparePasserRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
@@ -215,7 +216,8 @@
 		<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
 		<Item Name="grSimReplacement.ctl" Type="VI" URL="../Controls/grSimReplacement.ctl"/>
 		<Item Name="robotModelArray.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/robotModelArray.ctl"/>
-		<Item Name="kickForceTestState.ctl" Type="VI" URL="../Game_class/KickForceTest/Controls/kickForceTestState.ctl"/>
+		<Item Name="directEnemyRoles.ctl" Type="VI" URL="../DirectEnemyPlay_class/directEnemyRoles.ctl"/>
+		<Item Name="newBallValidate.ctl" Type="VI" URL="../Vision_class/newBallValidate.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
@@ -491,7 +493,6 @@
 			<Item Name="trajectoryState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/trajectoryState.ctl"/>
 			<Item Name="Enviroment.ctl" Type="VI" URL="../Controls/Enviroment.ctl"/>
 			<Item Name="robotKickToStates.ctl" Type="VI" URL="../Robot_class/robotKickToStates.ctl"/>
-			<Item Name="KickForceEnum.ctl" Type="VI" URL="../Game_class/KickForceTest/Controls/KickForceEnum.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
