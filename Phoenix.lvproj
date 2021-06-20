@@ -52,6 +52,7 @@
 		</Item>
 		<Item Name="Keeper Plays" Type="Folder">
 			<Item Name="KeeperPlay.lvclass" Type="LVClass" URL="../KeeperPlay_class/KeeperPlay.lvclass"/>
+			<Item Name="BallPlacementPlay.lvclass" Type="LVClass" URL="../BallPlacementPlay_class/BallPlacementPlay.lvclass"/>
 		</Item>
 		<Item Name="Other Plays" Type="Folder">
 			<Item Name="DefaultPlay.lvclass" Type="LVClass" URL="../DefaultPlay_class/DefaultPlay.lvclass"/>
@@ -94,6 +95,7 @@
 			<Item Name="StealBallSkill.lvclass" Type="LVClass" URL="../StealBallSkill_class/StealBallSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
+			<Item Name="BallPlacementEnemyTactic.lvclass" Type="LVClass" URL="../BallPlacementEnemyTactic_class/BallPlacementEnemyTactic.lvclass"/>
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
 			<Item Name="HaltTactic.lvclass" Type="LVClass" URL="../HaltTactic_class/HaltTactic.lvclass"/>
 			<Item Name="TestTactic.lvclass" Type="LVClass" URL="../TestTactic_class/TestTactic.lvclass"/>
@@ -126,6 +128,7 @@
 			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
+			<Item Name="BallPlacementEnemyRole.lvclass" Type="LVClass" URL="../BallPlacementEnemyRole_class/BallPlacementEnemyRole.lvclass"/>
 			<Item Name="DefenderAreaRole.lvclass" Type="LVClass" URL="../DefenderAreaRole_class/DefenderAreaRole.lvclass"/>
 			<Item Name="AttackerAimGoalRole.lvclass" Type="LVClass" URL="../AttackerAimGoalRole_class/AttackerAimGoalRole.lvclass"/>
 			<Item Name="AttackerBlockRole.lvclass" Type="LVClass" URL="../AttackerBlockRole_class/AttackerBlockRole.lvclass"/>
