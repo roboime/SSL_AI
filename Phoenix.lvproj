@@ -91,6 +91,7 @@
 			<Item Name="WaitBallTrajSkill.lvclass" Type="LVClass" URL="../WaitBallTrajSkill_class/WaitBallTrajSkill.lvclass"/>
 			<Item Name="TableReceiverGoToSkill.lvclass" Type="LVClass" URL="../TableReceiverGoToSkill_class/TableReceiverGoToSkill.lvclass"/>
 			<Item Name="5RobotsSkill.lvclass" Type="LVClass" URL="../5RobotsSkill_class/5RobotsSkill.lvclass"/>
+			<Item Name="StealBallSkill.lvclass" Type="LVClass" URL="../StealBallSkill_class/StealBallSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
