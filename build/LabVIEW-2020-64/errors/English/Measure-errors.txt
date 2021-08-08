@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Measure" familyname="Measure">
+</nifamily>
+</nicomment>
+<nierror code="-2101">
+Measure: (Hex 0xFFFFF7CB) An analog output channel string represents multiple analog output channels. Measure requires that each analog output channel string contain only one analog output channel.
+</nierror>
+<nierror code="-2004">
+Measure: (Hex 0xFFFFF82C) Excel is out of memory.  Use a smaller range.
+</nierror>
+<nierror code="-2003">
+Measure: (Hex 0xFFFFF82D) The range that is specified in the task's configuration is not valid.
+</nierror>
+<nierror code="-2002">
+Measure: (Hex 0xFFFFF82E) The worksheet that is specified in the task's configuration does not exist.
+</nierror>
+<nierror code="-2001">
+Measure: (Hex 0xFFFFF82F) Unable to find task.
+</nierror>
+</nidocument>

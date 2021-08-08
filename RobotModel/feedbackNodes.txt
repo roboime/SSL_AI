@@ -1,0 +1,13 @@
+1.contador de distancia DBL ok
+2. last Posição do robô array DBL ok
+3. timestamp timestamp ok
+4. posição qnd robô estabiliza em V0 array DBL n tava mais sendo usado
+5. array das samples array cluster RobotModel ok
+6. Contador de amostras int I32 ok
+7. V_sent Array DBL ok
+8. Vf Array DBL ok ramp
+9. V0 Array DBL ok ramp
+10. state on machine I32 ok 0
+11. crashcases array de cluster crashcase ok
+12. last_est_v_tang DBL ok inf
+13. sampleOnGenerateVSent array cluster ok

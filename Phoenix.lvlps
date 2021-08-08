@@ -1,3 +1,18 @@
 [ProjectWindow_Data]
+<<<<<<< HEAD
 ProjectExplorer.ClassicPosition[String] = "37,4,739,1366"
+=======
+ProjectExplorer.ClassicPosition[String] = "64,72,861,1604"
+>>>>>>> dev2
 
+[AB_Cache_{80292F1B-C0B0-11EB-9E66-080027CA8BCC}]
+Cache_Path[Path] = "/tmp/AB_Cache_{80292F1B-C0B0-11EB-9E66-080027CA8BCC}.txt"
+
+[AB_Cache_{80292F56-C0B0-11EB-9E66-080027CA8BCC}]
+Cache_Path[Path] = "/tmp/AB_Cache_{80292F56-C0B0-11EB-9E66-080027CA8BCC}.txt"
+
+[AB_Cache_{F033C4C9-C3E1-11EB-B351-02420EBEBBB2}]
+Cache_Path[Path] = "/tmp/AB_Cache_{F033C4C9-C3E1-11EB-B351-02420EBEBBB2}.txt"
+
+[AB_Cache_{F033BE88-C3E1-11EB-B351-02420EBEBBB2}]
+Cache_Path[Path] = "/tmp/AB_Cache_{F033BE88-C3E1-11EB-B351-02420EBEBBB2}.txt"

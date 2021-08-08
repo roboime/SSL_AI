@@ -1,0 +1,30 @@
+NI.AddLVRouteVars
+ErrorLog "$LVLOG_ROOT/webserver.error.log"
+
+Listen 8000
+
+NI.ServerName default
+DocumentRoot "$LVSERVER_ROOT/../../www"
+TypesConfig "$LVSERVER_ROOT/mime.types"
+DirectoryIndex index.html
+WorkerLimit 10
+InactivityTimeout 60
+
+LoadModulePath "$LVSERVER_ROOT/..:$LVSERVER_ROOT/modules:$LVSERVER_ROOT/LVModules"
+LoadModule LVAuth lvauthmodule
+LoadModule LVSnapshot lvsnapshotmodule
+LoadModule LVRFP lvrfpmodule
+
+#
+# Pipeline definition
+#
+
+SetConnector netConnector
+
+AddHandler LVAuth
+AddHandler LVSnapshot snap
+AddHandler LVRFP
+
+AddHandler fileHandler ""
+
+AddOutputFilter chunkFilter
