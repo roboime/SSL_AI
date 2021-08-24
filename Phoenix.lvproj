@@ -310,7 +310,6 @@
 			<Item Name="Float Decoder.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Float Decoder.vi"/>
 			<Item Name="Float Encoder.vi" Type="VI" URL="../Communication_class/Paths/Serial Transmitter Folder/Float Encoder.vi"/>
 			<Item Name="FPS Counter.vi" Type="VI" URL="../FPS Counter.vi"/>
-			<Item Name="grSim Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Command.vi"/>
 			<Item Name="grSim Packet Command UDP Test.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command UDP Test.vi"/>
 			<Item Name="grSim Robot Command.ctl" Type="VI" URL="../Communication_class/Paths/Convert AI Robot to Robot Command Folder/grSim/grSim Robot Command.ctl"/>
 			<Item Name="grSim Robot Command.vi" Type="VI" URL="../Communication_class/Paths/Serial Transmitter Folder/grSim/grSim Robot Command.vi"/>
@@ -490,10 +489,6 @@
 			<Item Name="VSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSS_GoTo.vi"/>
 			<Item Name="PathFollower.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/PathFollower.vi"/>
 			<Item Name="VSSAttackerStates.ctl" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSAttackerStates.ctl"/>
-			<Item Name="grSim_Replacement.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim_Replacement.vi"/>
-			<Item Name="BallReplacement Packet Encoder.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/BallReplacement Packet Encoder.vi"/>
-			<Item Name="grSim_RobotReplacement Packet Encoder.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim_RobotReplacement Packet Encoder.vi"/>
-			<Item Name="grSim Packet Command.vi" Type="VI" URL="../Communication_class/Paths/grSim Packet Command UDP Test Folder/grSim/grSim Packet Command.vi"/>
 			<Item Name="chooseState.vi" Type="VI" URL="../KickToSkill_class/chooseState.vi"/>
 			<Item Name="RRTAlgorithm2.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm2.vi"/>
 			<Item Name="DefendGoalTacticStates.ctl" Type="VI" URL="../DefendGoalTactic_class/DefendGoalTacticStates.ctl"/>
