@@ -401,7 +401,6 @@
 			<Item Name="DistPointLine.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/DistPointLine.vi"/>
 			<Item Name="potential-field.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Potential Field/potential-field.vi"/>
 			<Item Name="repulsive-force.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Potential Field/repulsive-force.vi"/>
-			<Item Name="2DVectorNormalizer.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/2DVectorNormalizer.vi"/>
 			<Item Name="magnetic-field.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Potential Field/magnetic-field.vi"/>
 			<Item Name="Angle Between 2D Vectors.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Angle Between 2D Vectors.vi"/>
 			<Item Name="PathVelocityProfile.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/PathVelocityProfile.vi"/>

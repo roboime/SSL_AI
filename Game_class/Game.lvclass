@@ -35,15 +35,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
 	<Item Name="KickForceTest" Type="Folder">
-		<Item Name="getKickForceFromDistance.vi" Type="VI" URL="../KickForceTest/getKickForceFromDistance.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!($!!!!%1!A1(!!(A!!$AR(97VF,GRW9WRB=X-!!!&gt;(97VF)'FO!"Z!=!!?!!!/$%*B&lt;'QO&lt;(:D&lt;'&amp;T=Q!!"%*B&lt;'Q!!!Z!)1FX:7&amp;L3WFD;T]!%U!+!!VX:7&amp;L3WFD;U:P=G.F!#*!=!!?!!!/$%&gt;B&lt;75O&lt;(:D&lt;'&amp;T=Q!!#%&gt;B&lt;75A&lt;X6U!!!01!I!#'2J=X2B&lt;G.F!!!01!I!#7NJ9WN'&lt;X*D:1!%!!!!#E!B"8"B=X-`!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!E!#A!,%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$U!+!!F,;7.L2G^S9W5!*5!+!"^N&gt;7RU;8"M;7.B&gt;'FW:5:B9X2P=F2P5'&amp;T=U:P=G.F!":!5!!$!!E!#A!,#76S=G^S)'^V&gt;!"^!0!!%!!!!!%!!A!$!!1!"1!'!!=!"Q!)!!=!$!!.!!=!$A!0!Q!"#!!!!!!!!"!!!!!3!!!!%A!!!!U!!!!1!!!!$1-!!!!!!!!!!!!!%!!!!!!!!!!)!!!!%A!!!!!!!!!3!!!!$1M!%1!!!!!"!!!!!!!!!!!!!!!!!!%!%!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
-		</Item>
 		<Item Name="handleTimeout.vi" Type="VI" URL="../KickForceTest/handleTimeout.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(U!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!&gt;!$R!!!!!!!!!!)-2W&amp;N:3ZM&gt;G.M98.T%5NJ9WN'&lt;X*D:56O&gt;7UO9X2M!%V!&amp;A!&amp;"E:J&lt;GFT;"&amp;(&lt;V2P4G6Y&gt;%NJ9WN'&lt;X*D:1B897FU1G&amp;M&lt;!B,;7.L1G&amp;M&lt;!N3:8"M97.F1G&amp;M&lt;!!!#7ZF?(24&gt;'&amp;U:1!.1!I!"UZV&lt;76S;7-!/%"!!!,``````````Q!&amp;*GNJ9WN'&lt;X*D:5&amp;S=G&amp;Z6WFU;%.V=H*F&lt;H2497VQ&lt;'6%:7RF&gt;'6E!!!C1(!!(A!!$AR(97VF,GRW9WRB=X-!!!B(97VF)'^V&gt;!!!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$5!+!!&gt;T97VQ&lt;'6T!#*!1!!#``````````]!"2&amp;L;7.L2G^S9W6"=H*B?3"J&lt;A!A1(!!(A!!$AR(97VF,GRW9WRB=X-!!!&gt;(97VF)'FO!'%!]!!-!!-!"!!'!!=!#!!)!!A!#!!*!!I!#Q!-!A!!?!!!$1A!!!E!!!!.#A!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!%!!!!2)!!!!!!!!.!!!!$!!!!!!!!!!!!!!"!!U!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
