@@ -501,7 +501,6 @@
 			<Item Name="Control 2.ctl" Type="VI" URL="../PenaltyTactic_class/Control 2.ctl"/>
 			<Item Name="AttackerAvoidArea.vi" Type="VI" URL="../Utilities_class/AttackerAvoidArea.vi"/>
 			<Item Name="Varint Array Decoder unit32 packed.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Array Decoder unit32 packed.vi"/>
-			<Item Name="checkBeginEnemyPossesionAtOurField.vi" Type="VI" URL="../EnemyPossessionAtOurFieldPlay_class/checkBeginEnemyPossesionAtOurField.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
