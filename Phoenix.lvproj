@@ -226,6 +226,7 @@
 		<Item Name="newBallValidate.ctl" Type="VI" URL="../Vision_class/newBallValidate.ctl"/>
 		<Item Name="NewParameters.ctl" Type="VI" URL="../Controls/NewParameters.ctl"/>
 		<Item Name="obstacle.ctl" Type="VI" URL="../Robot_class/obstacle.ctl"/>
+		<Item Name="dangerEnemy.ctl" Type="VI" URL="../MarkerSkill_class/dangerEnemy.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
