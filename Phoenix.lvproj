@@ -97,6 +97,7 @@
 			<Item Name="PenaltySkill.lvclass" Type="LVClass" URL="../PenaltySkill_class/PenaltySkill.lvclass"/>
 			<Item Name="StealBallSkill.lvclass" Type="LVClass" URL="../StealBallSkill_class/StealBallSkill.lvclass"/>
 			<Item Name="GoToNearBallPlacementSkill.lvclass" Type="LVClass" URL="../GoToNearBallPlacementSkill_class/GoToNearBallPlacementSkill.lvclass"/>
+			<Item Name="PrepareToPositionBallPlacementSkill.lvclass" Type="LVClass" URL="../PrepareToPositionBallPlacementSkill_class/PrepareToPositionBallPlacementSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="BallPlacementEnemyTactic.lvclass" Type="LVClass" URL="../BallPlacementEnemyTactic_class/BallPlacementEnemyTactic.lvclass"/>
