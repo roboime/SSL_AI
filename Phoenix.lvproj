@@ -57,6 +57,7 @@
 			<Item Name="ZigZagPlay.lvclass" Type="LVClass" URL="../ZigZagPlay_class/ZigZagPlay.lvclass"/>
 			<Item Name="HaltPlay.lvclass" Type="LVClass" URL="../HaltPlay_class/HaltPlay.lvclass"/>
 			<Item Name="TimeoutPlay.lvclass" Type="LVClass" URL="../TimeoutPlay_class/TimeoutPlay.lvclass"/>
+			<Item Name="SimpleBallPlacementAllyPlay.lvclass" Type="LVClass" URL="../SimpleBallPlacementAllyPlay_class/SimpleBallPlacementAllyPlay.lvclass"/>
 		</Item>
 		<Item Name="Other Plays" Type="Folder">
 			<Item Name="DefaultPlay.lvclass" Type="LVClass" URL="../DefaultPlay_class/DefaultPlay.lvclass"/>
@@ -95,6 +96,7 @@
 			<Item Name="5RobotsSkill.lvclass" Type="LVClass" URL="../5RobotsSkill_class/5RobotsSkill.lvclass"/>
 			<Item Name="PenaltySkill.lvclass" Type="LVClass" URL="../PenaltySkill_class/PenaltySkill.lvclass"/>
 			<Item Name="StealBallSkill.lvclass" Type="LVClass" URL="../StealBallSkill_class/StealBallSkill.lvclass"/>
+			<Item Name="GoToNearBallPlacementSkill.lvclass" Type="LVClass" URL="../GoToNearBallPlacementSkill_class/GoToNearBallPlacementSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="BallPlacementEnemyTactic.lvclass" Type="LVClass" URL="../BallPlacementEnemyTactic_class/BallPlacementEnemyTactic.lvclass"/>
@@ -129,6 +131,7 @@
 			<Item Name="PenaltyTactic.lvclass" Type="LVClass" URL="../PenaltyTactic_class/PenaltyTactic.lvclass"/>
 			<Item Name="5RobotsTactic.lvclass" Type="LVClass" URL="../5RobotsTactic_class/5RobotsTactic.lvclass"/>
 			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
+			<Item Name="GoToBallPlacementAllyTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementAllyTactic_class/GoToBallPlacementAllyTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="BallPlacementEnemyRole.lvclass" Type="LVClass" URL="../BallPlacementEnemyRole_class/BallPlacementEnemyRole.lvclass"/>
@@ -168,6 +171,7 @@
 			<Item Name="PassBestRobotRole.lvclass" Type="LVClass" URL="../PassBestRobotRole_class/PassBestRobotRole.lvclass"/>
 			<Item Name="PassBestReceiverRole.lvclass" Type="LVClass" URL="../PassBestReceiverRole_class/PassBestReceiverRole.lvclass"/>
 			<Item Name="PreparePasserRole.lvclass" Type="LVClass" URL="../PreparePasserRole_class/PreparePasserRole.lvclass"/>
+			<Item Name="SimpleBallPlacementAllyRole.lvclass" Type="LVClass" URL="../SimpleBallPlacementAllyRole_class/SimpleBallPlacementAllyRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
@@ -502,6 +506,7 @@
 			<Item Name="Control 2.ctl" Type="VI" URL="../PenaltyTactic_class/Control 2.ctl"/>
 			<Item Name="AttackerAvoidArea.vi" Type="VI" URL="../Utilities_class/AttackerAvoidArea.vi"/>
 			<Item Name="Varint Array Decoder unit32 packed.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Array Decoder unit32 packed.vi"/>
+			<Item Name="StatesGoToBallPlacementAllyTactic.ctl" Type="VI" URL="../GoToBallPlacementAllyTactic_class/StatesGoToBallPlacementAllyTactic.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
