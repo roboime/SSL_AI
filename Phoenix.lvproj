@@ -98,6 +98,7 @@
 			<Item Name="StealBallSkill.lvclass" Type="LVClass" URL="../StealBallSkill_class/StealBallSkill.lvclass"/>
 			<Item Name="GoToNearBallPlacementSkill.lvclass" Type="LVClass" URL="../GoToNearBallPlacementSkill_class/GoToNearBallPlacementSkill.lvclass"/>
 			<Item Name="PrepareToPositionBallPlacementSkill.lvclass" Type="LVClass" URL="../PrepareToPositionBallPlacementSkill_class/PrepareToPositionBallPlacementSkill.lvclass"/>
+			<Item Name="PlaceBallSkill.lvclass" Type="LVClass" URL="../PlaceBallSkill_class/PlaceBallSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="BallPlacementEnemyTactic.lvclass" Type="LVClass" URL="../BallPlacementEnemyTactic_class/BallPlacementEnemyTactic.lvclass"/>
@@ -133,6 +134,7 @@
 			<Item Name="5RobotsTactic.lvclass" Type="LVClass" URL="../5RobotsTactic_class/5RobotsTactic.lvclass"/>
 			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
 			<Item Name="GoToBallPlacementAllyTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementAllyTactic_class/GoToBallPlacementAllyTactic.lvclass"/>
+			<Item Name="PlaceBallTactic.lvclass" Type="LVClass" URL="../PlaceBallTactic_class/PlaceBallTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="BallPlacementEnemyRole.lvclass" Type="LVClass" URL="../BallPlacementEnemyRole_class/BallPlacementEnemyRole.lvclass"/>
@@ -234,6 +236,7 @@
 		<Item Name="NewParameters.ctl" Type="VI" URL="../Controls/NewParameters.ctl"/>
 		<Item Name="obstacle.ctl" Type="VI" URL="../Robot_class/obstacle.ctl"/>
 		<Item Name="dangerEnemy.ctl" Type="VI" URL="../MarkerSkill_class/dangerEnemy.ctl"/>
+		<Item Name="StatesPlaceBallTactic.ctl" Type="VI" URL="../PlaceBallTactic_class/StatesPlaceBallTactic.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
