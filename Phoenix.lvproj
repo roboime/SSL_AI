@@ -99,6 +99,8 @@
 			<Item Name="GoToNearBallPlacementSkill.lvclass" Type="LVClass" URL="../GoToNearBallPlacementSkill_class/GoToNearBallPlacementSkill.lvclass"/>
 			<Item Name="PrepareToPositionBallPlacementSkill.lvclass" Type="LVClass" URL="../PrepareToPositionBallPlacementSkill_class/PrepareToPositionBallPlacementSkill.lvclass"/>
 			<Item Name="PlaceBallSkill.lvclass" Type="LVClass" URL="../PlaceBallSkill_class/PlaceBallSkill.lvclass"/>
+			<Item Name="GoToBallPlacementPositionSkill.lvclass" Type="LVClass" URL="../GoToBallPlacementPositionSkill_class/GoToBallPlacementPositionSkill.lvclass"/>
+			<Item Name="MoveAwayFromBallSkill.lvclass" Type="LVClass" URL="../MoveAwayFromBallSkill_class/MoveAwayFromBallSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="BallPlacementEnemyTactic.lvclass" Type="LVClass" URL="../BallPlacementEnemyTactic_class/BallPlacementEnemyTactic.lvclass"/>
@@ -135,6 +137,7 @@
 			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
 			<Item Name="GoToBallPlacementAllyTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementAllyTactic_class/GoToBallPlacementAllyTactic.lvclass"/>
 			<Item Name="PlaceBallTactic.lvclass" Type="LVClass" URL="../PlaceBallTactic_class/PlaceBallTactic.lvclass"/>
+			<Item Name="GoToBallPlacementPositionTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementPositionTactic_class/GoToBallPlacementPositionTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="BallPlacementEnemyRole.lvclass" Type="LVClass" URL="../BallPlacementEnemyRole_class/BallPlacementEnemyRole.lvclass"/>
@@ -175,6 +178,8 @@
 			<Item Name="PassBestReceiverRole.lvclass" Type="LVClass" URL="../PassBestReceiverRole_class/PassBestReceiverRole.lvclass"/>
 			<Item Name="PreparePasserRole.lvclass" Type="LVClass" URL="../PreparePasserRole_class/PreparePasserRole.lvclass"/>
 			<Item Name="SimpleBallPlacementAllyRole.lvclass" Type="LVClass" URL="../SimpleBallPlacementAllyRole_class/SimpleBallPlacementAllyRole.lvclass"/>
+			<Item Name="BallPlacementPasserRole.lvclass" Type="LVClass" URL="../BallPlacementPasserRole_class/BallPlacementPasserRole.lvclass"/>
+			<Item Name="BallPlacementReceiverRole.lvclass" Type="LVClass" URL="../BallPlacementReceiverRole_class/BallPlacementReceiverRole.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
