@@ -101,6 +101,7 @@
 			<Item Name="PlaceBallSkill.lvclass" Type="LVClass" URL="../PlaceBallSkill_class/PlaceBallSkill.lvclass"/>
 			<Item Name="GoToBallPlacementPositionSkill.lvclass" Type="LVClass" URL="../GoToBallPlacementPositionSkill_class/GoToBallPlacementPositionSkill.lvclass"/>
 			<Item Name="MoveAwayFromBallSkill.lvclass" Type="LVClass" URL="../MoveAwayFromBallSkill_class/MoveAwayFromBallSkill.lvclass"/>
+			<Item Name="MoveFromBallPlacementInterferenceSkill.lvclass" Type="LVClass" URL="../MoveFromBallPlacementInterferenceSkill_class/MoveFromBallPlacementInterferenceSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="BallPlacementEnemyTactic.lvclass" Type="LVClass" URL="../BallPlacementEnemyTactic_class/BallPlacementEnemyTactic.lvclass"/>
