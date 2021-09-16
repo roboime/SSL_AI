@@ -517,6 +517,7 @@
 			<Item Name="AttackerAvoidArea.vi" Type="VI" URL="../Utilities_class/AttackerAvoidArea.vi"/>
 			<Item Name="Varint Array Decoder unit32 packed.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Array Decoder unit32 packed.vi"/>
 			<Item Name="StatesGoToBallPlacementAllyTactic.ctl" Type="VI" URL="../GoToBallPlacementAllyTactic_class/StatesGoToBallPlacementAllyTactic.ctl"/>
+			<Item Name="lvanlys.so" Type="Document" URL="/&lt;resource&gt;/lvanlys.so"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Phoenix" Type="EXE">
@@ -537,6 +538,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{F033BE88-C3E1-11EB-B351-02420EBEBBB2}</Property>
 				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Phoenix.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -545,8 +547,8 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="Source[0].itemID" Type="Str">{001D5651-C3BC-11EB-8669-02420EBEBBB2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
@@ -556,7 +558,6 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Phoenix.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">runPhoenix</Property>
 				<Property Name="TgtF_internalName" Type="Str">runPhoenix</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2021 </Property>
@@ -583,6 +584,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{8981BD0A-8BD8-41EC-BD8E-BD9C0AE6C04E}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Test.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/Test.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -591,14 +593,13 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{20B03A1A-8B62-4993-A952-EE226C37E6E5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Phoenix.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Instituto Militar de Engenharia (IME)</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">test</Property>
@@ -607,6 +608,48 @@
 				<Property Name="TgtF_productName" Type="Str">test</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{402053D9-31CD-4707-85DE-BD5035B2DF89}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Test.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Ubuntu" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{346FB168-180B-11EC-B351-02424C600FD4}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{346FB074-180B-11EC-B351-02424C600FD4}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{346FB84B-180B-11EC-B351-02424C600FD4}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Ubuntu</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../build</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{346FB88F-180B-11EC-B351-02424C600FD4}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[0].destName" Type="Str">Ubuntu</Property>
+				<Property Name="Destination[0].path" Type="Path">../build/Ubuntu</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5A057398-180A-11EC-8669-02424C600FD4}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Phoenix.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Ubuntu</Property>
+				<Property Name="TgtF_internalName" Type="Str">Ubuntu</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2021 </Property>
+				<Property Name="TgtF_productName" Type="Str">Ubuntu</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{346FB74E-180B-11EC-B351-02424C600FD4}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Ubuntu</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
