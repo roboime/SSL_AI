@@ -1,15 +1,17 @@
 [ProjectWindow_Data]
 ProjectExplorer.ClassicPosition[String] = "37,4,826,1536"
 
-[AB_Cache_{80292F1B-C0B0-11EB-9E66-080027CA8BCC}]
-Cache_Path[Path] = "/tmp/AB_Cache_{80292F1B-C0B0-11EB-9E66-080027CA8BCC}.txt"
-
-[AB_Cache_{80292F56-C0B0-11EB-9E66-080027CA8BCC}]
-Cache_Path[Path] = "/tmp/AB_Cache_{80292F56-C0B0-11EB-9E66-080027CA8BCC}.txt"
-
 [AB_Cache_{F033C4C9-C3E1-11EB-B351-02420EBEBBB2}]
 Cache_Path[Path] = "/tmp/AB_Cache_{F033C4C9-C3E1-11EB-B351-02420EBEBBB2}.txt"
 
 [AB_Cache_{F033BE88-C3E1-11EB-B351-02420EBEBBB2}]
 Cache_Path[Path] = "/tmp/AB_Cache_{F033BE88-C3E1-11EB-B351-02420EBEBBB2}.txt"
+
+[AB_Cache_{44EBDFA2-E4E9-4C1C-B23A-9F22ED96E03B}]
+Cache_Path[Path] Line0001 = "/C/Users/gabri/AppData/Local/Temp/AB_Cache_{44EBDF"
+Cache_Path[Path] Line0002 = "A2-E4E9-4C1C-B23A-9F22ED96E03B}.txt"
+
+[AB_Cache_{8981BD0A-8BD8-41EC-BD8E-BD9C0AE6C04E}]
+Cache_Path[Path] Line0001 = "/C/Users/gabri/AppData/Local/Temp/AB_Cache_{8981BD"
+Cache_Path[Path] Line0002 = "0A-8BD8-41EC-BD8E-BD9C0AE6C04E}.txt"
 
