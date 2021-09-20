@@ -565,26 +565,26 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Phoenix.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="test" Type="EXE">
+			<Item Name="WindowsApplication" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{AE3429E3-3C48-4E76-B372-97FBCBF874FD}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{95AEE00C-741B-4235-B8EC-30208E70147C}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{002B9ADF-CB16-41E0-AD14-9E485E05A68C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{22425165-8AC1-406C-8D2B-C51C09B61C67}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{44EBDFA2-E4E9-4C1C-B23A-9F22ED96E03B}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">test</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{29256575-EE22-43DE-802C-CB411B36BCD7}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">WindowsApplication</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../build</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{8981BD0A-8BD8-41EC-BD8E-BD9C0AE6C04E}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A0CA8C98-6C00-4F6B-99D5-AD8353730020}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Test.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../build/Test.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">win.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../build/win.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -592,7 +592,7 @@
 				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{20B03A1A-8B62-4993-A952-EE226C37E6E5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{83154033-B0C4-4E4A-B200-C07CFFC2999A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Phoenix.vi</Property>
@@ -601,12 +601,12 @@
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Instituto Militar de Engenharia (IME)</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">test</Property>
-				<Property Name="TgtF_internalName" Type="Str">test</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">WindowsApplication</Property>
+				<Property Name="TgtF_internalName" Type="Str">WindowsApplication</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2021 Instituto Militar de Engenharia (IME)</Property>
-				<Property Name="TgtF_productName" Type="Str">test</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{402053D9-31CD-4707-85DE-BD5035B2DF89}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Test.exe</Property>
+				<Property Name="TgtF_productName" Type="Str">WindowsApplication</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{FFEE5622-3894-455A-AB31-47A8A507E16E}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">win.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
