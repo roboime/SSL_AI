@@ -1,2 +1,7 @@
 [My Computer]
+<<<<<<< HEAD
 My Computer = "172.28.192.1"
+=======
+My Computer = "172.21.224.1"
+
+>>>>>>> larc2021_fixBugs
