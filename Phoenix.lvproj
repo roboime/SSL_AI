@@ -244,6 +244,7 @@
 		<Item Name="dangerEnemy.ctl" Type="VI" URL="../MarkerSkill_class/dangerEnemy.ctl"/>
 		<Item Name="StatesPlaceBallTactic.ctl" Type="VI" URL="../PlaceBallTactic_class/StatesPlaceBallTactic.ctl"/>
 		<Item Name="KickValuetest.ctl" Type="VI" URL="../Game_class/KickValueTest/KickValuetest.ctl"/>
+		<Item Name="Kickmeanvalues.ctl" Type="VI" URL="../Game_class/KickValueTest/Kickmeanvalues.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
@@ -523,6 +524,7 @@
 			<Item Name="AttackerAvoidArea.vi" Type="VI" URL="../Utilities_class/AttackerAvoidArea.vi"/>
 			<Item Name="Varint Array Decoder unit32 packed.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Array Decoder unit32 packed.vi"/>
 			<Item Name="StatesGoToBallPlacementAllyTactic.ctl" Type="VI" URL="../GoToBallPlacementAllyTactic_class/StatesGoToBallPlacementAllyTactic.ctl"/>
+			<Item Name="GrsimTestRef.ctl" Type="VI" URL="../Parameters_class/GrsimTestRef.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
