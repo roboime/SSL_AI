@@ -274,8 +274,8 @@
 				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
-				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="lvpidtkt.so" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.so"/>
 			</Item>
 			<Item Name="BackTracking.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/BackTracking.vi"/>
 			<Item Name="Bool Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Bool Encoder.vi"/>
@@ -526,6 +526,7 @@
 			<Item Name="GoToBallPlacementAllyTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementAllyTactic_class/GoToBallPlacementAllyTactic.lvclass"/>
 			<Item Name="PlaceBallTactic.lvclass" Type="LVClass" URL="../PlaceBallTactic_class/PlaceBallTactic.lvclass"/>
 			<Item Name="GoToBallPlacementPositionTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementPositionTactic_class/GoToBallPlacementPositionTactic.lvclass"/>
+			<Item Name="lvanlys.so" Type="Document" URL="/&lt;resource&gt;/lvanlys.so"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
@@ -546,6 +547,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{80292F56-C0B0-11EB-9E66-080027CA8BCC}</Property>
 				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Phoenix-cli.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/runPhoenix.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -554,15 +556,14 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="Source[0].itemID" Type="Str">{001D5651-C3BC-11EB-8669-02420EBEBBB2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RunPhoenix.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">runPhoenix</Property>
 				<Property Name="TgtF_internalName" Type="Str">runPhoenix</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2021 </Property>
@@ -589,6 +590,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{F033BE88-C3E1-11EB-B351-02420EBEBBB2}</Property>
 				<Property Name="Bld_version.build" Type="Int">12</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Phoenix.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -597,9 +599,9 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{001D5651-C3BC-11EB-8669-02420EBEBBB2}</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5657712F-291F-11EC-8669-D8D09005467E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RunPhoenix.vi</Property>
@@ -608,7 +610,7 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Phoenix.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">runPhoenix</Property>
 				<Property Name="TgtF_internalName" Type="Str">runPhoenix</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2021 </Property>
