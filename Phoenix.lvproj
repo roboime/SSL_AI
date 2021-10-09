@@ -229,7 +229,6 @@
 		<Item Name="ReplayAlly.ctl" Type="VI" URL="../Game_class/Replay/ReplayAlly.ctl"/>
 		<Item Name="ReplayInfo.ctl" Type="VI" URL="../Game_class/Replay/ReplayInfo.ctl"/>
 		<Item Name="RobotExtraInfo.ctl" Type="VI" URL="../Game_class/Replay/RobotExtraInfo.ctl"/>
-		<Item Name="ReplayControls.ctl" Type="VI" URL="../Game_class/Replay/ReplayControls.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
