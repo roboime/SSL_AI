@@ -1,0 +1,72 @@
+<Cluster>
+<Name>MainGameConfigs</Name>
+<NumElts>7</NumElts>
+<Cluster>
+<Name>SSL UDP RX</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Local IP:</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Server IP:</Name>
+<Val>224.5.23.2</Val>
+</String>
+<String>
+<Name>Port</Name>
+<Val>10020</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>RefBox UDP RX</Name>
+<NumElts>3</NumElts>
+<String>
+<Name>Local IP:</Name>
+<Val></Val>
+</String>
+<String>
+<Name>Server IP:</Name>
+<Val>224.5.23.1</Val>
+</String>
+<String>
+<Name>Port</Name>
+<Val>10003</Val>
+</String>
+</Cluster>
+<Cluster>
+<Name>Com UDP</Name>
+<NumElts>3</NumElts>
+<Boolean>
+<Name>UDP GrSim TX</Name>
+<Val>1</Val>
+</Boolean>
+<String>
+<Name>Address:</Name>
+<Val>192.168.37.12</Val>
+</String>
+<U16>
+<Name>Port:</Name>
+<Val>10301</Val>
+</U16>
+</Cluster>
+<String>
+<Name>Command</Name>
+<Val>Force Start</Val>
+</String>
+<String>
+<Name>Goalie</Name>
+<Val>0</Val>
+</String>
+<EW>
+<Name>Side</Name>
+<Choice>Esquerdo</Choice>
+<Choice>Direito</Choice>
+<Val>0</Val>
+</EW>
+<EW>
+<Name>Team</Name>
+<Choice>Azul</Choice>
+<Choice>Amarelo</Choice>
+<Val>0</Val>
+</EW>
+</Cluster>
