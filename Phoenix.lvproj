@@ -534,6 +534,7 @@
 			<Item Name="GrsimTestRef.ctl" Type="VI" URL="../Parameters_class/GrsimTestRef.ctl"/>
 			<Item Name="Kickmeanvalues.ctl" Type="VI" URL="../Game_class/KickValueTest/Kickmeanvalues.ctl"/>
 			<Item Name="KickValuetest.ctl" Type="VI" URL="../Game_class/KickValueTest/KickValuetest.ctl"/>
+			<Item Name="ReplayControls.ctl" Type="VI" URL="../Game_class/Replay/ReplayControls.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
