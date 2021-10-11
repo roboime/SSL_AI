@@ -536,6 +536,7 @@
 			<Item Name="KickValuetest.ctl" Type="VI" URL="../Game_class/KickValueTest/KickValuetest.ctl"/>
 			<Item Name="ReplayControls.ctl" Type="VI" URL="../Game_class/Replay/ReplayControls.ctl"/>
 			<Item Name="ParametersFromFile.ctl" Type="VI" URL="../Game_class/ParametersFromFile/ParametersFromFile.ctl"/>
+			<Item Name="MainGameConfigs.ctl" Type="VI" URL="../Game_class/ParametersFromFile/MainGameConfigs.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
