@@ -538,6 +538,7 @@
 			<Item Name="ParametersFromFile.ctl" Type="VI" URL="../Game_class/ParametersFromFile/ParametersFromFile.ctl"/>
 			<Item Name="MainGameConfigs.ctl" Type="VI" URL="../Game_class/ParametersFromFile/MainGameConfigs.ctl"/>
 			<Item Name="EliminateEnum.ctl" Type="VI" URL="../Ally_class/EliminateEnum.ctl"/>
+			<Item Name="Style.ctl" Type="VI" URL="../Utilities_class/Style.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
