@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -539,6 +539,8 @@
 			<Item Name="MainGameConfigs.ctl" Type="VI" URL="../Game_class/ParametersFromFile/MainGameConfigs.ctl"/>
 			<Item Name="EliminateEnum.ctl" Type="VI" URL="../Ally_class/EliminateEnum.ctl"/>
 			<Item Name="Style.ctl" Type="VI" URL="../Utilities_class/Style.ctl"/>
+			<Item Name="Giradinha3 (SubVI).vi" Type="VI" URL="../GiradaTypedefs/Giradinha3 (SubVI).vi"/>
+			<Item Name="Control 3.ctl" Type="VI" URL="../GiradaTypedefs/Control 3.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
