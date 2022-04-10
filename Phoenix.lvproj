@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="21008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -229,6 +229,7 @@
 		<Item Name="ReplayAlly.ctl" Type="VI" URL="../Game_class/Replay/ReplayAlly.ctl"/>
 		<Item Name="ReplayInfo.ctl" Type="VI" URL="../Game_class/Replay/ReplayInfo.ctl"/>
 		<Item Name="RobotExtraInfo.ctl" Type="VI" URL="../Game_class/Replay/RobotExtraInfo.ctl"/>
+		<Item Name="feedbackData.ctl" Type="VI" URL="../Communication_class/feedbackData.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
