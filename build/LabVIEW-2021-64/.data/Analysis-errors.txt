@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Analysis" familyname="Analysis">
+</nifamily>
+</nicomment>
+<nierror code="-23100">
+Analysis: (Hex 0xFFFFA5C4) The right side of the equation or inquation is not a constant.
+</nierror>
+<nierror code="-23099">
+Analysis: (Hex 0xFFFFA5C5) The formula is not homogeneous linear.
+</nierror>
+<nierror code="-23098">
+Analysis: (Hex 0xFFFFA5C6) The formula must include ">=" or "<=".
+</nierror>
+<nierror code="-23097">
+Analysis: (Hex 0xFFFFA5C7) The formula must include one of the following symbols: "=" ">=" "<=" ">" "<".
+</nierror>
+<nierror code="-23096">
+Analysis: (Hex 0xFFFFA5C8) Too many decimal points.
+</nierror>
+<nierror code="-23095">
+Analysis: (Hex 0xFFFFA5C9) Not a valid function.
+</nierror>
+<nierror code="-23094">
+Analysis: (Hex 0xFFFFA5CA) Incomplete function expression.
+</nierror>
+<nierror code="-23093">
+Analysis: (Hex 0xFFFFA5CB) Incomplete expression.
+</nierror>
+<nierror code="-23092">
+Analysis: (Hex 0xFFFFA5CC) Variables output problem.
+</nierror>
+<nierror code="-23091">
+Analysis: (Hex 0xFFFFA5CD) Inconsistency in variables or numbers.
+</nierror>
+<nierror code="-23090">
+Analysis: (Hex 0xFFFFA5CE) Contains more than one variable.
+</nierror>
+<nierror code="-23089">
+Analysis: (Hex 0xFFFFA5CF) Contains variables.
+</nierror>
+<nierror code="-23088">
+Analysis: (Hex 0xFFFFA5D0) Wrong variable name.
+</nierror>
+<nierror code="-23087">
+Analysis: (Hex 0xFFFFA5D1) Wrong letter or undefined variable in the formula.
+</nierror>
+<nierror code="-23086">
+Analysis: (Hex 0xFFFFA5D2) Wrong function call.
+</nierror>
+<nierror code="-23085">
+Analysis: (Hex 0xFFFFA5D3) Wrong number format.
+</nierror>
+<nierror code="-23084">
+Analysis: (Hex 0xFFFFA5D4) Wrong decimal point.
+</nierror>
+<nierror code="-23083">
+Analysis: (Hex 0xFFFFA5D5) Bracket problem at the end.
+</nierror>
+<nierror code="-23082">
+Analysis: (Hex 0xFFFFA5D6) Bracket problem at the beginning.
+</nierror>
+<nierror code="-23081">
+Analysis: (Hex 0xFFFFA5D7) Bracket problem.
+</nierror>
+<nierror code="-23055">
+Analysis: (Hex 0xFFFFA5F1) Argument out of range [0,1).
+</nierror>
+<nierror code="-23054">
+Analysis: (Hex 0xFFFFA5F2) Non-unique variables.
+</nierror>
+<nierror code="-23053">
+Analysis: (Hex 0xFFFFA5F3) Signal length not a power of two and >= 4.
+</nierror>
+<nierror code="-23052">
+Analysis: (Hex 0xFFFFA5F4) Signal length not a prime and >= 5.
+</nierror>
+<nierror code="-23051">
+Analysis: (Hex 0xFFFFA5F5) Signal length not a power of two.
+</nierror>
+<nierror code="-23050">
+Analysis: (Hex 0xFFFFA5F6) Signal length not a multiple of number.
+</nierror>
+<nierror code="-23049">
+Analysis: (Hex 0xFFFFA5F7) Invalid window length.
+</nierror>
+<nierror code="-23048">
+Analysis: (Hex 0xFFFFA5F8) Invalid time increment.
+</nierror>
+<nierror code="-23047">
+Analysis: (Hex 0xFFFFA5F9) The argument is out of range [0,100].
+</nierror>
+<nierror code="-23046">
+Analysis: (Hex 0xFFFFA5FA) Empty array.
+</nierror>
+<nierror code="-23045">
+Analysis: (Hex 0xFFFFA5FB) n < k
+</nierror>
+<nierror code="-23044">
+Analysis: (Hex 0xFFFFA5FC) Argument out of range [0,1].
+</nierror>
+<nierror code="-23043">
+Analysis: (Hex 0xFFFFA5FD) Argument out of range (0,1].
+</nierror>
+<nierror code="-23042">
+Analysis: (Hex 0xFFFFA5FE) Negative argument.
+</nierror>
+<nierror code="-23041">
+Analysis: (Hex 0xFFFFA5FF) Not exactly two variables.
+</nierror>
+<nierror code="-23040">
+Analysis: (Hex 0xFFFFA600) Derivative out of range.
+</nierror>
+<nierror code="-23039">
+Analysis: (Hex 0xFFFFA601) Parameter problem.
+</nierror>
+<nierror code="-23038">
+Analysis: (Hex 0xFFFFA602) No variables in expression.
+</nierror>
+<nierror code="-23037">
+Analysis: (Hex 0xFFFFA603) Not exactly two functions.
+</nierror>
+<nierror code="-23036">
+Analysis: (Hex 0xFFFFA604) Different parameters.
+</nierror>
+<nierror code="-23035">
+Analysis: (Hex 0xFFFFA605) Nonpositive number.
+</nierror>
+<nierror code="-23034">
+Analysis: (Hex 0xFFFFA606) Ill conditioned system
+</nierror>
+<nierror code="-23033">
+Analysis: (Hex 0xFFFFA607) Vectors have different dimensions or empty vectors.
+</nierror>
+<nierror code="-23032">
+Analysis: (Hex 0xFFFFA608) Maximum does not exist.
+</nierror>
+<nierror code="-23031">
+Analysis: (Hex 0xFFFFA609) No valid point.
+</nierror>
+<nierror code="-23030">
+Analysis: (Hex 0xFFFFA60A) m >= n >= 0 is violated or the matrix of derivatives has the wrong dimension.
+</nierror>
+<nierror code="-23029">
+Analysis: (Hex 0xFFFFA60B) The Levenberg Marquardt VI has failed.
+</nierror>
+<nierror code="-23028">
+Analysis: (Hex 0xFFFFA60C) Wrong model equation.
+</nierror>
+<nierror code="-23027">
+Analysis: (Hex 0xFFFFA60D) Not exactly one variable.
+</nierror>
+<nierror code="-23026">
+Analysis: (Hex 0xFFFFA60E) No optimum found.
+</nierror>
+<nierror code="-23025">
+Analysis: (Hex 0xFFFFA60F) Invalid triplet (a,b,c).
+</nierror>
+<nierror code="-23024">
+Analysis: (Hex 0xFFFFA610) No root found.
+</nierror>
+<nierror code="-23023">
+Analysis: (Hex 0xFFFFA611) Wrong dimension of start.
+</nierror>
+<nierror code="-23022">
+Analysis: (Hex 0xFFFFA612) Nonpositive accuracy or nonpositive delta x(h).
+</nierror>
+<nierror code="-23021">
+Analysis: (Hex 0xFFFFA613) Both function values have the same sign.
+</nierror>
+<nierror code="-23020">
+Analysis: (Hex 0xFFFFA614) Left point greater than right point.
+</nierror>
+<nierror code="-23019">
+Analysis: (Hex 0xFFFFA615) Right point is a root.
+</nierror>
+<nierror code="-23018">
+Analysis: (Hex 0xFFFFA616) Left point is a root.
+</nierror>
+<nierror code="-23017">
+Analysis: (Hex 0xFFFFA617) Multiple roots.
+</nierror>
+<nierror code="-23016">
+Analysis: (Hex 0xFFFFA618) Singular eigenvector matrix.
+</nierror>
+<nierror code="-23015">
+Analysis: (Hex 0xFFFFA619) Empty X0.
+</nierror>
+<nierror code="-23014">
+Analysis: (Hex 0xFFFFA61A) A and X0 have different dimensions.
+</nierror>
+<nierror code="-23013">
+Analysis: (Hex 0xFFFFA61B) Matrix vector conflict.
+</nierror>
+<nierror code="-23012">
+Analysis: (Hex 0xFFFFA61C) Nonpositive accuracy.
+</nierror>
+<nierror code="-23011">
+Analysis: (Hex 0xFFFFA61D) Nonpositive step rate.
+</nierror>
+<nierror code="-23010">
+Analysis: (Hex 0xFFFFA61E) Wrong input, Cash Karp method.
+</nierror>
+<nierror code="-23009">
+Analysis: (Hex 0xFFFFA61F) Wrong input, Runge Kutta method.
+</nierror>
+<nierror code="-23008">
+Analysis: (Hex 0xFFFFA620) Wrong input, Euler method.
+</nierror>
+<nierror code="-23007">
+Analysis: (Hex 0xFFFFA621) Not a graphs file.
+</nierror>
+<nierror code="-23006">
+Analysis: (Hex 0xFFFFA622) Not a valid path.
+</nierror>
+<nierror code="-23005">
+Analysis: (Hex 0xFFFFA623) Negative distance.
+</nierror>
+<nierror code="-23004">
+Analysis: (Hex 0xFFFFA624) Number of color palettes out of range.
+</nierror>
+<nierror code="-23003">
+Analysis: (Hex 0xFFFFA625) Number of contours out of range.
+</nierror>
+<nierror code="-23002">
+Analysis: (Hex 0xFFFFA626) Discrepancy between function, variables and coordinates.
+</nierror>
+<nierror code="-23001">
+Analysis: (Hex 0xFFFFA627) Syntax error of parser.
+</nierror>
+<nierror code="-23000">
+Analysis: (Hex 0xFFFFA628) The starting error codes of engineering math.
+</nierror>
+<nierror code="-20999">
+Analysis: (Hex 0xFFFFADF9) Serious algorithm failure. Call National Instruments support.
+</nierror>
+<nierror code="-20699">
+Analysis: (Hex 0xFFFFAF25) The format of the data file for the wavelet filter bank is invalid.
+</nierror>
+<nierror code="-20698">
+Analysis: (Hex 0xFFFFAF26) Cannot open the data file for the wavelet filter bank.
+</nierror>
+<nierror code="-20697">
+Analysis: (Hex 0xFFFFAF27) The wavelet packet session or handle must refer to a full tree.
+</nierror>
+<nierror code="-20696">
+Analysis: (Hex 0xFFFFAF28) The wavelet packet handle or session is invalid or the data space it refers to does not contain the necessary information.
+</nierror>
+<nierror code="-20695">
+Analysis: (Hex 0xFFFFAF29) Invalid dimensions of the wavelet coefficients.
+</nierror>
+<nierror code="-20694">
+Analysis: (Hex 0xFFFFAF2A) Invalid optional parameter to find the optimal path.
+</nierror>
+<nierror code="-20693">
+Analysis: (Hex 0xFFFFAF2B) The trend level must be no less than zero and no greater than 1.0.
+</nierror>
+<nierror code="-20692">
+Analysis: (Hex 0xFFFFAF2C) The time step must be greater than zero.
+</nierror>
+<nierror code="-20691">
+Analysis: (Hex 0xFFFFAF2D) The node must be a terminal node.
+</nierror>
+<nierror code="-20690">
+Analysis: (Hex 0xFFFFAF2E) The node must not be a terminal node.
+</nierror>
+<nierror code="-20689">
+Analysis: (Hex 0xFFFFAF2F) The path or node string must contain only "0" or "1".
+</nierror>
+<nierror code="-20688">
+Analysis: (Hex 0xFFFFAF30) The lengths of the analysis filters or synthesis filters must be greater than zero.
+</nierror>
+<nierror code="-20687">
+Analysis: (Hex 0xFFFFAF31) The refinement level for computing the mother wavelet must be greater than zero.
+</nierror>
+<nierror code="-20686">
+Analysis: (Hex 0xFFFFAF32) Shift must be 0 or 1.
+</nierror>
+<nierror code="-20685">
+Analysis: (Hex 0xFFFFAF33) Shift must be no less than zero and less than the decimation factor or interpolation factor.
+</nierror>
+<nierror code="-20684">
+Analysis: (Hex 0xFFFFAF34) The interpolation factor must be greater than or equal to two.
+</nierror>
+<nierror code="-20683">
+Analysis: (Hex 0xFFFFAF35) The decimation factor must be greater than or equal to two.
+</nierror>
+<nierror code="-20682">
+Analysis: (Hex 0xFFFFAF36) The scale of the wavelet decomposition must be greater than zero.
+</nierror>
+<nierror code="-20681">
+Analysis: (Hex 0xFFFFAF37) The selection of the wavelet type is invalid.
+</nierror>
+<nierror code="-20665">
+Analysis: (Hex 0xFFFFAF47) The largest order must be greater than the initial order and no greater than two-thirds of the length of the input signal.
+</nierror>
+<nierror code="-20664">
+Analysis: (Hex 0xFFFFAF48) The initial order must be no less than 1.
+</nierror>
+<nierror code="-20663">
+Analysis: (Hex 0xFFFFAF49) The AR order must be greater than or equal to the number of complex sinusoids.
+</nierror>
+<nierror code="-20662">
+Analysis: (Hex 0xFFFFAF4A) The number of complex sinusoids must be greater than zero and no greater than two-thirds of the length of the input signal.
+</nierror>
+<nierror code="-20661">
+Analysis: (Hex 0xFFFFAF4B) The order for the AR model must be greater than zero and no greater than two-thirds of the length of the input signal.
+</nierror>
+<nierror code="-20644">
+Analysis: (Hex 0xFFFFAF5C) The index of the 2D array stored in the refnum is out of range.
+</nierror>
+<nierror code="-20643">
+Analysis: (Hex 0xFFFFAF5D) The refnum does not support this operation.
+</nierror>
+<nierror code="-20642">
+Analysis: (Hex 0xFFFFAF5E) The refnum is invalid.
+</nierror>
+<nierror code="-20641">
+Analysis: (Hex 0xFFFFAF5F) Failure to create the refnum.
+</nierror>
+<nierror code="-20630">
+Analysis: (Hex 0xFFFFAF6A) The parameters of the frequency information are invalid for further computation.
+</nierror>
+<nierror code="-20629">
+Analysis: (Hex 0xFFFFAF6B) The parameters of the window information are invalid for further computation.
+</nierror>
+<nierror code="-20628">
+Analysis: (Hex 0xFFFFAF6C) The dimensions of the kernel must be greater than zero and power of two values. The column size of the kernel must be 2^(ceil(log2(Ls-1))), where Ls is the length of the input signal.
+</nierror>
+<nierror code="-20627">
+Analysis: (Hex 0xFFFFAF6D) The variance of the Gaussian window must be greater than zero.
+</nierror>
+<nierror code="-20626">
+Analysis: (Hex 0xFFFFAF6E) The size of the window must be greater than zero.
+</nierror>
+<nierror code="-20625">
+Analysis: (Hex 0xFFFFAF6F) The number of terms must be greater than zero.
+</nierror>
+<nierror code="-20624">
+Analysis: (Hex 0xFFFFAF70) The oversampling rate must be greater than or equal to one.
+</nierror>
+<nierror code="-20623">
+Analysis: (Hex 0xFFFFAF71) The order must be greater than or equal to zero.
+</nierror>
+<nierror code="-20622">
+Analysis: (Hex 0xFFFFAF72) The time interval must be a power of two.
+</nierror>
+<nierror code="-20621">
+Analysis: (Hex 0xFFFFAF73) The time interval must be greater than zero.
+</nierror>
+<nierror code="-20604">
+Analysis: (Hex 0xFFFFAF84) The selection for the enumerated data type parameter is invalid.
+</nierror>
+<nierror code="-20603">
+Analysis: (Hex 0xFFFFAF85) The number of frequency bins must be greater than zero and a power of two.
+</nierror>
+<nierror code="-20602">
+Analysis: (Hex 0xFFFFAF86) The sample rate must be greater than zero.
+</nierror>
+<nierror code="-20601">
+Analysis: (Hex 0xFFFFAF87) The input signal is empty.
+</nierror>
+<nierror code="-20511">
+Analysis: (Hex 0xFFFFAFE1) CVI Could not create the required mutex.
+</nierror>
+<nierror code="-20510">
+Analysis: (Hex 0xFFFFAFE2) CVI Could not find specified function in the DLL
+</nierror>
+<nierror code="-20509">
+Analysis: (Hex 0xFFFFAFE3) CVI Could not load Spectral Measurement Toolset DLL
+</nierror>
+<nierror code="-20508">
+Analysis: (Hex 0xFFFFAFE4) Invalid SMT session handle.
+</nierror>
+<nierror code="-20507">
+Analysis: (Hex 0xFFFFAFE5) Incorrect averaging type specified.
+</nierror>
+<nierror code="-20506">
+Analysis: (Hex 0xFFFFAFE6) Incorrect type of the input spectrum data.
+</nierror>
+<nierror code="-20505">
+Analysis: (Hex 0xFFFFAFE7) You must specify either FFT bins or RBW.
+</nierror>
+<nierror code="-20504">
+Analysis: (Hex 0xFFFFAFE8) Sampling frequency should be greater than zero.
+</nierror>
+<nierror code="-20503">
+Analysis: (Hex 0xFFFFAFE9) The internal buffer is overflowed by input data.
+</nierror>
+<nierror code="-20502">
+Analysis: (Hex 0xFFFFAFEA) FFT size must be greater than zero.
+</nierror>
+<nierror code="-20501">
+Analysis: (Hex 0xFFFFAFEB) The zoom factor must be greater than zero.
+</nierror>
+<nierror code="-20337">
+Analysis: (Hex 0xFFFFB08F) The specified time stamp occurs after the end of the limit.
+</nierror>
+<nierror code="-20336">
+Analysis: (Hex 0xFFFFB090) The values of the X array that are contained in the Limit Specification cluster are not monotonically increasing.
+</nierror>
+<nierror code="-20335">
+Analysis: (Hex 0xFFFFB091) Waveforms are not contiguous.
+</nierror>
+<nierror code="-20334">
+Analysis: (Hex 0xFFFFB092) Cannot align waveforms because their time stamps are separated by more than 10 times the duration of the longest waveform.
+</nierror>
+<nierror code="-20333">
+Analysis: (Hex 0xFFFFB093) Cannot align two waveforms with same dt if their samples are not clocked in-phase.
+</nierror>
+<nierror code="-20332">
+Analysis: (Hex 0xFFFFB094) Internal error: The number of threads attribute is less than zero. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-20331">
+Analysis: (Hex 0xFFFFB095) Internal error: The parameter struct pointer is Null, possibly because of changes to the calling VI block diagram. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-20330">
+Analysis: (Hex 0xFFFFB096) Internal error: The result pointer is Null, possibly because of changes to the calling VI block diagram. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-20329">
+Analysis: (Hex 0xFFFFB097) Internal error: The cursor struct pointer is Null, possibly because of a change to the calling VI block diagram. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-20328">
+Analysis: (Hex 0xFFFFB098) Failure initializing a critical section in measurement code, possibly due to low memory. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-20327">
+Analysis: (Hex 0xFFFFB099) An exception occurred in the measurement code, possibly due to low memory. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-20326">
+Analysis: (Hex 0xFFFFB09A) The slew rate is infinite because the rise or fall time is zero.
+</nierror>
+<nierror code="-20325">
+Analysis: (Hex 0xFFFFB09B) Internal error: Invalid measurement ID number. Contact National Instruments technical support for more information.
+</nierror>
+<nierror code="-20324">
+Analysis: (Hex 0xFFFFB09C) Internal error: Two measurements share the same ID number. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-20323">
+Analysis: (Hex 0xFFFFB09D) The edge number, pulse number, or cycle parameter value must be greater than zero.
+</nierror>
+<nierror code="-20322">
+Analysis: (Hex 0xFFFFB09E) Internal error: The attribute number does not refer to a valid parameter. Check the <b>reference levels</b>, <b>percent level settings</b>, and <b>state settings</b> inputs.
+</nierror>
+<nierror code="-20321">
+Analysis: (Hex 0xFFFFB09F) Internal Error: The measurement session handle is invalid. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-20320">
+Analysis: (Hex 0xFFFFB0A0) Internal error: The requested measurement is not available. If the problem persists, contact National Instruments technical support.
+</nierror>
+<nierror code="-20319">
+Analysis: (Hex 0xFFFFB0A1) The period of the waveform is too short to perform the measurement.
+</nierror>
+<nierror code="-20318">
+Analysis: (Hex 0xFFFFB0A2) The result is not a number (NaN) or infinite.
+</nierror>
+<nierror code="-20317">
+Analysis: (Hex 0xFFFFB0A3) The histogram size parameter value is less than or equal to zero.
+</nierror>
+<nierror code="-20316">
+Analysis: (Hex 0xFFFFB0A4) Illegal percent method parameter. Check the <b>method</b> enumerated type input.
+</nierror>
+<nierror code="-20315">
+Analysis: (Hex 0xFFFFB0A5) The waveform dt parameter is <= 0.
+</nierror>
+<nierror code="-20314">
+Analysis: (Hex 0xFFFFB0A6) Illegal reference level units parameter. Check the <b>ref units</b> input.
+</nierror>
+<nierror code="-20313">
+Analysis: (Hex 0xFFFFB0A7) Reference levels do not satisfy requirements.
+</nierror>
+<nierror code="-20312">
+Analysis: (Hex 0xFFFFB0A8) The input waveform size is zero.
+</nierror>
+<nierror code="-20311">
+Analysis: (Hex 0xFFFFB0A9) Insufficient memory available for waveform measurement.
+</nierror>
+<nierror code="-20310">
+Analysis: (Hex 0xFFFFB0AA) The waveform did not have enough edges to perform this measurement. An edge is defined as a crossing of both the low and high reference levels. Check the signal length, reference levels, and ref level units.
+</nierror>
+<nierror code="-20309">
+Analysis: (Hex 0xFFFFB0AB) The amplitude of the waveform is zero, so the histogram method cannot be used.
+</nierror>
+<nierror code="-20308">
+Analysis: (Hex 0xFFFFB0AC) The waveform did not cross the mid reference level enough times to perform this measurement. Check the signal length, reference levels, and ref level units.
+</nierror>
+<nierror code="-20307">
+Analysis: (Hex 0xFFFFB0AD) Frequency not a multiple of (Sampling Rate)/Samples.
+</nierror>
+<nierror code="-20306">
+Analysis: (Hex 0xFFFFB0AE) The two time signal waveforms contain different dt.
+</nierror>
+<nierror code="-20305">
+Analysis: (Hex 0xFFFFB0AF) The two time signal waveforms contain different number of data points.
+</nierror>
+<nierror code="-20304">
+Analysis: (Hex 0xFFFFB0B0) At least one of the time signal waveforms does not contain the correct dt to continue the averaging process.
+</nierror>
+<nierror code="-20303">
+Analysis: (Hex 0xFFFFB0B1) At least one of the time signal waveforms does not contain the correct number of data points to continue the averaging process.
+</nierror>
+<nierror code="-20302">
+Analysis: (Hex 0xFFFFB0B2) The time signal waveform does not contain the correct dt to continue the averaging process.
+</nierror>
+<nierror code="-20301">
+Analysis: (Hex 0xFFFFB0B3) The time signal waveform does not contain the correct number of data points to continue the averaging process.
+</nierror>
+<nierror code="-20207">
+Analysis: (Hex 0xFFFFB111) The upper limit is less than the lower limit.
+</nierror>
+<nierror code="-20206">
+Analysis: (Hex 0xFFFFB112) Shifts: n is negative.
+</nierror>
+<nierror code="-20205">
+Analysis: (Hex 0xFFFFB113) The sample length is less than the window length.
+</nierror>
+<nierror code="-20204">
+Analysis: (Hex 0xFFFFB114) The window length is not positive.
+</nierror>
+<nierror code="-20203">
+Analysis: (Hex 0xFFFFB115) The time increment is not positive.
+</nierror>
+<nierror code="-20202">
+Analysis: (Hex 0xFFFFB116) The sample length is negative.
+</nierror>
+<nierror code="-20201">
+Analysis: (Hex 0xFFFFB117) The sample length is not positive.
+</nierror>
+<nierror code="-20167">
+Analysis: (Hex 0xFFFFB139) The elements of the Y Values array must be either all positive or all negative.
+</nierror>
+<nierror code="-20166">
+Analysis: (Hex 0xFFFFB13A) The number of observations in each cell must be greater or equal to 2.
+</nierror>
+<nierror code="-20165">
+Analysis: (Hex 0xFFFFB13B) The initial condition conflicts with the PDE class input.
+</nierror>
+<nierror code="-20164">
+Analysis: (Hex 0xFFFFB13C) The boundary condition conflicts with the PDE class input.
+</nierror>
+<nierror code="-20163">
+Analysis: (Hex 0xFFFFB13D) The domain conflicts with the PDE class input.
+</nierror>
+<nierror code="-20162">
+Analysis: (Hex 0xFFFFB13E) The right side of the PDE conflicts with the PDE class input.
+</nierror>
+<nierror code="-20161">
+Analysis: (Hex 0xFFFFB13F) The equation conflicts with the PDE class input.
+</nierror>
+<nierror code="-20158">
+Analysis: (Hex 0xFFFFB142) The size of the initial condition of the PDE is incompatible with the size of the grid on the domain.
+</nierror>
+<nierror code="-20157">
+Analysis: (Hex 0xFFFFB143) The size of the boundary condition of the PDE is incompatible with the size of the grid on the domain.
+</nierror>
+<nierror code="-20156">
+Analysis: (Hex 0xFFFFB144) The size of the right side of the PDE is incompatible with the size of the grid on the domain.
+</nierror>
+<nierror code="-20155">
+Analysis: (Hex 0xFFFFB145) The number of boundary points must be greater than or equal to 3 on the polygonal domain.
+</nierror>
+<nierror code="-20154">
+Analysis: (Hex 0xFFFFB146) The number of grid points is 0 on the polygonal domain.
+</nierror>
+<nierror code="-20153">
+Analysis: (Hex 0xFFFFB147) The number of spatial points must be greater than or equal to 3.
+</nierror>
+<nierror code="-20152">
+Analysis: (Hex 0xFFFFB148) The number of time points must be greater than or equal to 2.
+</nierror>
+<nierror code="-20151">
+Analysis: (Hex 0xFFFFB149) The final or end point must be greater than the initial or start point.
+</nierror>
+<nierror code="-20145">
+Analysis: (Hex 0xFFFFB14F) Each independent variable must contain the same number of values as the dependent variable.
+</nierror>
+<nierror code="-20144">
+Analysis: (Hex 0xFFFFB150) The interpolation size must be greater than or equal to the data size.
+</nierror>
+<nierror code="-20143">
+Analysis: (Hex 0xFFFFB151) An input value is outside its acceptable domain.
+</nierror>
+<nierror code="-20142">
+Analysis: (Hex 0xFFFFB152) The domain locations for interpolation (xi, yi, ...) must have the same dimension and size.
+</nierror>
+<nierror code="-20141">
+Analysis: (Hex 0xFFFFB153) The input must be non-zero.
+</nierror>
+<nierror code="-20140">
+Analysis: (Hex 0xFFFFB154) The input must be greater than zero.
+</nierror>
+<nierror code="-20132">
+Analysis: (Hex 0xFFFFB15C) The input waveforms have different t0.
+</nierror>
+<nierror code="-20131">
+Analysis: (Hex 0xFFFFB15D) The order must be less than or equal to the degree.
+</nierror>
+<nierror code="-20130">
+Analysis: (Hex 0xFFFFB15E) The input is not a prime number.
+</nierror>
+<nierror code="-20129">
+Analysis: (Hex 0xFFFFB15F) The size of the input array is not a power of the radix.
+</nierror>
+<nierror code="-20128">
+Analysis: (Hex 0xFFFFB160) The size of the Hadamard matrix does not meet size requirements. The valid size is 2^k, 12*2^k, or 20*2^k where k > 0.
+</nierror>
+<nierror code="-20127">
+Analysis: (Hex 0xFFFFB161) The number of samples is less than the number of unknown parameters.
+</nierror>
+<nierror code="-20126">
+Analysis: (Hex 0xFFFFB162) There is not enough space left to perform the specified routine in the analysis workspace.
+</nierror>
+<nierror code="-20125">
+Analysis: (Hex 0xFFFFB163) The analysis workspace cannot be unlocked.
+</nierror>
+<nierror code="-20124">
+Analysis: (Hex 0xFFFFB164) The analysis workspace has been locked.
+</nierror>
+<nierror code="-20123">
+Analysis: (Hex 0xFFFFB165) The analysis workspace is not empty.
+</nierror>
+<nierror code="-20122">
+Analysis: (Hex 0xFFFFB166) The analysis workspace is empty.
+</nierror>
+<nierror code="-20121">
+Analysis: (Hex 0xFFFFB167) The analysis workspace has already been enabled.
+</nierror>
+<nierror code="-20120">
+Analysis: (Hex 0xFFFFB168) The size of analysis workspace has already been set.
+</nierror>
+<nierror code="-20119">
+Analysis: (Hex 0xFFFFB169) The number of samples is not equal to three.
+</nierror>
+<nierror code="-20118">
+Analysis: (Hex 0xFFFFB16A) The input is greater than 1 or less than -1.
+</nierror>
+<nierror code="-20117">
+Analysis: (Hex 0xFFFFB16B) Significance has been lost.
+</nierror>
+<nierror code="-20116">
+Analysis: (Hex 0xFFFFB16C) Feasible solution not found.
+</nierror>
+<nierror code="-20115">
+Analysis: (Hex 0xFFFFB16D) The FFT size must be greater than zero.
+</nierror>
+<nierror code="-20114">
+Analysis: (Hex 0xFFFFB16E) The start value wired to the Polynomial Real Zeros Counter VI is greater than the end value.
+</nierror>
+<nierror code="-20113">
+Analysis: (Hex 0xFFFFB16F) The end value wired to the Polynomial Real Zeros Counter VI is a root.
+</nierror>
+<nierror code="-20112">
+Analysis: (Hex 0xFFFFB170) The start value wired to the Polynomial Real Zeros Counter VI is a root.
+</nierror>
+<nierror code="-20111">
+Analysis: (Hex 0xFFFFB171) The input polynomial coefficients are all zeros.
+</nierror>
+<nierror code="-20108">
+Analysis: (Hex 0xFFFFB174) The input polygon is not convex or not simple.
+</nierror>
+<nierror code="-20107">
+Analysis: (Hex 0xFFFFB175) The number is out of range. The valid range is [0, pi].
+</nierror>
+<nierror code="-20106">
+Analysis: (Hex 0xFFFFB176) The number is out of range. The valid range is [0, pi/2].
+</nierror>
+<nierror code="-20105">
+Analysis: (Hex 0xFFFFB177) The number is out of range.  The valid range is [0, 1].
+</nierror>
+<nierror code="-20104">
+Analysis: (Hex 0xFFFFB178) Input parameters have at least one NaN element.
+</nierror>
+<nierror code="-20103">
+Analysis: (Hex 0xFFFFB179) The order must be greater than or equal to zero.
+</nierror>
+<nierror code="-20102">
+Analysis: (Hex 0xFFFFB17A) The shifts must meet: |shifts| < samples.
+</nierror>
+<nierror code="-20101">
+Analysis: (Hex 0xFFFFB17B) The maximum value of the parameter must be greater than the minimum value of the parameter.
+</nierror>
+<nierror code="-20099">
+Analysis: (Hex 0xFFFFB17D) The AR order must be greater than or equal to the number of complex sinusoids.
+</nierror>
+<nierror code="-20098">
+Analysis: (Hex 0xFFFFB17E) The AR order must not be greater than two-thirds of the number of samples.
+</nierror>
+<nierror code="-20097">
+Analysis: (Hex 0xFFFFB17F) The number of complex sinusoids must not be greater than two thirds of the number of samples.
+</nierror>
+<nierror code="-20096">
+Analysis: (Hex 0xFFFFB180) The AR order must be > 0.
+</nierror>
+<nierror code="-20095">
+Analysis: (Hex 0xFFFFB181) The number of complex sinusoids must be > 0.
+</nierror>
+<nierror code="-20094">
+Analysis: (Hex 0xFFFFB182) The size of the initial or final condition array is not correct.
+</nierror>
+<nierror code="-20093">
+Analysis: (Hex 0xFFFFB183) df must be > 0.
+</nierror>
+<nierror code="-20092">
+Analysis: (Hex 0xFFFFB184) The dual function does not exist.
+</nierror>
+<nierror code="-20091">
+Analysis: (Hex 0xFFFFB185) The Gabor coefficient array does not have the correct dimension.
+</nierror>
+<nierror code="-20090">
+Analysis: (Hex 0xFFFFB186) The order of the Gabor spectrogram must be >=0.
+</nierror>
+<nierror code="-20089">
+Analysis: (Hex 0xFFFFB187) The oversampling rate, N / dM, must be >=1.
+</nierror>
+<nierror code="-20088">
+Analysis: (Hex 0xFFFFB188) The length of the analysis or synthesis window must be evenly divisible by the number of frequency bins, N, which must be a power of 2.
+</nierror>
+<nierror code="-20087">
+Analysis: (Hex 0xFFFFB189) The length of the analysis or synthesis window must be evenly divisible by the Gabor time sampling interval, dM.
+</nierror>
+<nierror code="-20086">
+Analysis: (Hex 0xFFFFB18A) Window length must be > 2 and a power of 2.
+</nierror>
+<nierror code="-20085">
+Analysis: (Hex 0xFFFFB18B) The size of the input array and its Hilbert transform must be equal.
+</nierror>
+<nierror code="-20084">
+Analysis: (Hex 0xFFFFB18C) Time increment must not be greater than (window length)/4.
+</nierror>
+<nierror code="-20083">
+Analysis: (Hex 0xFFFFB18D) Window length must be > 4 and a power of 2.
+</nierror>
+<nierror code="-20082">
+Analysis: (Hex 0xFFFFB18E) Time increment must not be greater than dM.
+</nierror>
+<nierror code="-20081">
+Analysis: (Hex 0xFFFFB18F) dN or time interval must be greater than zero.
+</nierror>
+<nierror code="-20080">
+Analysis: (Hex 0xFFFFB190) Time increment must be greater than the (window length)/16
+</nierror>
+<nierror code="-20079">
+Analysis: (Hex 0xFFFFB191) The seed is invalid.
+</nierror>
+<nierror code="-20078">
+Analysis: (Hex 0xFFFFB192) This functionality is not supported on this platform.
+</nierror>
+<nierror code="-20077">
+Analysis: (Hex 0xFFFFB193) The time points are not in ascending order.
+</nierror>
+<nierror code="-20076">
+Analysis: (Hex 0xFFFFB194) The resample point cannot be calculated with the signal behind that of the input.
+</nierror>
+<nierror code="-20075">
+Analysis: (Hex 0xFFFFB195) The filter buffer overflows.
+</nierror>
+<nierror code="-20074">
+Analysis: (Hex 0xFFFFB196) Reordering eigenvalues changed some complex ones.
+</nierror>
+<nierror code="-20073">
+Analysis: (Hex 0xFFFFB197) The eigenvalues cannot be reordered because some of them are too close.
+</nierror>
+<nierror code="-20072">
+Analysis: (Hex 0xFFFFB198) The logarithm of the input matrix cannot be computed.
+</nierror>
+<nierror code="-20071">
+Analysis: (Hex 0xFFFFB199) The input matrix is not positive definite.
+</nierror>
+<nierror code="-20070">
+Analysis: (Hex 0xFFFFB19A) Matrices must have the same size.
+</nierror>
+<nierror code="-20069">
+Analysis: (Hex 0xFFFFB19B) The number of samples must be greater than or equal to four.
+</nierror>
+<nierror code="-20068">
+Analysis: (Hex 0xFFFFB19C) Input parameters has at least one element that is Inf, NaN, DBL_MAX, or DBL_MIN
+</nierror>
+<nierror code="-20067">
+Analysis: (Hex 0xFFFFB19D) The input fundamental frequency or sampling rate is equal to zero.
+</nierror>
+<nierror code="-20066">
+Analysis: (Hex 0xFFFFB19E) The information in IIR filter structure is not correct.
+</nierror>
+<nierror code="-20065">
+Analysis: (Hex 0xFFFFB19F) The elements in the vector can not be all zero.
+</nierror>
+<nierror code="-20064">
+Analysis: (Hex 0xFFFFB1A0) The internal memory state of this function was not initialized correctly.
+</nierror>
+<nierror code="-20063">
+Analysis: (Hex 0xFFFFB1A1) The coefficients of the polynomial are invalid.
+</nierror>
+<nierror code="-20062">
+Analysis: (Hex 0xFFFFB1A2) The maximum number of iterations was exceeded.
+</nierror>
+<nierror code="-20061">
+Analysis: (Hex 0xFFFFB1A3) The selection is invalid.
+</nierror>
+<nierror code="-20060">
+Analysis: (Hex 0xFFFFB1A4) Divide by zero error.
+</nierror>
+<nierror code="-20059">
+Analysis: (Hex 0xFFFFB1A5) Negative number error
+</nierror>
+<nierror code="-20058">
+Analysis: (Hex 0xFFFFB1A6) Invalid number of dimensions or dependent variables
+</nierror>
+<nierror code="-20057">
+Analysis: (Hex 0xFFFFB1A7) The parameter to the beta function should be 0 < p < 1
+</nierror>
+<nierror code="-20056">
+Analysis: (Hex 0xFFFFB1A8) The contingency table has a negative number.
+</nierror>
+<nierror code="-20055">
+Analysis: (Hex 0xFFFFB1A9) The number of categories or samples must be greater than one.
+</nierror>
+<nierror code="-20054">
+Analysis: (Hex 0xFFFFB1AA) The probability must be greater than or equal to zero and less than one.
+</nierror>
+<nierror code="-20053">
+Analysis: (Hex 0xFFFFB1AB) The number must be between zero and one.
+</nierror>
+<nierror code="-20052">
+Analysis: (Hex 0xFFFFB1AC) The degree of freedom must be greater than zero and less than the length of the input sequence.
+</nierror>
+<nierror code="-20051">
+Analysis: (Hex 0xFFFFB1AD) All values in the first column of X matrix must be one.
+</nierror>
+<nierror code="-20050">
+Analysis: (Hex 0xFFFFB1AE) The interpolating function has a pole at the requested value.
+</nierror>
+<nierror code="-20049">
+Analysis: (Hex 0xFFFFB1AF) The x-values must be distinct.
+</nierror>
+<nierror code="-20048">
+Analysis: (Hex 0xFFFFB1B0) The Random Effect model was requested when the Fixed Effect model is required.
+</nierror>
+<nierror code="-20047">
+Analysis: (Hex 0xFFFFB1B1) The data is unbalanced. All cells must contain the same number of observations.
+</nierror>
+<nierror code="-20046">
+Analysis: (Hex 0xFFFFB1B2) There is an overflow in the calculation.
+</nierror>
+<nierror code="-20045">
+Analysis: (Hex 0xFFFFB1B3) The total number of data points must be equal to the result of multiplying each level and the number of observations per cell.
+</nierror>
+<nierror code="-20044">
+Analysis: (Hex 0xFFFFB1B4) Zero observations were made at some level of a factor.
+</nierror>
+<nierror code="-20043">
+Analysis: (Hex 0xFFFFB1B5) The level of factors is outside the allowable range of some data.
+</nierror>
+<nierror code="-20042">
+Analysis: (Hex 0xFFFFB1B6) The number of levels is out of range.
+</nierror>
+<nierror code="-20041">
+Analysis: (Hex 0xFFFFB1B7) The system of equations cannot be solved because the input matrix is singular.
+</nierror>
+<nierror code="-20040">
+Analysis: (Hex 0xFFFFB1B8) The input matrix must be a square matrix.
+</nierror>
+<nierror code="-20039">
+Analysis: (Hex 0xFFFFB1B9) The number of columns in the first matrix is not equal to the number of rows in the second matrix or vector.
+</nierror>
+<nierror code="-20038">
+Analysis: (Hex 0xFFFFB1BA) The number of intervals must be > 0.
+</nierror>
+<nierror code="-20037">
+Analysis: (Hex 0xFFFFB1BB) The number of data points in the Y value array must be greater than the order value.
+</nierror>
+<nierror code="-20036">
+Analysis: (Hex 0xFFFFB1BC) The elements of the X Values array must be either all positive or all negative.
+</nierror>
+<nierror code="-20035">
+Analysis: (Hex 0xFFFFB1BD) The standard deviation must be greater than zero for normalization.
+</nierror>
+<nierror code="-20034">
+Analysis: (Hex 0xFFFFB1BE) The number of coefficients must be even for this filter.
+</nierror>
+<nierror code="-20033">
+Analysis: (Hex 0xFFFFB1BF) The number of coefficients must be odd for this filter.
+</nierror>
+<nierror code="-20032">
+Analysis: (Hex 0xFFFFB1C0) The left rank of the filter must meet: left rank >= 0.
+The right rank of the filter must meet: right rank < size.
+</nierror>
+<nierror code="-20031">
+Analysis: (Hex 0xFFFFB1C1) The filter cannot be designed with the specified input values.
+</nierror>
+<nierror code="-20030">
+Analysis: (Hex 0xFFFFB1C2) The leakage coefficient, leak, and step-size parameter, u, must meet:  0 <= leak <= u.
+</nierror>
+<nierror code="-20029">
+Analysis: (Hex 0xFFFFB1C3) The step-size, u, must meet:  0 <= u <= 0.1.
+</nierror>
+<nierror code="-20028">
+Analysis: (Hex 0xFFFFB1C4) The attenuation value must be greater than the ripple amplitude.
+</nierror>
+<nierror code="-20027">
+Analysis: (Hex 0xFFFFB1C5) The final value must be > 0.
+</nierror>
+<nierror code="-20026">
+Analysis: (Hex 0xFFFFB1C6) The width must be > 0.
+</nierror>
+<nierror code="-20025">
+Analysis: (Hex 0xFFFFB1C7) The attenuation must be > 0.
+</nierror>
+<nierror code="-20024">
+Analysis: (Hex 0xFFFFB1C8) The ripple amplitude must be > 0.
+</nierror>
+<nierror code="-20023">
+Analysis: (Hex 0xFFFFB1C9) The following conditions must be met:  0 < f_low <= f_high <= fs/2.
+</nierror>
+<nierror code="-20022">
+Analysis: (Hex 0xFFFFB1CA) The decimating factor must meet:  0 < decimating factor <= samples.
+</nierror>
+<nierror code="-20021">
+Analysis: (Hex 0xFFFFB1CB) The order must be greater than 0.
+</nierror>
+<nierror code="-20020">
+Analysis: (Hex 0xFFFFB1CC) The cut-off frequency, fc, must meet:  0 <= fc <= fs/2.
+</nierror>
+<nierror code="-20019">
+Analysis: (Hex 0xFFFFB1CD) The upper value must be >= the lower value.
+</nierror>
+<nierror code="-20018">
+Analysis: (Hex 0xFFFFB1CE) The following condition must be met:  0 <= (index + length) < samples.
+</nierror>
+<nierror code="-20017">
+Analysis: (Hex 0xFFFFB1CF) The following condition must be met:  0 <= index < samples.
+</nierror>
+<nierror code="-20016">
+Analysis: (Hex 0xFFFFB1D0) dt must be > 0.
+</nierror>
+<nierror code="-20015">
+Analysis: (Hex 0xFFFFB1D1) dt must be >= 0.
+</nierror>
+<nierror code="-20014">
+Analysis: (Hex 0xFFFFB1D2) The following conditions must be met:  0 <= (delay + width) < samples.
+</nierror>
+<nierror code="-20013">
+Analysis: (Hex 0xFFFFB1D3) The width must meet: 0 < width < samples.
+</nierror>
+<nierror code="-20012">
+Analysis: (Hex 0xFFFFB1D4) The number of cycles must be > 0 and <= the number of samples.
+</nierror>
+<nierror code="-20011">
+Analysis: (Hex 0xFFFFB1D5) The duty cycle must be equal to or fall between 0 and 100: 0 <= duty cycle <= 100.
+</nierror>
+<nierror code="-20010">
+Analysis: (Hex 0xFFFFB1D6) The maximum allowable transform size has been exceeded.
+</nierror>
+<nierror code="-20009">
+Analysis: (Hex 0xFFFFB1D7) The size of the input array must be a power of two:  size = 2^m, 0 < m < 23.
+</nierror>
+<nierror code="-20008">
+Analysis: (Hex 0xFFFFB1D8) The input arrays do not contain the correct number of data values for this function.
+</nierror>
+<nierror code="-20007">
+Analysis: (Hex 0xFFFFB1D9) The number of samples must be greater than or equal to 3.
+</nierror>
+<nierror code="-20006">
+Analysis: (Hex 0xFFFFB1DA) The number of samples must be >= 2.
+</nierror>
+<nierror code="-20005">
+Analysis: (Hex 0xFFFFB1DB) The number of samples must be greater than or equal to 1.
+</nierror>
+<nierror code="-20004">
+Analysis: (Hex 0xFFFFB1DC) The number of samples must be >= 0.
+</nierror>
+<nierror code="-20003">
+Analysis: (Hex 0xFFFFB1DD) The number of samples must be > 0.
+</nierror>
+<nierror code="-20002">
+Analysis: (Hex 0xFFFFB1DE) The input sequences must be the same size.
+</nierror>
+<nierror code="-20001">
+Analysis: (Hex 0xFFFFB1DF) There is not enough memory to perform the specified routine.
+</nierror>
+<nierror code="20001">
+Analysis: (Hex 0x4E21) The matrix is rank deficient.
+</nierror>
+<nierror code="20002">
+Analysis: (Hex 0x4E22) The number of samples must be greater than zero.
+</nierror>
+<nierror code="20003">
+Analysis: (Hex 0x4E23) The matrix is singular.
+</nierror>
+<nierror code="20004">
+Analysis: (Hex 0x4E24) Matrices or vectors do not have the same size.
+</nierror>
+<nierror code="20005">
+Analysis: (Hex 0x4E25) LabVIEW cannot reorder the generalized eigenvalues.
+</nierror>
+<nierror code="20006">
+Analysis: (Hex 0x4E26) The computation result might be inaccurate.
+</nierror>
+<nierror code="20007">
+Analysis: (Hex 0x4E27) The input is an invalid Cholesky factorization.
+</nierror>
+<nierror code="20008">
+Analysis: (Hex 0x4E28) The matrix is not positive-definite.
+</nierror>
+<nierror code="20010">
+Analysis: (Hex 0x4E2A) The sizes of the input arrays do not meet the specified conditions.
+</nierror>
+<nierror code="20011">
+Analysis: (Hex 0x4E2B) The input standard deviation is invalid.
+</nierror>
+<nierror code="20012">
+Analysis: (Hex 0x4E2C) The input polynomial is empty.
+</nierror>
+<nierror code="20020">
+Analysis: (Hex 0x4E34) Some frequencies violate Nyquist criteria.
+</nierror>
+<nierror code="20021">
+Analysis: (Hex 0x4E35) The measurement of state level may be inaccurate, which leads to the inaccuracy of other measurements.
+</nierror>
+<nierror code="20030">
+Analysis: (Hex 0x4E3E) The input matrix has at least one element with a value of Inf or NaN.
+</nierror>
+<nierror code="20031">
+Analysis: (Hex 0x4E3F) The maximum allowable order has been exceeded.
+</nierror>
+<nierror code="20307">
+Analysis: (Hex 0x4F53) Frequency was coerced to the nearest multiple of (sampling rate)/samples.
+</nierror>
+<nierror code="20334">
+Analysis: (Hex 0x4F6E) Waveforms are not overlapping.
+</nierror>
+<nierror code="20351">
+Analysis: (Hex 0x4F7F) The averaging process was automatically restarted to respond to a change in the averaging parameters.
+</nierror>
+<nierror code="20352">
+Analysis: (Hex 0x4F80) Current and previous waveforms are not contiguous.
+</nierror>
+<nierror code="20353">
+Analysis: (Hex 0x4F81) Current and previous dt not equal.
+</nierror>
+<nierror code="20354">
+Analysis: (Hex 0x4F82) The algorithm stops because the maximum number of iterations reached.
+</nierror>
+</nidocument>
