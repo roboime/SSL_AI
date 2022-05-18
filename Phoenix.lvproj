@@ -541,6 +541,8 @@
 			<Item Name="Style.ctl" Type="VI" URL="../Utilities_class/Style.ctl"/>
 			<Item Name="Giradinha3 (SubVI).vi" Type="VI" URL="../GiradaTypedefs/Giradinha3 (SubVI).vi"/>
 			<Item Name="Control 3.ctl" Type="VI" URL="../GiradaTypedefs/Control 3.ctl"/>
+			<Item Name="robotTurningAroundBallStates.ctl" Type="VI" URL="../KickToSkill_class/robotTurningAroundBallStates.ctl"/>
+			<Item Name="NewRobotTurningAroundBall.vi" Type="VI" URL="../KickToSkill_class/NewRobotTurningAroundBall.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
