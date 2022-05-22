@@ -120,6 +120,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074536976</Property>
 		</Item>
+		<Item Name="BallWithVelocityDestModifier.vi" Type="VI" URL="../BallWithVelocityDestModifier.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'N!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!!5!#A!!*%"!!!(`````!!57:'6T&gt;'FO&lt;S"D&lt;WUA&gt;G6M&lt;W.J:'&amp;E:1!!,E"Q!"Y!!"543WFD;V2P5WNJ&lt;'QO&lt;(:D&lt;'&amp;T=Q!03WFD;V2P5WNJ&lt;'QA&lt;X6U!"Z!1!!"`````Q!&amp;%'2F=X2J&lt;G]A&lt;X*J:WFO97Q!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!)E"Q!"Y!!!].5G^C&lt;X1O&lt;(:D&lt;'&amp;T=Q!)5G^C&lt;X1A;7Y!!"Z!=!!?!!!/$%&gt;B&lt;75O&lt;(:D&lt;'&amp;T=Q!!"%&gt;B&lt;75!!#Z!=!!?!!!6%UNJ9WN5&lt;V.L;7RM,GRW9WRB=X-!$ENJ9WN5&lt;V.L;7RM)'FO!!"B!0!!$!!$!!1!"A!(!!1!"!!%!!A!#1!+!!M!$!-!!(A!!!U)!!!!!!!!$1=!!!U,!!!!!!!!!!!!!!!!!!%+!!!!#!!!!!A!!!!)!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!.!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074536976</Property>
+		</Item>
 	</Item>
 	<Item Name="movingInTurnState.vi" Type="VI" URL="../movingInTurnState.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)&lt;!!!!%Q!O1(!!(A!!&amp;2.,;7.L6'^4;WFM&lt;#ZM&gt;G.M98.T!!Z,;7.L6'^4;WFM&lt;#"J&lt;A!!"!!!!#Z!=!!?!!!6%UNJ9WN5&lt;V.L;7RM,GRW9WRB=X-!$UNJ9WN5&lt;V.L;7RM)'^V&gt;!!.1!I!"U*F=X1A?3!!&amp;%"!!!(`````!!-'6'&amp;S:W6U!!!&amp;!!I!!"*!1!!"`````Q!&amp;"%2F=X1!!"Z!=!!?!!!0$6*P9G^U,GRW9WRB=X-!"6*P9G^U!"*!)1R3&lt;W*P&gt;&amp;2P1WRP=W5!!":!1!!"`````Q!(#&amp;*P9G^U5G6G!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!+!!M!$".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!)1JG;8*T&gt;#"D97RM!!!N1!I!*U2J=X2'=G^N27ZF&lt;8F5&lt;U.P&lt;H.J:'6S#EVP&gt;G6*&lt;F2V=GZ4&gt;'&amp;U:1!?1(!!(A!!$AR(97VF,GRW9WRB=X-!!!2(97VF!!!71&amp;!!!Q!+!!M!$!FF=H*P=C"P&gt;81!@1$Q!"!!!!!"!!%!!1!#!!1!"A!(!!A!#1!"!!U!$A!0!"!!%1-!!1A!!!!!!!!!!!!!!!!!!!!!!!!.!!!#%!!!!!E!!!!1!!!!#1!!!B!!!!!!!!!!#!!!!")!!!!1!!!!%!!!!!U,!"%!!!!!!1!!!!!!!!!!!!!!!!!"!")!!!!!</Property>
