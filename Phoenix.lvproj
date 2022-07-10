@@ -231,6 +231,7 @@
 		<Item Name="RobotExtraInfo.ctl" Type="VI" URL="../Game_class/Replay/RobotExtraInfo.ctl"/>
 		<Item Name="feedbackData.ctl" Type="VI" URL="../Communication_class/feedbackData.ctl"/>
 		<Item Name="driveMode.ctl" Type="VI" URL="../Game_class/Navigation/driveMode.ctl"/>
+		<Item Name="feedbackStatusInfo.ctl" Type="VI" URL="../Game_class/feedbackStatusInfo.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
@@ -565,6 +566,7 @@
 			<Item Name="NewRobotTurningAroundBall.vi" Type="VI" URL="../KickToSkill_class/NewRobotTurningAroundBall.vi"/>
 			<Item Name="robotTurningBallStates.ctl" Type="VI" URL="../KickToSkill_class/robotTurningBallStates.ctl"/>
 			<Item Name="robotDisplayFeedback.ctl" Type="VI" URL="../Robot_class/robotDisplayFeedback.ctl"/>
+			<Item Name="ringBufferCommands.ctl" Type="VI" URL="../Utilities_class/ringBufferCommands.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
