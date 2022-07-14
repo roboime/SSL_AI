@@ -231,6 +231,8 @@
 		<Item Name="RobotExtraInfo.ctl" Type="VI" URL="../Game_class/Replay/RobotExtraInfo.ctl"/>
 		<Item Name="feedbackData.ctl" Type="VI" URL="../Communication_class/feedbackData.ctl"/>
 		<Item Name="driveMode.ctl" Type="VI" URL="../Game_class/Navigation/driveMode.ctl"/>
+		<Item Name="marker.ctl" Type="VI" URL="../Utilities_class/marker.ctl"/>
+		<Item Name="TypeMarker.ctl" Type="VI" URL="../Utilities_class/TypeMarker.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
