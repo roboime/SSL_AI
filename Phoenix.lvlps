@@ -12,3 +12,11 @@ Cache_Path[Path] = "/tmp/AB_Cache_{F033C4C9-C3E1-11EB-B351-02420EBEBBB2}.txt"
 
 [AB_Cache_{F033BE88-C3E1-11EB-B351-02420EBEBBB2}]
 Cache_Path[Path] = "/tmp/AB_Cache_{F033BE88-C3E1-11EB-B351-02420EBEBBB2}.txt"
+
+[AB_Cache_{78CDB2D4-4EF1-453F-9BE7-78C5FA79EEB7}]
+Cache_Path[Path] Line0001 = "/C/Users/lucio/AppData/Local/Temp/AB_Cache_{78CDB2"
+Cache_Path[Path] Line0002 = "D4-4EF1-453F-9BE7-78C5FA79EEB7}.txt"
+
+[AB_Cache_{7DD214D6-D694-41E3-AB1C-2E6D57D3CB6E}]
+Cache_Path[Path] Line0001 = "/C/Users/lucio/AppData/Local/Temp/AB_Cache_{7DD214"
+Cache_Path[Path] Line0002 = "D6-D694-41E3-AB1C-2E6D57D3CB6E}.txt"
