@@ -78,7 +78,6 @@
 			<Item Name="DefendAreaSkill.lvclass" Type="LVClass" URL="../DefendAreaSkill_class/DefendAreaSkill.lvclass"/>
 			<Item Name="DuelistSkill.lvclass" Type="LVClass" URL="../DuelistSkill_class/DuelistSkill.lvclass"/>
 			<Item Name="ZigZagSkill.lvclass" Type="LVClass" URL="../ZigZagSkill_class/ZigZagSkill.lvclass"/>
-			<Item Name="GoToSkill.lvclass" Type="LVClass" URL="../GoToSkill_class/GoToSkill.lvclass"/>
 			<Item Name="PenaltyDefenseSkill.lvclass" Type="LVClass" URL="../PenaltyDefenseSkill_class/PenaltyDefenseSkill.lvclass"/>
 			<Item Name="PenaltyAttackerSkill.lvclass" Type="LVClass" URL="../PenaltyAttackerSkill_class/PenaltyAttackerSkill.lvclass"/>
 			<Item Name="PositionToReceivePassSkill.lvclass" Type="LVClass" URL="../PositionToReceivePassSkill_class/PositionToReceivePassSkill.lvclass"/>
@@ -171,6 +170,10 @@
 		</Item>
 		<Item Name="New Plays" Type="Folder">
 			<Item Name="NewOff1.lvclass" Type="LVClass" URL="../NewOff1/NewOff1.lvclass"/>
+		</Item>
+		<Item Name="New Skills" Type="Folder">
+			<Item Name="GoToSkill.lvclass" Type="LVClass" URL="../GoToSkill_class/GoToSkill.lvclass"/>
+			<Item Name="CirculateSkill.lvclass" Type="LVClass" URL="../Circulate_class/CirculateSkill.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
