@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="22308000">
+<Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -569,7 +569,6 @@
 			<Item Name="EliminateEnum.ctl" Type="VI" URL="../Ally_class/EliminateEnum.ctl"/>
 			<Item Name="Style.ctl" Type="VI" URL="../Utilities_class/Style.ctl"/>
 			<Item Name="Giradinha3 (SubVI).vi" Type="VI" URL="../GiradaTypedefs/Giradinha3 (SubVI).vi"/>
-			<Item Name="Control 3.ctl" Type="VI" URL="../GiradaTypedefs/Control 3.ctl"/>
 			<Item Name="NewRobotTurningAroundBall.vi" Type="VI" URL="../KickToSkill_class/NewRobotTurningAroundBall.vi"/>
 			<Item Name="robotTurningBallStates.ctl" Type="VI" URL="../KickToSkill_class/robotTurningBallStates.ctl"/>
 			<Item Name="robotDisplayFeedback.ctl" Type="VI" URL="../Robot_class/robotDisplayFeedback.ctl"/>
