@@ -33,6 +33,7 @@
 </DBL>
 <EW>
 <Name>Type of Marker</Name>
+<Choice>Auto</Choice>
 <Choice>BlockEnemyPass</Choice>
 <Choice>BlockOurGoal</Choice>
 <Val>0</Val>
@@ -191,7 +192,7 @@
 </Boolean>
 <DBL>
 <Name>ShootOutForce</Name>
-<Val>15.00000000000000</Val>
+<Val>25.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>dtPosEstBall</Name>
@@ -199,7 +200,7 @@
 </DBL>
 <DBL>
 <Name>AttkIgnoreBallObst</Name>
-<Val>0.00000000000000</Val>
+<Val>2500.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>BarrierDist</Name>
@@ -241,7 +242,7 @@
 </DBL>
 <DBL>
 <Name>ChipKick Force</Name>
-<Val>15.00000000000000</Val>
+<Val>50.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>ForcePass
@@ -253,19 +254,19 @@ InGame</Name>
 <NumElts>10</NumElts>
 <DBL>
 <Name>MaxVSent</Name>
-<Val>2.60000000000000</Val>
+<Val>4.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>MaxVNorm</Name>
-<Val>2.00000000000000</Val>
+<Val>4.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>MaxVAng</Name>
-<Val>6.00000000000000</Val>
+<Val>8.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>VAngCircle</Name>
-<Val>2.50000000000000</Val>
+<Val>3.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>LBeginCircle</Name>
@@ -277,15 +278,15 @@ InGame</Name>
 </DBL>
 <DBL>
 <Name>MaxVAngToTurn</Name>
-<Val>6.00000000000000</Val>
+<Val>8.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>AtkDistToDestOrientation</Name>
-<Val>4000.00000000000000</Val>
+<Val>3500.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>KepperMaxVSent</Name>
-<Val>3.00000000000000</Val>
+<Val>4.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>VelNearEnemy</Name>
@@ -311,7 +312,7 @@ InGame</Name>
 <DBL>
 <Name>AttackerAngle
 ToTurnInDegrees</Name>
-<Val>25.00000000000000</Val>
+<Val>5.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>AttackerAngle
@@ -328,11 +329,11 @@ ToShootInDegrees</Name>
 </DBL>
 <DBL>
 <Name>timeoutToShoot</Name>
-<Val>1.50000000000000</Val>
+<Val>10.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>DistanceArea</Name>
-<Val>350.00000000000000</Val>
+<Val>100.00000000000000</Val>
 </DBL>
 <DBL>
 <Name>MinDistanceEnemy

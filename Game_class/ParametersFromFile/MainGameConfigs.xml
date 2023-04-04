@@ -10,7 +10,7 @@
 </String>
 <String>
 <Name>Server IP:</Name>
-<Val>224.5.23.2</Val>
+<Val>224.5.23.9</Val>
 </String>
 <String>
 <Name>Port</Name>
@@ -42,11 +42,11 @@
 </Boolean>
 <String>
 <Name>Address:</Name>
-<Val>192.168.37.12</Val>
+<Val>172.21.215.143</Val>
 </String>
 <U16>
 <Name>Port:</Name>
-<Val>10301</Val>
+<Val>20011</Val>
 </U16>
 </Cluster>
 <String>
