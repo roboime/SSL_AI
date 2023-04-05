@@ -246,6 +246,10 @@
 		<Item Name="marker.ctl" Type="VI" URL="../Utilities_class/marker.ctl"/>
 		<Item Name="TypeMarker.ctl" Type="VI" URL="../Utilities_class/TypeMarker.ctl"/>
 		<Item Name="TestSkills.ctl" Type="VI" URL="../STP_Parameters/TestSkills.ctl"/>
+		<Item Name="Objective.lvclass" Type="LVClass" URL="../Objective_class/Objective.lvclass"/>
+		<Item Name="Evaluator.lvclass" Type="LVClass" URL="../Evaluator/Evaluator.lvclass"/>
+		<Item Name="zones.ctl" Type="VI" URL="../Zone_class/zones.ctl"/>
+		<Item Name="Zone.lvclass" Type="LVClass" URL="../Zone_class/Zone.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
@@ -580,6 +584,7 @@
 			<Item Name="commCAS.vi" Type="VI" URL="../RobotFeedback/commCAS.vi"/>
 			<Item Name="ringBufferCommands.ctl" Type="VI" URL="../Utilities_class/ringBufferCommands.ctl"/>
 			<Item Name="feedbackStatusInfo.ctl" Type="VI" URL="../Game_class/feedbackStatusInfo.ctl"/>
+			<Item Name="NewRobotTurningAroundBall.vi" Type="VI" URL="../KickToSkill_class/NewRobotTurningAroundBall.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
