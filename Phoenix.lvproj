@@ -11,6 +11,39 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="KickToPassReceiverTacticStates.ctl" Type="VI" URL="../KickToPassReceiverTactic_class/KickToPassReceiverTacticStates.ctl"/>
+			<Item Name="RobotModel.ctl" Type="VI" URL="../Controls/RobotModel.ctl"/>
+			<Item Name="RobotModelReplacementTest.ctl" Type="VI" URL="../Controls/RobotModelReplacementTest.ctl"/>
+			<Item Name="RobotModelTestState.ctl" Type="VI" URL="../Controls/RobotModelTestState.ctl"/>
+			<Item Name="RobotModelTestCrashCase.ctl" Type="VI" URL="../Controls/RobotModelTestCrashCase.ctl"/>
+			<Item Name="SampleOnGenerateVSent.ctl" Type="VI" URL="../Controls/SampleOnGenerateVSent.ctl"/>
+			<Item Name="RobotModelAllInformation.ctl" Type="VI" URL="../Controls/RobotModelAllInformation.ctl"/>
+			<Item Name="velocityPlanningState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/velocityPlanningState.ctl"/>
+			<Item Name="testMode.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/testMode.ctl"/>
+			<Item Name="estimatives.ctl" Type="VI" URL="../Controls/estimatives.ctl"/>
+			<Item Name="dest.ctl" Type="VI" URL="../Game_class/Navigation/Controls/dest.ctl"/>
+			<Item Name="PhoenixParameters.ctl" Type="VI" URL="../Controls/PhoenixParameters.ctl"/>
+			<Item Name="typeOfUse.ctl" Type="VI" URL="../Game_class/Navigation/Controls/typeOfUse.ctl"/>
+			<Item Name="bangBangControlParameters.ctl" Type="VI" URL="../Game_class/Navigation/Controls/bangBangControlParameters.ctl"/>
+			<Item Name="PassFinishBallVelConditionDegub.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishBallVelConditionDegub.ctl"/>
+			<Item Name="PassFinishReceiverDistanceToBallConditionDebug.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishReceiverDistanceToBallConditionDebug.ctl"/>
+			<Item Name="grSimReplacement.ctl" Type="VI" URL="../Controls/grSimReplacement.ctl"/>
+			<Item Name="robotModelArray.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/robotModelArray.ctl"/>
+			<Item Name="directEnemyRoles.ctl" Type="VI" URL="../DirectEnemyPlay_class/directEnemyRoles.ctl"/>
+			<Item Name="newBallValidate.ctl" Type="VI" URL="../Vision_class/newBallValidate.ctl"/>
+			<Item Name="NewParameters.ctl" Type="VI" URL="../Controls/NewParameters.ctl"/>
+			<Item Name="ReplayAlly.ctl" Type="VI" URL="../Game_class/Replay/ReplayAlly.ctl"/>
+			<Item Name="ReplayInfo.ctl" Type="VI" URL="../Game_class/Replay/ReplayInfo.ctl"/>
+			<Item Name="RobotExtraInfo.ctl" Type="VI" URL="../Game_class/Replay/RobotExtraInfo.ctl"/>
+			<Item Name="feedbackData.ctl" Type="VI" URL="../Communication_class/feedbackData.ctl"/>
+			<Item Name="driveMode.ctl" Type="VI" URL="../Game_class/Navigation/driveMode.ctl"/>
+			<Item Name="marker.ctl" Type="VI" URL="../Utilities_class/marker.ctl"/>
+			<Item Name="TypeMarker.ctl" Type="VI" URL="../Utilities_class/TypeMarker.ctl"/>
+			<Item Name="TestSkills.ctl" Type="VI" URL="../STP_Parameters/TestSkills.ctl"/>
+			<Item Name="Project.ctl" Type="VI" URL="../Parameters_class/Project.ctl"/>
+			<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
+		</Item>
 		<Item Name="Offensive Plays" Type="Folder">
 			<Item Name="EnemyPossessionAtEnemyFieldPlay.lvclass" Type="LVClass" URL="../EnemyPossessionAtEnemyFieldPlay_class/EnemyPossessionAtEnemyFieldPlay.lvclass"/>
 			<Item Name="EnemyPossessionAtOurFieldPlay.lvclass" Type="LVClass" URL="../EnemyPossessionAtOurFieldPlay_class/EnemyPossessionAtOurFieldPlay.lvclass"/>
@@ -181,8 +214,10 @@
 			<Item Name="Skills.ctl" Type="VI" URL="../STP_Parameters/Skills.ctl"/>
 			<Item Name="Parameters.ctl" Type="VI" URL="../STP_Parameters/Parameters.ctl"/>
 		</Item>
+		<Item Name="Objectives" Type="Folder">
+			<Item Name="TestObjetive.lvclass" Type="LVClass" URL="../TestObjetive/TestObjetive.lvclass"/>
+		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
-		<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication_class/Communication.lvclass"/>
 		<Item Name="Ball.lvclass" Type="LVClass" URL="../Ball_class/Ball.lvclass"/>
 		<Item Name="Enemy.lvclass" Type="LVClass" URL="../Enemy_class/Enemy.lvclass"/>
@@ -207,49 +242,15 @@
 		<Item Name="RobotFeedback.lvclass" Type="LVClass" URL="../RobotFeedback/RobotFeedback.lvclass"/>
 		<Item Name="Vision.lvclass" Type="LVClass" URL="../Vision_class/Vision.lvclass"/>
 		<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
-		<Item Name="Field Draw Target.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Target.vi"/>
-		<Item Name="Field Draw Robot.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Robot.vi"/>
-		<Item Name="VSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSNavigation.vi"/>
-		<Item Name="VSSSpeedTransformation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSSpeedTransformation.vi"/>
-		<Item Name="Project.ctl" Type="VI" URL="../Parameters_class/Project.ctl"/>
-		<Item Name="VSSGoToAngle.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSGoToAngle.vi"/>
-		<Item Name="NewVSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSSNavigation.vi"/>
-		<Item Name="NewVSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSS_GoTo.vi"/>
-		<Item Name="KickToPassReceiverTacticStates.ctl" Type="VI" URL="../KickToPassReceiverTactic_class/KickToPassReceiverTacticStates.ctl"/>
-		<Item Name="RobotModel.ctl" Type="VI" URL="../Controls/RobotModel.ctl"/>
-		<Item Name="RobotModelReplacementTest.ctl" Type="VI" URL="../Controls/RobotModelReplacementTest.ctl"/>
-		<Item Name="RobotModelTestState.ctl" Type="VI" URL="../Controls/RobotModelTestState.ctl"/>
-		<Item Name="RobotModelTestCrashCase.ctl" Type="VI" URL="../Controls/RobotModelTestCrashCase.ctl"/>
-		<Item Name="SampleOnGenerateVSent.ctl" Type="VI" URL="../Controls/SampleOnGenerateVSent.ctl"/>
-		<Item Name="RobotModelAllInformation.ctl" Type="VI" URL="../Controls/RobotModelAllInformation.ctl"/>
-		<Item Name="velocityPlanningState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/velocityPlanningState.ctl"/>
-		<Item Name="testMode.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/testMode.ctl"/>
-		<Item Name="estimatives.ctl" Type="VI" URL="../Controls/estimatives.ctl"/>
-		<Item Name="dest.ctl" Type="VI" URL="../Game_class/Navigation/Controls/dest.ctl"/>
-		<Item Name="PhoenixParameters.ctl" Type="VI" URL="../Controls/PhoenixParameters.ctl"/>
-		<Item Name="typeOfUse.ctl" Type="VI" URL="../Game_class/Navigation/Controls/typeOfUse.ctl"/>
-		<Item Name="bangBangControlParameters.ctl" Type="VI" URL="../Game_class/Navigation/Controls/bangBangControlParameters.ctl"/>
-		<Item Name="PassFinishBallVelConditionDegub.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishBallVelConditionDegub.ctl"/>
-		<Item Name="PassFinishReceiverDistanceToBallConditionDebug.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishReceiverDistanceToBallConditionDebug.ctl"/>
-		<Item Name="RunPhoenix.vi" Type="VI" URL="../RunPhoenix.vi"/>
-		<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
-		<Item Name="grSimReplacement.ctl" Type="VI" URL="../Controls/grSimReplacement.ctl"/>
-		<Item Name="robotModelArray.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/robotModelArray.ctl"/>
-		<Item Name="directEnemyRoles.ctl" Type="VI" URL="../DirectEnemyPlay_class/directEnemyRoles.ctl"/>
-		<Item Name="newBallValidate.ctl" Type="VI" URL="../Vision_class/newBallValidate.ctl"/>
-		<Item Name="NewParameters.ctl" Type="VI" URL="../Controls/NewParameters.ctl"/>
-		<Item Name="ReplayAlly.ctl" Type="VI" URL="../Game_class/Replay/ReplayAlly.ctl"/>
-		<Item Name="ReplayInfo.ctl" Type="VI" URL="../Game_class/Replay/ReplayInfo.ctl"/>
-		<Item Name="RobotExtraInfo.ctl" Type="VI" URL="../Game_class/Replay/RobotExtraInfo.ctl"/>
-		<Item Name="feedbackData.ctl" Type="VI" URL="../Communication_class/feedbackData.ctl"/>
-		<Item Name="driveMode.ctl" Type="VI" URL="../Game_class/Navigation/driveMode.ctl"/>
-		<Item Name="marker.ctl" Type="VI" URL="../Utilities_class/marker.ctl"/>
-		<Item Name="TypeMarker.ctl" Type="VI" URL="../Utilities_class/TypeMarker.ctl"/>
-		<Item Name="TestSkills.ctl" Type="VI" URL="../STP_Parameters/TestSkills.ctl"/>
 		<Item Name="Objective.lvclass" Type="LVClass" URL="../Objective_class/Objective.lvclass"/>
 		<Item Name="Evaluator.lvclass" Type="LVClass" URL="../Evaluator/Evaluator.lvclass"/>
-		<Item Name="zones.ctl" Type="VI" URL="../Zone_class/zones.ctl"/>
 		<Item Name="Zone.lvclass" Type="LVClass" URL="../Zone_class/Zone.lvclass"/>
+		<Item Name="Field Draw Target.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Target.vi"/>
+		<Item Name="Field Draw Robot.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Robot.vi"/>
+		<Item Name="RunPhoenix.vi" Type="VI" URL="../RunPhoenix.vi"/>
+		<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
+		<Item Name="TestEvaluator.vi" Type="VI" URL="../Evaluator/TestEvaluator.vi"/>
+		<Item Name="testZone.vi" Type="VI" URL="../Zone_class/testZone.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
@@ -539,8 +540,6 @@
 			<Item Name="VSSDetectionFIRASimFrame.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/VSSDetectionFIRASimFrame.vi"/>
 			<Item Name="VSSDecodeFIRASimBall.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/VSSDecodeFIRASimBall.vi"/>
 			<Item Name="VSSDecodeFIRASimRobots.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/VSSDecodeFIRASimRobots.vi"/>
-			<Item Name="VSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSS_GoTo.vi"/>
-			<Item Name="PathFollower.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/PathFollower.vi"/>
 			<Item Name="VSSAttackerStates.ctl" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSAttackerStates.ctl"/>
 			<Item Name="chooseState.vi" Type="VI" URL="../KickToSkill_class/chooseState.vi"/>
 			<Item Name="RRTAlgorithm2.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm2.vi"/>
@@ -585,6 +584,10 @@
 			<Item Name="ringBufferCommands.ctl" Type="VI" URL="../Utilities_class/ringBufferCommands.ctl"/>
 			<Item Name="feedbackStatusInfo.ctl" Type="VI" URL="../Game_class/feedbackStatusInfo.ctl"/>
 			<Item Name="NewRobotTurningAroundBall.vi" Type="VI" URL="../KickToSkill_class/NewRobotTurningAroundBall.vi"/>
+			<Item Name="VSSSpeedTransformation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSSpeedTransformation.vi"/>
+			<Item Name="VSSGoToAngle.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSGoToAngle.vi"/>
+			<Item Name="NewVSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSSNavigation.vi"/>
+			<Item Name="NewVSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSS_GoTo.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
@@ -628,53 +631,6 @@
 				<Property Name="TgtF_productName" Type="Str">runPhoenix</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{80292DD9-C0B0-11EB-9E66-080027CA8BCC}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Phoenix-cli.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Phoenix" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{F033F44A-C3E1-11EB-B351-02420EBEBBB2}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F033F159-C3E1-11EB-B351-02420EBEBBB2}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">0</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{F033C4C9-C3E1-11EB-B351-02420EBEBBB2}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Phoenix</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../build</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{F033BE88-C3E1-11EB-B351-02420EBEBBB2}</Property>
-				<Property Name="Bld_version.build" Type="Int">13</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Phoenix.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../build/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{27E91044-EB7D-4077-B246-3CDE2F8F7681}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RunPhoenix.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Phoenix.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">runPhoenix</Property>
-				<Property Name="TgtF_internalName" Type="Str">runPhoenix</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2021 </Property>
-				<Property Name="TgtF_productName" Type="Str">runPhoenix</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{F033ECED-C3E1-11EB-B351-02420EBEBBB2}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Phoenix.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 			<Item Name="My Application" Type="EXE">
