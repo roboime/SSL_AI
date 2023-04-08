@@ -94,6 +94,8 @@
 			<Item Name="HaltPlay.lvclass" Type="LVClass" URL="../HaltPlay_class/HaltPlay.lvclass"/>
 			<Item Name="ZigZagPlay.lvclass" Type="LVClass" URL="../ZigZagPlay_class/ZigZagPlay.lvclass"/>
 			<Item Name="GoToPlay.lvclass" Type="LVClass" URL="../GoToPlay_class/GoToPlay.lvclass"/>
+			<Item Name="SimpleBallPlacementAllyPlay.lvclass" Type="LVClass" URL="../SimpleBallPlacementAllyPlay_class/SimpleBallPlacementAllyPlay.lvclass"/>
+			<Item Name="BallPlacementAllyPlay.lvclass" Type="LVClass" URL="../BallPlacementAllyPlay_class/BallPlacementAllyPlay.lvclass"/>
 		</Item>
 		<Item Name="Skills" Type="Folder">
 			<Item Name="DefBallEnemySkill.lvclass" Type="LVClass" URL="../DefBallEnemySkill_class/DefBallEnemySkill.lvclass"/>
@@ -126,6 +128,12 @@
 			<Item Name="PenaltySkill.lvclass" Type="LVClass" URL="../PenaltySkill_class/PenaltySkill.lvclass"/>
 			<Item Name="StealBallSkill.lvclass" Type="LVClass" URL="../StealBallSkill_class/StealBallSkill.lvclass"/>
 			<Item Name="FollowBallAfterPassSkill.lvclass" Type="LVClass" URL="../FollowBallAfterPassSkill_class/FollowBallAfterPassSkill.lvclass"/>
+			<Item Name="MoveFromBallPlacementInterferenceSkill.lvclass" Type="LVClass" URL="../MoveFromBallPlacementInterferenceSkill_class/MoveFromBallPlacementInterferenceSkill.lvclass"/>
+			<Item Name="MoveAwayFromBallSkill.lvclass" Type="LVClass" URL="../MoveAwayFromBallSkill_class/MoveAwayFromBallSkill.lvclass"/>
+			<Item Name="GoToBallPlacementPositionSkill.lvclass" Type="LVClass" URL="../GoToBallPlacementPositionSkill_class/GoToBallPlacementPositionSkill.lvclass"/>
+			<Item Name="PlaceBallSkill.lvclass" Type="LVClass" URL="../PlaceBallSkill_class/PlaceBallSkill.lvclass"/>
+			<Item Name="PrepareToPositionBallPlacementSkill.lvclass" Type="LVClass" URL="../PrepareToPositionBallPlacementSkill_class/PrepareToPositionBallPlacementSkill.lvclass"/>
+			<Item Name="GoToNearBallPlacementSkill.lvclass" Type="LVClass" URL="../GoToNearBallPlacementSkill_class/GoToNearBallPlacementSkill.lvclass"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="BallPlacementEnemyTactic.lvclass" Type="LVClass" URL="../BallPlacementEnemyTactic_class/BallPlacementEnemyTactic.lvclass"/>
@@ -160,6 +168,9 @@
 			<Item Name="PenaltyTactic.lvclass" Type="LVClass" URL="../PenaltyTactic_class/PenaltyTactic.lvclass"/>
 			<Item Name="5RobotsTactic.lvclass" Type="LVClass" URL="../5RobotsTactic_class/5RobotsTactic.lvclass"/>
 			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
+			<Item Name="GoToBallPlacementPositionTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementPositionTactic_class/GoToBallPlacementPositionTactic.lvclass"/>
+			<Item Name="PlaceBallTactic.lvclass" Type="LVClass" URL="../PlaceBallTactic_class/PlaceBallTactic.lvclass"/>
+			<Item Name="GoToBallPlacementAllyTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementAllyTactic_class/GoToBallPlacementAllyTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="BallPlacementEnemyRole.lvclass" Type="LVClass" URL="../BallPlacementEnemyRole_class/BallPlacementEnemyRole.lvclass"/>
@@ -199,15 +210,17 @@
 			<Item Name="PassBestRobotRole.lvclass" Type="LVClass" URL="../PassBestRobotRole_class/PassBestRobotRole.lvclass"/>
 			<Item Name="PassBestReceiverRole.lvclass" Type="LVClass" URL="../PassBestReceiverRole_class/PassBestReceiverRole.lvclass"/>
 			<Item Name="PreparePasserRole.lvclass" Type="LVClass" URL="../PreparePasserRole_class/PreparePasserRole.lvclass"/>
-		</Item>
-		<Item Name="New Plays" Type="Folder">
-			<Item Name="NewOff1.lvclass" Type="LVClass" URL="../NewOff1/NewOff1.lvclass"/>
+			<Item Name="SupportAttackerRole.lvclass" Type="LVClass" URL="../SupportAttackerRole/SupportAttackerRole.lvclass"/>
+			<Item Name="PrimaryAttackerRole.lvclass" Type="LVClass" URL="../PrimaryAttacker_class/PrimaryAttackerRole.lvclass"/>
+			<Item Name="BallPlacementPasserRole.lvclass" Type="LVClass" URL="../BallPlacementPasserRole_class/BallPlacementPasserRole.lvclass"/>
+			<Item Name="BallPlacementReceiverRole.lvclass" Type="LVClass" URL="../BallPlacementReceiverRole_class/BallPlacementReceiverRole.lvclass"/>
+			<Item Name="SimpleBallPlacementAllyRole.lvclass" Type="LVClass" URL="../SimpleBallPlacementAllyRole_class/SimpleBallPlacementAllyRole.lvclass"/>
 		</Item>
 		<Item Name="New Skills" Type="Folder">
 			<Item Name="GoToSkill.lvclass" Type="LVClass" URL="../GoToSkill_class/GoToSkill.lvclass"/>
-			<Item Name="CirculateSkill.lvclass" Type="LVClass" URL="../Circulate_class/CirculateSkill.lvclass"/>
 			<Item Name="AlignSkill.lvclass" Type="LVClass" URL="../AlignSkill/AlignSkill.lvclass"/>
 			<Item Name="KickToSkill.lvclass" Type="LVClass" URL="../KickToSkill_class/KickToSkill.lvclass"/>
+			<Item Name="CirculateSkill.lvclass" Type="LVClass" URL="../Circulate_class/CirculateSkill.lvclass"/>
 		</Item>
 		<Item Name="STP Typedefs" Type="Folder">
 			<Item Name="CIrculateSkillParameters.ctl" Type="VI" URL="../Circulate_class/CIrculateSkillParameters.ctl"/>
@@ -552,24 +565,10 @@
 			<Item Name="AttackerAvoidArea.vi" Type="VI" URL="../Utilities_class/AttackerAvoidArea.vi"/>
 			<Item Name="Varint Array Decoder unit32 packed.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Array Decoder unit32 packed.vi"/>
 			<Item Name="dangerEnemy.ctl" Type="VI" URL="../MarkerSkill_class/dangerEnemy.ctl"/>
-			<Item Name="MoveFromBallPlacementInterferenceSkill.lvclass" Type="LVClass" URL="../MoveFromBallPlacementInterferenceSkill_class/MoveFromBallPlacementInterferenceSkill.lvclass"/>
 			<Item Name="StatesGoToBallPlacementAllyTactic.ctl" Type="VI" URL="../GoToBallPlacementAllyTactic_class/StatesGoToBallPlacementAllyTactic.ctl"/>
-			<Item Name="GoToNearBallPlacementSkill.lvclass" Type="LVClass" URL="../GoToNearBallPlacementSkill_class/GoToNearBallPlacementSkill.lvclass"/>
-			<Item Name="PrepareToPositionBallPlacementSkill.lvclass" Type="LVClass" URL="../PrepareToPositionBallPlacementSkill_class/PrepareToPositionBallPlacementSkill.lvclass"/>
 			<Item Name="StatesPlaceBallTactic.ctl" Type="VI" URL="../PlaceBallTactic_class/StatesPlaceBallTactic.ctl"/>
-			<Item Name="PlaceBallSkill.lvclass" Type="LVClass" URL="../PlaceBallSkill_class/PlaceBallSkill.lvclass"/>
-			<Item Name="MoveAwayFromBallSkill.lvclass" Type="LVClass" URL="../MoveAwayFromBallSkill_class/MoveAwayFromBallSkill.lvclass"/>
-			<Item Name="GoToBallPlacementPositionSkill.lvclass" Type="LVClass" URL="../GoToBallPlacementPositionSkill_class/GoToBallPlacementPositionSkill.lvclass"/>
 			<Item Name="EnemyPossessionAtOurFieldRoles.ctl" Type="VI" URL="../EnemyPossessionAtOurFieldPlay_class/EnemyPossessionAtOurFieldRoles.ctl"/>
-			<Item Name="BallPlacementAllyPlay.lvclass" Type="LVClass" URL="../BallPlacementAllyPlay_class/BallPlacementAllyPlay.lvclass"/>
-			<Item Name="BallPlacementReceiverRole.lvclass" Type="LVClass" URL="../BallPlacementReceiverRole_class/BallPlacementReceiverRole.lvclass"/>
-			<Item Name="BallPlacementPasserRole.lvclass" Type="LVClass" URL="../BallPlacementPasserRole_class/BallPlacementPasserRole.lvclass"/>
-			<Item Name="SimpleBallPlacementAllyPlay.lvclass" Type="LVClass" URL="../SimpleBallPlacementAllyPlay_class/SimpleBallPlacementAllyPlay.lvclass"/>
-			<Item Name="SimpleBallPlacementAllyRole.lvclass" Type="LVClass" URL="../SimpleBallPlacementAllyRole_class/SimpleBallPlacementAllyRole.lvclass"/>
 			<Item Name="obstacle.ctl" Type="VI" URL="../Robot_class/obstacle.ctl"/>
-			<Item Name="GoToBallPlacementAllyTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementAllyTactic_class/GoToBallPlacementAllyTactic.lvclass"/>
-			<Item Name="PlaceBallTactic.lvclass" Type="LVClass" URL="../PlaceBallTactic_class/PlaceBallTactic.lvclass"/>
-			<Item Name="GoToBallPlacementPositionTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementPositionTactic_class/GoToBallPlacementPositionTactic.lvclass"/>
 			<Item Name="GrsimTestRef.ctl" Type="VI" URL="../Parameters_class/GrsimTestRef.ctl"/>
 			<Item Name="Kickmeanvalues.ctl" Type="VI" URL="../Game_class/KickValueTest/Kickmeanvalues.ctl"/>
 			<Item Name="KickValuetest.ctl" Type="VI" URL="../Game_class/KickValueTest/KickValuetest.ctl"/>
@@ -578,12 +577,10 @@
 			<Item Name="MainGameConfigs.ctl" Type="VI" URL="../Game_class/ParametersFromFile/MainGameConfigs.ctl"/>
 			<Item Name="EliminateEnum.ctl" Type="VI" URL="../Ally_class/EliminateEnum.ctl"/>
 			<Item Name="Style.ctl" Type="VI" URL="../Utilities_class/Style.ctl"/>
-			<Item Name="Giradinha3 (SubVI).vi" Type="VI" URL="../GiradaTypedefs/Giradinha3 (SubVI).vi"/>
 			<Item Name="robotDisplayFeedback.ctl" Type="VI" URL="../Robot_class/robotDisplayFeedback.ctl"/>
 			<Item Name="commCAS.vi" Type="VI" URL="../RobotFeedback/commCAS.vi"/>
 			<Item Name="ringBufferCommands.ctl" Type="VI" URL="../Utilities_class/ringBufferCommands.ctl"/>
 			<Item Name="feedbackStatusInfo.ctl" Type="VI" URL="../Game_class/feedbackStatusInfo.ctl"/>
-			<Item Name="NewRobotTurningAroundBall.vi" Type="VI" URL="../KickToSkill_class/NewRobotTurningAroundBall.vi"/>
 			<Item Name="VSSSpeedTransformation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSSpeedTransformation.vi"/>
 			<Item Name="VSSGoToAngle.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSGoToAngle.vi"/>
 			<Item Name="NewVSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSSNavigation.vi"/>
