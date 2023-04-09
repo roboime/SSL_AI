@@ -28,7 +28,6 @@
 			<Item Name="bangBangControlParameters.ctl" Type="VI" URL="../Game_class/Navigation/Controls/bangBangControlParameters.ctl"/>
 			<Item Name="PassFinishBallVelConditionDegub.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishBallVelConditionDegub.ctl"/>
 			<Item Name="PassFinishReceiverDistanceToBallConditionDebug.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishReceiverDistanceToBallConditionDebug.ctl"/>
-			<Item Name="grSimReplacement.ctl" Type="VI" URL="../Controls/grSimReplacement.ctl"/>
 			<Item Name="robotModelArray.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/robotModelArray.ctl"/>
 			<Item Name="directEnemyRoles.ctl" Type="VI" URL="../DirectEnemyPlay_class/directEnemyRoles.ctl"/>
 			<Item Name="newBallValidate.ctl" Type="VI" URL="../Vision_class/newBallValidate.ctl"/>
@@ -43,6 +42,7 @@
 			<Item Name="TestSkills.ctl" Type="VI" URL="../STP_Parameters/TestSkills.ctl"/>
 			<Item Name="Project.ctl" Type="VI" URL="../Parameters_class/Project.ctl"/>
 			<Item Name="command_interpreted.ctl" Type="VI" URL="../Referee_class/command_interpreted.ctl"/>
+			<Item Name="grSimReplacement.ctl" Type="VI" URL="../Controls/grSimReplacement.ctl"/>
 		</Item>
 		<Item Name="Offensive Plays" Type="Folder">
 			<Item Name="EnemyPossessionAtEnemyFieldPlay.lvclass" Type="LVClass" URL="../EnemyPossessionAtEnemyFieldPlay_class/EnemyPossessionAtEnemyFieldPlay.lvclass"/>
@@ -225,7 +225,7 @@
 		<Item Name="STP Typedefs" Type="Folder">
 			<Item Name="CIrculateSkillParameters.ctl" Type="VI" URL="../Circulate_class/CIrculateSkillParameters.ctl"/>
 			<Item Name="Skills.ctl" Type="VI" URL="../STP_Parameters/Skills.ctl"/>
-			<Item Name="Parameters.ctl" Type="VI" URL="../STP_Parameters/Parameters.ctl"/>
+			<Item Name="STPParameters.ctl" Type="VI" URL="../STP_Parameters/STPParameters.ctl"/>
 		</Item>
 		<Item Name="Objectives" Type="Folder">
 			<Item Name="TestObjetive.lvclass" Type="LVClass" URL="../TestObjetive/TestObjetive.lvclass"/>
