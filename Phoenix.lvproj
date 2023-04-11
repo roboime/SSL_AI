@@ -217,16 +217,28 @@
 			<Item Name="SimpleBallPlacementAllyRole.lvclass" Type="LVClass" URL="../SimpleBallPlacementAllyRole_class/SimpleBallPlacementAllyRole.lvclass"/>
 		</Item>
 		<Item Name="NewSTP" Type="Folder">
-			<Item Name="Skills" Type="Folder">
+			<Item Name="NewSkills" Type="Folder">
+				<Item Name="ShootSkill.lvclass" Type="LVClass" URL="../ShootSkill_class/ShootSkill.lvclass"/>
+				<Item Name="GoToSkill_v2.lvclass" Type="LVClass" URL="../GoToSkill_v2_class/GoToSkill_v2.lvclass"/>
+				<Item Name="KickToSkill_v2.lvclass" Type="LVClass" URL="../KickToSkill_v2_class/KickToSkill_v2.lvclass"/>
+				<Item Name="PassSkill.lvclass" Type="LVClass" URL="../PassSkill_class/PassSkill.lvclass"/>
 				<Item Name="AlignSkill.lvclass" Type="LVClass" URL="../AlignSkill/AlignSkill.lvclass"/>
 				<Item Name="CirculateSkill.lvclass" Type="LVClass" URL="../Circulate_class/CirculateSkill.lvclass"/>
+				<Item Name="OneTouchShotSkill.lvclass" Type="LVClass" URL="../OneTouchShotSkill_class/OneTouchShotSkill.lvclass"/>
+				<Item Name="InterceptBallSkill.lvclass" Type="LVClass" URL="../InterceptBallSkill_class/InterceptBallSkill.lvclass"/>
 			</Item>
-			<Item Name="Tactics" Type="Folder"/>
-			<Item Name="Roles" Type="Folder">
+			<Item Name="NewTactics" Type="Folder">
+				<Item Name="KickTactic.lvclass" Type="LVClass" URL="../KickTactic_class/KickTactic.lvclass"/>
+				<Item Name="ShootTactic_v2.lvclass" Type="LVClass" URL="../ShootTactic_v2_class/ShootTactic_v2.lvclass"/>
+				<Item Name="PositionTactic.lvclass" Type="LVClass" URL="../PositionTactic_class/PositionTactic.lvclass"/>
+				<Item Name="PassTactic.lvclass" Type="LVClass" URL="../PassTactic_class/PassTactic.lvclass"/>
+				<Item Name="WaitPassTactic_v2.lvclass" Type="LVClass" URL="../WaitPassTactic_v2_class/WaitPassTactic_v2.lvclass"/>
+			</Item>
+			<Item Name="NewRoles" Type="Folder">
 				<Item Name="SupportAttackerRole.lvclass" Type="LVClass" URL="../SupportAttackerRole/SupportAttackerRole.lvclass"/>
 				<Item Name="PrimaryAttackerRole.lvclass" Type="LVClass" URL="../PrimaryAttacker_class/PrimaryAttackerRole.lvclass"/>
 			</Item>
-			<Item Name="Plays" Type="Folder"/>
+			<Item Name="NewPlays" Type="Folder"/>
 			<Item Name="Typedefs" Type="Folder">
 				<Item Name="CIrculateSkillParameters.ctl" Type="VI" URL="../Circulate_class/CIrculateSkillParameters.ctl"/>
 				<Item Name="Skills.ctl" Type="VI" URL="../STP_Parameters/Skills.ctl"/>
@@ -446,7 +458,6 @@
 			<Item Name="SSL Referee to GUI Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/SSL Referee to GUI Referee.vi"/>
 			<Item Name="SSL Referee.ctl" Type="VI" URL="../Vision_class/Old vision/Controls/SSL Referee.ctl"/>
 			<Item Name="SSL UDP Receiver.vi" Type="VI" URL="../Vision_class/Old vision/SSL UDP Receiver Folder/SSL/SSL UDP Receiver.vi"/>
-			<Item Name="States.ctl" Type="VI" URL="../TestTactic_class/States.ctl"/>
 			<Item Name="Switch Sides.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Switch Sides.vi"/>
 			<Item Name="Team and Side.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Core/Team and Side.vi"/>
 			<Item Name="Varint Base128 Decoder.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Base128 Decoder.vi"/>
@@ -591,7 +602,7 @@
 			<Item Name="VSSGoToAngle.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSGoToAngle.vi"/>
 			<Item Name="NewVSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSSNavigation.vi"/>
 			<Item Name="NewVSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSS_GoTo.vi"/>
-			<Item Name="grSim_RobotReplacement Encoder.vi" Type="VI" URL="../Communication_class/grSim_RobotReplacement Encoder.vi"/>
+			<Item Name="KickTacticStates_states.ctl" Type="VI" URL="../KickTactic_class/KickTacticStates_states/KickTacticStates_states.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">

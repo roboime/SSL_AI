@@ -24,7 +24,19 @@
 <NumElts>4</NumElts>
 <Array>
 <Name>NodeType</Name>
-<Dimsize>20</Dimsize>
+<Dimsize>23</Dimsize>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassNode</Val>
+</String>
 <String>
 <Name>Class name</Name>
 <Val>ClassNode</Val>
@@ -108,7 +120,19 @@
 </Array>
 <Array>
 <Name>ParentIndex</Name>
-<Dimsize>20</Dimsize>
+<Dimsize>23</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>-1</Val>
+</I32>
 <I32>
 <Name>index of element</Name>
 <Val>-1</Val>
@@ -192,7 +216,43 @@
 </Array>
 <Array>
 <Name>ChildernIndexies</Name>
-<Dimsize>20</Dimsize>
+<Dimsize>23</Dimsize>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
+<Cluster>
+<Name></Name>
+<NumElts>1</NumElts>
+<Array>
+<Name></Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val></Val>
+</I32>
+</Array>
+</Cluster>
 <Cluster>
 <Name></Name>
 <NumElts>1</NumElts>
@@ -436,7 +496,7 @@
 </Array>
 <Array>
 <Name>FlattenData</Name>
-<Dimsize>20</Dimsize>
+<Dimsize>23</Dimsize>
 <String>
 <Name>XML Out</Name>
 <Val>&lt;Cluster&gt;
@@ -475,11 +535,11 @@
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;310.00000000000000&lt;/Val&gt;
+&lt;Val&gt;260.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;Val&gt;170.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -596,11 +656,11 @@ states : PrimaryAttackerRole_states&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;70.00000000000000&lt;/Val&gt;
+&lt;Val&gt;180.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;350.00000000000000&lt;/Val&gt;
+&lt;Val&gt;390.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -717,11 +777,11 @@ Exit&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;510.00000000000000&lt;/Val&gt;
+&lt;Val&gt;660.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;90.00000000000000&lt;/Val&gt;
+&lt;Val&gt;160.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -839,11 +899,11 @@ states : SupportAttackerRole_states&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;180.00000000000000&lt;/Val&gt;
+&lt;Val&gt;30.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;40.00000000000000&lt;/Val&gt;
+&lt;Val&gt;260.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -851,17 +911,17 @@ states : SupportAttackerRole_states&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;height&lt;/Name&gt;
-&lt;Val&gt;170.00000000000000&lt;/Val&gt;
+&lt;Val&gt;160.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;/Cluster&gt;
 &lt;/Cluster&gt;
 &lt;DBL&gt;
 &lt;Name&gt;midHeight&lt;/Name&gt;
-&lt;Val&gt;126.00000000000000&lt;/Val&gt;
+&lt;Val&gt;70.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;botHeight&lt;/Name&gt;
-&lt;Val&gt;20.00000000000000&lt;/Val&gt;
+&lt;Val&gt;70.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;Refnum&gt;
 &lt;Name&gt;name&lt;/Name&gt;
@@ -909,7 +969,7 @@ states : SupportAttackerRole_states&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
-&lt;Val&gt;fieldDVR : RefNum
+&lt;Val&gt;FieldDVR : Field
 centerPosition : DBL[]
 lenght : DBL
 width : DBL
@@ -917,7 +977,11 @@ guardPosition : DBL&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
-&lt;Val&gt;+RandomSample&lt;/Val&gt;
+&lt;Val&gt;+Read FieldDVR
++Write FieldDVR
++Clean_up
++RandomSample
++init&lt;/Val&gt;
 &lt;/String&gt;
 &lt;/Cluster&gt;
 </Val>
@@ -960,11 +1024,11 @@ guardPosition : DBL&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;460.00000000000000&lt;/Val&gt;
+&lt;Val&gt;570.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;350.00000000000000&lt;/Val&gt;
+&lt;Val&gt;400.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -1021,13 +1085,13 @@ guardPosition : DBL&lt;/Val&gt;
 &lt;/Boolean&gt;
 &lt;Path&gt;
 &lt;Name&gt;ClassPath&lt;/Name&gt;
-&lt;Val&gt;SupportAttackerRole\SupportAttackerRole_enum_class\SupportAttackerRole_enum.ctl&lt;/Val&gt;
+&lt;Val&gt;SupportAttackerRole\SupportAttackerRole_states_class\SupportAttackerRole_states.ctl&lt;/Val&gt;
 &lt;/Path&gt;
 &lt;/Cluster&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
 &lt;Val&gt;&amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt;
-SupportAttackerRole : SupportAttackerRole_enum&lt;/Val&gt;
+SupportAttackerRole : SupportAttackerRole_states&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
@@ -1080,137 +1144,15 @@ Exit&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;1000.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1010.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;110.00000000000000&lt;/Val&gt;
+&lt;Val&gt;210.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
-&lt;Val&gt;120.00000000000000&lt;/Val&gt;
-&lt;/DBL&gt;
-&lt;DBL&gt;
-&lt;Name&gt;height&lt;/Name&gt;
-&lt;Val&gt;190.00000000000000&lt;/Val&gt;
-&lt;/DBL&gt;
-&lt;/Cluster&gt;
-&lt;/Cluster&gt;
-&lt;DBL&gt;
-&lt;Name&gt;midHeight&lt;/Name&gt;
-&lt;Val&gt;42.00000000000000&lt;/Val&gt;
-&lt;/DBL&gt;
-&lt;DBL&gt;
-&lt;Name&gt;botHeight&lt;/Name&gt;
-&lt;Val&gt;126.00000000000000&lt;/Val&gt;
-&lt;/DBL&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;name&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;attributes&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;methods&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;I32&gt;
-&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
-&lt;Val&gt;20&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;I32&gt;
-&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
-&lt;Val&gt;100&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;I32&gt;
-&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
-&lt;Val&gt;60&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;Boolean&gt;
-&lt;Name&gt;showMethods&lt;/Name&gt;
-&lt;Val&gt;1&lt;/Val&gt;
-&lt;/Boolean&gt;
-&lt;Boolean&gt;
-&lt;Name&gt;showAttributes&lt;/Name&gt;
-&lt;Val&gt;1&lt;/Val&gt;
-&lt;/Boolean&gt;
-&lt;Path&gt;
-&lt;Name&gt;ClassPath&lt;/Name&gt;
-&lt;Val&gt;KickTactic_class\KickTactic.lvclass&lt;/Val&gt;
-&lt;/Path&gt;
-&lt;/Cluster&gt;
-&lt;String&gt;
-&lt;Name&gt;text&lt;/Name&gt;
-&lt;Val&gt;KickTactic&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;text&lt;/Name&gt;
-&lt;Val&gt;targetRange : DBL[]
-kickToSkill : KickToSkill&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;text&lt;/Name&gt;
-&lt;Val&gt;+KickTactic
-+ReadyToKick
-+CalculateTargetRange
-+CalculateTangentPoint
-+IsRobotBehindBall&lt;/Val&gt;
-&lt;/String&gt;
-&lt;/Cluster&gt;
-</Val>
-</String>
-<String>
-<Name>XML Out</Name>
-<Val>&lt;Cluster&gt;
-&lt;Name&gt;&lt;/Name&gt;
-&lt;NumElts&gt;4&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Attributes&lt;/Name&gt;
-&lt;NumElts&gt;12&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Base class&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Base class&lt;/Name&gt;
-&lt;NumElts&gt;3&lt;/NumElts&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;parent&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Array&gt;
-&lt;Name&gt;children&lt;/Name&gt;
-&lt;Dimsize&gt;0&lt;/Dimsize&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;reference&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;/Array&gt;
-&lt;Boolean&gt;
-&lt;Name&gt;Hidden&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/Boolean&gt;
-&lt;/Cluster&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;bounds&lt;/Name&gt;
-&lt;NumElts&gt;4&lt;/NumElts&gt;
-&lt;DBL&gt;
-&lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;710.00000000000000&lt;/Val&gt;
-&lt;/DBL&gt;
-&lt;DBL&gt;
-&lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;120.00000000000000&lt;/Val&gt;
-&lt;/DBL&gt;
-&lt;DBL&gt;
-&lt;Name&gt;width&lt;/Name&gt;
-&lt;Val&gt;260.00000000000000&lt;/Val&gt;
+&lt;Val&gt;220.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;height&lt;/Name&gt;
@@ -1263,13 +1205,13 @@ kickToSkill : KickToSkill&lt;/Val&gt;
 &lt;/Boolean&gt;
 &lt;Path&gt;
 &lt;Name&gt;ClassPath&lt;/Name&gt;
-&lt;Val&gt;KickTactic_class\KickTacticStates_states_class\KickTacticStates_states.ctl&lt;/Val&gt;
+&lt;Val&gt;KickTactic_class\KickTactic_states_class\KickTactic_states.ctl&lt;/Val&gt;
 &lt;/Path&gt;
 &lt;/Cluster&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
 &lt;Val&gt;&amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt;
-KickTactic : KickTacticStates_states&lt;/Val&gt;
+KickTactic : KickTactic_states&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
@@ -1324,11 +1266,11 @@ Exit&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;1470.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1970.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;110.00000000000000&lt;/Val&gt;
+&lt;Val&gt;220.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -1442,19 +1384,19 @@ Exit&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;1460.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1940.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;210.00000000000000&lt;/Val&gt;
+&lt;Val&gt;330.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
-&lt;Val&gt;220.00000000000000&lt;/Val&gt;
+&lt;Val&gt;290.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;height&lt;/Name&gt;
-&lt;Val&gt;110.00000000000000&lt;/Val&gt;
+&lt;Val&gt;130.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;/Cluster&gt;
 &lt;/Cluster&gt;
@@ -1503,12 +1445,13 @@ Exit&lt;/Val&gt;
 &lt;/Boolean&gt;
 &lt;Path&gt;
 &lt;Name&gt;ClassPath&lt;/Name&gt;
-&lt;Val&gt;PrimaryAttacker_class\WaitPassTacticStates_states.ctl&lt;/Val&gt;
+&lt;Val&gt;WaitPassTactic_class\WaitPassTactic_states_class\WaitPassTactic_states.ctl&lt;/Val&gt;
 &lt;/Path&gt;
 &lt;/Cluster&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
-&lt;Val&gt;WaitPassTacticStates_states&lt;/Val&gt;
+&lt;Val&gt;&amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt;
+WaitPassTactic : WaitPassTactic_states&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
@@ -1561,11 +1504,11 @@ Exit&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;1220.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1650.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;110.00000000000000&lt;/Val&gt;
+&lt;Val&gt;220.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -1678,19 +1621,19 @@ Exit&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;1190.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1570.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;190.00000000000000&lt;/Val&gt;
+&lt;Val&gt;360.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
-&lt;Val&gt;210.00000000000000&lt;/Val&gt;
+&lt;Val&gt;270.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;height&lt;/Name&gt;
-&lt;Val&gt;150.00000000000000&lt;/Val&gt;
+&lt;Val&gt;130.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;/Cluster&gt;
 &lt;/Cluster&gt;
@@ -1739,13 +1682,13 @@ Exit&lt;/Val&gt;
 &lt;/Boolean&gt;
 &lt;Path&gt;
 &lt;Name&gt;ClassPath&lt;/Name&gt;
-&lt;Val&gt;PrimaryAttacker_class\PositionTacticStates_states.ctl&lt;/Val&gt;
+&lt;Val&gt;PrimaryAttacker_class\PositionTactic_states_class\PositionTactic_states.ctl&lt;/Val&gt;
 &lt;/Path&gt;
 &lt;/Cluster&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
 &lt;Val&gt;&amp;lt;&amp;lt;ENUM&amp;gt;&amp;gt;
-PositionTacticStates_states&lt;/Val&gt;
+PositionTactic : PositionTactic_states&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
@@ -1798,11 +1741,11 @@ Exit&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;510.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1910.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;650.00000000000000&lt;/Val&gt;
+&lt;Val&gt;480.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -1859,12 +1802,12 @@ Exit&lt;/Val&gt;
 &lt;/Boolean&gt;
 &lt;Path&gt;
 &lt;Name&gt;ClassPath&lt;/Name&gt;
-&lt;Val&gt;GoToSkill_class\GoToSkill.lvclass&lt;/Val&gt;
+&lt;Val&gt;GoToSkill_v2_class\GoToSkill_v2.lvclass&lt;/Val&gt;
 &lt;/Path&gt;
 &lt;/Cluster&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
-&lt;Val&gt;GoToSkill&lt;/Val&gt;
+&lt;Val&gt;GoToSkill_v2&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
@@ -1918,11 +1861,11 @@ orientation : DBL[]&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;610.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1960.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;830.00000000000000&lt;/Val&gt;
+&lt;Val&gt;650.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -2038,11 +1981,11 @@ normFactor : DBL&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;780.00000000000000&lt;/Val&gt;
+&lt;Val&gt;2130.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;830.00000000000000&lt;/Val&gt;
+&lt;Val&gt;650.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -2157,11 +2100,11 @@ tangentFactor : DBL&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;260.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1610.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;830.00000000000000&lt;/Val&gt;
+&lt;Val&gt;650.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -2274,15 +2217,15 @@ tangentFactor : DBL&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;450.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1800.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;820.00000000000000&lt;/Val&gt;
+&lt;Val&gt;640.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
-&lt;Val&gt;90.00000000000000&lt;/Val&gt;
+&lt;Val&gt;110.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;height&lt;/Name&gt;
@@ -2335,12 +2278,12 @@ tangentFactor : DBL&lt;/Val&gt;
 &lt;/Boolean&gt;
 &lt;Path&gt;
 &lt;Name&gt;ClassPath&lt;/Name&gt;
-&lt;Val&gt;KickToSkill_class\KickToSkill.lvclass&lt;/Val&gt;
+&lt;Val&gt;KickToSkill_v2_class\KickToSkill_v2.lvclass&lt;/Val&gt;
 &lt;/Path&gt;
 &lt;/Cluster&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
-&lt;Val&gt;KickToSkill&lt;/Val&gt;
+&lt;Val&gt;KickToSkill_v2&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
@@ -2393,11 +2336,11 @@ kickZ : DBL&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;860.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1430.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;450.00000000000000&lt;/Val&gt;
+&lt;Val&gt;550.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -2454,12 +2397,12 @@ kickZ : DBL&lt;/Val&gt;
 &lt;/Boolean&gt;
 &lt;Path&gt;
 &lt;Name&gt;ClassPath&lt;/Name&gt;
-&lt;Val&gt;ShootTactic_class\ShootTactic.lvclass&lt;/Val&gt;
+&lt;Val&gt;ShootTactic_v2_class\ShootTactic_v2.lvclass&lt;/Val&gt;
 &lt;/Path&gt;
 &lt;/Cluster&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
-&lt;Val&gt;ShootTactic&lt;/Val&gt;
+&lt;Val&gt;ShootTactic_v2&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
@@ -2515,7 +2458,7 @@ kickZ : DBL&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;440.00000000000000&lt;/Val&gt;
+&lt;Val&gt;550.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -2585,7 +2528,9 @@ kickZ : DBL&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;text&lt;/Name&gt;
-&lt;Val&gt;+PassTactic
+&lt;Val&gt;+Init
++CleanUp
++PassTactic
 +CalculateTargetRange
 +ReadyToKick&lt;/Val&gt;
 &lt;/String&gt;
@@ -2630,11 +2575,11 @@ kickZ : DBL&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;440.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1770.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;960.00000000000000&lt;/Val&gt;
+&lt;Val&gt;810.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -2750,11 +2695,11 @@ kickZ : DBL&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;240.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1590.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;940.00000000000000&lt;/Val&gt;
+&lt;Val&gt;760.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -2830,6 +2775,538 @@ kickZ : DBL&lt;/Val&gt;
 &lt;/Cluster&gt;
 </Val>
 </String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;40.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;150.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;60.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;Field_class\Field.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Field&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;field_length : INT32
+field_width : INT32
+goal_width : INT32
+goal_depth : INT32
+defense_width_or_radius : INT32
+defense_stretch : INT32
+line_width : INT32
+boundary_width : INT32
+referee_width : INT32
+goal_wall_width : INT32
+center_circle_radius : INT32
+free_kick_from_defense_dist : INT32
+penalty_spot_from_field_line_dist : INT32
+penalty_line_from_spot_dist : INT32
+ourGoalPosition : DBL[]
+enemyGoalPosition : DBL[]
+diagonalLength : DBL&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Read field_length
++Write field_length
++Read field_width
++Write field_width
++Read goal_width
++Write goal_width
++Read goal_depth
++Write goal_depth
++Read defense_width_or_radius
++Write defense_width_or_radius
++Read defense_stretch
++Write defense_stretch
++Read line_width
++Write line_width
++Read boundary_width
++Write boundary_width
++Read referee_width
++Write referee_width
++Read goal_wall_width
++Write goal_wall_width
++Read center_circle_radius
++Write center_circle_radius
++Read free_kick_from_defense_dist
++Write free_kick_from_defense_dist
++Read penalty_spot_from_field_line_dist
++Write penalty_spot_from_field_line_dist
++Read penalty_line_from_spot_dist
++Write penalty_line_from_spot_dist
++Read ourGoalPosition
++Read enemyGoalPosition
++Read diagonalLength
++Multiply
++OldFieldToOOField
++Init
++CleanUp
++bundleField&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;1880.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;810.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;80.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;80.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;20.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;42.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;ShootSkill_class\ShootSkill.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;ShootSkill&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Init
++CleanUp
++KickToSkill_v2&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;1300.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;270.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;170.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;220.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;42.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;154.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;1&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;KickTactic_class\KickTactic.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;KickTactic&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;states : KickTactic_states
+targetRange : DBL[]
+KickToSkill_v2Ref : KickToSkill_v2&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Init
++CleanUp
++KickTactic
++ReadyToKick
++CalculateTargetRange
++CalculateTangentPoint
++IsRobotBehindBall&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;12&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;3&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;parent&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Array&gt;
+&lt;Name&gt;children&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;reference&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Array&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;Hidden&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;bounds&lt;/Name&gt;
+&lt;NumElts&gt;4&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;1300.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;170.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;width&lt;/Name&gt;
+&lt;Val&gt;100.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;height&lt;/Name&gt;
+&lt;Val&gt;60.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;DBL&gt;
+&lt;Name&gt;midHeight&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;botHeight&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;name&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;attributes&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;methods&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_COMPARTMENT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;20&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_WIDTH&lt;/Name&gt;
+&lt;Val&gt;100&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;DEFAULT_HEIGHT&lt;/Name&gt;
+&lt;Val&gt;60&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showMethods&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;showAttributes&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;Path&gt;
+&lt;Name&gt;ClassPath&lt;/Name&gt;
+&lt;Val&gt;Tactic_class\Tactic.lvclass&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Tactic&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;Skillbook : Skillbook&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;text&lt;/Name&gt;
+&lt;Val&gt;+Read Skillbook
++Write Skillbook
++Init
++CleanUp&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
 </Array>
 </Cluster>
 <Cluster>
@@ -2837,7 +3314,39 @@ kickZ : DBL&lt;/Val&gt;
 <NumElts>4</NumElts>
 <Array>
 <Name>EdgeType</Name>
-<Dimsize>9</Dimsize>
+<Dimsize>17</Dimsize>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
+<String>
+<Name>Class name</Name>
+<Val>ClassRelationshipEdge</Val>
+</String>
 <String>
 <Name>Class name</Name>
 <Val>ClassRelationshipEdge</Val>
@@ -2877,61 +3386,45 @@ kickZ : DBL&lt;/Val&gt;
 </Array>
 <Array>
 <Name>StartNodeIndex</Name>
-<Dimsize>9</Dimsize>
+<Dimsize>17</Dimsize>
 <I32>
 <Name>index of element</Name>
-<Val>5</Val>
+<Val>0</Val>
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>5</Val>
+<Val>2</Val>
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>15</Val>
+<Val>8</Val>
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>11</Val>
+<Val>6</Val>
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>11</Val>
+<Val>3</Val>
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>14</Val>
+<Val>21</Val>
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>11</Val>
+<Val>21</Val>
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>11</Val>
+<Val>21</Val>
 </I32>
-<I32>
-<Name>index of element</Name>
-<Val>5</Val>
-</I32>
-</Array>
-<Array>
-<Name>EndNodeIndex</Name>
-<Dimsize>9</Dimsize>
 <I32>
 <Name>index of element</Name>
 <Val>16</Val>
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>17</Val>
-</I32>
-<I32>
-<Name>index of element</Name>
-<Val>18</Val>
-</I32>
-<I32>
-<Name>index of element</Name>
 <Val>15</Val>
 </I32>
 <I32>
@@ -2940,7 +3433,7 @@ kickZ : DBL&lt;/Val&gt;
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>19</Val>
+<Val>11</Val>
 </I32>
 <I32>
 <Name>index of element</Name>
@@ -2952,12 +3445,92 @@ kickZ : DBL&lt;/Val&gt;
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>6</Val>
+<Val>17</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>20</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>18</Val>
+</I32>
+</Array>
+<Array>
+<Name>EndNodeIndex</Name>
+<Dimsize>17</Dimsize>
+<I32>
+<Name>index of element</Name>
+<Val>1</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>4</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>9</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>7</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>19</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>22</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>5</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>21</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>21</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>10</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>14</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>13</Val>
 </I32>
 </Array>
 <Array>
 <Name>FlattenData</Name>
-<Dimsize>9</Dimsize>
+<Dimsize>17</Dimsize>
 <String>
 <Name>XML Out</Name>
 <Val>&lt;Cluster&gt;
@@ -3103,11 +3676,11 @@ kickZ : DBL&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;Val&gt;V&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
 &lt;/String&gt;
 &lt;/Cluster&gt;
 </Val>
@@ -3257,11 +3830,11 @@ kickZ : DBL&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;Val&gt;V&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
 &lt;/String&gt;
 &lt;/Cluster&gt;
 </Val>
@@ -3411,319 +3984,11 @@ kickZ : DBL&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;Val&gt;V&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;VHV&lt;/Val&gt;
-&lt;/String&gt;
-&lt;/Cluster&gt;
-</Val>
-</String>
-<String>
-<Name>XML Out</Name>
-<Val>&lt;Cluster&gt;
-&lt;Name&gt;&lt;/Name&gt;
-&lt;NumElts&gt;5&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Attributes&lt;/Name&gt;
-&lt;NumElts&gt;6&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Base class&lt;/Name&gt;
-&lt;NumElts&gt;9&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Base class&lt;/Name&gt;
-&lt;NumElts&gt;1&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Base class&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;start&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;end&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;/Cluster&gt;
-&lt;/Cluster&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;lineStyle&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;startArrowHead&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;endArrowHead&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;String&gt;
-&lt;Name&gt;startLabel&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;midLabel&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;endLabel&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;DBL&gt;
-&lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;0.00000000000000&lt;/Val&gt;
-&lt;/DBL&gt;
-&lt;DBL&gt;
-&lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;0.00000000000000&lt;/Val&gt;
-&lt;/DBL&gt;
-&lt;/Cluster&gt;
-&lt;Boolean&gt;
-&lt;Name&gt;SplitWire&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/Boolean&gt;
-&lt;/Cluster&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;bentStyleRef&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;I32&gt;
-&lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;I32&gt;
-&lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;/Cluster&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;I32&gt;
-&lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;I32&gt;
-&lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;/Cluster&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;MidLineOffset&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;I32&gt;
-&lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;-2&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;I32&gt;
-&lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;4&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;/Cluster&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;DepClass&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;Array&gt;
-&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
-&lt;Dimsize&gt;0&lt;/Dimsize&gt;
-&lt;Path&gt;
-&lt;Name&gt;Path&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/Path&gt;
-&lt;/Array&gt;
-&lt;Array&gt;
-&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
-&lt;Dimsize&gt;0&lt;/Dimsize&gt;
-&lt;Path&gt;
-&lt;Name&gt;Path&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/Path&gt;
-&lt;/Array&gt;
-&lt;/Cluster&gt;
-&lt;/Cluster&gt;
-&lt;String&gt;
-&lt;Name&gt;Type(String)&lt;/Name&gt;
-&lt;Val&gt;SOLID&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;NONE&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;TRIANGLE&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;VHV&lt;/Val&gt;
-&lt;/String&gt;
-&lt;/Cluster&gt;
-</Val>
-</String>
-<String>
-<Name>XML Out</Name>
-<Val>&lt;Cluster&gt;
-&lt;Name&gt;&lt;/Name&gt;
-&lt;NumElts&gt;5&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Attributes&lt;/Name&gt;
-&lt;NumElts&gt;6&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Base class&lt;/Name&gt;
-&lt;NumElts&gt;9&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Base class&lt;/Name&gt;
-&lt;NumElts&gt;1&lt;/NumElts&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;Base class&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;start&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;end&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;/Cluster&gt;
-&lt;/Cluster&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;lineStyle&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;startArrowHead&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;endArrowHead&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;String&gt;
-&lt;Name&gt;startLabel&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;midLabel&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;endLabel&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/String&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;DBL&gt;
-&lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;0.00000000000000&lt;/Val&gt;
-&lt;/DBL&gt;
-&lt;DBL&gt;
-&lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;0.00000000000000&lt;/Val&gt;
-&lt;/DBL&gt;
-&lt;/Cluster&gt;
-&lt;Boolean&gt;
-&lt;Name&gt;SplitWire&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/Boolean&gt;
-&lt;/Cluster&gt;
-&lt;Refnum&gt;
-&lt;Name&gt;bentStyleRef&lt;/Name&gt;
-&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
-&lt;Val&gt;0x00000000&lt;/Val&gt;
-&lt;/Refnum&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;I32&gt;
-&lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;I32&gt;
-&lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;/Cluster&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;I32&gt;
-&lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;I32&gt;
-&lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;0&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;/Cluster&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;MidLineOffset&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;I32&gt;
-&lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;-14&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;I32&gt;
-&lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;-1&lt;/Val&gt;
-&lt;/I32&gt;
-&lt;/Cluster&gt;
-&lt;Cluster&gt;
-&lt;Name&gt;DepClass&lt;/Name&gt;
-&lt;NumElts&gt;2&lt;/NumElts&gt;
-&lt;Array&gt;
-&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
-&lt;Dimsize&gt;0&lt;/Dimsize&gt;
-&lt;Path&gt;
-&lt;Name&gt;Path&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/Path&gt;
-&lt;/Array&gt;
-&lt;Array&gt;
-&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
-&lt;Dimsize&gt;0&lt;/Dimsize&gt;
-&lt;Path&gt;
-&lt;Name&gt;Path&lt;/Name&gt;
-&lt;Val&gt;&lt;/Val&gt;
-&lt;/Path&gt;
-&lt;/Array&gt;
-&lt;/Cluster&gt;
-&lt;/Cluster&gt;
-&lt;String&gt;
-&lt;Name&gt;Type(String)&lt;/Name&gt;
-&lt;Val&gt;SOLID&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;NONE&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;TRIANGLE&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
 &lt;/String&gt;
 &lt;/Cluster&gt;
 </Val>
@@ -3873,11 +4138,11 @@ kickZ : DBL&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;Val&gt;V&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
 &lt;/String&gt;
 &lt;/Cluster&gt;
 </Val>
@@ -3989,11 +4254,11 @@ kickZ : DBL&lt;/Val&gt;
 &lt;NumElts&gt;2&lt;/NumElts&gt;
 &lt;I32&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;-1&lt;/Val&gt;
+&lt;Val&gt;0&lt;/Val&gt;
 &lt;/I32&gt;
 &lt;I32&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;-1&lt;/Val&gt;
+&lt;Val&gt;0&lt;/Val&gt;
 &lt;/I32&gt;
 &lt;/Cluster&gt;
 &lt;Cluster&gt;
@@ -4023,15 +4288,15 @@ kickZ : DBL&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;BLACK_DIAMOND&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
 &lt;Val&gt;NONE&lt;/Val&gt;
 &lt;/String&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;TRIANGLE&lt;/Val&gt;
-&lt;/String&gt;
-&lt;String&gt;
-&lt;Name&gt;Object name&lt;/Name&gt;
-&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;Val&gt;STRAIGHT&lt;/Val&gt;
 &lt;/String&gt;
 &lt;/Cluster&gt;
 </Val>
@@ -4143,11 +4408,11 @@ kickZ : DBL&lt;/Val&gt;
 &lt;NumElts&gt;2&lt;/NumElts&gt;
 &lt;I32&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;-5&lt;/Val&gt;
+&lt;Val&gt;0&lt;/Val&gt;
 &lt;/I32&gt;
 &lt;I32&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;-1&lt;/Val&gt;
+&lt;Val&gt;0&lt;/Val&gt;
 &lt;/I32&gt;
 &lt;/Cluster&gt;
 &lt;Cluster&gt;
@@ -4340,6 +4605,1546 @@ kickZ : DBL&lt;/Val&gt;
 &lt;String&gt;
 &lt;Name&gt;Object name&lt;/Name&gt;
 &lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;-50&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;-40&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;-91&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;-78&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;DIAMOND&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;HVH&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
+&lt;/String&gt;
+&lt;/Cluster&gt;
+</Val>
+</String>
+<String>
+<Name>XML Out</Name>
+<Val>&lt;Cluster&gt;
+&lt;Name&gt;&lt;/Name&gt;
+&lt;NumElts&gt;5&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Attributes&lt;/Name&gt;
+&lt;NumElts&gt;6&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;9&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;1&lt;/NumElts&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;Base class&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;start&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;end&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;lineStyle&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;startArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;endArrowHead&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;String&gt;
+&lt;Name&gt;startLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;midLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;endLabel&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/String&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLabelOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;DBL&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;DBL&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0.00000000000000&lt;/Val&gt;
+&lt;/DBL&gt;
+&lt;/Cluster&gt;
+&lt;Boolean&gt;
+&lt;Name&gt;SplitWire&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/Boolean&gt;
+&lt;/Cluster&gt;
+&lt;Refnum&gt;
+&lt;Name&gt;bentStyleRef&lt;/Name&gt;
+&lt;RefKind&gt;Data Log File&lt;/RefKind&gt;
+&lt;Val&gt;0x00000000&lt;/Val&gt;
+&lt;/Refnum&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;startConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;endConnectionOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;MidLineOffset&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;I32&gt;
+&lt;Name&gt;x&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;I32&gt;
+&lt;Name&gt;y&lt;/Name&gt;
+&lt;Val&gt;0&lt;/Val&gt;
+&lt;/I32&gt;
+&lt;/Cluster&gt;
+&lt;Cluster&gt;
+&lt;Name&gt;DepClass&lt;/Name&gt;
+&lt;NumElts&gt;2&lt;/NumElts&gt;
+&lt;Array&gt;
+&lt;Name&gt;ThisVIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;Array&gt;
+&lt;Name&gt;Dependent_VIs/Ctls&lt;/Name&gt;
+&lt;Dimsize&gt;0&lt;/Dimsize&gt;
+&lt;Path&gt;
+&lt;Name&gt;Path&lt;/Name&gt;
+&lt;Val&gt;&lt;/Val&gt;
+&lt;/Path&gt;
+&lt;/Array&gt;
+&lt;/Cluster&gt;
+&lt;/Cluster&gt;
+&lt;String&gt;
+&lt;Name&gt;Type(String)&lt;/Name&gt;
+&lt;Val&gt;SOLID&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;NONE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;TRIANGLE&lt;/Val&gt;
+&lt;/String&gt;
+&lt;String&gt;
+&lt;Name&gt;Object name&lt;/Name&gt;
+&lt;Val&gt;VHV&lt;/Val&gt;
 &lt;/String&gt;
 &lt;/Cluster&gt;
 </Val>
