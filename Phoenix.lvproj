@@ -248,8 +248,8 @@
 				<Item Name="TestObjetive.lvclass" Type="LVClass" URL="../TestObjetive/TestObjetive.lvclass"/>
 			</Item>
 			<Item Name="Objective.lvclass" Type="LVClass" URL="../Objective_class/Objective.lvclass"/>
-			<Item Name="Evaluator.lvclass" Type="LVClass" URL="../Evaluator/Evaluator.lvclass"/>
 			<Item Name="Zone.lvclass" Type="LVClass" URL="../Zone_class/Zone.lvclass"/>
+			<Item Name="Evaluator.lvclass" Type="LVClass" URL="../Evaluator/Evaluator.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication_class/Communication.lvclass"/>
