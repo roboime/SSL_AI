@@ -2102,11 +2102,11 @@ tangentFactor : DBL&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;1800.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1940.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;640.00000000000000&lt;/Val&gt;
+&lt;Val&gt;800.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -2697,11 +2697,11 @@ kickZ : DBL&lt;/Val&gt;
 &lt;NumElts&gt;4&lt;/NumElts&gt;
 &lt;DBL&gt;
 &lt;Name&gt;x&lt;/Name&gt;
-&lt;Val&gt;1780.00000000000000&lt;/Val&gt;
+&lt;Val&gt;1920.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;y&lt;/Name&gt;
-&lt;Val&gt;810.00000000000000&lt;/Val&gt;
+&lt;Val&gt;970.00000000000000&lt;/Val&gt;
 &lt;/DBL&gt;
 &lt;DBL&gt;
 &lt;Name&gt;width&lt;/Name&gt;
@@ -3451,10 +3451,6 @@ KickToSkill_v2Ref : KickToSkill_v2&lt;/Val&gt;
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>13</Val>
-</I32>
-<I32>
-<Name>index of element</Name>
 <Val>17</Val>
 </I32>
 <I32>
@@ -3472,6 +3468,10 @@ KickToSkill_v2Ref : KickToSkill_v2&lt;/Val&gt;
 <I32>
 <Name>index of element</Name>
 <Val>6</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>13</Val>
 </I32>
 </Array>
 <Array>
@@ -3531,10 +3531,6 @@ KickToSkill_v2Ref : KickToSkill_v2&lt;/Val&gt;
 </I32>
 <I32>
 <Name>index of element</Name>
-<Val>10</Val>
-</I32>
-<I32>
-<Name>index of element</Name>
 <Val>14</Val>
 </I32>
 <I32>
@@ -3552,6 +3548,10 @@ KickToSkill_v2Ref : KickToSkill_v2&lt;/Val&gt;
 <I32>
 <Name>index of element</Name>
 <Val>22</Val>
+</I32>
+<I32>
+<Name>index of element</Name>
+<Val>11</Val>
 </I32>
 </Array>
 <Array>

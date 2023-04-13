@@ -280,8 +280,6 @@
 		<Item Name="Field Draw Robot.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Robot.vi"/>
 		<Item Name="RunPhoenix.vi" Type="VI" URL="../RunPhoenix.vi"/>
 		<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
-		<Item Name="TestEvaluator.vi" Type="VI" URL="../Evaluator/TestEvaluator.vi"/>
-		<Item Name="testZone.vi" Type="VI" URL="../Zone_class/testZone.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
