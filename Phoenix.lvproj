@@ -246,10 +246,26 @@
 			</Item>
 			<Item Name="Objectives" Type="Folder">
 				<Item Name="TestObjetive.lvclass" Type="LVClass" URL="../TestObjetive/TestObjetive.lvclass"/>
+				<Item Name="PassObjective.lvclass" Type="LVClass" URL="../PassObjective/PassObjective.lvclass"/>
 			</Item>
-			<Item Name="Objective.lvclass" Type="LVClass" URL="../Objective_class/Objective.lvclass"/>
+			<Item Name="Criteria" Type="Folder">
+				<Item Name="Criterion.lvclass" Type="LVClass" URL="../NewSTP/Criteria/Criterion_class/Criterion.lvclass"/>
+				<Item Name="OpenAngleToGoal.lvclass" Type="LVClass" URL="../NewSTP/Criteria/OpenAngleToGoal_class/OpenAngleToGoal.lvclass"/>
+				<Item Name="BallInterception.lvclass" Type="LVClass" URL="../NewSTP/Criteria/BallInterception_class/BallInterception.lvclass"/>
+				<Item Name="OutOfGoalieArea.lvclass" Type="LVClass" URL="../NewSTP/Criteria/OutOfGoalieArea_class/OutOfGoalieArea.lvclass"/>
+				<Item Name="ReceptionAngle.lvclass" Type="LVClass" URL="../NewSTP/Criteria/ReceptionAngle_class/ReceptionAngle.lvclass"/>
+				<Item Name="PassDistance.lvclass" Type="LVClass" URL="../NewSTP/Criteria/PassDistance_class/PassDistance.lvclass"/>
+				<Item Name="ShotTime.lvclass" Type="LVClass" URL="../NewSTP/Criteria/ShotTime_class/ShotTime.lvclass"/>
+			</Item>
+			<Item Name="Evaluators" Type="Folder">
+				<Item Name="Evaluator.lvclass" Type="LVClass" URL="../NewSTP/Evaluators/Evaluator_class/Evaluator.lvclass"/>
+				<Item Name="PrimaryAttackerShot.lvclass" Type="LVClass" URL="../NewSTP/Evaluators/PrimaryAttackerShot_class/PrimaryAttackerShot.lvclass"/>
+				<Item Name="SupportAttackerPosition.lvclass" Type="LVClass" URL="../NewSTP/Evaluators/SupportAttackerPosition_class/SupportAttackerPosition.lvclass"/>
+				<Item Name="FirstLevelThreat.lvclass" Type="LVClass" URL="../NewSTP/Evaluators/FirstLevelThreat_class/FirstLevelThreat.lvclass"/>
+				<Item Name="SecondLevelThreat.lvclass" Type="LVClass" URL="../NewSTP/Evaluators/SecondLevelThreat_class/SecondLevelThreat.lvclass"/>
+				<Item Name="TestEvaluator.lvclass" Type="LVClass" URL="../NewSTP/Evaluators/TestEvaluator_class/TestEvaluator.lvclass"/>
+			</Item>
 			<Item Name="Zone.lvclass" Type="LVClass" URL="../Zone_class/Zone.lvclass"/>
-			<Item Name="Evaluator.lvclass" Type="LVClass" URL="../Evaluator/Evaluator.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication_class/Communication.lvclass"/>
@@ -280,6 +296,8 @@
 		<Item Name="Field Draw Robot.vi" Type="VI" URL="../Vision_class/Old vision/Draw Field Folder/Field Draw Robot.vi"/>
 		<Item Name="RunPhoenix.vi" Type="VI" URL="../RunPhoenix.vi"/>
 		<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
+		<Item Name="VelocityProfile.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/VelocityProfile.vi"/>
+		<Item Name="nsei.lvclass" Type="LVClass" URL="../NewSTP/Criteria/nsei_class/nsei.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
@@ -488,7 +506,6 @@
 			<Item Name="PathVelocityProfile.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/PathVelocityProfile.vi"/>
 			<Item Name="VelocityProfileState.ctl" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Controle/VelocityProfileState.ctl"/>
 			<Item Name="CorrectInvalidProfile.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/CorrectInvalidProfile.vi"/>
-			<Item Name="VelocityProfile.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/VelocityProfile.vi"/>
 			<Item Name="GetTimeInSeconds.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Util/GetTimeInSeconds.vi"/>
 			<Item Name="VelocityCommand.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/VelocityCommand.vi"/>
 			<Item Name="VelocityControl.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/VelocityControl.vi"/>
@@ -600,6 +617,7 @@
 			<Item Name="VSSGoToAngle.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSGoToAngle.vi"/>
 			<Item Name="NewVSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSSNavigation.vi"/>
 			<Item Name="NewVSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSS_GoTo.vi"/>
+			<Item Name="Objective.lvclass" Type="LVClass" URL="../Objective_class/Objective.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
