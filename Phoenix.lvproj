@@ -244,10 +244,6 @@
 				<Item Name="Skills.ctl" Type="VI" URL="../STP_Parameters/Skills.ctl"/>
 				<Item Name="STPParameters.ctl" Type="VI" URL="../STP_Parameters/STPParameters.ctl"/>
 			</Item>
-			<Item Name="Objectives" Type="Folder">
-				<Item Name="TestObjetive.lvclass" Type="LVClass" URL="../TestObjetive/TestObjetive.lvclass"/>
-				<Item Name="PassObjective.lvclass" Type="LVClass" URL="../PassObjective/PassObjective.lvclass"/>
-			</Item>
 			<Item Name="Criteria" Type="Folder">
 				<Item Name="Criterion.lvclass" Type="LVClass" URL="../NewSTP/Criteria/Criterion_class/Criterion.lvclass"/>
 				<Item Name="OpenAngleToGoal.lvclass" Type="LVClass" URL="../NewSTP/Criteria/OpenAngleToGoal_class/OpenAngleToGoal.lvclass"/>
@@ -616,7 +612,6 @@
 			<Item Name="VSSGoToAngle.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSGoToAngle.vi"/>
 			<Item Name="NewVSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSSNavigation.vi"/>
 			<Item Name="NewVSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSS_GoTo.vi"/>
-			<Item Name="Objective.lvclass" Type="LVClass" URL="../Objective_class/Objective.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
