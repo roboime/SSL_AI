@@ -218,6 +218,7 @@
 		</Item>
 		<Item Name="NewSTP" Type="Folder">
 			<Item Name="NewSkills" Type="Folder">
+				<Item Name="Skill_v2.lvclass" Type="LVClass" URL="../NewSTP/NewSkills/Skill_v2_class/Skill_v2.lvclass"/>
 				<Item Name="GoToSkill_v2.lvclass" Type="LVClass" URL="../GoToSkill_v2_class/GoToSkill_v2.lvclass"/>
 				<Item Name="PassSkill.lvclass" Type="LVClass" URL="../PassSkill_class/PassSkill.lvclass"/>
 				<Item Name="AlignSkill.lvclass" Type="LVClass" URL="../AlignSkill/AlignSkill.lvclass"/>
@@ -228,6 +229,7 @@
 				<Item Name="ShootSkill.lvclass" Type="LVClass" URL="../ShootSkill_class/ShootSkill.lvclass"/>
 			</Item>
 			<Item Name="NewTactics" Type="Folder">
+				<Item Name="Tactic_v2.lvclass" Type="LVClass" URL="../NewSTP/NewTactics/Tactic_v2_class/Tactic_v2.lvclass"/>
 				<Item Name="KickTactic.lvclass" Type="LVClass" URL="../KickTactic_class/KickTactic.lvclass"/>
 				<Item Name="ShootTactic_v2.lvclass" Type="LVClass" URL="../ShootTactic_v2_class/ShootTactic_v2.lvclass"/>
 				<Item Name="PositionTactic.lvclass" Type="LVClass" URL="../PositionTactic_class/PositionTactic.lvclass"/>
@@ -235,14 +237,20 @@
 				<Item Name="WaitPassTactic_v2.lvclass" Type="LVClass" URL="../WaitPassTactic_v2_class/WaitPassTactic_v2.lvclass"/>
 			</Item>
 			<Item Name="NewRoles" Type="Folder">
+				<Item Name="Role_v2.lvclass" Type="LVClass" URL="../NewSTP/NewRoles/Role_v2_class/Role_v2.lvclass"/>
 				<Item Name="SupportAttackerRole.lvclass" Type="LVClass" URL="../SupportAttackerRole/SupportAttackerRole.lvclass"/>
 				<Item Name="PrimaryAttackerRole.lvclass" Type="LVClass" URL="../PrimaryAttacker_class/PrimaryAttackerRole.lvclass"/>
 			</Item>
-			<Item Name="NewPlays" Type="Folder"/>
+			<Item Name="NewPlays" Type="Folder">
+				<Item Name="Play_v2.lvclass" Type="LVClass" URL="../NewSTP/NewPlays/Play_v2_class/Play_v2.lvclass"/>
+				<Item Name="StandardAttackPlay.lvclass" Type="LVClass" URL="../NewSTP/NewPlays/StandardAttackPlay_class/StandardAttackPlay.lvclass"/>
+			</Item>
 			<Item Name="Typedefs" Type="Folder">
 				<Item Name="CIrculateSkillParameters.ctl" Type="VI" URL="../Circulate_class/CIrculateSkillParameters.ctl"/>
 				<Item Name="Skills.ctl" Type="VI" URL="../STP_Parameters/Skills.ctl"/>
 				<Item Name="STPParameters.ctl" Type="VI" URL="../STP_Parameters/STPParameters.ctl"/>
+				<Item Name="AllyTeam.ctl" Type="VI" URL="../STP_Parameters/AllyTeam.ctl"/>
+				<Item Name="OffensivePlays_v2.ctl" Type="VI" URL="../STP_Parameters/OffensivePlays_v2.ctl"/>
 			</Item>
 			<Item Name="Criteria" Type="Folder">
 				<Item Name="Criterion.lvclass" Type="LVClass" URL="../NewSTP/Criteria/Criterion_class/Criterion.lvclass"/>
@@ -262,6 +270,7 @@
 				<Item Name="TestEvaluator.lvclass" Type="LVClass" URL="../NewSTP/Evaluators/TestEvaluator_class/TestEvaluator.lvclass"/>
 			</Item>
 			<Item Name="Zone.lvclass" Type="LVClass" URL="../Zone_class/Zone.lvclass"/>
+			<Item Name="Playbook_v2.lvclass" Type="LVClass" URL="../NewSTP/Playbook_v2_class/Playbook_v2.lvclass"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Communication_class/Communication.lvclass"/>
