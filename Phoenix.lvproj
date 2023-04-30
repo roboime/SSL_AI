@@ -229,6 +229,7 @@
 				<Item Name="CirculateSkill.lvclass" Type="LVClass" URL="../Circulate_class/CirculateSkill.lvclass"/>
 				<Item Name="OneTouchShotSkill.lvclass" Type="LVClass" URL="../OneTouchShotSkill_class/OneTouchShotSkill.lvclass"/>
 				<Item Name="InterceptBallSkill.lvclass" Type="LVClass" URL="../InterceptBallSkill_class/InterceptBallSkill.lvclass"/>
+				<Item Name="HaltSkill_v2.lvclass" Type="LVClass" URL="../NewSTP/NewSkills/HaltSkill_v2_class/HaltSkill_v2.lvclass"/>
 			</Item>
 			<Item Name="NewTactics" Type="Folder">
 				<Item Name="Tactic_v2.lvclass" Type="LVClass" URL="../NewSTP/NewTactics/Tactic_v2_class/Tactic_v2.lvclass"/>
@@ -238,6 +239,7 @@
 				<Item Name="PositionTactic.lvclass" Type="LVClass" URL="../PositionTactic_class/PositionTactic.lvclass"/>
 				<Item Name="WaitPassTactic_v2.lvclass" Type="LVClass" URL="../WaitPassTactic_v2_class/WaitPassTactic_v2.lvclass"/>
 				<Item Name="InterceptBallTactic.lvclass" Type="LVClass" URL="../InterceptBallTactic_class/InterceptBallTactic.lvclass"/>
+				<Item Name="InterceptPassTactic_v2.lvclass" Type="LVClass" URL="../InterceptPassTactic_v2_class/InterceptPassTactic_v2.lvclass"/>
 			</Item>
 			<Item Name="NewRoles" Type="Folder">
 				<Item Name="Role_v2.lvclass" Type="LVClass" URL="../NewSTP/NewRoles/Role_v2_class/Role_v2.lvclass"/>
@@ -251,9 +253,9 @@
 			<Item Name="Typedefs" Type="Folder">
 				<Item Name="CIrculateSkillParameters.ctl" Type="VI" URL="../Circulate_class/CIrculateSkillParameters.ctl"/>
 				<Item Name="Skills.ctl" Type="VI" URL="../STP_Parameters/Skills.ctl"/>
-				<Item Name="STPParameters.ctl" Type="VI" URL="../STP_Parameters/STPParameters.ctl"/>
 				<Item Name="AllyTeam.ctl" Type="VI" URL="../STP_Parameters/AllyTeam.ctl"/>
 				<Item Name="OffensivePlays_v2.ctl" Type="VI" URL="../STP_Parameters/OffensivePlays_v2.ctl"/>
+				<Item Name="STPParameters.ctl" Type="VI" URL="../STP_Parameters/STPParameters.ctl"/>
 			</Item>
 			<Item Name="Criteria" Type="Folder">
 				<Item Name="Criterion.lvclass" Type="LVClass" URL="../NewSTP/Criteria/Criterion_class/Criterion.lvclass"/>
@@ -624,6 +626,8 @@
 			<Item Name="VSSGoToAngle.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSGoToAngle.vi"/>
 			<Item Name="NewVSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSSNavigation.vi"/>
 			<Item Name="NewVSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSS_GoTo.vi"/>
+			<Item Name="HaltTactic_v2.lvclass" Type="LVClass" URL="../NewSTP/NewTactics/HaltTactic_v2_class/HaltTactic_v2.lvclass"/>
+			<Item Name="OneTouchPassSkill.lvclass" Type="LVClass" URL="../OneTouchPassSkill_class/OneTouchPassSkill.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
