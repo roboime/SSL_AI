@@ -259,11 +259,11 @@
 			<Item Name="Criteria" Type="Folder">
 				<Item Name="Criterion.lvclass" Type="LVClass" URL="../NewSTP/Criteria/Criterion_class/Criterion.lvclass"/>
 				<Item Name="OpenAngleToGoal.lvclass" Type="LVClass" URL="../NewSTP/Criteria/OpenAngleToGoal_class/OpenAngleToGoal.lvclass"/>
-				<Item Name="BallInterception.lvclass" Type="LVClass" URL="../NewSTP/Criteria/BallInterception_class/BallInterception.lvclass"/>
 				<Item Name="OutOfGoalieArea.lvclass" Type="LVClass" URL="../NewSTP/Criteria/OutOfGoalieArea_class/OutOfGoalieArea.lvclass"/>
 				<Item Name="ReceptionAngle.lvclass" Type="LVClass" URL="../NewSTP/Criteria/ReceptionAngle_class/ReceptionAngle.lvclass"/>
 				<Item Name="PassDistance.lvclass" Type="LVClass" URL="../NewSTP/Criteria/PassDistance_class/PassDistance.lvclass"/>
-				<Item Name="ShotTime.lvclass" Type="LVClass" URL="../NewSTP/Criteria/ShotTime_class/ShotTime.lvclass"/>
+				<Item Name="PassInterception.lvclass" Type="LVClass" URL="../NewSTP/Criteria/PassInterception_class/PassInterception.lvclass"/>
+				<Item Name="ShotInterception.lvclass" Type="LVClass" URL="../NewSTP/Criteria/ShotInterception_class/ShotInterception.lvclass"/>
 			</Item>
 			<Item Name="Evaluators" Type="Folder">
 				<Item Name="Evaluator.lvclass" Type="LVClass" URL="../NewSTP/Evaluators/Evaluator_class/Evaluator.lvclass"/>
