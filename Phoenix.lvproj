@@ -219,26 +219,29 @@
 		<Item Name="NewSTP" Type="Folder">
 			<Item Name="NewSkills" Type="Folder">
 				<Item Name="Skill_v2.lvclass" Type="LVClass" URL="../NewSTP/NewSkills/Skill_v2_class/Skill_v2.lvclass"/>
+				<Item Name="HaltSkill_v2.lvclass" Type="LVClass" URL="../NewSTP/NewSkills/HaltSkill_v2_class/HaltSkill_v2.lvclass"/>
 				<Item Name="GoToSkill_v2.lvclass" Type="LVClass" URL="../GoToSkill_v2_class/GoToSkill_v2.lvclass"/>
 				<Item Name="GoToGuardPositionSkill.lvclass" Type="LVClass" URL="../NewSTP/NewSkills/GoToGuardPositionSkill_class/GoToGuardPositionSkill.lvclass"/>
 				<Item Name="GoToTargetPositionSkill.lvclass" Type="LVClass" URL="../NewSTP/NewSkills/GoToTargetPositionSkill_class/GoToTargetPositionSkill.lvclass"/>
+				<Item Name="AlignSkill.lvclass" Type="LVClass" URL="../AlignSkill/AlignSkill.lvclass"/>
+				<Item Name="AlignToKick.lvclass" Type="LVClass" URL="../AlignToKick_class/AlignToKick.lvclass"/>
+				<Item Name="InterceptBallSkill.lvclass" Type="LVClass" URL="../InterceptBallSkill_class/InterceptBallSkill.lvclass"/>
 				<Item Name="KickToSkill_v2.lvclass" Type="LVClass" URL="../KickToSkill_v2_class/KickToSkill_v2.lvclass"/>
 				<Item Name="ShootSkill.lvclass" Type="LVClass" URL="../ShootSkill_class/ShootSkill.lvclass"/>
 				<Item Name="PassSkill.lvclass" Type="LVClass" URL="../PassSkill_class/PassSkill.lvclass"/>
-				<Item Name="AlignSkill.lvclass" Type="LVClass" URL="../AlignSkill/AlignSkill.lvclass"/>
 				<Item Name="CirculateSkill.lvclass" Type="LVClass" URL="../Circulate_class/CirculateSkill.lvclass"/>
 				<Item Name="OneTouchShotSkill.lvclass" Type="LVClass" URL="../OneTouchShotSkill_class/OneTouchShotSkill.lvclass"/>
-				<Item Name="InterceptBallSkill.lvclass" Type="LVClass" URL="../InterceptBallSkill_class/InterceptBallSkill.lvclass"/>
-				<Item Name="HaltSkill_v2.lvclass" Type="LVClass" URL="../NewSTP/NewSkills/HaltSkill_v2_class/HaltSkill_v2.lvclass"/>
 			</Item>
 			<Item Name="NewTactics" Type="Folder">
 				<Item Name="Tactic_v2.lvclass" Type="LVClass" URL="../NewSTP/NewTactics/Tactic_v2_class/Tactic_v2.lvclass"/>
 				<Item Name="KickTactic.lvclass" Type="LVClass" URL="../KickTactic_class/KickTactic.lvclass"/>
 				<Item Name="ShootTactic_v2.lvclass" Type="LVClass" URL="../ShootTactic_v2_class/ShootTactic_v2.lvclass"/>
+				<Item Name="PrepareShootTactic.lvclass" Type="LVClass" URL="../PrepareShootTactic_class/PrepareShootTactic.lvclass"/>
 				<Item Name="PassTactic.lvclass" Type="LVClass" URL="../PassTactic_class/PassTactic.lvclass"/>
 				<Item Name="PositionTactic.lvclass" Type="LVClass" URL="../PositionTactic_class/PositionTactic.lvclass"/>
 				<Item Name="WaitPassTactic_v2.lvclass" Type="LVClass" URL="../WaitPassTactic_v2_class/WaitPassTactic_v2.lvclass"/>
 				<Item Name="InterceptBallTactic.lvclass" Type="LVClass" URL="../InterceptBallTactic_class/InterceptBallTactic.lvclass"/>
+				<Item Name="HaltTactic_v2.lvclass" Type="LVClass" URL="../NewSTP/NewTactics/HaltTactic_v2_class/HaltTactic_v2.lvclass"/>
 			</Item>
 			<Item Name="NewRoles" Type="Folder">
 				<Item Name="Role_v2.lvclass" Type="LVClass" URL="../NewSTP/NewRoles/Role_v2_class/Role_v2.lvclass"/>
@@ -625,7 +628,6 @@
 			<Item Name="VSSGoToAngle.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSGoToAngle.vi"/>
 			<Item Name="NewVSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSSNavigation.vi"/>
 			<Item Name="NewVSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSS_GoTo.vi"/>
-			<Item Name="HaltTactic_v2.lvclass" Type="LVClass" URL="../NewSTP/NewTactics/HaltTactic_v2_class/HaltTactic_v2.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
