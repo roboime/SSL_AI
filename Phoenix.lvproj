@@ -557,7 +557,6 @@
 			<Item Name="robotKickToStates.ctl" Type="VI" URL="../Robot_class/robotKickToStates.ctl"/>
 			<Item Name="roles.ctl" Type="VI" URL="../Robot_class/roles.ctl"/>
 			<Item Name="RRT.dll" Type="Document" URL="../DLL-RRT/x64/RRT.dll"/>
-			<Item Name="RRT.dll" Type="Document" URL="../RRT/DLL-RRT/x64/RRT.dll"/>
 			<Item Name="RRTAlgorithm.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm.vi"/>
 			<Item Name="RRTAlgorithm2.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTAlgorithm2.vi"/>
 			<Item Name="RRTPlan.vi" Type="VI" URL="../Game_class/PathPlanning/Path Planning/RRT/RRTPlan.vi"/>
