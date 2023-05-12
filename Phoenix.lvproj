@@ -173,6 +173,7 @@
 			<Item Name="ShootTactic.lvclass" Type="LVClass" URL="../ShootTactic_class/ShootTactic.lvclass"/>
 			<Item Name="PlaceBallTactic.lvclass" Type="LVClass" URL="../PlaceBallTactic_class/PlaceBallTactic.lvclass"/>
 			<Item Name="GoToBallPlacementAllyTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementAllyTactic_class/GoToBallPlacementAllyTactic.lvclass"/>
+			<Item Name="InterceptBallTactic_v2.lvclass" Type="LVClass" URL="../Tactics/InterceptBallTactic_v2_class/InterceptBallTactic_v2.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="BallPlacementEnemyRole.lvclass" Type="LVClass" URL="../BallPlacementEnemyRole_class/BallPlacementEnemyRole.lvclass"/>
@@ -215,6 +216,7 @@
 			<Item Name="BallPlacementPasserRole.lvclass" Type="LVClass" URL="../BallPlacementPasserRole_class/BallPlacementPasserRole.lvclass"/>
 			<Item Name="BallPlacementReceiverRole.lvclass" Type="LVClass" URL="../BallPlacementReceiverRole_class/BallPlacementReceiverRole.lvclass"/>
 			<Item Name="SimpleBallPlacementAllyRole.lvclass" Type="LVClass" URL="../SimpleBallPlacementAllyRole_class/SimpleBallPlacementAllyRole.lvclass"/>
+			<Item Name="PrimaryAttackerRole_v2.lvclass" Type="LVClass" URL="../PrimaryAttackerRole_v2_class/PrimaryAttackerRole_v2.lvclass"/>
 		</Item>
 		<Item Name="NewSTP" Type="Folder">
 			<Item Name="NewSkills" Type="Folder">
