@@ -10,7 +10,7 @@
 </String>
 <String>
 <Name>Server IP:</Name>
-<Val>224.5.23.9</Val>
+<Val>224.5.23.2</Val>
 </String>
 <String>
 <Name>Port</Name>
@@ -42,7 +42,7 @@
 </Boolean>
 <String>
 <Name>Address:</Name>
-<Val>172.19.197.17</Val>
+<Val>172.20.73.212</Val>
 </String>
 <U16>
 <Name>Port:</Name>
@@ -51,7 +51,7 @@
 </Cluster>
 <String>
 <Name>Command</Name>
-<Val>Force Start</Val>
+<Val>Timeout Blue</Val>
 </String>
 <String>
 <Name>Goalie</Name>
