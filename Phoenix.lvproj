@@ -641,7 +641,6 @@
 			<Item Name="VSSGoToAngle.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSGoToAngle.vi"/>
 			<Item Name="VSSSpeedTransformation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSSpeedTransformation.vi"/>
 			<Item Name="WriteCSV.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/WriteCSV.vi"/>
-			<Item Name="writeLogWindow.vi" Type="VI" URL="../Game_class/writeLogWindow.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
