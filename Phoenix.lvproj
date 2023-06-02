@@ -346,6 +346,8 @@
 		<Item Name="RunPhoenix.vi" Type="VI" URL="../RunPhoenix.vi"/>
 		<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
 		<Item Name="VelocityProfile.vi" Type="VI" URL="../Game_class/Navigation/NavigationSSLView/Control/VelocityProfile.vi"/>
+		<Item Name="teste.vi" Type="VI" URL="../teste.vi"/>
+		<Item Name="teste2.vi" Type="VI" URL="../teste2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="vi.lib" Type="Folder">
