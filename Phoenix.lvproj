@@ -235,6 +235,7 @@
 			<Item Name="driveMode.ctl" Type="VI" URL="../Game_class/Navigation/driveMode.ctl"/>
 			<Item Name="marker.ctl" Type="VI" URL="../Utilities_class/marker.ctl"/>
 			<Item Name="TypeMarker.ctl" Type="VI" URL="../Utilities_class/TypeMarker.ctl"/>
+			<Item Name="PIDParameters.ctl" Type="VI" URL="../Controls/PIDParameters.ctl"/>
 		</Item>
 		<Item Name="Ally.lvclass" Type="LVClass" URL="../Ally_class/Ally.lvclass"/>
 		<Item Name="Zone.lvclass" Type="LVClass" URL="../Zone_class/Zone.lvclass"/>
@@ -263,6 +264,7 @@
 		<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
 		<Item Name="Phoenix.vi" Type="VI" URL="../Phoenix.vi"/>
 		<Item Name="RunPhoenix.vi" Type="VI" URL="../RunPhoenix.vi"/>
+		<Item Name="EloMec Tester.vi" Type="VI" URL="../EloMec Tester.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
