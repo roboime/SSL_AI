@@ -211,8 +211,8 @@
 			<Item Name="RobotModel.ctl" Type="VI" URL="../Controls/RobotModel.ctl"/>
 			<Item Name="RobotModelReplacementTest.ctl" Type="VI" URL="../Controls/RobotModelReplacementTest.ctl"/>
 			<Item Name="RobotModelTestState.ctl" Type="VI" URL="../Controls/RobotModelTestState.ctl"/>
-			<Item Name="RobotModelTestCrashCase.ctl" Type="VI" URL="../Controls/RobotModelTestCrashCase.ctl"/>
 			<Item Name="SampleOnGenerateVSent.ctl" Type="VI" URL="../Controls/SampleOnGenerateVSent.ctl"/>
+			<Item Name="RobotModelTestCrashCase.ctl" Type="VI" URL="../Controls/RobotModelTestCrashCase.ctl"/>
 			<Item Name="RobotModelAllInformation.ctl" Type="VI" URL="../Controls/RobotModelAllInformation.ctl"/>
 			<Item Name="velocityPlanningState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/velocityPlanningState.ctl"/>
 			<Item Name="testMode.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/testMode.ctl"/>
@@ -223,8 +223,8 @@
 			<Item Name="bangBangControlParameters.ctl" Type="VI" URL="../Game_class/Navigation/Controls/bangBangControlParameters.ctl"/>
 			<Item Name="PassFinishBallVelConditionDegub.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishBallVelConditionDegub.ctl"/>
 			<Item Name="PassFinishReceiverDistanceToBallConditionDebug.ctl" Type="VI" URL="../5RobotsPassGamePlay_class/PassFinishReceiverDistanceToBallConditionDebug.ctl"/>
-			<Item Name="grSimReplacement.ctl" Type="VI" URL="../Controls/grSimReplacement.ctl"/>
 			<Item Name="robotModelArray.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/robotModelArray.ctl"/>
+			<Item Name="grSimReplacement.ctl" Type="VI" URL="../Controls/grSimReplacement.ctl"/>
 			<Item Name="directEnemyRoles.ctl" Type="VI" URL="../DirectEnemyPlay_class/directEnemyRoles.ctl"/>
 			<Item Name="newBallValidate.ctl" Type="VI" URL="../Vision_class/newBallValidate.ctl"/>
 			<Item Name="NewParameters.ctl" Type="VI" URL="../Controls/NewParameters.ctl"/>
@@ -265,6 +265,7 @@
 		<Item Name="Phoenix.vi" Type="VI" URL="../Phoenix.vi"/>
 		<Item Name="RunPhoenix.vi" Type="VI" URL="../RunPhoenix.vi"/>
 		<Item Name="EloMec Tester.vi" Type="VI" URL="../EloMec Tester.vi"/>
+		<Item Name="StatesPass.ctl" Type="VI" URL="../Controls/StatesPass.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
