@@ -399,7 +399,6 @@
 			<Item Name="Referee.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Referee.vi"/>
 			<Item Name="RetaBola.vi" Type="VI" URL="../DefBallTrajSkill_class/RetaBola.vi"/>
 			<Item Name="RetaInimigoBola.vi" Type="VI" URL="../DefBallEnemySkill_class/RetaInimigoBola.vi"/>
-			<Item Name="RetaInimigoBolaUsandoOrientacao.vi" Type="VI" URL="../DefBallOrientSkill_class/RetaInimigoBolaUsandoOrientacao.vi"/>
 			<Item Name="roles.ctl" Type="VI" URL="../Robot_class/roles.ctl"/>
 			<Item Name="SegmentAndCircleIntersection.vi" Type="VI" URL="../Game_class/PathPlanning/Util/SegmentAndCircleIntersection.vi"/>
 			<Item Name="Serial Transmitter.vi" Type="VI" URL="../Communication_class/Paths/Serial Transmitter Folder/Util/Serial Transmitter.vi"/>
@@ -583,6 +582,7 @@
 			<Item Name="NewVSSNavigation.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSSNavigation.vi"/>
 			<Item Name="NewVSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSS_GoTo.vi"/>
 			<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
+			<Item Name="RetaInimigoBolaUsandoOrientacao.vi" Type="VI" URL="../DefBallOrientSkill_class/RetaInimigoBolaUsandoOrientacao.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
