@@ -247,8 +247,8 @@
 		<Item Name="Game.lvclass" Type="LVClass" URL="../Game_class/Game.lvclass"/>
 		<Item Name="Object.lvclass" Type="LVClass" URL="../Object_class/Object.lvclass"/>
 		<Item Name="Play.lvclass" Type="LVClass" URL="../Play_class/Play.lvclass"/>
-		<Item Name="Playbook.lvclass" Type="LVClass" URL="../Playbook_class/Playbook.lvclass"/>
 		<Item Name="Referee.lvclass" Type="LVClass" URL="../Referee_class/Referee.lvclass"/>
+		<Item Name="Playbook.lvclass" Type="LVClass" URL="../Playbook_class/Playbook.lvclass"/>
 		<Item Name="Robot.lvclass" Type="LVClass" URL="../Robot_class/Robot.lvclass"/>
 		<Item Name="Role.lvclass" Type="LVClass" URL="../Role_class/Role.lvclass"/>
 		<Item Name="Rolebook.lvclass" Type="LVClass" URL="../Rolebook_class/Rolebook.lvclass"/>
