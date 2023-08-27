@@ -130,6 +130,9 @@
 			<Item Name="RRTTest.vi" Type="VI" URL="../RRT/RRTTest.vi"/>
 			<Item Name="RRTWrapper.vi" Type="VI" URL="../RRT/RRTWrapper.vi"/>
 		</Item>
+		<Item Name="Kalman" Type="Folder">
+			<Item Name="Kalman G.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Kalman G.vi"/>
+		</Item>
 		<Item Name="Tactics" Type="Folder">
 			<Item Name="BallPlacementEnemyTactic.lvclass" Type="LVClass" URL="../BallPlacementEnemyTactic_class/BallPlacementEnemyTactic.lvclass"/>
 			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
