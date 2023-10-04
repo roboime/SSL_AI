@@ -343,6 +343,7 @@
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="Two-Way Comparison Versus Array Element.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Two-Way Comparison Versus Array Element.vim"/>
 				<Item Name="Search Sorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Sorted 1D Array.vim"/>
+				<Item Name="NI_AALBLAS.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBLAS.lvlib"/>
 			</Item>
 			<Item Name="Bool Encoder.vi" Type="VI" URL="../Communication_class/Paths/MessageAI_State Folder/Bool Encoder.vi"/>
 			<Item Name="ComSerial.ctl" Type="VI" URL="../Controls/ComSerial.ctl"/>
@@ -538,7 +539,6 @@
 			<Item Name="VSSDecodeFIRASimRobots.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/VSSDecodeFIRASimRobots.vi"/>
 			<Item Name="VSSAttackerStates.ctl" Type="VI" URL="../Game_class/Navigation/VSSNavigation/VSSAttackerStates.ctl"/>
 			<Item Name="chooseState.vi" Type="VI" URL="../KickToSkill_class/chooseState.vi"/>
-			<Item Name="DefendGoalTacticStates.ctl" Type="VI" URL="../DefendGoalTactic_class/DefendGoalTacticStates.ctl"/>
 			<Item Name="trajectoryState.ctl" Type="VI" URL="../Game_class/VelocityPlanningTest/Controls/trajectoryState.ctl"/>
 			<Item Name="Enviroment.ctl" Type="VI" URL="../Controls/Enviroment.ctl"/>
 			<Item Name="robotKickToStates.ctl" Type="VI" URL="../Robot_class/robotKickToStates.ctl"/>
@@ -586,6 +586,7 @@
 			<Item Name="NewVSS_GoTo.vi" Type="VI" URL="../Game_class/Navigation/VSSNavigation/NewVSS_GoTo.vi"/>
 			<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
 			<Item Name="RetaInimigoBolaUsandoOrientacao.vi" Type="VI" URL="../DefBallOrientSkill_class/RetaInimigoBolaUsandoOrientacao.vi"/>
+			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
