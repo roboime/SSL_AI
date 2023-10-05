@@ -565,7 +565,6 @@
 			<Item Name="GoToBallPlacementAllyTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementAllyTactic_class/GoToBallPlacementAllyTactic.lvclass"/>
 			<Item Name="PlaceBallTactic.lvclass" Type="LVClass" URL="../PlaceBallTactic_class/PlaceBallTactic.lvclass"/>
 			<Item Name="GoToBallPlacementPositionTactic.lvclass" Type="LVClass" URL="../GoToBallPlacementPositionTactic_class/GoToBallPlacementPositionTactic.lvclass"/>
-			<Item Name="GrsimTestRef.ctl" Type="VI" URL="../Parameters_class/GrsimTestRef.ctl"/>
 			<Item Name="Kickmeanvalues.ctl" Type="VI" URL="../Game_class/KickValueTest/Kickmeanvalues.ctl"/>
 			<Item Name="KickValuetest.ctl" Type="VI" URL="../Game_class/KickValueTest/KickValuetest.ctl"/>
 			<Item Name="ReplayControls.ctl" Type="VI" URL="../Game_class/Replay/ReplayControls.ctl"/>
@@ -587,6 +586,7 @@
 			<Item Name="Varint Decoder boolean.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Varint Decoder boolean.vi"/>
 			<Item Name="RetaInimigoBolaUsandoOrientacao.vi" Type="VI" URL="../DefBallOrientSkill_class/RetaInimigoBolaUsandoOrientacao.vi"/>
 			<Item Name="lvblas.dll" Type="Document" URL="/&lt;resource&gt;/lvblas.dll"/>
+			<Item Name="FirstOrderFilter.vi" Type="VI" URL="../Vision_class/Old vision/Decode SSL and Refree Wrapper Package Folder/Filters/FirstOrderFilter.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="runPhoenix" Type="EXE">
