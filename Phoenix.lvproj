@@ -269,6 +269,7 @@
 		<Item Name="RunPhoenix.vi" Type="VI" URL="../RunPhoenix.vi"/>
 		<Item Name="EloMec Tester.vi" Type="VI" URL="../EloMec Tester.vi"/>
 		<Item Name="StatesPass.ctl" Type="VI" URL="../Controls/StatesPass.ctl"/>
+		<Item Name="WallPositions.ctl" Type="VI" URL="../DefendAreaTactic_class/WallPositions.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
