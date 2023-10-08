@@ -134,38 +134,39 @@
 			<Item Name="Kalman G.vi" Type="VI" URL="../Vision_class/Old vision/SSL Detection Frame Simple Estimator Cameras VelCmd Folder/Util/Kalman G.vi"/>
 		</Item>
 		<Item Name="Tactics" Type="Folder">
-			<Item Name="BallPlacementEnemyTactic.lvclass" Type="LVClass" URL="../BallPlacementEnemyTactic_class/BallPlacementEnemyTactic.lvclass"/>
-			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
-			<Item Name="HaltTactic.lvclass" Type="LVClass" URL="../HaltTactic_class/HaltTactic.lvclass"/>
-			<Item Name="TestTactic.lvclass" Type="LVClass" URL="../TestTactic_class/TestTactic.lvclass"/>
-			<Item Name="MarkerTactic.lvclass" Type="LVClass" URL="../MarkerTactic_class/MarkerTactic.lvclass"/>
-			<Item Name="FollowAttackerTactic.lvclass" Type="LVClass" URL="../FollowAttackerTactic_class/FollowAttackerTactic.lvclass"/>
-			<Item Name="ShootTactic.lvclass" Type="LVClass" URL="../ShootTactic_class/ShootTactic.lvclass"/>
-			<Item Name="AttackerBlockTactic.lvclass" Type="LVClass" URL="../AttackerBlockTactic_class/AttackerBlockTactic.lvclass"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="5RobotsTactic.lvclass" Type="LVClass" URL="../5RobotsTactic_class/5RobotsTactic.lvclass"/>
 			<Item Name="AttackerAimGoalTactic.lvclass" Type="LVClass" URL="../AttackerAimGoalTactic_class/AttackerAimGoalTactic.lvclass"/>
 			<Item Name="AttackerBallOutOfFieldTactic.lvclass" Type="LVClass" URL="../AttackerBallOutOfFieldTactic_class/AttackerBallOutOfFieldTactic.lvclass"/>
+			<Item Name="AttackerBlockTactic.lvclass" Type="LVClass" URL="../AttackerBlockTactic_class/AttackerBlockTactic.lvclass"/>
 			<Item Name="AttackerStopTactic.lvclass" Type="LVClass" URL="../AttackerStopTactic_class/AttackerStopTactic.lvclass"/>
-			<Item Name="TimeoutTactic.lvclass" Type="LVClass" URL="../TimeoutTactic_class/TimeoutTactic.lvclass"/>
+			<Item Name="BallPlacementEnemyTactic.lvclass" Type="LVClass" URL="../BallPlacementEnemyTactic_class/BallPlacementEnemyTactic.lvclass"/>
 			<Item Name="DefendAreaTactic.lvclass" Type="LVClass" URL="../DefendAreaTactic_class/DefendAreaTactic.lvclass"/>
-			<Item Name="ZigZagTactic.lvclass" Type="LVClass" URL="../ZigZagTactic_class/ZigZagTactic.lvclass"/>
+			<Item Name="DefendGoalTactic.lvclass" Type="LVClass" URL="../DefendGoalTactic_class/DefendGoalTactic.lvclass"/>
+			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
+			<Item Name="FollowAttackerTactic.lvclass" Type="LVClass" URL="../FollowAttackerTactic_class/FollowAttackerTactic.lvclass"/>
 			<Item Name="GoToTactic.lvclass" Type="LVClass" URL="../GoToTactic_class/GoToTactic.lvclass"/>
-			<Item Name="PenaltyDefenseTactic.lvclass" Type="LVClass" URL="../PenaltyDefenseTactic_class/PenaltyDefenseTactic.lvclass"/>
-			<Item Name="PenaltyAttackerTactic.lvclass" Type="LVClass" URL="../PenaltyAttackerTactic_class/PenaltyAttackerTactic.lvclass"/>
-			<Item Name="PositionToReceivePassTactic.lvclass" Type="LVClass" URL="../PositionToReceivePassTactic_class/PositionToReceivePassTactic.lvclass"/>
+			<Item Name="HaltTactic.lvclass" Type="LVClass" URL="../HaltTactic_class/HaltTactic.lvclass"/>
+			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
 			<Item Name="KickToPassReceiverTactic.lvclass" Type="LVClass" URL="../KickToPassReceiverTactic_class/KickToPassReceiverTactic.lvclass"/>
+			<Item Name="MarkerTactic.lvclass" Type="LVClass" URL="../MarkerTactic_class/MarkerTactic.lvclass"/>
 			<Item Name="PassObserverTactic.lvclass" Type="LVClass" URL="../PassObserverTactic_class/PassObserverTactic.lvclass"/>
-			<Item Name="WaitPassTactic.lvclass" Type="LVClass" URL="../WaitPassTactic_class/WaitPassTactic.lvclass"/>
-			<Item Name="RollerTactic.lvclass" Type="LVClass" URL="../RollerTactic_class/RollerTactic.lvclass"/>
+			<Item Name="PenaltyAttackerTactic.lvclass" Type="LVClass" URL="../PenaltyAttackerTactic_class/PenaltyAttackerTactic.lvclass"/>
+			<Item Name="PenaltyDefenseTactic.lvclass" Type="LVClass" URL="../PenaltyDefenseTactic_class/PenaltyDefenseTactic.lvclass"/>
+			<Item Name="PenaltyTactic.lvclass" Type="LVClass" URL="../PenaltyTactic_class/PenaltyTactic.lvclass"/>
+			<Item Name="PositionToReceivePassTactic.lvclass" Type="LVClass" URL="../PositionToReceivePassTactic_class/PositionToReceivePassTactic.lvclass"/>
+			<Item Name="PositionToRollTatic.lvclass" Type="LVClass" URL="../PositionToRollTatic_class/PositionToRollTatic.lvclass"/>
 			<Item Name="PrepareRollToPassReceiverGoToTactic.lvclass" Type="LVClass" URL="../PrepareRollToPassReceiverGoToTactic_class/PrepareRollToPassReceiverGoToTactic.lvclass"/>
 			<Item Name="PrepareRollToPassRollerGoToTactic.lvclass" Type="LVClass" URL="../PrepareRollToPassRollerGoToTactic_class/PrepareRollToPassRollerGoToTactic.lvclass"/>
-			<Item Name="PositionToRollTatic.lvclass" Type="LVClass" URL="../PositionToRollTatic_class/PositionToRollTatic.lvclass"/>
-			<Item Name="WaitRollTatic.lvclass" Type="LVClass" URL="../WaitRollTatic_class/WaitRollTatic.lvclass"/>
-			<Item Name="TableReceiverTactic.lvclass" Type="LVClass" URL="../TableReceiverTactic_class/TableReceiverTactic.lvclass"/>
 			<Item Name="ReceivePassInFuturePointTactic.lvclass" Type="LVClass" URL="../ReceivePassInFuturePointTactic_class/ReceivePassInFuturePointTactic.lvclass"/>
-			<Item Name="DuelistTactic.lvclass" Type="LVClass" URL="../DuelistTactic_class/DuelistTactic.lvclass"/>
-			<Item Name="PenaltyTactic.lvclass" Type="LVClass" URL="../PenaltyTactic_class/PenaltyTactic.lvclass"/>
-			<Item Name="5RobotsTactic.lvclass" Type="LVClass" URL="../5RobotsTactic_class/5RobotsTactic.lvclass"/>
-			<Item Name="KickToBestRobotTactic.lvclass" Type="LVClass" URL="../KickToBestRobotTactic_class/KickToBestRobotTactic.lvclass"/>
+			<Item Name="RollerTactic.lvclass" Type="LVClass" URL="../RollerTactic_class/RollerTactic.lvclass"/>
+			<Item Name="ShootTactic.lvclass" Type="LVClass" URL="../ShootTactic_class/ShootTactic.lvclass"/>
+			<Item Name="TableReceiverTactic.lvclass" Type="LVClass" URL="../TableReceiverTactic_class/TableReceiverTactic.lvclass"/>
+			<Item Name="TestTactic.lvclass" Type="LVClass" URL="../TestTactic_class/TestTactic.lvclass"/>
+			<Item Name="TimeoutTactic.lvclass" Type="LVClass" URL="../TimeoutTactic_class/TimeoutTactic.lvclass"/>
+			<Item Name="WaitPassTactic.lvclass" Type="LVClass" URL="../WaitPassTactic_class/WaitPassTactic.lvclass"/>
+			<Item Name="WaitRollTatic.lvclass" Type="LVClass" URL="../WaitRollTatic_class/WaitRollTatic.lvclass"/>
+			<Item Name="ZigZagTactic.lvclass" Type="LVClass" URL="../ZigZagTactic_class/ZigZagTactic.lvclass"/>
 		</Item>
 		<Item Name="Roles" Type="Folder">
 			<Item Name="BallPlacementEnemyRole.lvclass" Type="LVClass" URL="../BallPlacementEnemyRole_class/BallPlacementEnemyRole.lvclass"/>
