@@ -649,7 +649,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F033BE88-C3E1-11EB-B351-02420EBEBBB2}</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Phoenix.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../build/NI_AB_PROJECTNAME.exe</Property>
@@ -661,7 +661,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_cmdLineArgs" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5657712F-291F-11EC-8669-D8D09005467E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E6E34C87-0F5F-4EF9-A573-EB67F1A0AAA6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RunPhoenix.vi</Property>
@@ -672,10 +672,10 @@
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">runPhoenix</Property>
-				<Property Name="TgtF_internalName" Type="Str">runPhoenix</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">larc2023day1</Property>
+				<Property Name="TgtF_internalName" Type="Str">larc2023day1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright 2021 </Property>
-				<Property Name="TgtF_productName" Type="Str">runPhoenix</Property>
+				<Property Name="TgtF_productName" Type="Str">larc2023day1</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F033ECED-C3E1-11EB-B351-02420EBEBBB2}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Phoenix.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
