@@ -6,7 +6,7 @@
 <NumElts>3</NumElts>
 <String>
 <Name>Local IP:</Name>
-<Val></Val>
+<Val>192.168.2.61</Val>
 </String>
 <String>
 <Name>Server IP:</Name>
@@ -14,7 +14,7 @@
 </String>
 <String>
 <Name>Port</Name>
-<Val>10020</Val>
+<Val>10006</Val>
 </String>
 </Cluster>
 <Cluster>
@@ -22,7 +22,7 @@
 <NumElts>3</NumElts>
 <String>
 <Name>Local IP:</Name>
-<Val></Val>
+<Val>192.168.2.61</Val>
 </String>
 <String>
 <Name>Server IP:</Name>
@@ -42,26 +42,26 @@
 </Boolean>
 <String>
 <Name>Address:</Name>
-<Val>192.168.37.12</Val>
+<Val></Val>
 </String>
 <U16>
 <Name>Port:</Name>
-<Val>10301</Val>
+<Val>20011</Val>
 </U16>
 </Cluster>
 <String>
 <Name>Command</Name>
-<Val>Force Start</Val>
+<Val>Auto</Val>
 </String>
 <String>
 <Name>Goalie</Name>
-<Val>0</Val>
+<Val>4</Val>
 </String>
 <EW>
 <Name>Side</Name>
 <Choice>Esquerdo</Choice>
 <Choice>Direito</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <EW>
 <Name>Team</Name>
