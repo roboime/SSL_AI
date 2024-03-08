@@ -266,6 +266,7 @@
 		<Item Name="RobotFeedback.lvclass" Type="LVClass" URL="../RobotFeedback/RobotFeedback.lvclass"/>
 		<Item Name="Vision.lvclass" Type="LVClass" URL="../Vision_class/Vision.lvclass"/>
 		<Item Name="Parameters.lvclass" Type="LVClass" URL="../Parameters_class/Parameters.lvclass"/>
+		<Item Name="Navigation.lvclass" Type="LVClass" URL="../Navigation_class/Navigation.lvclass"/>
 		<Item Name="Phoenix.vi" Type="VI" URL="../Phoenix.vi"/>
 		<Item Name="RunPhoenix.vi" Type="VI" URL="../RunPhoenix.vi"/>
 		<Item Name="EloMec Tester.vi" Type="VI" URL="../EloMec Tester.vi"/>
