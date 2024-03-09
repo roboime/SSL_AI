@@ -95,6 +95,8 @@
 			<Item Name="PenaltySkill.lvclass" Type="LVClass" URL="../PenaltySkill_class/PenaltySkill.lvclass"/>
 			<Item Name="StealBallSkill.lvclass" Type="LVClass" URL="../StealBallSkill_class/StealBallSkill.lvclass"/>
 			<Item Name="FollowBallAfterPassSkill.lvclass" Type="LVClass" URL="../FollowBallAfterPassSkill_class/FollowBallAfterPassSkill.lvclass"/>
+			<Item Name="DefensePs.lvclass" Type="LVClass" URL="../DefensePs/DefensePs.lvclass"/>
+			<Item Name="AttackPs.lvclass" Type="LVClass" URL="../AttackPs/AttackPs.lvclass"/>
 		</Item>
 		<Item Name="RRT" Type="Folder">
 			<Item Name="RRT vi&apos;s" Type="Folder">
